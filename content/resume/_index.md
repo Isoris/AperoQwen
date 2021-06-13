@@ -10,7 +10,7 @@ title: Resumé
 ---
 
 
-{{< figure src="img/avatar.png" >}}
+{{< figure src=”img/avatar.png” >}}
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumÃ©{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

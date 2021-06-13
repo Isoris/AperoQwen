@@ -2,7 +2,7 @@
 
 <main class="page-main pa1 {{ .Kind }}" role="main">
   
-  <section class="blog-intro mw7 center mb5">
+  <section class="blog-intro mw7 center mb4">
     
     <h2 class="f2 f1-ns lh-solid tc center fw4">{{ .Title | markdownify }}</h2>
     {{ with .Description }}<p class="f6 f5-ns measure lh-copy tc center"><img class="circular--square" src="avatar.png" width="40%" ><p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p></p> </p> 
@@ -50,8 +50,6 @@
       {{ end }}
     </section>
 {{ end }}
-
-
 </main>
 
 {{ end }}

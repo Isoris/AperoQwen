@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 Experience:
-  - title: ARCH-UK Gene-editing Workshop, Applications for Aquaculture
+  - title: "*ARCH-UK Gene-editing Workshop, Applications for Aquaculture"
     company_url: './media/archuk.jpg'
     company_logo: arch
     location:
@@ -35,7 +35,7 @@ Experience:
     location: Bangkok
     description: "Sustainable Aquaculture Systems and Practices"
     company_logo: AARM-logo
-    title: 'AIT-Virtual Aquaculture Internship 2021, Sustainable Aquaculture Systems and Practices'
+    title: '*AIT-Virtual Aquaculture Internship 2021, Sustainable Aquaculture Systems and Practices'
     url: ""
   - company_url: "./media/ifloc.jpg"
     date_end: "2020-11-23"
@@ -43,7 +43,7 @@ Experience:
     date_start: "2020-11-23"
     description: "Innovative Biofloc Technologies For Sustainable Production of Tilapia and Shrimps"
     company_logo: nedac
-    title: 'I-FLOCS 2020 Virtual Aquaculture Workshop'
+    title: '*I-FLOCS 2020 Virtual Aquaculture Workshop'
     url: ""
   - certificate_url: "./media/25years.pdf"
     date_end: "2020-10-22"
@@ -51,9 +51,9 @@ Experience:
     description: "(FAO) Celebrating a Quarter of Century of Responsible Fisheries and Aquaculture: Sustainable and resource efficient examples of desert aquaculture from the GCC countries, following the Code of Conduct for Responsible Fisheries (CCRF)."
     company_logo: fao
     company_url: https://www.aitaquaculture.org/news/20/01.jpg
-    title: 'Aquaculture in the desert: the example of GCC countries'
+    title: '*Aquaculture in the desert: the example of GCC countries'
     url: ""
-  - title: 3rd Tuna Webinar Series, Certification and Technology
+  - title: "*3rd Tuna Webinar Series, Certification and Technology"
     location: Bangkok
     company_logo: info
     company_url: './media/infofish.png'
