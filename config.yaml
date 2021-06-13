@@ -48,7 +48,7 @@ params:
   description: A modern, beautiful, and easily configurable blog theme for Hugo.
   favicon: /img/favicon.ico
   headingFontFamily: sans-serif
-  logo: /img/sanke.PNG
+  logo: /img/Logo.png
   mainSections:
     - blog
     - project
@@ -82,7 +82,7 @@ params:
   socialInFooter: yes
   socialInHeader: no
   textFontFamily: sans-serif
-  theme: 'forest'
+  theme: ''
   utterances:
     issue_term: title
     label: 'comments :crystal_ball:'
