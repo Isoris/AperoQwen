@@ -140,7 +140,7 @@
 	--decorator-outer-offset-left: -.475rem;
 	--decorator-border-width: 1px;
 	--decorator-outer-dim: 12px;
-	--decorator-border: 4px solid #F3E0E1;
+	--decorator-border: 4px solid #C2C8C5;
 }
 
 .decorator {
@@ -159,7 +159,7 @@
  width:var(--decorator-outer-dim);
  height:var(--decorator-outer-dim);
  border-radius:calc(var(--decorator-outer-dim) / 2);
- background-color:#718093
+ background-color:#E9765B
 }
 .decorator::after {
  position:absolute;
@@ -170,7 +170,7 @@
  width:calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
  height:calc(var(--decorator-outer-dim) - (var(--decorator-border-width) * 2));
  border-radius:calc((var(--decorator-outer-dim) - (var(--decorator-border-width) * 2)) / 2);
- background-color:#718093
+ background-color:#E9765B
 }
 .blocks:last-child .decorator {
  margin-bottom:0.25in
