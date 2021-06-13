@@ -1,4 +1,4 @@
-baseURL: https://alison.rbind.io
+baseURL: https://qwentee.netlify.app
 theme: 
     -  hugo-apero
     -  hugo-shortcode-gallery
@@ -46,9 +46,9 @@ params:
   customheadingFontFamily: Lora
   customtextFontFamily: Ilisarniq-Light
   description: A modern, beautiful, and easily configurable blog theme for Hugo.
-  favicon: /img/favicon.ico
+  favicon: /img/blogophonic-mark-dark.png
   headingFontFamily: sans-serif
-  logo: /img/Logo.png
+  logo: /img/blogophonic-mark-dark.png
   mainSections:
     - blog
     - project
@@ -63,7 +63,7 @@ params:
       url: https://twitter.com/Isoris9
     - icon: github
       icon_pack: fab
-      url: https://github.com/isoris
+      url: https://github.com/Isoris
     - icon: youtube
       icon_pack: fab
       url: https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ
@@ -86,7 +86,7 @@ params:
   utterances:
     issue_term: title
     label: 'comments :crystal_ball:'
-    repo_name: rbind/apreshill
+    repo_name:  Isoris/AperoQwen 
     theme: boxy-light
     use_utterances: yes
 taxonomies:
