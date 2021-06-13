@@ -29,7 +29,7 @@ item:
   description: Statistics and R. //  Introduction to Linear Models and Matrix Algebra. // Statistical  Inference and Modeling for High-throughput Experiments. // High-Dimensional Data Analysis
   organization: edX
   organization_url: https://www.edx.org/professional-certificate/harvardx-data-analysis-for-life-sciences
-  title: "*Data Analysis for Life Sciences (HarvardX)"
+  title: "> Data Analysis for Life Sciences (HarvardX)"
   url: ""
 - certificate_url: https://www.coursera.org
   date_end: ""
@@ -37,7 +37,7 @@ item:
   description: "by Johns Hopkins University"
   organization: Coursera
   organization_url: https://www.coursera.org/learn/statistical-inference
-  title: "*Statistical Inference (Johns Hopkins University)"
+  title: "> Statistical Inference (Johns Hopkins University)"
   url: ""
 - certificate_url: "./media/YSFRI2.jpg"
   date_end: ""
@@ -45,7 +45,7 @@ item:
   description: "Training course on Mariculture Technologies for the Asia-Pacific Region hosted by Belt and Road, Training on Aquaculture Biosecurity, Ministry of Agriculture and Rural Affairs, People's Republic of China and Network of Aquaculture Centers in Asia-Pacific (NACA). December 15th-18th Qingdao, China"
   organization: ysfri
   organization_url: http://www.ysfri.ac.cn/ENGLISH.htm
-  title: '*Training on Aquaculture Biosecurity for the Asia-Pacific Region'
+  title: '> Training on Aquaculture Biosecurity for the Asia-Pacific Region'
   url: ""
 - certificate_url: "./media/YSFRI1.jpg"
   date_end: ""
@@ -53,7 +53,7 @@ item:
   description: "Training course on Mariculture Technologies & Integrated Multitrophic Aquaculture (IMTA) for the Asia-Pacific Region hosted by Belt and Road, Training base for mariculture technologies, Ministry of Agriculture and Rural Affairs, People's Republic of China and Network of Aquaculture Centers in Asia-Pacific (NACA). September 21th-25th Qingdao, China"
   organization: naca
   organization_url: http://www.ysfri.ac.cn/ENGLISH.htm
-  title: '*Training Manual on Mariculture Technologies for the Asia-Pacific Region'
+  title: '> Training Manual on Mariculture Technologies for the Asia-Pacific Region'
   url: ""
 # - certificate_url: "./media/TOEFL.pdf"
 #   date_end: ""

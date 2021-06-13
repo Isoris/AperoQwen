@@ -9,7 +9,7 @@ education:
     organization: Coursera
     location: Asian Institute of Technology (AIT) -  Bangkok, Thailand
     organization_url: https://www.coursera.org/learn/statistical-inference
-    title: "*MSc in Aquaculture and Aquatic Resources Management" 
+    title: "> MSc in Aquaculture and Aquatic Resources Management" 
     url: ""
   - certificate_url: https://www.coursera.org
     date_start: "2020-08-10"
@@ -18,7 +18,7 @@ education:
     organization: Coursera
     location: University Cote d'Azur (UCA) - Nice, France
     organization_url: https://www.coursera.org/learn/statistical-inference
-    title: "*BSc in Life Sciences - Major Molecular Biology, Microbiology and Genetics" 
+    title: "> BSc in Life Sciences - Major Molecular Biology, Microbiology and Genetics" 
     url: ""
 headless: true
 subtitle: ""
