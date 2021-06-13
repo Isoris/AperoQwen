@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/machine-learning/</link>
+    <description>Recent content in machine learning on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Aug 2020 13:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</link>
+      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</guid>
+      <description>R / Medicine 2020: A 4-hour workshop to introduce the basics of machine learning in R using tidymodels.</description>
+    </item>
+    
+    <item>
+      <title>tidymodels.org</title>
+      <link>https://alison.rbind.io/project/tidymodels.org/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/tidymodels.org/</guid>
+      <description>The central location for learning and using the tidymodels R packages</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2020-rsc-tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rsc-tidyml/</guid>
+      <description>rstudio::conf(2020) two-day workshop to introduce the basics of machine learning and tidymodels.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/project/tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/tidyml/</guid>
+      <description>Introducing the basics of machine learning in R using tidymodels</description>
+    </item>
+    
+  </channel>
+</rss>

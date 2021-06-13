@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/workshop/</link>
+    <description>Recent content in workshop on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 23 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RStudio Teaching in Production</title>
+      <link>https://alison.rbind.io/project/rstudio-tip/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/rstudio-tip/</guid>
+      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/project/tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/tidyml/</guid>
+      <description>Introducing the basics of machine learning in R using tidymodels</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine Workshop</title>
+      <link>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</guid>
+      <description>Using R Markdown in an end-to-end workflow to go from data to manuscript</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine</title>
+      <link>https://alison.rbind.io/project/rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/rmd4medicine/</guid>
+      <description>A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 04</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</link>
+      <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</guid>
+      <description>Putting the finishing touches on your blogdown site</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 03</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</link>
+      <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</guid>
+      <description>Keeping up with your content</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 02</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</guid>
+      <description>Personalizing your blogdown site</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 01</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</link>
+      <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</guid>
+      <description>Create and deploy our first blogdown site &amp;ldquo;out-of-the-box&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Meet blogdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-blogdown/</link>
+      <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-blogdown/</guid>
+      <description>Making websites in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet bookdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <description>Making books in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet flexdashboard</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <description>Making dashboards in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet xaringan</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <description>Making slides in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Labhub Workshop</title>
+      <link>https://alison.rbind.io/talk/2017-ohsu-labhub/</link>
+      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2017-ohsu-labhub/</guid>
+      <description>The landscape of scientific communication is changing dramatically. Diverse stakeholders, including major funders and universities are demonstrating a growing interest and investment in open scientific principles and practices. Researchers, students, and the institutions that support them are needing to navigate new expectations, workflows, and policies against a backdrop of relatively unchanged means and measures of scientific success.
+Sound complicated? Join us on December 8th from 3:00 to 4:00 PM for a panel discussion with OHSU leaders and early career researchers on the evolving landscape of scientific communication.</description>
+    </item>
+    
+    <item>
+      <title>Labhub</title>
+      <link>https://alison.rbind.io/project/labhub/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/labhub/</guid>
+      <description>An OHSU Open Science Workshop on tools and methods for building transparency within a lab</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/project/up-running-blogdown/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/up-running-blogdown/</guid>
+      <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/talk/2017-pdxr-blogdown/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2017-pdxr-blogdown/</guid>
+      <description>See project links for more details.</description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/project/code-your-graph/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/code-your-graph/</guid>
+      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/talk/2016-ohsu-dataviz/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2016-ohsu-dataviz/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown</title>
+      <link>https://alison.rbind.io/project/summer-of-blogdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/summer-of-blogdown/</guid>
+      <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
+    </item>
+    
+  </channel>
+</rss>

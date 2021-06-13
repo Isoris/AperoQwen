@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/hugo/</link>
+    <description>Recent content in hugo on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The netlify.toml File</title>
+      <link>https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/</guid>
+      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
+  me, only somewhat kidding  You can read the previous post about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series here. In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated).
+This is my second post in this series, and it is a relatively quick one.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Page Bundles</title>
+      <link>https://alison.rbind.io/blog/2019-02-spoonful-bundles/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-02-spoonful-bundles/</guid>
+      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
+  me, only somewhat kidding  In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series about Hugo archetypes and Hugo versions.
+This is my third post in this series and it is breaking news.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Apéro</title>
+      <link>https://alison.rbind.io/project/hugo-apero/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/hugo-apero/</guid>
+      <description>A Hugo theme for personal websites. A place where you and your site’s visitors enjoy spending time, and one that helps folks get to know you better.</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; running with blogdown in 2021</title>
+      <link>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</guid>
+      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
+    </item>
+    
+    <item>
+      <title>A Spoonful of Hugo</title>
+      <link>https://alison.rbind.io/blog/spoonful-hugo/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/spoonful-hugo/</guid>
+      <description>** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**</description>
+    </item>
+    
+    <item>
+      <title>How much Hugo do I need to know?</title>
+      <link>https://alison.rbind.io/blog/2020-12-how-much-hugo/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-how-much-hugo/</guid>
+      <description>When and why you need to learn Hugo as an R blogdown user.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Archetypes</title>
+      <link>https://alison.rbind.io/blog/2019-02-spoonful-archetypes/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-02-spoonful-archetypes/</guid>
+      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
+ me, only somewhat kidding   As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. Here be dragons for folks who aren&amp;rsquo;t web developers.
+I&amp;rsquo;m here to tell you that there are small spoonfuls of Hugo that can help you get your site UP (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Graphite</title>
+      <link>https://alison.rbind.io/project/hugo-graphite/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/hugo-graphite/</guid>
+      <description>A Hugo theme for RStudio teams (Education, Tidyverse, Tidymodels)</description>
+    </item>
+    
+  </channel>
+</rss>

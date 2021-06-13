@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talk on Quentin Andres</title>
+    <link>https://alison.rbind.io/categories/talk/</link>
+    <description>Recent content in talk on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Apr 2021 18:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crafting Kind Tools</title>
+      <link>https://alison.rbind.io/talk/2021-ares-kind-tools/</link>
+      <pubDate>Mon, 12 Apr 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-ares-kind-tools/</guid>
+      <description>Whenever you use software, you are also using a tool that was crafted by someone else. Is it kind? Does it matter? What makes a tool kind?</description>
+    </item>
+    
+    <item>
+      <title>Making R Markdown work better for you</title>
+      <link>https://alison.rbind.io/talk/2021-rmd-params/</link>
+      <pubDate>Wed, 24 Mar 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rmd-params/</guid>
+      <description>Made with YAML, strings, and glue.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2021-rladies-jozi/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rladies-jozi/</guid>
+      <description>Alison Hill (I think her unofficial nickname is RMarkdown Whisperer) is going to talk to us on another of her strengths. Making things beautiful, and informative. She&amp;rsquo;s going to do her &amp;ldquo;Take a Sad Plot &amp;amp; Make it Better&amp;rdquo; talk, for us. In this talk, Alison will discuss one plot’s life cycle, from a sad Powerpoint slide to the finished product made with the ggplot2 package in R, and what she learnt from it.</description>
+    </item>
+    
+    <item>
+      <title>The download</title>
+      <link>https://alison.rbind.io/talk/2020-larug/</link>
+      <pubDate>Tue, 08 Dec 2020 20:30:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-larug/</guid>
+      <description>Recent updates in the R Markdown family</description>
+    </item>
+    
+    <item>
+      <title>InspiRing InstRuction: A panel on teaching #rstats for all audiences</title>
+      <link>https://alison.rbind.io/talk/2020-rladies-chicago-panel/</link>
+      <pubDate>Thu, 12 Nov 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rladies-chicago-panel/</guid>
+      <description>Come hear from 3 R-Ladies on how to make R pedagogy work for different groups of people!</description>
+    </item>
+    
+    <item>
+      <title>Learning without a net</title>
+      <link>https://alison.rbind.io/talk/2020-latinr-learn/</link>
+      <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-latinr-learn/</guid>
+      <description>Aprendiendo sin una red</description>
+    </item>
+    
+    <item>
+      <title>Teaching in Production</title>
+      <link>https://alison.rbind.io/talk/2020-rstudio-tip/</link>
+      <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rstudio-tip/</guid>
+      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Sharing on Short Notice</title>
+      <link>https://alison.rbind.io/talk/2020-sharing-short-notice/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-sharing-short-notice/</guid>
+      <description>How to get your materials online on short notice.</description>
+    </item>
+    
+    <item>
+      <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
+      <link>https://alison.rbind.io/talk/2019-rladies-sydney/</link>
+      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rladies-sydney/</guid>
+      <description>Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the ggplot2 package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the tidyr package.
+You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using ggplot2.</description>
+    </item>
+    
+    <item>
+      <title>The Art of Literate Projecting</title>
+      <link>https://alison.rbind.io/talk/2019-ysc-keynote/</link>
+      <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-ysc-keynote/</guid>
+      <description>“Literate programming” is an approach to writing software programs that weaves together the source code and documentation at the time of creation. The idea is to create programs that are easier for users to understand. But they are also easier for programmers to work on and maintain. In this talk, I will describe how data scientists can be inspired by this programming approach and start what I refer to as “literate projecting.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2019-rladies-melbourne/</link>
+      <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rladies-melbourne/</guid>
+      <description>In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.
+Latest event    This talk was most recently given at the University of South Wales on 2019/10/04.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Students to Talk about Data Science</title>
+      <link>https://alison.rbind.io/talk/2019-jsm-talk-ds/</link>
+      <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-jsm-talk-ds/</guid>
+      <description>Data science educators have a unique opportunity to teach students the skills they need in their future careers. We know that practical skills matter, like being able to wrangle, explore, analyze, and visualize data (preferably using code), but what is easy to overlook is teaching students how to communicate about data science with other people. Being able to communicate about data, code, and insights gained are important skills we can strengthen in the classroom to make a real impact on students.</description>
+    </item>
+    
+    <item>
+      <title>Using blogdown to Connect Beyond the Classroom</title>
+      <link>https://alison.rbind.io/talk/2019-sdss-blogdown/</link>
+      <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-sdss-blogdown/</guid>
+      <description>Why and how to teach students to create their own website</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization in the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2018-uo-plotoff/</link>
+      <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-uo-plotoff/</guid>
+      <description>Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:
+ Tidy data is the start of your data wrangling journey, not the end There is not a single &amp;ldquo;tidy&amp;rdquo; version of a dataset Tidy data does make you more nimble!  </description>
+    </item>
+    
+    <item>
+      <title>Big Magic with R: Creative Learning Beyond Fear</title>
+      <link>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</link>
+      <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</guid>
+      <description>Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</link>
+      <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</guid>
+      <description>Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.</description>
+    </item>
+    
+  </channel>
+</rss>

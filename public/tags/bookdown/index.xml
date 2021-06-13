@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bookdown on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/bookdown/</link>
+    <description>Recent content in bookdown on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/bookdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>stat545.com</title>
+      <link>https://alison.rbind.io/project/stat545.com/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/stat545.com/</guid>
+      <description>A comprehensive course in data wrangling, exploration, and analysis with R</description>
+    </item>
+    
+    <item>
+      <title>Meet bookdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <description>Making books in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>Hugo Archetypes | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Why you should use Hugo archetypes in your blogdown site.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="Hugo Archetypes | Quentin Andres">
+<meta property="og:description" content="Why you should use Hugo archetypes in your blogdown site." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2019-02-spoonful-archetypes/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/spoonful-hugo/sidebar.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/spoonful-hugo/sidebar.jpg" >
+    
+    
+  <meta itemprop="name" content="Hugo Archetypes">
+<meta itemprop="description" content="&ldquo;Just a spoonful of Hugo helps the blog go down.&rdquo;
+ me, only somewhat kidding   As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. Here be dragons for folks who aren&rsquo;t web developers.
+I&rsquo;m here to tell you that there are small spoonfuls of Hugo that can help you get your site UP (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏."><meta itemprop="datePublished" content="2019-02-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-02-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1402">
+<meta itemprop="keywords" content="hugo," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container single-series">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+                       
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pl3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Hugo Archetypes</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill in <a href="https://alison.rbind.io/categories/theme-features">Theme Features</a>  <a href="https://alison.rbind.io/categories/r">R</a> </p>
+        <p class="f7 db mv0 ttu">February 19, 2019</p>
+      </header>
+      <section class="post-body pt5 pb4">
+        <blockquote>
+<p>&ldquo;Just a spoonful of Hugo helps the blog go down.&rdquo;</p>
+<ul>
+<li>me, only somewhat kidding</li>
+</ul>
+</blockquote>
+<p>As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. 
+<a href="https://en.wikipedia.org/wiki/Here_be_dragons" target="_blank" rel="noopener">Here be dragons</a> for folks who aren&rsquo;t web developers.</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Carta_Marina.jpeg" alt=""></p>
+<p>I&rsquo;m here to tell you that there are small spoonfuls of Hugo that can help you get your site <em>UP</em> (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏.</p>
+
+
+
+
+<h2 id="my-project">My Project
+  <a href="#my-project"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The education team at RStudio needs a website and we have a short wishlist:</p>
+<ul>
+<li>We want something we can maintain ourselves,</li>
+<li>We want to look consistent with other RStudio sites on the outside, and</li>
+<li>We want to be consistent on the inside so that we can get help if/when we need it.</li>
+</ul>
+<p>This led me to the current 
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener">tidyverse.org</a> blogdown site. I wanted to make a copy of the site then customize for the education team, but I noticed that the 
+<a href="https://github.com/tidyverse/tidyverse.org" target="_blank" rel="noopener">source code</a> for the site didn&rsquo;t make it easy for me to copy the <em>structure</em> of the site and edit only the <em>content</em> of the site. This is one of the real strengths of Hugo, so I embarked on a learning adventure.</p>
+<center>
+<iframe src="https://giphy.com/embed/VGG8UY1nEl66Y" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/adventure-latin-flinch-VGG8UY1nEl66Y">via GIPHY</a></p>
+</center>
+<p>As a result, I have been living and breathing Hugo lately. As in, my husband now recognizes 
+<a href="https://www.mikedane.com/" target="_blank" rel="noopener">Mike Dane&rsquo;s voice</a>. You may not have have met Mike yet, but he appears in all the video tutorials in the 
+<a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">Hugo docs</a>. His screencasts have been really helpful to me, like this 
+<a href="https://gohugo.io/templates/introduction/" target="_blank" rel="noopener">one on templating</a>. I&rsquo;ve also spent a lot of time actually reading the 
+<a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">docs</a> (which are pretty good!), reading posts and answers on the 
+<a href="https://discourse.gohugo.io/" target="_blank" rel="noopener">Hugo discourse community site</a>, and spelunking around inside the actual source code for two very well structured Hugo sites:</p>
+<ol>
+<li>The actual 
+<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> site: <a href="https://github.com/gohugoio/hugoDocs">https://github.com/gohugoio/hugoDocs</a></li>
+<li>The 
+<a href="https://ropensci.org/" target="_blank" rel="noopener">rOpenSci</a> site: <a href="https://github.com/ropensci/roweb2">https://github.com/ropensci/roweb2</a></li>
+</ol>
+<p>I&rsquo;ll be using this post and other later posts to share some of the things I&rsquo;ve learned about Hugo along the way. Mainly breadcrumbs to myself, but I hope these help other people too.</p>
+<p>For reference, I&rsquo;m using Hugo via the 
+<a href="https://bookdown.org/yihui/blogdown/" target="_blank" rel="noopener">blogdown R package</a>, and within the 
+<a href="https://www.rstudio.com/products/rstudio/#Desktop" target="_blank" rel="noopener">RStudio IDE</a>. These are my 
+<a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown</a> and Hugo versions:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">packageVersion</span>(<span style="color:#d14">&#34;blogdown&#34;</span>)
+</code></pre></div><pre><code>## [1] '1.3.1'
+</code></pre><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">hugo_version</span>()
+</code></pre></div><pre><code>## [1] '0.80.0'
+</code></pre>
+
+
+
+<h2 id="tldr-a-teaspoon-of-archetypes">tl;dr: A Teaspoon of Archetypes
+  <a href="#tldr-a-teaspoon-of-archetypes"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ol>
+<li>
+<p>Add custom archetypes as <code>.md</code> files to your project root directory (do <em>not</em> touch the <code>archetypes</code> folder in your <code>themes/archetypes</code> folder).</p>
+<ul>
+<li>If you don&rsquo;t have that as an empty folder in your project root, make one, then add your archetype files to it.</li>
+<li>If you are making a new blogdown site, I recommend using 
+<a href="https://arm.rbind.io/slides/blogdown.html#start-here" target="_blank" rel="noopener">these options</a> to <strong>keep your empty directories</strong>^[These setup options are newish to the blogdown package: https://github.com/rstudio-education/arm-workshop-rsc2019/issues/8]:</li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">library</span>(blogdown)
+<span style="color:#900;font-weight:bold">new_site</span>(theme <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;jpescador/hugo-future-imperfect&#34;</span>, 
+         sample <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">TRUE</span>, 
+         theme_example <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">TRUE</span>, 
+         empty_dirs <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">TRUE</span>, <span style="color:#998;font-style:italic"># this!</span>
+         to_yaml <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">TRUE</span>)
+</code></pre></div> <div class="figure">
+ <img src="https://arm.rbind.io/slides/img/blogdown-workflow-wizard.png" alt="Using the RStudio Project Wizard"  />
+ <p class="caption">(\#fig:proj-wizard)Using the RStudio Project Wizard</p>
+ </div>
+</li>
+<li>
+<p>Use the &ldquo;New Post&rdquo; Addin in RStudio to create <strong>any and all</strong> new content for your site (not just <em>posts</em>!). Be sure to use the handy dropdown menu to select from all the possible archetypes. Also, careful about the subdirectory here- some themes use <em>blog</em>, others use <em>news</em>, <em>articles</em>, or <em>posts</em>.</p>
+<p><img src="https://arm.rbind.io/slides/img/blogdown-newpost-bundle.png" alt=""><!-- --></p>
+</li>
+<li>
+<p>Your archetypes, while only markdown files, <em>can</em> include R code. When you use the Addin, be sure to choose <code>R Markdown (.Rmd)</code> as the format so that you can run the code.</p>
+<ul>
+<li>Don&rsquo;t miss this 
+<a href="http://lcolladotor.github.io/2018/03/08/blogdown-archetype-template/" target="_blank" rel="noopener">great blog post</a> by my friend and the great educator 
+<a href="https://twitter.com/fellgernon" target="_blank" rel="noopener">Leo Collado-Torres</a> on archetypes.</li>
+</ul>
+</li>
+</ol>
+
+
+
+
+<h2 id="a-tablespoon-of-archetypes">A Tablespoon of Archetypes
+  <a href="#a-tablespoon-of-archetypes"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>One of the easiest things you can do for yourself is customize your site&rsquo;s archetypes. From the 
+<a href="https://gohugo.io/content-management/archetypes/" target="_blank" rel="noopener">Hugo docs</a>:</p>
+<blockquote>
+<p>&ldquo;Archetypes are templates used when creating new content.&rdquo;</p>
+</blockquote>
+<p>Right away when I cloned the tidyverse site, I noticed that there were instructions for how to contribute a new article (or blog post) in the 
+<a href="https://github.com/tidyverse/tidyverse.org/blob/c0eb070017cab794029b8ed3ac518f6e1a245a2b/README.md" target="_blank" rel="noopener"><code>README.md</code></a> and in a separate 
+<a href="https://github.com/tidyverse/tidyverse.org/blob/c0eb070017cab794029b8ed3ac518f6e1a245a2b/CONTRIBUTING.md" target="_blank" rel="noopener"><code>CONTRIBUTING.md</code></a> file. Then I noticed this 
+<a href="https://github.com/tidyverse/tidyverse.org/issues/113" target="_blank" rel="noopener">open GitHub issue</a> from 
+<a href="https://twitter.com/dataandme" target="_blank" rel="noopener">Mara Averick</a> (the tidyverse developer advocate) titled &ldquo;Fix README/CONTRIBUTING so there&rsquo;s one source of mechanical info?&rdquo;.</p>
+<p>I also noticed that there was no project root folder called <code>archetypes</code>, which is where you would store your custom site archetype files as <code>.md</code> files. In fact, there is no <strong>theme</strong> folder as you might expect either, which is where you could view the default theme archetypes. Let&rsquo;s look at some from other Hugo themes:</p>
+<ol>
+<li>
+<p>The default Hugo theme for blogdown, 
+<a href="https://github.com/yihui/hugo-lithium" target="_blank" rel="noopener">Lithium</a>, has just one archetype: 
+<a href="https://github.com/yihui/hugo-lithium/tree/master/archetypes" target="_blank" rel="noopener"><code>default.md</code></a></p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">title</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#39;&#39;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">date</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#39;&#39;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div></li>
+<li>
+<p>In contrast, the 
+<a href="https://github.com/gcushen/hugo-academic" target="_blank" rel="noopener">Hugo Academic theme</a> has A LOT: <a href="https://github.com/gcushen/hugo-academic/tree/master/archetypes;">https://github.com/gcushen/hugo-academic/tree/master/archetypes;</a> here is the content of the one for new posts:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a61717;background-color:#e3d2d2">+++</span>
+title = <span style="color:#d14">&#34;{{ replace .Name &#34;</span><span style="color:#a61717;background-color:#e3d2d2">-</span><span style="color:#d14">&#34; &#34;</span> <span style="color:#d14">&#34; | title }}&#34;</span>
+subtitle = <span style="color:#d14">&#34;&#34;</span>
+
+<span style="color:#998;font-style:italic"># Add a summary to display on homepage (optional).</span>
+summary = <span style="color:#d14">&#34;&#34;</span>
+
+date = {{ .Date }}
+draft = <span style="color:#000;font-weight:bold">false</span>
+
+<span style="color:#998;font-style:italic"># Authors. Comma separated list, e.g. `[&#34;Bob Smith&#34;, &#34;David Jones&#34;]`.</span>
+authors = []
+
+<span style="color:#998;font-style:italic"># Tags and categories</span>
+<span style="color:#998;font-style:italic"># For example, use `tags = []` for no tags, or the form `tags = [&#34;A Tag&#34;, &#34;Another Tag&#34;]` for one or more tags.</span>
+tags = []
+categories = []
+
+<span style="color:#998;font-style:italic"># Projects (optional).</span>
+<span style="color:#998;font-style:italic">#   Associate this post with one or more of your projects.</span>
+<span style="color:#998;font-style:italic">#   Simply enter your project&#39;s folder or file name without extension.</span>
+<span style="color:#998;font-style:italic">#   E.g. `projects = [&#34;deep-learning&#34;]` references </span>
+<span style="color:#998;font-style:italic">#   `content/project/deep-learning/index.md`.</span>
+<span style="color:#998;font-style:italic">#   Otherwise, set `projects = []`.</span>
+<span style="color:#998;font-style:italic"># projects = [&#34;internal-project&#34;]</span>
+
+<span style="color:#998;font-style:italic"># Featured image</span>
+<span style="color:#998;font-style:italic"># To use, add an image named `featured.jpg/png` to your page&#39;s folder. </span>
+[image]
+  <span style="color:#998;font-style:italic"># Caption (optional)</span>
+  caption = <span style="color:#d14">&#34;&#34;</span>
+
+  <span style="color:#998;font-style:italic"># Focal point (optional)</span>
+  <span style="color:#998;font-style:italic"># Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight</span>
+  focal_point = <span style="color:#d14">&#34;&#34;</span>
+<span style="color:#a61717;background-color:#e3d2d2">+++</span>
+</code></pre></div></li>
+</ol>
+<p>A quick note: you may have noticed differences in both the content between these two files but also the structure. The first is a 
+<a href="https://learnxinyminutes.com/docs/yaml/" target="_blank" rel="noopener">YAML file</a>, the second is a 
+<a href="https://learnxinyminutes.com/docs/toml/" target="_blank" rel="noopener">TOML file</a>. For blogdown users, you may want to use YAML. This is also why I recommend when you set up your site to use the <code>to_yaml = TRUE</code> option (in the Project Wizard from figure <a href="#fig:proj-wizard">1</a>, check the &ldquo;Convert all metadata to YAML&rdquo; box; otherwise, the exampleSite will contain TOML instead of YAML)^[If you end up with TOML in your content files, run this R code: <code>hugo_convert(to = &quot;YAML&quot;, unsafe = TRUE)</code>].</p>
+<p>If you read the original tidyverse 
+<a href="https://github.com/tidyverse/tidyverse.org/blob/c0eb070017cab794029b8ed3ac518f6e1a245a2b/CONTRIBUTING.md" target="_blank" rel="noopener"><code>CONTRIBUTING.md</code></a> file, the instructions include a fair bit of R code that I would guess means a lot of copying and pasting into new posts. For example, the R Markdown setup chunk and the code for using <code>usethis::use_tidy_thanks()</code> for package releases. I studied the contributing guidelines, and parsed three different &ldquo;kinds&rdquo; of articles that are commonly contributed, each with a different archetype:</p>
+<ol>
+<li>
+<p>The <code>default.md</code>- this is just for plain old markdown posts and basically sets up the YAML of the post to be the same as it is now (currently, there is no archetype dictating the content- it is pulling from a project-level 
+<a href="https://github.com/tidyverse/tidyverse.org/blob/master/.Rprofile" target="_blank" rel="noopener">.Rprofile</a>).</p>
+</li>
+<li>
+<p>A <code>default-rmarkdown.md</code> which should only be used with an R Markdown post and provides only the setup chunk at the top.</p>
+</li>
+<li>
+<p>A <code>package-release.md</code> which also should only be used with an R Markdown post and adds the <code>usethis::use_tidy_thanks()</code> code chunk (this is pseudo-code so the default chunk option is set to <code>eval = FALSE</code>).</p>
+</li>
+</ol>
+<p>So I drafted a 
+<a href="https://github.com/tidyverse/tidyverse.org/pull/271" target="_blank" rel="noopener">pull request</a> that adds 
+<a href="https://github.com/tidyverse/tidyverse.org/pull/271/commits/26a07ae881e57607e25ef0add77d0f5958a9c143" target="_blank" rel="noopener">these three archetypes</a> to the 
+<a href="https://github.com/tidyverse/tidyverse.org" target="_blank" rel="noopener">GitHub repository</a> for the 
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener">tidyverse.org</a>. Here is the &ldquo;after&rdquo; Addin view:</p>
+<p><img src="archetypes-after.png" alt=""></p>
+<p>Here&rsquo;s hoping Hugo archetypes make some things about adding new content to your site easier. There is no Hugo involved, other than realizing that Hugo will look first in your <code>themes/&lt;THEME-NAME&gt;/archetypes/</code> folder, then in your project root <code>archetypes/</code> folder next. 
+<a href="https://twitter.com/apreshill/status/1083791211222073344" target="_blank" rel="noopener">DO</a> 
+<a href="https://twitter.com/apreshill/status/1078494406301212672" target="_blank" rel="noopener">NOT</a> 
+<a href="https://arm.rbind.io/slides/blogdown.html#35" target="_blank" rel="noopener">TOUCH</a> any files in your <code>themes/</code> directory.^[Trust me on this one- if you ever want to update your site this will make that process way harder.]</p>
+<p>You may want to set up archetypes for your blogdown site if you have a &ldquo;signature&rdquo; R setup chunk that loads your preferred <code>knitr</code> chunk options, common libraries you always load at setup like <code>tidyverse</code>, <code>ggplot2</code> themes you prefer (<code>theme_minimal()</code> FTW), etc. This may be especially helpful if you have multiple team members contributing to a single site and you want their posts to have a uniform setup. Then archetypes can be a real time- and sanity-saver. Get more ideas from Leo&rsquo;s 
+<a href="http://lcolladotor.github.io/2018/03/08/blogdown-archetype-template/" target="_blank" rel="noopener">blog post</a> on archetypes. You <em>can</em> also make 
+<a href="https://gohugo.io/content-management/archetypes/#directory-based-archetypes" target="_blank" rel="noopener">directory based archetypes</a> if you use Hugo page bundles, which is a topic of a future post.</p>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/">Troubleshooting Your Build &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+
+<aside class="page-sidebar" role="complementary">
+                         
+ 
+
+
+                       
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <img src="/blog/spoonful-hugo/sidebar.jpg" class="db ma0">
+
+
+<div class="blog-info ph4 pt4 pb4 pb0-l">
+  
+
+  <h1 class="f3">A Spoonful of Hugo</h1>
+  <p class="f6 lh-copy measure">Small spoonfuls of Hugo I collect that may help you get your site up and running even better: more efficient, more streamlined, more automated.</p>
+  <p class="f7 measure lh-copy i mh0-l">Written by Alison Hill</p>
+
+
+  
+</div>
+
+
+
+
+                         
+ 
+
+
+
+<div class="flex items-start sticky ph4 pb4">
+  <div class="w-two-thirds w-50-l ph0">
+    
+    <h2 class="mt3 mb3 f5 fw7 ttu tracked"><a class="no-underline dim" href="/blog/spoonful-hugo/">In this series</a></h2>
+    <nav id="SeriesTableOfContents">
+        <ul>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-netlify-toml/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/">The netlify.toml File</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-bundles/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-bundles/">Hugo Page Bundles</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2020-12-how-much-hugo/"><a href="https://alison.rbind.io/blog/2020-12-how-much-hugo/">How much Hugo do I need to know?</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-03-spoonful-troubleshooting/"><a href="https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/">Troubleshooting Your Build</a></li>
+        
+          
+          <li class="active" hugo-nav="/blog/2019-02-spoonful-archetypes/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-archetypes/">Hugo Archetypes</a></li>
+        
+        </ul>
+      </nav>
+  </div>
+  <details open id="PageTableOfContents">
+    <summary><h2 class="mv0 f5 fw7 ttu tracked dib">On this page</h2></summary>
+    <div class="pl2 pr0 mh0">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#my-project">My Project</a></li>
+    <li><a href="#tldr-a-teaspoon-of-archetypes">tl;dr: A Teaspoon of Archetypes</a></li>
+    <li><a href="#a-tablespoon-of-archetypes">A Tablespoon of Archetypes</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+  
+</div>
+</aside>
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

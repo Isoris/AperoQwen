@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reproducibility on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/reproducibility/</link>
+    <description>Recent content in reproducibility on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/reproducibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Labhub</title>
+      <link>https://alison.rbind.io/project/labhub/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/labhub/</guid>
+      <description>An OHSU Open Science Workshop on tools and methods for building transparency within a lab</description>
+    </item>
+    
+  </channel>
+</rss>

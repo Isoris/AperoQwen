@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>distill on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/distill/</link>
+    <description>Recent content in distill on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/distill/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M-F-E-O: postcards &#43; distill</title>
+      <link>https://alison.rbind.io/blog/2020-12-postcards-distill/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-postcards-distill/</guid>
+      <description>The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Teaching in Production</title>
+      <link>https://alison.rbind.io/talk/2020-rstudio-tip/</link>
+      <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rstudio-tip/</guid>
+      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
+    </item>
+    
+  </channel>
+</rss>

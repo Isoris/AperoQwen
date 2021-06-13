@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workshop on Quentin Andres</title>
+    <link>https://alison.rbind.io/categories/workshop/</link>
+    <description>Recent content in workshop on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduce yourself online with blogdown &amp; Hugo Apéro</title>
+      <link>https://alison.rbind.io/talk/2021-iyo-tunis/</link>
+      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-iyo-tunis/</guid>
+      <description>A workshop for building a personal website from the comfort of RStudio using the blogdown R package, using a Hugo theme I developed.</description>
+    </item>
+    
+    <item>
+      <title>Introduce yourself online</title>
+      <link>https://alison.rbind.io/talk/2021-rstudio-global/</link>
+      <pubDate>Mon, 25 Jan 2021 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rstudio-global/</guid>
+      <description>A special workshop for rstudio::global() diversity scholars</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Pharma</title>
+      <link>https://alison.rbind.io/talk/2020-rmd4pharma/</link>
+      <pubDate>Wed, 07 Oct 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmd4pharma/</guid>
+      <description>A four-hour workshop for R / Pharma 2020 that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</link>
+      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</guid>
+      <description>R / Medicine 2020: A 4-hour workshop to introduce the basics of machine learning in R using tidymodels.</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to R Markdown for the CDC</title>
+      <link>https://alison.rbind.io/talk/2020-rmd4cdc/</link>
+      <pubDate>Wed, 13 May 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmd4cdc/</guid>
+      <description>A one-hour introduction to R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2020-rsc-tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rsc-tidyml/</guid>
+      <description>rstudio::conf(2020) two-day workshop to introduce the basics of machine learning and tidymodels.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/project/tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/tidyml/</guid>
+      <description>Introducing the basics of machine learning in R using tidymodels</description>
+    </item>
+    
+    <item>
+      <title>Communicating with R Markdown Workshop</title>
+      <link>https://alison.rbind.io/talk/2019-ysc-workshop/</link>
+      <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-ysc-workshop/</guid>
+      <description>A workshop for R Markdown users who want to get more out of R Markdown (and friends).</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine</title>
+      <link>https://alison.rbind.io/project/rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/rmd4medicine/</guid>
+      <description>A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Labhub</title>
+      <link>https://alison.rbind.io/project/labhub/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/labhub/</guid>
+      <description>An OHSU Open Science Workshop on tools and methods for building transparency within a lab</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/project/up-running-blogdown/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/up-running-blogdown/</guid>
+      <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/project/code-your-graph/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/code-your-graph/</guid>
+      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown</title>
+      <link>https://alison.rbind.io/project/summer-of-blogdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/summer-of-blogdown/</guid>
+      <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
+    </item>
+    
+  </channel>
+</rss>

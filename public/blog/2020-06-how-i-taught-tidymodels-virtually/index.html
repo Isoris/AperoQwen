@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>How I Taught Tidymodels, Virtually | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="How I Taught Tidymodels, Virtually | Quentin Andres">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/featured.jpg" >
+    
+    
+  <meta itemprop="name" content="How I Taught Tidymodels, Virtually">
+<meta itemprop="description" content="Some reflections on my third time teaching tidymodels for machine learning, and doing it virtually."><meta itemprop="datePublished" content="2020-06-02T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-06-02T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2222"><meta itemprop="image" content="https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/featured.jpg">
+<meta itemprop="keywords" content="rmarkdown," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">How I Taught Tidymodels, Virtually</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill</p>
+        <p class="f7 db mv0 ttu">June 2, 2020</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>A few weeks ago, I wrapped up teaching 
+<a href="https://www.tidymodels.org" target="_blank" rel="noopener">tidymodels</a> for the third time. We say third time&rsquo;s the charm, right? Even during a global pandemic? I don&rsquo;t know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.</p>
+
+
+
+
+<h2 id="but-why">But why?
+  <a href="#but-why"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Why teach tidymodels virtually? I&rsquo;ve already taught it as a 
+<a href="/project/tidyml">2-day workshop</a> at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the 
+<a href="/talk/2020-rmedicine-tidyml/">R / Medicine conference</a> (still on, and 100% virtual!).</p>
+<p>I had three main goals:</p>
+<ul>
+<li>First, I wanted to do a good job for the R / Medicine conference workshop in August. This seemed like an interesting teaching challenge. One of the best compliments I&rsquo;ve ever gotten from a colleague is that I &ldquo;teach with heart&rdquo; — so the challenge was, can a virtual workshop have a ❤️?</li>
+</ul>
+<p><img src="https://media.giphy.com/media/RAAEmgtmiR3Fe/giphy.gif" alt=""></p>
+<ul>
+<li>
+<p>Second, given current events, I saw an opportunity to document a good system (tooling + pedagogy + logistics) around virtual workshops. I don&rsquo;t see them going away anytime soon. My colleague, 
+<a href="https://third-bit.com/" target="_blank" rel="noopener">Greg Wilson</a>, had also been giving our 
+<a href="https://education.rstudio.com/trainers/" target="_blank" rel="noopener">RStudio certified instructor</a> 
+<a href="https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY" target="_blank" rel="noopener">workshops virtually</a> for over a year, so I trusted that he could help me navigate.</p>
+</li>
+<li>
+<p>Third, help out the R / Medicine conference organizers. My partner-in-crime for this particular workshop, 
+<a href="https://education.rstudio.com/trainers/people/kadauke&#43;stephan/" target="_blank" rel="noopener">Dr. Stephan Kadauke</a>, wanted to join me for some reconnaissance work. He is one of the conference organizers and will be leading his own workshop there, so he wanted to test out the tooling and the pedagogy too.</p>
+</li>
+</ul>
+<p>So we thought, three birds, one stone: I get to pilot a much shorter version of my conf workshop materials, we get to test doing it virtually, and the R / Medicine conference organizers learn how this could all work in August.</p>
+<p><img src="https://media.giphy.com/media/oVP8LBbOv57S8/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="how-we-planned-it">How we planned it
+  <a href="#how-we-planned-it"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Starting out, I knew I had two main hurdles:</p>
+<ul>
+<li>Shaving two days of workshop content into <code>X</code> days</li>
+<li>Logistics (like figuring out what <code>X</code> should be!)</li>
+</ul>
+<p>The first decision based on conversations with Greg was to offer the workshop across two half-days. This is how the RStudio instructor training is timed, and it works well because there are few people who can (or want to) be tied up for a full day, especially if under stay-at-home orders. We asked Stephan if his group at the 
+<a href="https://www.chop.edu/" target="_blank" rel="noopener">Children&rsquo;s Hospital of Philadelphia (CHOP)</a> would be up for two 4-hour sessions. Stephan&rsquo;s feedback was yes, but given that these folks at CHOP typically have weekly schedules, having two consecutive days would not work. So we opted for:</p>
+<ul>
+<li>Two 4-hour sessions that were&hellip;</li>
+<li>exactly one week apart.</li>
+</ul>
+<p>I&rsquo;m in Oregon, they were in Philly, so we decided to start at 9am my time (1pm for them) and wrap up at 1pm my time (5pm for them). After making this call, and again with Greg&rsquo;s sage advice to 
+<a href="https://education.rstudio.com/blog/2020/03/teaching-online-on-short-notice/" target="_blank" rel="noopener">take a break every hour</a>, I started working on a rough schedule. I had about 8 hours total to work with; about half of my conf workshop. We decided on:</p>
+<ul>
+<li>50 minute chunks, and</li>
+<li>10 minute breaks at 10 till the hour every single hour.</li>
+</ul>
+<p>I didn&rsquo;t try to make sure my materials for each session filled exactly 50 minutes. Instead, I promised the group that I would break wherever I was at the same time, and after each break we just picked up where left off.</p>
+<p>Here was the new topic outline:</p>
+
+
+
+
+<h3 id="day-1">Day 1
+  <a href="#day-1"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ol>
+<li>
+<a href="https://tmv.netlify.app/slides/00-intro" target="_blank" rel="noopener">Session 00:</a> Intro (include a tooling tour- orient to Google doc + Zoom)</li>
+<li>
+<a href="https://tmv.netlify.app/slides/01-model" target="_blank" rel="noopener">Session 01:</a> Build a model (mainly parsnip package)</li>
+<li>
+<a href="https://tmv.netlify.app/slides/02-resample" target="_blank" rel="noopener">Session 02:</a> Resample a model (add rsample package, plus tune package for <code>fit_resamples()</code>)</li>
+<li>
+<a href="https://tmv.netlify.app/slides/03-recipes" target="_blank" rel="noopener">Session 03:</a> Build a better training set (add recipes and workflows packages)</li>
+</ol>
+
+
+
+
+<h3 id="day-2">Day 2
+  <a href="#day-2"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ol>
+<li>
+<a href="https://tmv.netlify.app/slides/04-ensemble" target="_blank" rel="noopener">Session 04:</a> Build an ensemble model (back to parsnip, now with model arguments)</li>
+<li>
+<a href="https://tmv.netlify.app/slides/05-tune" target="_blank" rel="noopener">Session 05:</a> Tune a model (heavy tune package)</li>
+<li>
+<a href="https://tmv.netlify.app/slides/06-case-study" target="_blank" rel="noopener">Session 06:</a> The Great Model-Off (a Kaggle-like group activity)</li>
+</ol>
+<p>The final decision was about tooling. Luckily, Greg had advice here too. We went with:</p>
+<ul>
+<li>Google doc as the &ldquo;home page&rdquo; + chat (no workshop website!)</li>
+<li>RStudio Cloud for all exercises</li>
+<li>Zoom for video</li>
+</ul>
+
+
+
+
+<h2 id="pre-workshop-launch-list">Pre-workshop launch list
+  <a href="#pre-workshop-launch-list"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ul>
+<li>Make shared Google doc and prepopulate with: Zoom link, RStudio Cloud link, bulleted list of participant names (be sure to make this <em>editable</em> for anyone!)</li>
+<li>Email everyone with a Google calendar invite that includes the Zoom link and a link to a shared Google doc (be sure to make this <em>editable</em> for anyone!)</li>
+<li>Ask everyone to fill in their 2-sentence bios ahead of time to ensure that you&rsquo;ve done this correctly!</li>
+</ul>
+<p>The Zoom link and the Google doc link should be the <strong>only</strong> links that attendees see ahead of time. Then, the Google doc is the one true source for everything. Too many links at first leads to confusion later. I also prepopulated the doc with my session outline with HTML links to each session&rsquo;s slide deck.</p>
+
+
+
+
+<h2 id="actual-launch">Actual launch
+  <a href="#actual-launch"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>In Zoom, I set it up to 
+<a href="https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All" target="_blank" rel="noopener">mute everyone</a> as they joined. We started with an 
+<a href="https://tmv.netlify.app/slides/00-intro" target="_blank" rel="noopener">orientation</a> of the tools, the schedule, and the general plan for how they would work and interact with each other. We tried to keep questions per session in the Google doc, which my TA Stephan fielded in real time, which now is a great resource for me as I prepare for this again in August.</p>
+<p>What I should have done:</p>
+<ul>
+<li>Have a Code of Conduct. I will next time. We didn&rsquo;t have any issues, but what came up later was that I asked participants to turn on their cameras. I wished that part of my Code of Conduct was that we would not videotape or take screenshots at any point to protect the privacy of all participants.</li>
+<li>Asked folks to make sure they had an updated version of Zoom. In particular, some newer security issues have been addressed recently, so this is nice for everyone to take advantage of. Plus the interface looked different for some.</li>
+<li>Locked down the Zoom room. After a few minutes of starting, it was super distracting to have late arrivals who kept sending me personal chats asking for the links.</li>
+<li>In addition to locking down after the first 10-15 minutes, I also should have assigned my TA as a 
+<a href="https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-adding-a-co-host" target="_blank" rel="noopener">co-host</a>, so that he could have helped me manage that. We did this on day 2 and it worked great.</li>
+</ul>
+
+
+
+
+<h2 id="how-did-it-go">How did it go?
+  <a href="#how-did-it-go"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>So, I&rsquo;m not going to lie here. The first session of teaching spooked me a bit. This was because all attendees left their videos off and I felt like:</p>
+<p><img src="https://media.giphy.com/media/AEMyf9Oj6MpS8/giphy.gif" alt=""></p>
+<p>It was eerie to teach to a silent void. On day 2, I asked for two volunteers to turn on their cameras for a single 50 minute block each because it really helped me to see faces. Participants probably kept their own view as &ldquo;speaker only&rdquo;, but for me it really helped to be able to have some human feedback, even if they were muted. Much love to the head nodders out there. This conversation on day 2 broke my heart though, because several participants indicated they felt they couldn&rsquo;t turn on their cameras because they had young children at home. It is <strong>hard</strong>.</p>
+<p>Interestingly, the participants didn&rsquo;t sense my discomfort at all. In fact, I heard from several that it was nice to see me up close and so personal. It actually felt <em>more personal</em> than a large in-person workshop, to my surprise.</p>
+<p>On day 1, I started by asking participants to use Zoom reactions (like thumbs up) to answer questions, give me progress updates, etc. I ended up retiring this- it was distracting and the reactions disappear so it wasn&rsquo;t actually useful. Instead, I asked people to use the Zoom chat to indicate &ldquo;done&rdquo; or give quick one-word answers (a or b, yes or no).</p>
+<p>Stephan also had a great idea for the breaks. On day 2, I started using Garrick Aden-Buie&rsquo;s 
+<a href="https://pkg.garrickadenbuie.com/countdown/#29" target="_blank" rel="noopener">countdown app</a> to show the 10 minute break countdown full-screen. I used the hosted version 
+<a href="https://apps.garrickadenbuie.com/countdown/" target="_blank" rel="noopener">here</a>.</p>
+
+
+
+
+<h2 id="what-can-i-do-better">What can I do better?
+  <a href="#what-can-i-do-better"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Logistically, I got really frustrated because I kept losing my Zoom meeting controls. Later I found out about this accessibility setting, which would have helped!</p>
+<p><img src="zoom-controls.png" alt=""></p>
+<p>More substantively, as I mentioned, I would have a Code of Conduct at the very beginning. I also think virtual workshops offer a unique opportunity to include some more creative exercise types. Here are a few I brainstormed with Greg Wilson after the fact—expect to see these at R / Medicine if you attend with me!</p>
+<ul>
+<li>
+<p>Spot the bug- do in groups</p>
+</li>
+<li>
+<p>Unscramble code</p>
+</li>
+<li>
+<p>Predict what is going to happen</p>
+</li>
+<li>
+<p>Fill in the blank with the 
+<a href="https://education.rstudio.com/blog/2020/05/flair/#example-3--mask-code-for-easy-practice-activities" target="_blank" rel="noopener">flair package</a></p>
+</li>
+</ul>
+<p><img src="https://media.giphy.com/media/13eay0HFG25jy0/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="verdict">Verdict
+  <a href="#verdict"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Transitioning from primarily teaching in person to teaching virtually is <em>hard</em>, and I&rsquo;m in awe of 
+<a href="https://education.rstudio.com/blog/2020/05/remote-roundup/" target="_blank" rel="noopener">all the instructors</a> I know who have had to do this on very short notice. But, can it be done with heart? Yes, I think so ❤️</p>
+<p><img src="https://media.giphy.com/media/v9tIehXauaCbK/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="thanks">Thanks
+  <a href="#thanks"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Thanks to the participants, who were the loveliest guinea pigs. It is a hard time to learn and a hard time to find time. I appreciate that you took time out of your lives to spend 8 hours with me.</p>
+<p>Thanks also to 
+<a href="https://third-bit.com/" target="_blank" rel="noopener">Greg Wilson</a> for his support, and 
+<a href="https://www.chop.edu/doctors/kadauke-stephan" target="_blank" rel="noopener">Stephan Kadauke</a> for being an awesome co-pilot. Extra special thanks to 
+<a href="https://desiree.rbind.io/" target="_blank" rel="noopener">Desirée De Leon</a>, who has the biggest heart of all. Knowing that I didn&rsquo;t have time for creativity with my slides, she surprised me with the most beautiful xaringan slide deck theme based on 
+<a href="https://www.tidymodels.org/" target="_blank" rel="noopener">tidymodels.org</a>. I merged in her PR <em>with glee and delight</em>, I know the participants felt those same emotions too (while learning about machine learning, no less!) 🌼</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  	
+
+	
+	
+	
+		<script src="/shortcode-gallery/lazy/jquery.lazy.min.js"></script>
+	
+
+	<script src="/shortcode-gallery/swipebox/js/jquery.swipebox.min.js"></script>
+	<link rel="stylesheet" href="/shortcode-gallery/swipebox/css/swipebox.min.css">
+
+	<script src="/shortcode-gallery/justified_gallery/jquery.justifiedGallery.min.js"></script>
+	<link rel="stylesheet" href="/shortcode-gallery/justified_gallery/justifiedGallery.min.css"/>
+
+
+<style>
+	
+		.jg-entry img {
+			transition: transform .25s ease-in-out !important;
+		}
+
+		.jg-entry img:hover {
+			transform: scale(1.1);
+		}
+	
+
+	
+</style>
+
+
+
+
+
+<div id="gallery-0-wrapper" class="gallery-wrapper">
+<div id="gallery-0" class="justified-gallery">
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+				
+					
+				
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/featured.jpg" 
+					class="galleryImg"
+					
+						
+
+						
+
+						
+					
+					>
+					<img			
+						width="800" height="534"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AH6rbfbrZtWa1SKNrddpWUnaee3vkEfhWZFpmpXenNPHEt68xCmd3IaNVJJ2lsduPTj3xS3uiyzQm/N0lu6OjSySvv6/xNgBevP5VPqcARool1NL93KgwQqOSRknbnAB46EetNpFp3NHQ12ag/mI9tbwIqbJY9pbBOABjBIyfzxW5HL5t5OLpHkKHKLkKACcH8eK5aDUDDK6&#43;YJRbII8OMPIcjuMjA7EAfzrZ024N5cQugRFlw2SOc46ZPPc1KepUlpcS58NR6lp4mmmWP7TEDKsEW1W4BHBJHHrjNYNpLJDcXlhEVWO3uLhY2wdyhRgAHPSu5g/5A9t/wBcF/8AQRXCQ/8AIa1P/r5uv5VcloRF6iWUseoid57aIPBH5iuiBWIK/KMgdsdT1roNEQXFmszYBUKcBQPT0&#43;tczof3L/8A69k/lXUeHf8AkGH/AHV/mtZx3NJ/Cf/Z"
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/featured_hu7fbd9d0c086f3f40402c541be58da252_146661_800x800_fit_q88_lanczos.jpg"
+						
+
+						
+							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="449"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APVr/U7PS4klvZ1hR22KzZxn&#43;lU/&#43;Eo0ottSZ5HxkKkZJI&#43;laVxbQXcXlXEKSpnO1xmqy2GlLyLe2HG3OB06UnfoaIrt4n0lJUikudjuu5QynkdP5gj8PpV6zvre/h823ZioODuUqR&#43;BqJrDS2&#43;9b25ypXoOnH/1qsQW8NtH5cESxr6KMUK/UHYlqNoYtjfu06f3RUlI/wBxvpTEhnkQ/wDPJP8AvkVJRRQFz//Z"
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.05%20PM_hu39f20925eceef0a4ef394f0d6491d69a_880214_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="449"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APTLTxTot8WNtqkUqjysMo4/esVjGcYJJB46jvWpLP5JAKM2R1DKP5kVzumeE9JsTviJIa9F0y7hgsB8i49FOCB610U6uxGwMf8AdbFJBqLFOJWKhCMd9ynP5GpaiRnVQDHIT6kr/jTwxJwY2Hucf40wFpaKKACiiigD/9k="
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.51%20PM_hu39f20925eceef0a4ef394f0d6491d69a_625188_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="449"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO98Y6jcaRNY38Uk&#43;1Sy&#43;WjbUY8fe4I6ZwMVt6PqI1XTIrsRmMuOVLAkH6isXX9W8&#43;UWEVklxFvCtI7j5XzjG3B4&#43;vHatXRr1rqLDW0cOFGCj5344zjqOnes1JczQ76WL7zxRttdwp9DSxzRy58tw2OuKhktWZyySlc9iXOP/HhTobcxnc8hZvZmx&#43;RJrQQv2W3G7EEQ3ElvkHJ96IbW3g5hgjjOMfIgHH4VKaBRYBaKKKAP/9k="
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.53.58%20PM_hu39f20925eceef0a4ef394f0d6491d69a_2016369_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="449"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APV9YvksbBz5xillBjhYLuIcg4OPbrWf4c1qfVFb7RFJHKedpTC455B9O1WNbsWuJYbsAbbWKVs553fLjjv0P&#43;TTfDlpLb2R8xSqsQyAnqMDms25c9i/d5fM0suS2C557FamUEKASSfU1GqNljuZefQc09VYHly3sQK0IFIBGCMg0AYGB0paKACiiigD/9k="
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.06%20PM_hu39f20925eceef0a4ef394f0d6491d69a_1465115_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="449"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APN40ha1wY080tw/m445yCPy5pphUDqnt&#43;9FRCWRQArsAOwNL50v/PV/&#43;&#43;jXQO47yCTw8YB/2xxTZIjHj50bP91gaPOlH/LV/wDvo0nlyN8xBOec560xDKKKKACrauwt8bj9096qVZX/AI9/&#43;A0gP//Z"
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/slides/Screen%20Shot%202020-06-01%20at%2011.54.41%20PM_hu39f20925eceef0a4ef394f0d6491d69a_215254_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/blog/2020-06-how-i-taught-tidymodels-virtually/zoom-controls.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="640"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABoAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APPbtIkdPL7xoT8wPJUE9Ce&#43;aYpjWMMS6uP4t2BmrF833Nxf/VR4BJ/uD1FQrbiS3DEt6/cOAc&#43;ooEndEO9GYl5evfIP9aUBSpZWzjsKRhg/fJ&#43;jNSLhc4HXr70DNCe3EyIyyQjCKPvIDkKB/eql5knl&#43;XvbYP4c8Uyiqk4vZEq/VhRRRUlH/9k="
+							
+							class="lazy"
+							data-src="/blog/2020-06-how-i-taught-tidymodels-virtually/zoom-controls_hu63fcc2d2402322346271c9052eb7a091_90620_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+</div>
+</div>
+
+<script>
+	if (!jQuery) {
+		alert("jquery is not loaded");
+	}
+
+	$( document ).ready(() => {
+		const gallery = $("#gallery-0");
+		
+
+		gallery.justifiedGallery({
+			rowHeight :  200 ,
+			margins :  5 ,
+			border : 0,
+			waitThumbnailsLoad : false,
+			lastRow : "justify",
+			captions : false,
+		});
+
+		
+		let swipeboxInstance = null;
+
+		gallery.on('jg.complete', () => {
+			
+				
+				
+				$(() => {
+					$('.lazy').Lazy({
+						afterLoad: element => element.css({filter: "none", transition: "filter 1.0s ease-in-out"})
+					});
+				});
+			
+
+			swipeboxInstance = $('.galleryImg').swipebox(
+				jQuery.extend({},
+					{  }
+				)
+			);
+		});
+
+		
+		
+	});
+</script>
+
+
+
+
+
+<h2 id="feedback">Feedback
+  <a href="#feedback"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>If you are curious, here is some of the feedback I collected at the bottom of our Google doc:</p>
+
+
+
+
+<h3 id="two-half-days">Two half days?
+  <a href="#two-half-days"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>worked well for me. A full day would be tough.</li>
+<li>Worked well for me also and I also think having all in one day would be a lot.</li>
+<li>worked well.</li>
+<li>worked well for me too.</li>
+</ul>
+
+
+
+
+<h3 id="separated-by-one-week">Separated by one week?
+  <a href="#separated-by-one-week"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>seemed fine.</li>
+<li>I liked this!</li>
+<li>good. Enough time to digest the previous session</li>
+<li>yes.</li>
+</ul>
+
+
+
+
+<h3 id="pace-too-fast-too-slow">Pace: too fast, too slow?
+  <a href="#pace-too-fast-too-slow"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>good pace</li>
+<li>I liked the pace. It felt like we covered a lot of ground quickly, but also like we have great resources to come back to for refreshing on what we learned.</li>
+<li>good pace, except at “data leakage”. I still have hard time to understand that part.</li>
+<li>good pace.</li>
+</ul>
+
+
+
+
+<h3 id="scope-too-small-too-big">Scope: too small, too big?
+  <a href="#scope-too-small-too-big"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>nice scope</li>
+<li>Nice scope</li>
+<li>very nice and practical.</li>
+<li>nice scope.</li>
+</ul>
+
+
+
+
+<h3 id="timing-in-50-min-chunks-too-many-or-too-few-breaks">Timing in 50 min chunks: too many or too few breaks?
+  <a href="#timing-in-50-min-chunks-too-many-or-too-few-breaks"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>The 50 min chunks were great! I thought perfect length.</li>
+<li>Perfect break up. And the 10 min breaks gave enough time to make tea, grab a snack, etc.</li>
+<li>I am fine with that.</li>
+<li>works well.</li>
+</ul>
+
+
+
+
+<h3 id="timed-code-exercises-too-easy-too-hard">Timed code exercises: too easy, too hard?
+  <a href="#timed-code-exercises-too-easy-too-hard"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>good</li>
+<li>Neither, I thought they were appropriate</li>
+<li>good.</li>
+<li>good.</li>
+</ul>
+
+
+
+
+<h3 id="in-between-homeworkreading">In-between homework/reading?
+  <a href="#in-between-homeworkreading"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>maybe some light reading or practice</li>
+<li>In theory I think I would have liked some ‘homework’, but the week turned out to be so busy that I don’t know if I would’ve made time to complete it before the workshop.</li>
+<li>will be helpful to give some reading about different model descriptions in-between.</li>
+</ul>
+
+
+
+
+<h3 id="final-take-home-project---feedback">Final take-home project (+/- feedback)?
+  <a href="#final-take-home-project---feedback"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>optional</li>
+<li>I think this could be fun if we had access to a few different datasets to choose from. With maybe some pointers on what to look out for as we explore the data. Is it unbalanced? Could any two variables be collinear? Etc.</li>
+<li>i would vote for take-home project to play with.</li>
+</ul>
+
+
+
+
+<h3 id="zoom-video-onoff">Zoom: video on/off?
+  <a href="#zoom-video-onoff"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>I find video distracting while working/listening/learning.</li>
+<li>I like being able to see the presenter/speaker’s video. I tend to choose “Speaker View” so that I don’t see all the participant videos (which I would find distracting).</li>
+<li>i am fine with either. I know, from the speaker’s perspective, it will be good to have video on.</li>
+<li>I think it was nice and respectful to ask volunteers to turn video on part time! (Kudos to Stephan for having it on the whole time!)</li>
+</ul>
+
+
+
+
+<h3 id="google-doc-as-our-home-page-and-discussion-forum">Google doc as our “home page” and “discussion forum”?
+  <a href="#google-doc-as-our-home-page-and-discussion-forum"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>Great!</li>
+<li>Yes! I thought it was a really helpful tool and ‘homebase’ to come to for all of the things (slides, R Studio Cloud project, etc.)</li>
+<li>very good! Much easier to track.</li>
+<li>works!</li>
+</ul>
+
+
+
+
+<h3 id="rstudiocloud">Rstudio.cloud?
+  <a href="#rstudiocloud"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<ul>
+<li>pretty good except for crashing at end.</li>
+<li>ditto.</li>
+<li>I really enjoyed using R Studio Cloud. It makes it easier when I don’t have to worry about pre-installing packages or updating my version of R in order to go into a workshop. Having everything already set up for you in there is super convenient.</li>
+<li>I like Rstudio cloud generally. Just not suitable for complicated model training.</li>
+</ul>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">June 2, 2020</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">11 minute read, 2222 words</dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://alison.rbind.io/tags/rmarkdown">rmarkdown</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-iyo-tunis/">Introduce yourself online with blogdown &amp; Hugo Apéro</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-ares-kind-tools/">Crafting Kind Tools</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-rmd-params/">Making R Markdown work better for you</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/">&larr; How I Teach R Markdown</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2020-12-hello-r-markdown/">Hello R Markdown &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="rbind/apreshill"
+          issue-term="title"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

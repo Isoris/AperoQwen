@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>How much Hugo do I need to know? | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="How much Hugo do I need to know? | Quentin Andres">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2020-12-how-much-hugo/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/spoonful-hugo/sidebar.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/spoonful-hugo/sidebar.jpg" >
+    
+    
+  <meta itemprop="name" content="How much Hugo do I need to know?">
+<meta itemprop="description" content="When and why you need to learn Hugo as an R blogdown user."><meta itemprop="datePublished" content="2020-12-12T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-12T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2366">
+<meta itemprop="keywords" content="blogdown,hugo," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container single-series">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+                       
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pl3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">How much Hugo do I need to know?</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill in <a href="https://alison.rbind.io/categories/blogdown">blogdown</a>  <a href="https://alison.rbind.io/categories/hugo">hugo</a> </p>
+        <p class="f7 db mv0 ttu">December 12, 2020</p>
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>Greetings and happy holidays! As many folks are looking forward to down time over the holidays, my inbox naturally starts filling in with questions like &ldquo;What is the difference between blogdown and X?&rdquo;, &ldquo;How hard is Hugo to learn?&rdquo;, and &ldquo;Which Hugo theme do you recommend?&rdquo; These are all great questions. But the best one in my mind that one needs to ask is:</p>
+<blockquote>
+<p>&ldquo;How much Hugo do I need to know <em>right now</em>?&rdquo;</p>
+</blockquote>
+<p>And the answer, of course, depends on where you are starting from and where you&rsquo;d like to end up.</p>
+<p>In this post, I&rsquo;ll share when and why I think a typical R blogdown user needs to learn Hugo. I&rsquo;ll tell you a secret: I enjoyed learning Hugo. But I learned blogdown first, and frankly was blissfully unaware of the complexity of the underlying Hugo templating language. I was a happy blogdown user for about 1.5 years before taking the plunge to actually learn Hugo. Why did I do it? I needed to build a website for the RStudio Education team, and for sustainability and maintenance, I had been burned by external themes in various ways too many times for my personal site.</p>
+<p>We decided as a team that we didn&rsquo;t want our site to depend on a third-party Hugo theme. What can go wrong with using third-party Hugo themes? For one, if you choose a not very active or well-maintained theme, then you could get stuck with a not well-maintained theme. Or worse, your theme could get orphaned, with no maintainer. But, on the flip-side, if you pick a very active and well-maintained theme, you might find yourself dealing with theme and Hugo updates more than you would like (<em>cough cough</em> like the Wowchemy/Academic theme).</p>
+<p>The 
+<a href="https://www.tidyverse.org/" target="_blank" rel="noopener">tidyverse.org</a> site was built with a lot of custom HTML, CSS, and some Hugo layout files. I decided to turn that site into a real Hugo theme, and use that theme across teams. You may not have noticed any change 
+<a href="https://github.com/tidyverse/tidyverse.org/pull/350" target="_blank" rel="noopener">when we switched to the new theme</a>- at least I hope you didn&rsquo;t! That site and the 
+<a href="https://education.rstudio.com/" target="_blank" rel="noopener">RStudio Education</a> site both use the same Hugo theme I built.</p>
+<p>Now that I&rsquo;ve gone from casual Hugo user to theme developer, I have some advice. Generally, as a blanket rule, here is what you should and should not touch:</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">An <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/blogdown?src=hash&amp;ref_src=twsrc%5Etfw">#blogdown</a> file hierarchy cheatsheet:<br><br>├─ archetypes &lt;- edit me! <br>├─ config.toml &lt;- edit me! <br>├─ content &lt;- edit me! <br>├─ data &lt;- edit me! <br>├─ layouts &lt;- edit me! <br>├─ public &lt;- ignore me!<br>├─ static &lt;- use me! (png/pdf/csv/xls)<br>├─ themes &lt;- don&#39;t touch! <a href="https://t.co/gvVA703Lwa">pic.twitter.com/gvVA703Lwa</a></p>&mdash; Alison Hill (@apreshill) <a href="https://twitter.com/apreshill/status/1078494406301212672?ref_src=twsrc%5Etfw">December 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<!--![](https://media.giphy.com/media/l1J9wMccAykUCLIic/giphy.gif)-->
+<p>But what can you do with <strong>blogdown</strong> before learning Hugo? When and how do you know when you need to get to know Hugo better? Hopefully this post will help answer these questions.</p>
+<p>Inspired by Jenny Bryan&rsquo;s talk on 
+<a href="https://resources.rstudio.com/rstudio-conf-2019/lazy-evaluation" target="_blank" rel="noopener">lazy evaluation</a>, I&rsquo;m framing these learning decision points based on <em>what you want to get done</em>.</p>
+
+
+
+
+<h2 id="you-want-to-make-a-website-with-blogdown">You want to: make a website with blogdown
+  <a href="#you-want-to-make-a-website-with-blogdown"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<blockquote>
+<p><strong>You need to know this much Hugo:</strong> Hugo takes a collection of files (called content) and generates a collection of static HTML files as a single, cohesive, navigable website (plopped in your <code>public/</code> folder). How it looks depends on which Hugo theme you pick <code>r emo::ji(&quot;paint&quot;)</code></p>
+</blockquote>
+<p>You&rsquo;ll need to:</p>
+<ul>
+<li>
+<a href="https://bookdown.org/yihui/blogdown/themes.html" target="_blank" rel="noopener">pick a Hugo theme</a>, which dictates the style and layout of your content.</li>
+<li>
+<a href="https://bookdown.org/yihui/blogdown/rstudio-ide.html" target="_blank" rel="noopener">build and serve your site locally</a>.</li>
+<li>deploy your site! If you are just starting out, I recommend <strong>everyone</strong> starts by first 
+<a href="https://app.netlify.com/drop" target="_blank" rel="noopener">dragging and dropping</a> your project&rsquo;s <code>public/</code> folder into Netlify. There is your site <code>r emo::ji(&quot;boom&quot;)</code>. With a link. That you can send to your best friend <em>right now</em>.</li>
+<li>
+<a href="https://bookdown.org/yihui/blogdown/static-sites.html" target="_blank" rel="noopener">realize this is a <strong>static</strong> site</a>. Read up on static sites!</li>
+</ul>
+<p>But you probably want to do more&hellip;</p>
+
+
+
+
+<h2 id="you-want-to-customize-your-site">You want to: customize your site
+  <a href="#you-want-to-customize-your-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<blockquote>
+<p><strong>You need to know this much more Hugo:</strong> Hugo themes typically use one or more metadata files (TOML or YAML) to set up global variables to use to build your site. This is usually the way to add a site url, a site name, link social accounts for personal websites, basically take any of the default content you see and customize it for you.</p>
+</blockquote>
+<p>The main files to edit are:</p>
+<ul>
+<li>
+<a href="https://bookdown.org/yihui/blogdown/configuration.html" target="_blank" rel="noopener">configuration files</a></li>
+</ul>
+<p>To get familiar with <code>TOML</code>, I recommend:</p>
+<ul>
+<li>
+<a href="https://bookdown.org/yihui/blogdown/configuration.html#toml-syntax" target="_blank" rel="noopener">a brief intro from the blogdown book</a>, and</li>
+<li>
+<a href="https://learnxinyminutes.com/docs/toml/" target="_blank" rel="noopener">Learn TOML in Y Minutes</a>.</li>
+</ul>
+<p>But, since the time we published the blogdown book, Hugo introduced configuration directories, which allowed us to no longer have one giant <code>config.toml</code> file, and instead have multiple configuration files, like this:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-text-template" data-lang="go-text-template">├── config.toml            &lt;- Hugo-defined variables
+├── config
+│   ├── _default
+│   │   ├── menus.toml     &lt;- menus :)
+│   │   └── params.toml    &lt;- theme-specific variables
+</code></pre></div><p>Here is how you can think of these:</p>
+<ul>
+<li>
+<p><code>config.toml</code>/<code>config.yaml</code>: your most direct communication with Hugo. These are standard Hugo-defined variables that have defaults you can override in this file. You can view all of them 
+<a href="https://gohugo.io/getting-started/configuration/#all-configuration-settings" target="_blank" rel="noopener">here</a>. These are universal across themes.</p>
+</li>
+<li>
+<p><code>menus.toml</code>: your way of editing the content in a side or upper navigation menu bar; see example 
+<a href="https://gohugo.io/getting-started/configuration/#all-configuration-settings" target="_blank" rel="noopener">here</a>. These work the same way across themes (with the exception of drop-down menus, which work in some themes but not others).</p>
+</li>
+<li>
+<p><code>params.toml</code>: your theme&rsquo;s way of providing an API for Hugo. These are variables that your theme creator has made for you! This is a gift, but not the kind you can re-gift easily. This file will not work with any other theme.</p>
+</li>
+</ul>
+<p>If your theme uses only a single <code>config.toml</code> file, you can infer these subsections as you scroll down:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#998;font-style:italic"># before the first use of [[]]</span>
+<span style="color:#998;font-style:italic"># are all the Hugo variables</span>
+
+<span style="color:#998;font-style:italic"># Menu Configuration- same as menus.toml</span>
+[[menu.main]]
+
+<span style="color:#998;font-style:italic"># Theme Configuration- same as params.toml</span>
+[params]
+</code></pre></div><p>You still don&rsquo;t need to learn Hugo&hellip;yet.</p>
+
+
+
+
+<h2 id="you-want-to-add-content-to-your-site">You want to: add content to your site
+  <a href="#you-want-to-add-content-to-your-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<blockquote>
+<p><strong>You need to know this much more Hugo:</strong> Remember how the input to Hugo is a &ldquo;collection of files&rdquo;? The input is more specifically a collection of markdown files. Hugo themes use content written in markdown files (for blogdown users, R Markdown files work too) to generate your site&rsquo;s content; with one very important rule — the same structure that works to organize your site content is used to organize the rendered site.</p>
+</blockquote>
+<p>But, what does that <strong>mean</strong>?</p>
+<p><img src="https://media.giphy.com/media/Poaj36am3ZqaA/giphy.gif" alt=""></p>
+<p>The main files to edit are:</p>
+<ul>
+<li>files in the 
+<a href="https://bookdown.org/yihui/blogdown/content.html" target="_blank" rel="noopener"><code>content/</code> folder</a> (and see my post on 
+<a href="/post/2019-10-26-hugo-layouts/">page bundles</a>)</li>
+</ul>
+<p>First, the structure and the names inside your <code>content/</code> folder is meaningful. The <strong>names</strong> of each folder determine what Hugo layout will be applied. Why do you care? If you change the content name, things may not look good because Hugo can&rsquo;t find the right layout. Think of your site like going to a party at a friend&rsquo;s house- you can bring food, wine, maybe a board game- your host knows what to do with these things. But if you bring a monkey, for example, your host has no idea what to do with it!</p>
+<p><img src="https://media.giphy.com/media/JPgG1GbGnGbgBitA1Q/giphy.gif" alt="monkey at party"></p>
+<p>Yuo <em>can</em> override this by adding a <code>layout</code> key to your file&rsquo;s YAML, as described 
+<a href="https://gohugo.io/content-management/front-matter/#front-matter-variables" target="_blank" rel="noopener">here</a>. The relevant bit is here:</p>
+<blockquote>
+<p>&ldquo;<code>layout</code>: the layout Hugo should select from the lookup order when rendering the content. If a <code>type</code> is not specified in the front matter, Hugo will look for the layout of the same name in the layout directory that corresponds with a content’s section.&rdquo;</p>
+</blockquote>
+<p>The subfolders also tell you where you can find your content on your site.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-text-template" data-lang="go-text-template">.
+├── content/
+│   ├── authors/            # =&gt; https://example.com/authors/
+│   ├── privacy/index.md    # =&gt; https://example.com/privacy/
+│   └── home/               # =&gt; https://example.com/
+</code></pre></div><p>You should take a bit of time to get the &ldquo;cook&rsquo;s tour&rdquo; of your site. Try looking at each file and guessing the URL you&rsquo;ll use to see it in the rendered site. Do this now and it will become like second nature.</p>
+<p>You&rsquo;ll no doubt run into one question: what is the difference between <code>index.md</code> and <code>_index.md</code> files? <code>index.md</code> are simple pages; the single file goes into the site and a single file comes back out when you view the site. This is called a 
+<a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">leaf bundle</a> in Hugo.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-text-template" data-lang="go-text-template">.
+├── content/
+│   ├── privacy/index.md       # =&gt; a leaf bundle
+│   └── blog/                  # =&gt; a branch bundle
+│       ├── _index.md          # =&gt; AHA!
+│       ├── gorillas/index.md  # =&gt; a leaf bundle
+│       ├── baboons/index.md   # =&gt; another leaf bundle
+│       └── monkeys/index.md   # =&gt; yet another leaf bundle
+</code></pre></div><p>An <code>_index.md</code> file, on the other hand, signals that this folder has a <em>listing page</em> activated. This is called a 
+<a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">branch bundle</a> in Hugo. Listing pages are a bit magical, so make sure you understand them now. Typically, if you edit the <code>_index.md</code> file at all, you edit the YAML of this file- often the page content below the YAML isn&rsquo;t revealed by the theme (this is a bit hand-wavy and I&rsquo;m sorry for that).</p>
+<p>So if you have <code>content/blog/gorillas/index.md</code>, you get not one but two pages. Let&rsquo;s pretend my baseurl is <code>alison.rbind.io</code>. You get a <strong>list</strong> page that will render at <code>alison.rbind.io/blog/</code>, and indexes all the <code>index.md</code> files inside that content folder. You also get a <strong>single</strong> page that will render at <code>alison.rbind.io/blog/gorillas/</code>, which shows you the full content of the <code>index.md</code> file.</p>
+
+
+
+
+<h2 id="you-want-to-customize-colors-and-fonts-on-your-site">You want to: customize colors and fonts on your site
+  <a href="#you-want-to-customize-colors-and-fonts-on-your-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<blockquote>
+<p><strong>You need to know this much more Hugo:</strong> It depends on your theme :) You may need to learn CSS, and you may need to learn to <em>read</em> Hugo now.</p>
+</blockquote>
+<p>Many Hugo themes enable users to edit aesthetic elements like colors and fonts. So, depending on your Hugo theme, you may not need to know CSS. Other themes provide a way to “plug in” a custom CSS file to change those things and more (like spacing, font sizing, etc.). Guess where that is? Usually it is in your <code>config.toml</code> file in the <code>[params]</code> section (if no configuration directory) or the <code>params.toml</code> file. The theme author should leave you a breadcrumb to figure out what you should name and where you should place your custom CSS file.</p>
+<p>For example, the Hugo academic theme provides a few ways in. In the <code>params.toml</code> file, you can use an included 
+<a href="https://github.com/gcushen/hugo-academic/blob/b5963ac66c4c0400e88cd603a74d7734365f0885/exampleSite/config/_default/params.toml#L5" target="_blank" rel="noopener">site color theme</a> or make your own, and customize your fonts. You can also provide your own custom CSS file by including it here: <a href="https://github.com/gcushen/hugo-academic/blob/master/assets/scss/custom.scss">https://github.com/gcushen/hugo-academic/blob/master/assets/scss/custom.scss</a></p>
+<p>If your theme doesn&rsquo;t provide this level of support, then you may need to learn Hugo. Sometimes the options are tough to find, unfortunately, but many theme designers provide at least a plug-in option. Others may require you to dig into some of your theme&rsquo;s partial layouts (i.e., <code>themes/theme_name/layouts/partials/</code>) and learn to read them. Here are some examples:</p>
+<ul>
+<li>
+<p><strong>Plug-in CSS</strong>: Hugo 
+<a href="https://github.com/kakawait/hugo-tranquilpeak-theme/blob/d306f0d7f67ca5880cb97530056c59216597cd51/exampleSite/config.toml#L175-L178" target="_blank" rel="noopener">Tranquil Peak</a> theme tells you to place the file inside your <code>static/</code> folder then provide the path and filename in the <code>config.toml</code> file:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[params]
+  <span style="color:#998;font-style:italic"># Custom CSS. Put here your custom CSS files. They are loaded after the theme CSS;</span>
+  <span style="color:#998;font-style:italic"># they have to be referred from static root. Example</span>
+  <span style="color:#998;font-style:italic"># [[params.customCSS]]</span>
+  <span style="color:#998;font-style:italic">#   href = &#34;css/mystyle.css&#34;         &lt;- AHA!</span>
+</code></pre></div></li>
+<li>
+<p><strong>Go Fish</strong>: Hugo 
+<a href="https://github.com/victoriadrake/hugo-theme-sam/blob/39ea2d5e64fd0426d275060cfa6c549df66cdece/layouts/partials/head/css.html#L14-L18" target="_blank" rel="noopener">I Am Sam</a> theme doesn&rsquo;t give you this in the <code>config.toml</code> file, but looking at one of the layout partials you can see that the theme is actually built to plug-in your custom CSS:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-html-template" data-lang="go-html-template"><span style="color:#998;font-style:italic">&lt;!-- Custom css --&gt;</span>
+<span style="color:#999;font-weight:bold;font-style:italic">{{</span><span style="color:#bbb"> </span><span style="color:#000;font-weight:bold">range</span><span style="color:#bbb"> </span><span style="color:#008080">.Site.Params.customCSS</span><span style="color:#bbb"> </span><span style="color:#999;font-weight:bold;font-style:italic">-}}</span>    &lt;<span style="color:#000080">-</span> <span style="color:#008080">AHA</span><span style="color:#a61717;background-color:#e3d2d2">!</span>
+<span style="color:#999;font-weight:bold;font-style:italic">{{</span><span style="color:#bbb"> </span>$style<span style="color:#bbb"> </span><span style="color:#000;font-weight:bold">:=</span><span style="color:#bbb"> </span>resources<span style="color:#008080">.Get</span><span style="color:#bbb"> </span><span style="color:#008080">.</span><span style="color:#bbb"> </span><span style="color:#999;font-weight:bold;font-style:italic">}}</span>
+<span style="color:#a61717;background-color:#e3d2d2">&lt;</span><span style="color:#008080">link</span> <span style="color:#008080">rel</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;stylesheet&#34;</span> <span style="color:#008080">href</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;</span><span style="color:#999;font-weight:bold;font-style:italic">{{</span><span style="color:#bbb"> </span>$style<span style="color:#008080">.RelPermalink</span><span style="color:#bbb"> </span><span style="color:#999;font-weight:bold;font-style:italic">}}</span><span style="color:#d14">&#34;</span> <span style="color:#008080">integrity</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;</span><span style="color:#999;font-weight:bold;font-style:italic">{{</span><span style="color:#bbb"> </span>$style<span style="color:#008080">.Data.Integrity</span><span style="color:#bbb"> </span><span style="color:#999;font-weight:bold;font-style:italic">}}</span><span style="color:#d14">&#34;</span> <span style="color:#008080">crossorigin</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;anonymous&#34;</span> <span style="color:#008080">media</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;screen&#34;</span>&gt;
+<span style="color:#999;font-weight:bold;font-style:italic">{{-</span><span style="color:#bbb"> </span><span style="color:#000;font-weight:bold">end</span><span style="color:#bbb"> </span><span style="color:#999;font-weight:bold;font-style:italic">}}</span>
+</code></pre></div></li>
+</ul>
+
+
+
+
+<h2 id="you-want-to-renovate-the-layout-of-content-on-your-site">You want to: renovate the layout of content on your site
+  <a href="#you-want-to-renovate-the-layout-of-content-on-your-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<blockquote>
+<p><strong>You need to know this much more Hugo:</strong> You need to learn to use Hugo variables.</p>
+</blockquote>
+<p>I say renovate, but these can be anywhere from small to big renovation projects. The key word here is renovate, which in Hugo world, means you want to <em>override</em> your site&rsquo;s theme. Let&rsquo;s say you want different information to show up in your 
+<a href="https://github.com/rbind/apreshill/commit/be80b68eec3183dea304b66eaab874d496d7d1bb" target="_blank" rel="noopener">site&rsquo;s footer</a>. Or maybe you want add something new to the 
+<a href="https://github.com/maelle/simplymaelle/pull/10" target="_blank" rel="noopener">metadata</a> for your blog posts.</p>
+<p>Here is a great blog post to get you started:</p>
+<ul>
+<li>
+<a href="https://zwbetz.com/override-a-hugo-theme/" target="_blank" rel="noopener">Override a Hugo theme</a></li>
+</ul>
+<p><strong>tl;dr:</strong> If you adapt your existing theme&rsquo;s Hugo layout files, be sure to make a copy of the layout you want to edit <strong>first</strong> and add it to your project root&rsquo;s <code>layouts/</code> folder before editing. Please do not edit any files anywhere in your <code>themes/</code> folder.</p>
+<p>Now, the hardest part of doing is often figuring out which layout file is the one you need to edit. Often you&rsquo;ll need to do some digging to figure out which file is the one to touch.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go-text-template" data-lang="go-text-template">.
+├── layouts/
+│   ├── _default/           # edit me!
+│   ├── authors/            # edit me!
+│   └── partials/           # edit me!
+├── themes/
+│   ├── theme_name/
+│   │   ├── layouts
+│   │   │   ├── _default/   # do not touch
+│   │   │   ├── authors/    # do not touch (seriously)
+│   │   │   └── partials/   # `r emo::ji(&#34;fire&#34;)`
+</code></pre></div><p>You&rsquo;ll also want to learn about Hugo 
+<a href="https://gohugo.io/variables/" target="_blank" rel="noopener"><strong>variables</strong></a>, especially:</p>
+<ul>
+<li>
+<a href="https://gohugo.io/variables/site/" target="_blank" rel="noopener">Site variables</a></li>
+<li>
+<a href="https://gohugo.io/variables/site/#the-siteparams-variable" target="_blank" rel="noopener">The <code>.Site.Params</code> variable</a></li>
+<li>
+<a href="https://gohugo.io/variables/page/" target="_blank" rel="noopener">Page variables</a></li>
+<li>
+<a href="https://gohugo.io/variables/page/#the-param-method" target="_blank" rel="noopener">The <code>.Param</code> method for page variables</a></li>
+</ul>
+<p>You also might need to understand Hugo 
+<a href="https://gohugo.io/templates/introduction/#logic" target="_blank" rel="noopener">logic</a> like:</p>
+<ul>
+<li>
+<a href="https://gohugo.io/templates/introduction/#iteration" target="_blank" rel="noopener">iteration</a> and</li>
+<li>
+<a href="https://gohugo.io/templates/introduction/#conditionals" target="_blank" rel="noopener">conditionals</a></li>
+</ul>
+<div class="alert alert-note">
+  <div>
+    Important: I learned this the hard way, but you <a href="https://gohugo.io/templates/introduction/#html-comments-containing-go-templates">cannot</a> wrap your Hugo code in HTML comments to deactivate it; all Hugo code even inside of HTML comments will still be evaluated when you build your site.
+  </div>
+</div>
+
+
+
+
+<h2 id="you-want-to-create-your-own-hugo-theme">You want to: create your own Hugo theme
+  <a href="#you-want-to-create-your-own-hugo-theme"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<blockquote>
+<p><strong>You need to know this much more Hugo:</strong> Welcome to the wizarding world of Hugo! <code>r emo::ji(&quot;wizard&quot;)</code> You now need to learn to write Hugo templates.</p>
+</blockquote>
+<p>Here are some resources for writing Hugo 
+<a href="https://gohugo.io/templates/" target="_blank" rel="noopener"><strong>templates</strong></a>:</p>
+<ul>
+<li>
+<a href="https://gohugo.io/templates/introduction/#the-dot" target="_blank" rel="noopener">Context (aka “the dot”) </a></li>
+<li>
+<a href="https://regisphilibert.com/blog/2018/02/hugo-the-scope-the-context-and-the-dot/" target="_blank" rel="noopener">Hugo, the scope, the context and the dot</a></li>
+<li>
+<a href="https://gohugo.io/templates/lookup-order/#examples-layout-lookup-for-regular-pages" target="_blank" rel="noopener">Lookup order</a></li>
+<li>
+<a href="https://gohugo.io/templates/base/" target="_blank" rel="noopener">Base templates</a></li>
+<li>
+<a href="https://gohugo.io/templates/single-page-templates/" target="_blank" rel="noopener">Single page templates</a></li>
+<li>
+<a href="https://gohugo.io/templates/lists/" target="_blank" rel="noopener">List page templates</a></li>
+</ul>
+<p>These resources were especially helpful to me:</p>
+<ul>
+<li>The 
+<a href="https://bookdown.org/yihui/blogdown/templates.html" target="_blank" rel="noopener">blogdown book section on templates</a></li>
+<li>The 
+<a href="https://bookdown.org/yihui/blogdown/custom-layouts.html" target="_blank" rel="noopener">blogdown book section on customizing layouts</a></li>
+<li>The 
+<a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">Hugo docs</a> are pretty strong</li>
+<li>
+<a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/" target="_blank" rel="noopener">Make a Hugo blog from scratch | zwbetz</a></li>
+<li>
+<a href="https://discourse.gohugo.io/" target="_blank" rel="noopener">Hugo Community Discourse Forum</a></li>
+<li>
+<a href="https://www.mikedane.com/static-site-generators/hugo/" target="_blank" rel="noopener">All of Mike Dane&rsquo;s Hugo tutorials</a></li>
+</ul>
+<p>I spent a lot of time looking at other Hugo themes; here are some quality ones to learn from:</p>
+<ul>
+<li>
+<p>
+<a href="https://masalmon.eu/" target="_blank" rel="noopener">Maëlle Salmon&rsquo;s</a> ROpenSci Hugo theme: <a href="https://github.com/ropensci/roweb2/tree/master/themes/ropensci">https://github.com/ropensci/roweb2/tree/master/themes/ropensci</a></p>
+</li>
+<li>
+<p>
+<a href="https://amber.rbind.io/" target="_blank" rel="noopener">Amber Thomas&rsquo;s</a> Data Science Hugo theme:
+<a href="https://github.com/ProQuestionAsker/hugo-data-science">https://github.com/ProQuestionAsker/hugo-data-science</a></p>
+</li>
+<li>
+<p>
+<a href="https://djnavarro.net/" target="_blank" rel="noopener">Danielle Navarro&rsquo;s</a> slum Hugo theme: <a href="https://github.com/djnavarro/hugo-slum">https://github.com/djnavarro/hugo-slum</a></p>
+</li>
+<li>
+<p>My own humble Hugo theme: <a href="https://github.com/rstudio/hugo-graphite">https://github.com/rstudio/hugo-graphite</a></p>
+</li>
+</ul>
+<hr>
+<p>Again, this is all just based on my own experiences- your mileage may vary as always.</p>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/">&larr; Troubleshooting Your Build</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2019-02-spoonful-bundles/">Hugo Page Bundles &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+
+<aside class="page-sidebar" role="complementary">
+                         
+ 
+
+
+                       
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <img src="/blog/spoonful-hugo/sidebar.jpg" class="db ma0">
+
+
+<div class="blog-info ph4 pt4 pb4 pb0-l">
+  
+
+  <h1 class="f3">A Spoonful of Hugo</h1>
+  <p class="f6 lh-copy measure">Small spoonfuls of Hugo I collect that may help you get your site up and running even better: more efficient, more streamlined, more automated.</p>
+  <p class="f7 measure lh-copy i mh0-l">Written by Alison Hill</p>
+
+
+  
+</div>
+
+
+
+
+                         
+ 
+
+
+
+<div class="flex items-start sticky ph4 pb4">
+  <div class="w-two-thirds w-50-l ph0">
+    
+    <h2 class="mt3 mb3 f5 fw7 ttu tracked"><a class="no-underline dim" href="/blog/spoonful-hugo/">In this series</a></h2>
+    <nav id="SeriesTableOfContents">
+        <ul>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-netlify-toml/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/">The netlify.toml File</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-bundles/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-bundles/">Hugo Page Bundles</a></li>
+        
+          
+          <li class="active" hugo-nav="/blog/2020-12-how-much-hugo/"><a href="https://alison.rbind.io/blog/2020-12-how-much-hugo/">How much Hugo do I need to know?</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-03-spoonful-troubleshooting/"><a href="https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/">Troubleshooting Your Build</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-archetypes/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-archetypes/">Hugo Archetypes</a></li>
+        
+        </ul>
+      </nav>
+  </div>
+  <details open id="PageTableOfContents">
+    <summary><h2 class="mv0 f5 fw7 ttu tracked dib">On this page</h2></summary>
+    <div class="pl2 pr0 mh0">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#you-want-to-make-a-website-with-blogdown">You want to: make a website with blogdown</a></li>
+    <li><a href="#you-want-to-customize-your-site">You want to: customize your site</a></li>
+    <li><a href="#you-want-to-add-content-to-your-site">You want to: add content to your site</a></li>
+    <li><a href="#you-want-to-customize-colors-and-fonts-on-your-site">You want to: customize colors and fonts on your site</a></li>
+    <li><a href="#you-want-to-renovate-the-layout-of-content-on-your-site">You want to: renovate the layout of content on your site</a></li>
+    <li><a href="#you-want-to-create-your-own-hugo-theme">You want to: create your own Hugo theme</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+  
+</div>
+</aside>
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

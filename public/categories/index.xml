@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Quentin Andres</title>
+    <link>https://alison.rbind.io/categories/</link>
+    <description>Recent content in Categories on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>workshop</title>
+      <link>https://alison.rbind.io/categories/workshop/</link>
+      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>https://alison.rbind.io/categories/talk/</link>
+      <pubDate>Mon, 12 Apr 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogdown</title>
+      <link>https://alison.rbind.io/categories/blogdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://alison.rbind.io/categories/hugo/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netlify</title>
+      <link>https://alison.rbind.io/categories/netlify/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://alison.rbind.io/categories/rmarkdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://alison.rbind.io/categories/r/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://alison.rbind.io/categories/website/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://alison.rbind.io/categories/machine-learning/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidymodels</title>
+      <link>https://alison.rbind.io/categories/tidymodels/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/tidymodels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>keynote</title>
+      <link>https://alison.rbind.io/categories/keynote/</link>
+      <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/keynote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theme Features</title>
+      <link>https://alison.rbind.io/categories/theme-features/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/theme-features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data import</title>
+      <link>https://alison.rbind.io/categories/data-import/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/data-import/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>readr</title>
+      <link>https://alison.rbind.io/categories/readr/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/readr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>readxl</title>
+      <link>https://alison.rbind.io/categories/readxl/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/readxl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rladies</title>
+      <link>https://alison.rbind.io/categories/rladies/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/rladies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xaringan</title>
+      <link>https://alison.rbind.io/categories/xaringan/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/xaringan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>https://alison.rbind.io/categories/course/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/categories/course/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

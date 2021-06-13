@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rmarkdown on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/rmarkdown/</link>
+    <description>Recent content in rmarkdown on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduce yourself online with blogdown &amp; Hugo Apéro</title>
+      <link>https://alison.rbind.io/talk/2021-iyo-tunis/</link>
+      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-iyo-tunis/</guid>
+      <description>A workshop for building a personal website from the comfort of RStudio using the blogdown R package, using a Hugo theme I developed.</description>
+    </item>
+    
+    <item>
+      <title>Crafting Kind Tools</title>
+      <link>https://alison.rbind.io/talk/2021-ares-kind-tools/</link>
+      <pubDate>Mon, 12 Apr 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-ares-kind-tools/</guid>
+      <description>Whenever you use software, you are also using a tool that was crafted by someone else. Is it kind? Does it matter? What makes a tool kind?</description>
+    </item>
+    
+    <item>
+      <title>Making R Markdown work better for you</title>
+      <link>https://alison.rbind.io/talk/2021-rmd-params/</link>
+      <pubDate>Wed, 24 Mar 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rmd-params/</guid>
+      <description>Made with YAML, strings, and glue.</description>
+    </item>
+    
+    <item>
+      <title>Introduce yourself online</title>
+      <link>https://alison.rbind.io/talk/2021-rstudio-global/</link>
+      <pubDate>Mon, 25 Jan 2021 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rstudio-global/</guid>
+      <description>A special workshop for rstudio::global() diversity scholars</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; running with blogdown in 2021</title>
+      <link>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</guid>
+      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
+    </item>
+    
+    <item>
+      <title>Unbreak your blogdown site</title>
+      <link>https://alison.rbind.io/blog/2020-12-blogdown-checks/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-blogdown-checks/</guid>
+      <description>The latest release of the blogdown package (not yet on CRAN) includes new checking functions to help users make less breakable Hugo sites.</description>
+    </item>
+    
+    <item>
+      <title>M-F-E-O: postcards &#43; distill</title>
+      <link>https://alison.rbind.io/blog/2020-12-postcards-distill/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-postcards-distill/</guid>
+      <description>The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>The download</title>
+      <link>https://alison.rbind.io/talk/2020-larug/</link>
+      <pubDate>Tue, 08 Dec 2020 20:30:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-larug/</guid>
+      <description>Recent updates in the R Markdown family</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Pharma</title>
+      <link>https://alison.rbind.io/talk/2020-rmd4pharma/</link>
+      <pubDate>Wed, 07 Oct 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmd4pharma/</guid>
+      <description>A four-hour workshop for R / Pharma 2020 that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Teaching in Production</title>
+      <link>https://alison.rbind.io/talk/2020-rstudio-tip/</link>
+      <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rstudio-tip/</guid>
+      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>How I Taught Tidymodels, Virtually</title>
+      <link>https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/</guid>
+      <description>Some reflections on my third time teaching tidymodels for machine learning, and doing it virtually.</description>
+    </item>
+    
+    <item>
+      <title>How I Teach R Markdown</title>
+      <link>https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/</guid>
+      <description>A handful of guiding principles for introducing beginners to the R Markdown family of packages.</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to R Markdown for the CDC</title>
+      <link>https://alison.rbind.io/talk/2020-rmd4cdc/</link>
+      <pubDate>Wed, 13 May 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmd4cdc/</guid>
+      <description>A one-hour introduction to R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Sharing on Short Notice</title>
+      <link>https://alison.rbind.io/talk/2020-sharing-short-notice/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-sharing-short-notice/</guid>
+      <description>How to get your materials online on short notice.</description>
+    </item>
+    
+    <item>
+      <title>Communicating with R Markdown Workshop</title>
+      <link>https://alison.rbind.io/talk/2019-ysc-workshop/</link>
+      <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-ysc-workshop/</guid>
+      <description>A workshop for R Markdown users who want to get more out of R Markdown (and friends).</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine Workshop</title>
+      <link>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</guid>
+      <description>Using R Markdown in an end-to-end workflow to go from data to manuscript</description>
+    </item>
+    
+    <item>
+      <title>Meet blogdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-blogdown/</link>
+      <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-blogdown/</guid>
+      <description>Making websites in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet bookdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <description>Making books in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet flexdashboard</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <description>Making dashboards in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet xaringan</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <description>Making slides in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
+      <link>https://alison.rbind.io/project/ohsu-biostats/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-biostats/</guid>
+      <description>A 12-week introductory course that teaches students how to gain and communicate insights from biomedical data</description>
+    </item>
+    
+    <item>
+      <title>Principles &amp; Practice of Data Visualization</title>
+      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
+    </item>
+    
+    <item>
+      <title>Probability &amp; Statistics for Scientists and Engineers</title>
+      <link>https://alison.rbind.io/project/ohsu-cs-stats/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-cs-stats/</guid>
+      <description>A 12-week introduction to fundamental concepts underlying statistical data display, analysis, inference, and statistical decision making</description>
+    </item>
+    
+  </channel>
+</rss>

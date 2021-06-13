@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>Read Data with Multiple Header Rows into R | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="Read Data with Multiple Header Rows into R | Quentin Andres">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2018-07-multiple-headers/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/2018-07-multiple-headers/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/2018-07-multiple-headers/featured.jpg" >
+    
+    
+  <meta itemprop="name" content="Read Data with Multiple Header Rows into R">
+<meta itemprop="description" content="Using the readr package to sidestep a common problem"><meta itemprop="datePublished" content="2018-07-08T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-07-08T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2491"><meta itemprop="image" content="https://alison.rbind.io/blog/2018-07-multiple-headers/featured.jpg">
+<meta itemprop="keywords" content="" />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Read Data with Multiple Header Rows into R</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill in <a href="https://alison.rbind.io/categories/readr">readr</a>  <a href="https://alison.rbind.io/categories/readxl">readxl</a>  <a href="https://alison.rbind.io/categories/data-import">data import</a> </p>
+        <p class="f7 db mv0 ttu">July 8, 2018</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <div class="alert alert-note">
+  <div>
+    A shorter version of this blog post now appears as an <a href="https://readxl.tidyverse.org/articles/articles/multiple-header-rows.html">article vignette</a> for the <code>readxl</code> package, thank you to <a href="https://jennybryan.org/">Jenny Bryan</a> for the <a href="https://twitter.com/JennyBryan/status/1016442080636235776">invitation</a>!
+  </div>
+</div>
+<p>A problem I run up against a lot when working with other people’s data is having multiple header rows in the source data file. I like to use <code>readr</code> functions to read in rectangular data like <code>.csv</code> and <code>.tsv</code> files, but if you skip rows at import using the <code>skip</code> argument, you lose the header row as well, which usually has column names. The problem I often have is that the header row has column names that I want to keep, but I’d like to skip the second row (or more), which has some junk in it. Usually this row is some kind of data dictionary inserted between the row of column names and the actual data.</p>
+<p>In this post, I’ll walk through a solution to this problem, using the <code>readr</code> package. You can also watch along in the video.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/Mayf_XhsQDE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+<p>Warning!: I made a mistake when I said <code>readr</code> uses the first 100 rows of your data to predict column types- it uses the first 1000 rows.</p>
+<hr>
+<p><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:#ee5863;overflow:visible;position:relative;"><path d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"/></svg>
+<a href="data:text/csv;base64,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" download="stickers.csv">Download stickers.csv</a></p>
+<hr>
+
+
+
+
+<h2 id="being-sticker-rich">Being sticker rich
+  <a href="#being-sticker-rich"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>This dataset is from an article published in PLOS ONE called 
+<a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138928" target="_blank" rel="noopener">“Being Sticker Rich: Numerical Context Influences Children’s Sharing Behavior”</a>. In this study, children (ages 3–11) received a small (12, “sticker poor”) or large (30, “sticker rich”) number of stickers, and were then given the opportunity to share their windfall with either one or multiple anonymous recipients. This type of experimental design is a version of the 
+<a href="https://en.wikipedia.org/wiki/Dictator_game" target="_blank" rel="noopener">Dictator Game</a>.</p>
+<p><img src="stickers-plos-one.png" alt=""></p>
+<p>The main research questions the authors explored were: do the number of available resources and/or the number of potential recipients alter the likelihood of a child donating and/or the amount they donate? But, in order to answer this question, we have to be able to read in the data! Luckily, these lovely developmental psychologists opted to share their data on the 
+<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LHAQ5W" target="_blank" rel="noopener">Harvard Dataverse</a> as a tab-delimited file.</p>
+<p>If you download the file, you can open it up in a plain text editor.
+<img src="stickers-txt.png" alt=""></p>
+<p>You can also open it with Microsoft Excel.
+<img src="stickers-table.png" alt=""></p>
+
+
+
+
+<h2 id="read-in-the-file">Read in the file
+  <a href="#read-in-the-file"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Let’s start by creating a variable called <code>link</code> to store the link to the data file.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># create variable to store url</span>
+link <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#d14">&#34;https://dataverse.harvard.edu/api/access/datafile/2712105&#34;</span>
+</code></pre></div><p>The file has a <code>.tab</code> extension, so we know it is tab-delimited. This means that the right <code>readr</code> function for reading this file is <code>read_tsv</code>. Since we stored our link already as a character string, that is the only argument to the <code>read_tsv</code> function.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic">#install.packages(&#34;readr&#34;)</span>
+<span style="color:#900;font-weight:bold">library</span>(readr) <span style="color:#998;font-style:italic"># load the readr package</span>
+stickers <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">read_tsv</span>(link) 
+<span style="color:#998;font-style:italic"># spec()</span>
+</code></pre></div><p>Now, we know the second row of data is wonky, but how can we see that in R? There are a number of ways we can go spelunking around into our data file. The easiest to print it. Since we used <code>readr</code>, we have a tibble, which nicely prints to screen.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">stickers
+</code></pre></div><pre><code># # A tibble: 402 x 18
+#    SubjectNumber  Condition    NumberStickers NumberEnvelopes  Gender  Agemonths
+#    &lt;chr&gt;          &lt;chr&gt;        &lt;chr&gt;          &lt;chr&gt;            &lt;chr&gt;       &lt;dbl&gt;
+#  1 [Included Sam… 1=12:1; 2=1… 1=12; 2=30     1=1 recipient; … 1=fema…        NA
+#  2 1              1            1              1                1              36
+#  3 2              1            1              1                2              36
+#  4 3              1            1              1                2              36
+#  5 4              1            1              1                1              36
+#  6 5              1            1              1                2              36
+#  7 6              1            1              1                2              36
+#  8 7              2            1              2                1              36
+#  9 8              2            1              2                2              36
+# 10 9              3            2              1                2              36
+# # … with 392 more rows, and 12 more variables: Ageyears &lt;dbl&gt;, Agegroups &lt;chr&gt;,
+# #   Subject'sEnvelope &lt;chr&gt;, LeftEnvelope &lt;chr&gt;, RightEnvelope &lt;chr&gt;,
+# #   absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30) &lt;chr&gt;,
+# #   PercentGiven(Outof100percent) &lt;chr&gt;, Giveornot &lt;chr&gt;,
+# #   LargerEnvelopeabs &lt;chr&gt;, LargeEnvelopepercent &lt;chr&gt;,
+# #   SmallerEnvelopeabs &lt;chr&gt;, SmallEnvelopepercent &lt;chr&gt;
+</code></pre>
+<p>Unfortunately, <code>dplyr::glimpse</code> can’t help us much, because we have one variable name that is ridiculously long (<code>absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)</code>). We’ll fix that with <code>dplyr::rename</code>.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">library</span>(dplyr)
+<span style="color:#900;font-weight:bold">glimpse</span>(stickers)
+</code></pre></div><pre><code># Rows: 402
+# Columns: 18
+# $ SubjectNumber                                                                  &lt;chr&gt; …
+# $ Condition                                                                      &lt;chr&gt; …
+# $ NumberStickers                                                                 &lt;chr&gt; …
+# $ NumberEnvelopes                                                                &lt;chr&gt; …
+# $ Gender                                                                         &lt;chr&gt; …
+# $ Agemonths                                                                      &lt;dbl&gt; …
+# $ Ageyears                                                                       &lt;dbl&gt; …
+# $ Agegroups                                                                      &lt;chr&gt; …
+# $ `Subject'sEnvelope`                                                            &lt;chr&gt; …
+# $ LeftEnvelope                                                                   &lt;chr&gt; …
+# $ RightEnvelope                                                                  &lt;chr&gt; …
+# $ `absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)` &lt;chr&gt; …
+# $ `PercentGiven(Outof100percent)`                                                &lt;chr&gt; …
+# $ Giveornot                                                                      &lt;chr&gt; …
+# $ LargerEnvelopeabs                                                              &lt;chr&gt; …
+# $ LargeEnvelopepercent                                                           &lt;chr&gt; …
+# $ SmallerEnvelopeabs                                                             &lt;chr&gt; …
+# $ SmallEnvelopepercent                                                           &lt;chr&gt; …
+</code></pre>
+<p>More options:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">head</span>(stickers)
+</code></pre></div><pre><code># # A tibble: 6 x 18
+#   SubjectNumber   Condition    NumberStickers NumberEnvelopes  Gender  Agemonths
+#   &lt;chr&gt;           &lt;chr&gt;        &lt;chr&gt;          &lt;chr&gt;            &lt;chr&gt;       &lt;dbl&gt;
+# 1 [Included Samp… 1=12:1; 2=1… 1=12; 2=30     1=1 recipient; … 1=fema…        NA
+# 2 1               1            1              1                1              36
+# 3 2               1            1              1                2              36
+# 4 3               1            1              1                2              36
+# 5 4               1            1              1                1              36
+# 6 5               1            1              1                2              36
+# # … with 12 more variables: Ageyears &lt;dbl&gt;, Agegroups &lt;chr&gt;,
+# #   Subject'sEnvelope &lt;chr&gt;, LeftEnvelope &lt;chr&gt;, RightEnvelope &lt;chr&gt;,
+# #   absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30) &lt;chr&gt;,
+# #   PercentGiven(Outof100percent) &lt;chr&gt;, Giveornot &lt;chr&gt;,
+# #   LargerEnvelopeabs &lt;chr&gt;, LargeEnvelopepercent &lt;chr&gt;,
+# #   SmallerEnvelopeabs &lt;chr&gt;, SmallEnvelopepercent &lt;chr&gt;
+</code></pre>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">tail</span>(stickers)
+</code></pre></div><pre><code># # A tibble: 6 x 18
+#   SubjectNumber Condition NumberStickers NumberEnvelopes Gender Agemonths
+#   &lt;chr&gt;         &lt;chr&gt;     &lt;chr&gt;          &lt;chr&gt;           &lt;chr&gt;      &lt;dbl&gt;
+# 1 396           1         1              1               2            136
+# 2 397           4         2              2               1            136
+# 3 398           1         1              1               1            137
+# 4 399           1         1              1               2            137
+# 5 400           4         2              2               2            139
+# 6 401           3         2              1               1            143
+# # … with 12 more variables: Ageyears &lt;dbl&gt;, Agegroups &lt;chr&gt;,
+# #   Subject'sEnvelope &lt;chr&gt;, LeftEnvelope &lt;chr&gt;, RightEnvelope &lt;chr&gt;,
+# #   absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30) &lt;chr&gt;,
+# #   PercentGiven(Outof100percent) &lt;chr&gt;, Giveornot &lt;chr&gt;,
+# #   LargerEnvelopeabs &lt;chr&gt;, LargeEnvelopepercent &lt;chr&gt;,
+# #   SmallerEnvelopeabs &lt;chr&gt;, SmallEnvelopepercent &lt;chr&gt;
+</code></pre>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">names</span>(stickers)
+</code></pre></div><pre><code>#  [1] &quot;SubjectNumber&quot;                                                               
+#  [2] &quot;Condition&quot;                                                                   
+#  [3] &quot;NumberStickers&quot;                                                              
+#  [4] &quot;NumberEnvelopes&quot;                                                             
+#  [5] &quot;Gender&quot;                                                                      
+#  [6] &quot;Agemonths&quot;                                                                   
+#  [7] &quot;Ageyears&quot;                                                                    
+#  [8] &quot;Agegroups&quot;                                                                   
+#  [9] &quot;Subject'sEnvelope&quot;                                                           
+# [10] &quot;LeftEnvelope&quot;                                                                
+# [11] &quot;RightEnvelope&quot;                                                               
+# [12] &quot;absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)&quot;
+# [13] &quot;PercentGiven(Outof100percent)&quot;                                               
+# [14] &quot;Giveornot&quot;                                                                   
+# [15] &quot;LargerEnvelopeabs&quot;                                                           
+# [16] &quot;LargeEnvelopepercent&quot;                                                        
+# [17] &quot;SmallerEnvelopeabs&quot;                                                          
+# [18] &quot;SmallEnvelopepercent&quot;
+</code></pre>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># View()</span>
+</code></pre></div><p>Now we are ready to diagnose the problem!</p>
+<p><strong>Problem</strong>: the first row is not really data. It is metadata about the variables, and it is screwing up <strong>readr</strong>’s ability to predict our column types.</p>
+<p><strong>Solution</strong>: we’ll use <strong>readr</strong> and the <code>read_tsv()</code> function to read in the data twice. In Step 1, we’ll create a character vector of the column names only. In Step 2, we’ll read in the actual data and skip the multiple header rows at the top. When we do this, we lose the column names, so we use the character vector of column names we created in Step 1 instead.</p>
+
+
+
+
+<h2 id="read-in-the-file-again">Read in the file (again)
+  <a href="#read-in-the-file-again"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+
+
+
+
+<h3 id="step-1">Step 1
+  <a href="#step-1"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p><strong>Goal</strong>: we want to read in the first row only and save it as a character vector called <code>sticker_names</code>. This row contains the correct column names that we’ll need in Step 2.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">sticker_names <span style="color:#000;font-weight:bold">&lt;-</span> link <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">read_tsv</span>(n_max <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> <span style="color:#998;font-style:italic"># default: col_names = TRUE</span>
+  <span style="color:#900;font-weight:bold">rename</span>(stickersgiven <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)&#39;</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">names</span>()
+sticker_names
+</code></pre></div><pre><code>#  [1] &quot;SubjectNumber&quot;                 &quot;Condition&quot;                    
+#  [3] &quot;NumberStickers&quot;                &quot;NumberEnvelopes&quot;              
+#  [5] &quot;Gender&quot;                        &quot;Agemonths&quot;                    
+#  [7] &quot;Ageyears&quot;                      &quot;Agegroups&quot;                    
+#  [9] &quot;Subject'sEnvelope&quot;             &quot;LeftEnvelope&quot;                 
+# [11] &quot;RightEnvelope&quot;                 &quot;stickersgiven&quot;                
+# [13] &quot;PercentGiven(Outof100percent)&quot; &quot;Giveornot&quot;                    
+# [15] &quot;LargerEnvelopeabs&quot;             &quot;LargeEnvelopepercent&quot;         
+# [17] &quot;SmallerEnvelopeabs&quot;            &quot;SmallEnvelopepercent&quot;
+</code></pre>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">glimpse</span>(sticker_names)
+</code></pre></div><pre><code>#  chr [1:18] &quot;SubjectNumber&quot; &quot;Condition&quot; &quot;NumberStickers&quot; &quot;NumberEnvelopes&quot; ...
+</code></pre>
+
+
+
+
+<h3 id="step-2">Step 2
+  <a href="#step-2"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p><strong>Goal</strong>: we want to read in all the rows <em>except</em> for the first two rows, which contained the variable names and variable descriptions. We want to save this as <code>stickers</code>, and set the column names to the <code>sticker_names</code> object we created in Step 1.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">stickers <span style="color:#000;font-weight:bold">&lt;-</span> link <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">read_tsv</span>(skip <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">2</span>, col_names <span style="color:#000;font-weight:bold">=</span> sticker_names)
+<span style="color:#900;font-weight:bold">glimpse</span>(stickers)
+</code></pre></div><pre><code># Rows: 401
+# Columns: 18
+# $ SubjectNumber                   &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,…
+# $ Condition                       &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3,…
+# $ NumberStickers                  &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2,…
+# $ NumberEnvelopes                 &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1,…
+# $ Gender                          &lt;dbl&gt; 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 1,…
+# $ Agemonths                       &lt;dbl&gt; 36, 36, 36, 36, 36, 36, 36, 36, 36, 36…
+# $ Ageyears                        &lt;dbl&gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,…
+# $ Agegroups                       &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…
+# $ `Subject'sEnvelope`             &lt;dbl&gt; 7, 12, 4, 7, 12, 8, 8, 11, 26, 30, 12,…
+# $ LeftEnvelope                    &lt;dbl&gt; 5, 0, 8, 5, 0, 4, 2, 1, 4, 0, 18, 18, …
+# $ RightEnvelope                   &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, NA, …
+# $ stickersgiven                   &lt;dbl&gt; 5, 0, 8, 5, 0, 4, 4, 1, 4, 0, 18, 18, …
+# $ `PercentGiven(Outof100percent)` &lt;dbl&gt; 0.42, 0.00, 0.67, 0.42, 0.00, 0.33, 0.…
+# $ Giveornot                       &lt;dbl&gt; 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0,…
+# $ LargerEnvelopeabs               &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 2, 1, NA, NA, …
+# $ LargeEnvelopepercent            &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 0.5000000, 1.0…
+# $ SmallerEnvelopeabs              &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, NA, …
+# $ SmallEnvelopepercent            &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 0.5000000, 0.0…
+</code></pre>
+
+
+
+
+<h2 id="fin">Fin!
+  <a href="#fin"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>All together now: the final solution!</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># load packages</span>
+<span style="color:#900;font-weight:bold">library</span>(readr)
+<span style="color:#900;font-weight:bold">library</span>(dplyr)
+
+<span style="color:#998;font-style:italic"># create variable to store url</span>
+link <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#d14">&#34;https://dataverse.harvard.edu/api/access/datafile/2712105&#34;</span>
+
+<span style="color:#998;font-style:italic"># read in column names only</span>
+sticker_names <span style="color:#000;font-weight:bold">&lt;-</span> link <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">read_tsv</span>(n_max <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> <span style="color:#998;font-style:italic"># default: col_names = TRUE</span>
+  <span style="color:#900;font-weight:bold">rename</span>(stickersgiven <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)&#39;</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">names</span>()
+
+<span style="color:#998;font-style:italic"># read in data, set column names</span>
+stickers <span style="color:#000;font-weight:bold">&lt;-</span> link <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">read_tsv</span>(skip <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">2</span>, col_names <span style="color:#000;font-weight:bold">=</span> sticker_names)
+</code></pre></div>
+
+
+
+<h2 id="addendum">Addendum
+  <a href="#addendum"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>For good measure, I would add a final step to everything above and use <code>janitor::clean_names()</code> to put all the variable names into snake case. So my final final solution is here:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># load packages</span>
+<span style="color:#900;font-weight:bold">library</span>(readr)
+<span style="color:#900;font-weight:bold">library</span>(dplyr)
+<span style="color:#900;font-weight:bold">library</span>(janitor)
+
+<span style="color:#998;font-style:italic"># create variable to store url</span>
+link <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#d14">&#34;https://dataverse.harvard.edu/api/access/datafile/2712105&#34;</span>
+
+<span style="color:#998;font-style:italic"># read in column names only</span>
+sticker_names <span style="color:#000;font-weight:bold">&lt;-</span> link <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">read_tsv</span>(n_max <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">0</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> <span style="color:#998;font-style:italic"># default: col_names = TRUE</span>
+  <span style="color:#900;font-weight:bold">rename</span>(stickersgiven <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)&#39;</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">names</span>()
+
+<span style="color:#998;font-style:italic"># read in data, set column names</span>
+stickers <span style="color:#000;font-weight:bold">&lt;-</span> link <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">read_tsv</span>(skip <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">2</span>, col_names <span style="color:#000;font-weight:bold">=</span> sticker_names) <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">clean_names</span>()
+</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">stickers
+</code></pre></div><pre><code># # A tibble: 401 x 18
+#    subject_number condition number_stickers number_envelopes gender agemonths
+#             &lt;dbl&gt;     &lt;dbl&gt;           &lt;dbl&gt;            &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt;
+#  1              1         1               1                1      1        36
+#  2              2         1               1                1      2        36
+#  3              3         1               1                1      2        36
+#  4              4         1               1                1      1        36
+#  5              5         1               1                1      2        36
+#  6              6         1               1                1      2        36
+#  7              7         2               1                2      1        36
+#  8              8         2               1                2      2        36
+#  9              9         3               2                1      2        36
+# 10             10         3               2                1      2        36
+# # … with 391 more rows, and 12 more variables: ageyears &lt;dbl&gt;, agegroups &lt;dbl&gt;,
+# #   subjects_envelope &lt;dbl&gt;, left_envelope &lt;dbl&gt;, right_envelope &lt;dbl&gt;,
+# #   stickersgiven &lt;dbl&gt;, percent_given_outof100percent &lt;dbl&gt;, giveornot &lt;dbl&gt;,
+# #   larger_envelopeabs &lt;dbl&gt;, large_envelopepercent &lt;dbl&gt;,
+# #   smaller_envelopeabs &lt;dbl&gt;, small_envelopepercent &lt;dbl&gt;
+</code></pre>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">glimpse</span>(stickers)
+</code></pre></div><pre><code># Rows: 401
+# Columns: 18
+# $ subject_number                &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 1…
+# $ condition                     &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 4…
+# $ number_stickers               &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2…
+# $ number_envelopes              &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 2…
+# $ gender                        &lt;dbl&gt; 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 1, 1…
+# $ agemonths                     &lt;dbl&gt; 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, …
+# $ ageyears                      &lt;dbl&gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3…
+# $ agegroups                     &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
+# $ subjects_envelope             &lt;dbl&gt; 7, 12, 4, 7, 12, 8, 8, 11, 26, 30, 12, 1…
+# $ left_envelope                 &lt;dbl&gt; 5, 0, 8, 5, 0, 4, 2, 1, 4, 0, 18, 18, 0,…
+# $ right_envelope                &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, NA, NA…
+# $ stickersgiven                 &lt;dbl&gt; 5, 0, 8, 5, 0, 4, 4, 1, 4, 0, 18, 18, 0,…
+# $ percent_given_outof100percent &lt;dbl&gt; 0.42, 0.00, 0.67, 0.42, 0.00, 0.33, 0.33…
+# $ giveornot                     &lt;dbl&gt; 1, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1…
+# $ larger_envelopeabs            &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 2, 1, NA, NA, NA…
+# $ large_envelopepercent         &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 0.5000000, 1.000…
+# $ smaller_envelopeabs           &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 2, 0, NA, NA, NA…
+# $ small_envelopepercent         &lt;dbl&gt; NA, NA, NA, NA, NA, NA, 0.5000000, 0.000…
+</code></pre>
+
+
+
+
+<h2 id="bonus-data-dictionary">Bonus data dictionary
+  <a href="#bonus-data-dictionary"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>As an extra bonus, when you do have extra header rows, you can create a data dictionary using the <code>gather()</code> function from the <strong>tidyr</strong> package.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">library</span>(tidyr)
+stickers_dict <span style="color:#000;font-weight:bold">&lt;-</span> <span style="color:#900;font-weight:bold">read_tsv</span>(link, n_max <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">1</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">rename</span>(stickersgiven <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;absolutenumberofstickersgiven(Conditions1or3:Outof12;Conditions2or4:Outof30)&#39;</span>) <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">clean_names</span>() <span style="color:#000;font-weight:bold">%&gt;%</span> 
+  <span style="color:#900;font-weight:bold">gather</span>(variable_name, variable_description)
+stickers_dict
+</code></pre></div><pre><code># # A tibble: 18 x 2
+#    variable_name           variable_description                                 
+#    &lt;chr&gt;                   &lt;chr&gt;                                                
+#  1 subject_number          [Included Sample Only]                               
+#  2 condition               1=12:1; 2=12:2, 3=30:1, 4=30:2                       
+#  3 number_stickers         1=12; 2=30                                           
+#  4 number_envelopes        1=1 recipient; 2=2 recipients                        
+#  5 gender                  1=female; 2=male                                     
+#  6 agemonths               &lt;NA&gt;                                                 
+#  7 ageyears                &lt;NA&gt;                                                 
+#  8 agegroups               1=3-4yrs; 2=5-6yrs; 3=7-8yrs; 4=9-11yrs              
+#  9 subjects_envelope       How many stickers did the child keep for themselves …
+# 10 left_envelope           1 recipient conditions: How many stickers the subjec…
+# 11 right_envelope          1 recipient conditions: N/A; 2 recipient conditions:…
+# 12 stickersgiven           Regardless of condition, the number of stickers the …
+# 13 percent_given_outof100… Regardless of condition, the proportion of stickers …
+# 14 giveornot               1=Donated 1 or more stickers to the recipient(s); 0=…
+# 15 larger_envelopeabs      Raw number of stickers (out of 30: Condition 2 or 4 …
+# 16 large_envelopepercent   Proportion of stickers (out of 100%; Condition 2 or …
+# 17 smaller_envelopeabs     Raw number of stickers (out of 30: Condition 2 or 4 …
+# 18 small_envelopepercent   Proportion of stickers (out of 100%; Condition 2 or …
+</code></pre>
+
+
+
+
+<h2 id="useful-resources">Useful resources
+  <a href="#useful-resources"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ul>
+<li>Great blog post from 
+<a href="https://twitter.com/lisadebruine" target="_blank" rel="noopener">Lisa DeBruine</a> using <code>readxl</code> to read in data with multiple header rows (including those with merged cells!): <a href="https://debruine.github.io/multirow">https://debruine.github.io/multirow</a>_headers.html</li>
+<li>This GitHub issue with Hadley’s response that solved all my problems:
+<a href="https://github.com/tidyverse/readr/issues/179">https://github.com/tidyverse/readr/issues/179</a></li>
+<li>My original tweet when I discovered this trick!</li>
+</ul>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Neat <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> <a href="https://twitter.com/hashtag/readr?src=hash&amp;ref_src=twsrc%5Etfw">#readr</a> <a href="https://twitter.com/hashtag/tidyverse?src=hash&amp;ref_src=twsrc%5Etfw">#tidyverse</a> solution to read data when 1st row is header + 2nd row is junk, thanks <a href="https://twitter.com/hadleywickham?ref_src=twsrc%5Etfw">@hadleywickham</a> <a href="https://t.co/5TuH7vNaID">https://t.co/5TuH7vNaID</a> <a href="https://t.co/woZ3HuECge">pic.twitter.com/woZ3HuECge</a></p>&mdash; Alison Presmanes Hill (@apreshill) <a href="https://twitter.com/apreshill/status/904772340902379520?ref_src=twsrc%5Etfw">September 4, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">July 8, 2018</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">12 minute read, 2491 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://alison.rbind.io/categories/readr">readr</a>  <a href="https://alison.rbind.io/categories/readxl">readxl</a>  <a href="https://alison.rbind.io/categories/data-import">data import</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2017-12-rladies-xaringan/">&larr; R-Ladies Presentation Ninja</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2019-12-teaching-ml/">Learning to Teach Machines to Learn &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="rbind/apreshill"
+          issue-term="title"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

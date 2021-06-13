@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/</link>
+    <description>Recent content in Tags on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blogdown</title>
+      <link>https://alison.rbind.io/tags/blogdown/</link>
+      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://alison.rbind.io/tags/rmarkdown/</link>
+      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/rmarkdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://alison.rbind.io/tags/hugo/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://alison.rbind.io/tags/software/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data visualization</title>
+      <link>https://alison.rbind.io/tags/data-visualization/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ggplot2</title>
+      <link>https://alison.rbind.io/tags/ggplot2/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oz2019</title>
+      <link>https://alison.rbind.io/tags/oz2019/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/oz2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xaringan</title>
+      <link>https://alison.rbind.io/tags/xaringan/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/xaringan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>netlify</title>
+      <link>https://alison.rbind.io/tags/netlify/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distill</title>
+      <link>https://alison.rbind.io/tags/distill/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/distill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postcards</title>
+      <link>https://alison.rbind.io/tags/postcards/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/postcards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>teaching</title>
+      <link>https://alison.rbind.io/tags/teaching/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>https://alison.rbind.io/tags/plot/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>https://alison.rbind.io/tags/r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>https://alison.rbind.io/tags/regression/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://alison.rbind.io/tags/r/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://alison.rbind.io/tags/learning/</link>
+      <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
+      <link>https://alison.rbind.io/tags/workshop/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://alison.rbind.io/tags/machine-learning/</link>
+      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidymodels</title>
+      <link>https://alison.rbind.io/tags/tidymodels/</link>
+      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/tidymodels/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookdown</title>
+      <link>https://alison.rbind.io/tags/bookdown/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/bookdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website</title>
+      <link>https://alison.rbind.io/tags/website/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/website/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidy data</title>
+      <link>https://alison.rbind.io/tags/tidy-data/</link>
+      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/tidy-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://alison.rbind.io/tags/education/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>https://alison.rbind.io/tags/talk/</link>
+      <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>flexdashboard</title>
+      <link>https://alison.rbind.io/tags/flexdashboard/</link>
+      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/flexdashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://alison.rbind.io/tags/research/</link>
+      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>https://alison.rbind.io/tags/science/</link>
+      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://alison.rbind.io/tags/github/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducibility</title>
+      <link>https://alison.rbind.io/tags/reproducibility/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dataviz</title>
+      <link>https://alison.rbind.io/tags/dataviz/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/dataviz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>book</title>
+      <link>https://alison.rbind.io/tags/book/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>course</title>
+      <link>https://alison.rbind.io/tags/course/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>statistics</title>
+      <link>https://alison.rbind.io/tags/statistics/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tidyverse</title>
+      <link>https://alison.rbind.io/tags/tidyverse/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

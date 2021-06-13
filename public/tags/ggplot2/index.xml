@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot2 on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/ggplot2/</link>
+    <description>Recent content in ggplot2 on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Feb 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/ggplot2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2021-rladies-jozi/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rladies-jozi/</guid>
+      <description>Alison Hill (I think her unofficial nickname is RMarkdown Whisperer) is going to talk to us on another of her strengths. Making things beautiful, and informative. She&amp;rsquo;s going to do her &amp;ldquo;Take a Sad Plot &amp;amp; Make it Better&amp;rdquo; talk, for us. In this talk, Alison will discuss one plot’s life cycle, from a sad Powerpoint slide to the finished product made with the ggplot2 package in R, and what she learnt from it.</description>
+    </item>
+    
+    <item>
+      <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
+      <link>https://alison.rbind.io/talk/2019-rladies-sydney/</link>
+      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rladies-sydney/</guid>
+      <description>Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the ggplot2 package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the tidyr package.
+You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using ggplot2.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2019-rladies-melbourne/</link>
+      <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rladies-melbourne/</guid>
+      <description>In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.
+Latest event    This talk was most recently given at the University of South Wales on 2019/10/04.</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization in the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2018-uo-plotoff/</link>
+      <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-uo-plotoff/</guid>
+      <description>Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:
+ Tidy data is the start of your data wrangling journey, not the end There is not a single &amp;ldquo;tidy&amp;rdquo; version of a dataset Tidy data does make you more nimble!  </description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</link>
+      <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</guid>
+      <description>Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.</description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/project/code-your-graph/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/code-your-graph/</guid>
+      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/talk/2016-ohsu-dataviz/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2016-ohsu-dataviz/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Principles &amp; Practice of Data Visualization</title>
+      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>Hugo Page Bundles | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="Why (and how) you should use Hugo&#39;s new page bundles feature.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="Hugo Page Bundles | Quentin Andres">
+<meta property="og:description" content="Why (and how) you should use Hugo&#39;s new page bundles feature." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2019-02-spoonful-bundles/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/spoonful-hugo/sidebar.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/spoonful-hugo/sidebar.jpg" >
+    
+    
+  <meta itemprop="name" content="Hugo Page Bundles">
+<meta itemprop="description" content="&ldquo;Just a spoonful of Hugo helps the blog go down.&rdquo;
+  me, only somewhat kidding  In this series, I&rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my &ldquo;Spoonful of Hugo&rdquo; series about Hugo archetypes and Hugo versions.
+This is my third post in this series and it is breaking news."><meta itemprop="datePublished" content="2019-02-21T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-02-21T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1187">
+<meta itemprop="keywords" content="hugo," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container single-series">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+                       
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pl3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Hugo Page Bundles</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill in <a href="https://alison.rbind.io/categories/theme-features">Theme Features</a>  <a href="https://alison.rbind.io/categories/r">R</a> </p>
+        <p class="f7 db mv0 ttu">February 21, 2019</p>
+      </header>
+      <section class="post-body pt5 pb4">
+        <blockquote>
+<p>&ldquo;Just a spoonful of Hugo helps the blog go down.&rdquo;</p>
+</blockquote>
+<ul>
+<li>me, only somewhat kidding</li>
+</ul>
+<p>In this series, I&rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site <em>UP</em> (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my &ldquo;Spoonful of Hugo&rdquo; series 
+<a href="/post/2019-02-19-hugo-archetypes/">about Hugo archetypes</a> and 
+<a href="/post/2019-02-19-hugo-netlify-toml/">Hugo versions</a>.</p>
+<p>This is my third post in this series and it is breaking news.</p>
+<p><img src="https://media.giphy.com/media/dZCdA82qa8d4xVIwm3/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="hugo-page-bundles">Hugo Page Bundles
+  <a href="#hugo-page-bundles"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Well, not really breaking news, but you still may not know about it! Hugo v0.32 
+<a href="https://gohugo.io/news/0.32-relnotes/" target="_blank" rel="noopener">introduced</a> a new feature called Page Bundles, as a way to organize the content files. Blogdown users rejoice that 
+<a href="https://twitter.com/dvaughan32" target="_blank" rel="noopener">Davis Vaughn</a> posted an 
+<a href="https://github.com/rstudio/blogdown/issues/351" target="_blank" rel="noopener">issue</a> on the rstudio/blogdown repo to enable this option, which Yihui added shortly before rstudio::conf 2019 🎉. Here is the snippet from the <code>NEWS.md</code>:</p>
+<blockquote>
+<p>&ldquo;One benefit of using a page bundle instead of a normal page is that you can put resource files associated with the post (such as images) under the same directory of the post itself. This means you no longer have to put them under the <code>static/</code> directory, which has been quite confusing to Hugo beginners.&rdquo;</p>
+</blockquote>
+<p>What does a blogdown/Hugo site begin to look like without page bundles? I think here is a representative example from 
+<a href="https://github.com/tidyverse/tidyverse.org/tree/c0eb070017cab794029b8ed3ac518f6e1a245a2b/content/articles" target="_blank" rel="noopener">tidyverse.org</a> <em>(sorry tidyverse team- it&rsquo;s not you, it&rsquo;s the old Hugo).</em></p>
+<p>For this team, they need an image for every post, which gets out of control pretty fast. Also, some ended up in 
+<a href="https://github.com/tidyverse/tidyverse.org/tree/c0eb070017cab794029b8ed3ac518f6e1a245a2b/static/images" target="_blank" rel="noopener"><code>static/</code></a> too, organized by post (which I have done on my own blog, though not well or consistently).</p>
+<p>What would it look like to use page bundles?</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">content<span style="color:#000;font-weight:bold">/</span>
+├── about
+│   ├── index.md
+├── posts
+│   ├── <span style="color:#099">2015-07-23</span><span style="color:#000;font-weight:bold">-</span>hi<span style="color:#000;font-weight:bold">-</span>world
+│   │   ├── bakers.csv
+│   │   ├── image1.jpg
+│   │   ├── image2.png
+│   │   └── index.Rmd
+│   └── <span style="color:#099">2015-07-24</span><span style="color:#000;font-weight:bold">-</span>bye<span style="color:#000;font-weight:bold">-</span>world
+│       └── index.Rmd
+</code></pre></div><p>One could call this bundled file structure &ldquo;tidier&rdquo; 🍱.</p>
+<p>In the above, after serving site, <code>index.html</code> files also get added to the bundle. In Hugo&rsquo;s terms, these are 
+<a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener">leaf bundles</a>. The resource files allowed in a bundle include page and non-page items like images, pdf, .csv files, etc.</p>
+<p>This is instead of:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">content<span style="color:#000;font-weight:bold">/</span>
+├── about
+│   ├── index.md
+├── posts
+│   ├── <span style="color:#099">2015-07-23</span><span style="color:#000;font-weight:bold">-</span>hi<span style="color:#000;font-weight:bold">-</span>world.Rmd
+│   ├── bakers.csv
+│   ├── image1.jpg
+│   ├── image2.png
+│   └── <span style="color:#099">2015-07-24</span><span style="color:#000;font-weight:bold">-</span>bye<span style="color:#000;font-weight:bold">-</span>world.Rmd
+</code></pre></div><p>When you create a new bundled post, the actual content of the post goes in the index file of a page bundle. So:</p>
+<pre><code># not bundled post
+post/2015-07-23-hi-world.Rmd
+# bundled post
+post/2015-07-24-bye-world/index.Rmd
+</code></pre>
+
+
+
+<h2 id="bundle-me-blogdown">Bundle Me, blogdown!
+  <a href="#bundle-me-blogdown"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>First, read the previous post on setting up a 
+<a href="/post/2019-02-19-hugo-netlify-toml/">netlify.toml file</a>. Since using Hugo page bundles depends on Hugo v0.32 or higher, you should go ahead and update hugo then update your netlify.toml with your updated version:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">update_hugo</span>()
+blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">hugo_version</span>()
+</code></pre></div><p>Now, let&rsquo;s use the 
+<a href="https://usethis.r-lib.org/" target="_blank" rel="noopener"><strong>usethis</strong> package</a>.</p>
+
+
+
+
+<h3 id="project-specific-rprofile">Project-specific .Rprofile
+  <a href="#project-specific-rprofile"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>First, I&rsquo;m going to demo here how to create a project-specific .Rprofile file- but know that you can do a user-level .Rprofile file too.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># install.packages(&#34;usethis&#34;) # uncomment this to install</span>
+usethis<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">edit_r_profile</span>(scope <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;project&#34;</span>)
+</code></pre></div><p>These helpful messages <em>should</em> print to your console: please note the &ldquo;restart&rdquo; reminder&hellip;</p>
+<pre><code>&gt; usethis::edit_r_profile(scope = &quot;project&quot;)
+● Restart R for changes to take effect
+✔ Setting active project to '/Users/alison/rprojs/alison.rbind.io'
+● Modify '.Rprofile'
+</code></pre><p>Now you could add this to your file:</p>
+<pre><code># in .Rprofile of the website project
+if (file.exists(&quot;~/.Rprofile&quot;)) {
+  base::sys.source(&quot;~/.Rprofile&quot;, envir = environment())
+}
+
+options(blogdown.new_bundle = TRUE)
+</code></pre><p>The first code chunk above is from the 
+<a href="https://bookdown.org/yihui/blogdown/global-options.html#global-options" target="_blank" rel="noopener">blogdown book</a>, where we describe a workaround for loading both user and project .Rprofile files (since R technically only reads one startup profile file).</p>
+<p>If you don&rsquo;t want this, you could add the blogdown options to your user .Rprofile instead using:</p>
+<pre><code>usethis::edit_r_profile(scope = &quot;user&quot;)
+</code></pre><p>Heck, while you are at it, you could set a <em>bunch</em> of options to make your blogdown life easier:</p>
+<pre><code># in .Rprofile of the website project
+if (file.exists(&quot;~/.Rprofile&quot;)) {
+  base::sys.source(&quot;~/.Rprofile&quot;, envir = environment())
+}
+
+options(
+  blogdown.author = &quot;Alison Hill&quot;,
+  blogdown.ext = &quot;.Rmd&quot;,
+  blogdown.subdir = &quot;post&quot;,
+  blogdown.yaml.empty = TRUE,
+  blogdown.new_bundle = TRUE,
+  blogdown.title_case = TRUE
+)
+</code></pre><p>For the blogdown-specific options, any of these prepopulate content in your &ldquo;New Post&rdquo; Addin (I told you to use this 
+<a href="/post/2019-02-19-hugo-archetypes/">here</a>). There is a handy 
+<a href="https://bookdown.org/yihui/blogdown/global-options.html" target="_blank" rel="noopener">table</a> from the blogdown book, summarized here:</p>
+<ul>
+<li><code>blogdown.author</code> = author of new posts</li>
+<li><code>blogdown.ext</code> = default extension of new posts (can also be &ldquo;.md&rdquo; or &ldquo;.Rmarkdown&rdquo;)</li>
+<li><code>blogdown.subdir</code> = theme-specific, you need to know your theme and content folder here</li>
+<li><code>blogdown.yaml.empty</code> = I told you to do that 
+<a href="/post/2019-02-19-hugo-archetypes/">here</a></li>
+<li><code>blogdown.new_bundle</code> = what this whole post is about!</li>
+<li><code>blogdown.title_case</code> = &ldquo;nEed More coFFee&rdquo; &ndash;&gt; &ldquo;Need More Coffee&rdquo; (it tidies all your post titles to title case)</li>
+</ul>
+
+
+
+
+<h3 id="the-newline-thing">The Newline Thing
+  <a href="#the-newline-thing"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Here is a <strong>massive</strong> .Rprofile gotcha: this file <strong>must</strong> end with a blank line. So make sure you add an empty line at the end of the file, then save it, and restart your R session.</p>
+<p><img src="restart-r.png" alt=""></p>
+<p>Want to make your general R life easier in the future? Follow Yihui&rsquo;s 
+<a href="https://yihui.name/en/2018/04/rprofile-trailing-newline/" target="_blank" rel="noopener">advice</a> and do this in RStudio to ensure that all source files end with a newline:</p>
+<p><img src="https://db.yihui.name/images/rstudio-newline.png" alt=""></p>
+
+
+
+
+<h2 id="use-bundles">Use Bundles
+  <a href="#use-bundles"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>After restarting R, try using the &ldquo;New Post&rdquo; Addin, this time <em>with feeling</em>. There is <em>still</em> one more gotcha though. Use the Addin to create your new bundled post. The only catch is that once you are looking at your exciting new post, you should <strong>delete the slug</strong> in the YAML (I posted an issue about this 
+<a href="https://github.com/rstudio/blogdown/issues/370" target="_blank" rel="noopener">here</a>).</p>
+<p>The reason is that you want the link to your post to be:</p>
+<p><code>http://alison.rbind.io/post/2019-02-21-hugo-page-bundles/</code></p>
+<p>If you include the slug, the link to your post will be:</p>
+<p><code>http://alison.rbind.io/post/2019-02-21-hugo-page-bundles/hugo-page-bundles</code></p>
+<p>Another option is to update your <code>config.toml</code> file with permalinks like 
+<a href="https://bookdown.org/yihui/blogdown/configuration.html" target="_blank" rel="noopener">Yihui suggests</a> (but beware: this will change all your past links as well, requiring some 
+<a href="https://yihui.name/en/2017/11/301-redirect/" target="_blank" rel="noopener">Netlify redirects</a>):</p>
+<pre><code>[permalinks]
+    post = &quot;/:year/:month/:day/:slug/&quot;
+</code></pre><p>The default here from Hugo was <code>/post/:year-:month-:day-:slug/:slug/</code>.</p>
+<p>A small note: if you want to add relative links from a blog post to another post in your same blog. So <code>[this](/post/2019-02-19-hugo-archetypes/)</code> becomes 
+<a href="/post/2019-02-19-hugo-archetypes/">this</a>.</p>
+<p>Now, add images and data files to your ❤️'s content! But you may want to do one more thing&hellip;</p>
+
+
+
+
+<h2 id="update-metadata">Update Metadata
+  <a href="#update-metadata"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>If you are anything like me, you may draft a blog post then come back to it later. For example, I started this post 2 days ago, but want to publish it today, 2021-05-24. The cool thing that was already built-in to blogdown is the &ldquo;Update Metadata&rdquo; Addin. With your blog post open (it should be called <code>index.Rmd</code>)^[If no post is open, you will get an error: <code>Warning message: The current document does not seem to contain YAML metadata</code>], click on Addins and select &ldquo;Update Metadata&rdquo;. You should see a window like this:</p>
+<p><img src="update-metadata.png" alt=""></p>
+<p>Check the box to rename the file if the date has changed. RStudio will tell you your file has been deleted- which is technically true since the folder was renamed, but don&rsquo;t panic!</p>
+<p><img src="file-deleted-warning.png" alt=""></p>
+<p>Click YES. The <code>index.Rmd</code> file that is now open should have an updated date field in the YAML. In your RStudio file viewer, you may want to click on &ldquo;content&rdquo; at this point then navigate back to view your post- then you will then see that the folder name now has an updated date too.</p>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2020-12-how-much-hugo/">&larr; How much Hugo do I need to know?</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/">The netlify.toml File &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+  </section>
+</main>
+
+<aside class="page-sidebar" role="complementary">
+                         
+ 
+
+
+                       
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <img src="/blog/spoonful-hugo/sidebar.jpg" class="db ma0">
+
+
+<div class="blog-info ph4 pt4 pb4 pb0-l">
+  
+
+  <h1 class="f3">A Spoonful of Hugo</h1>
+  <p class="f6 lh-copy measure">Small spoonfuls of Hugo I collect that may help you get your site up and running even better: more efficient, more streamlined, more automated.</p>
+  <p class="f7 measure lh-copy i mh0-l">Written by Alison Hill</p>
+
+
+  
+</div>
+
+
+
+
+                         
+ 
+
+
+
+<div class="flex items-start sticky ph4 pb4">
+  <div class="w-two-thirds w-50-l ph0">
+    
+    <h2 class="mt3 mb3 f5 fw7 ttu tracked"><a class="no-underline dim" href="/blog/spoonful-hugo/">In this series</a></h2>
+    <nav id="SeriesTableOfContents">
+        <ul>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-netlify-toml/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/">The netlify.toml File</a></li>
+        
+          
+          <li class="active" hugo-nav="/blog/2019-02-spoonful-bundles/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-bundles/">Hugo Page Bundles</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2020-12-how-much-hugo/"><a href="https://alison.rbind.io/blog/2020-12-how-much-hugo/">How much Hugo do I need to know?</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-03-spoonful-troubleshooting/"><a href="https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/">Troubleshooting Your Build</a></li>
+        
+          
+          <li class="" hugo-nav="/blog/2019-02-spoonful-archetypes/"><a href="https://alison.rbind.io/blog/2019-02-spoonful-archetypes/">Hugo Archetypes</a></li>
+        
+        </ul>
+      </nav>
+  </div>
+  <details open id="PageTableOfContents">
+    <summary><h2 class="mv0 f5 fw7 ttu tracked dib">On this page</h2></summary>
+    <div class="pl2 pr0 mh0">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#hugo-page-bundles">Hugo Page Bundles</a></li>
+    <li><a href="#bundle-me-blogdown">Bundle Me, blogdown!</a></li>
+    <li><a href="#use-bundles">Use Bundles</a></li>
+    <li><a href="#update-metadata">Update Metadata</a></li>
+  </ul>
+</nav>
+    </div>
+  </details>
+  
+</div>
+</aside>
+
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

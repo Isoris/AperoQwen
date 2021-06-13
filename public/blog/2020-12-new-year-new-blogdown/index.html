@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>Up &amp; running with blogdown in 2021 | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="Up &amp; running with blogdown in 2021 | Quentin Andres">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/featured.jpg" >
+    
+    
+  <meta itemprop="name" content="Up &amp; running with blogdown in 2021">
+<meta itemprop="description" content="New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief."><meta itemprop="datePublished" content="2020-12-31T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-31T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="4566"><meta itemprop="image" content="https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/featured.jpg">
+<meta itemprop="keywords" content="hugo,blogdown,netlify,rmarkdown," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container single-sidebar">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 pr3-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Up &amp; running with blogdown in 2021</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill in <a href="https://alison.rbind.io/categories/hugo">hugo</a>  <a href="https://alison.rbind.io/categories/blogdown">blogdown</a>  <a href="https://alison.rbind.io/categories/netlify">netlify</a>  <a href="https://alison.rbind.io/categories/rmarkdown">rmarkdown</a> </p>
+        <p class="f7 db mv0 ttu">December 31, 2020</p>
+      </header>
+      <section class="post-body pt5 pb4">
+        
+
+
+
+<h2 id="welcome">Welcome
+  <a href="#welcome"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Hi! Hello! Welcome. Bienvenidos.</p>
+<p>About 3.5 years ago, I wrote my 
+<a href="/post/2017-06-12-up-and-running-with-blogdown/">first blog post</a> and published it on my first website. Since then, that single post has been viewed over 27,557 times. That may not seem like a lot to some folks, but it is to me! Even more meaningful to me, though, has been watching the launches of so many people&rsquo;s personal websites.</p>
+<p><img src="https://media.giphy.com/media/BU5j1oVls8rXG/giphy.gif" alt=""></p>
+<p>However, the process of creating and maintaining a Hugo website using blogdown was not always pain-free. Sometimes we have Hugo &ldquo;improvements&rdquo; to thank, other times your Hugo theme is at fault, and sometimes we could blame blogdown. Regardless of where the pain came from, there was definitely room for improvement.</p>
+<p><img src="https://media.giphy.com/media/KTyJ3VPxkbDKU/giphy.gif" alt=""></p>
+<p>Here are some great blog posts that document pretty common user experiences and frustrations:</p>
+<ul>
+<li>
+<p>
+<a href="https://masalmon.eu/2020/02/29/hugo-maintenance/" target="_blank" rel="noopener">Maëlle Salmon&rsquo;s post: <em>What to know before you adopt Hugo/blogdown</em></a></p>
+</li>
+<li>
+<p>
+<a href="https://drmowinckels.io/blog/2020-05-25-changing-you-blogdown-workflow/" target="_blank" rel="noopener">Athanasia Mowinckel&rsquo;s post: <em>Changing your blogdown workflow</em></a></p>
+</li>
+<li>
+<p>
+<a href="https://clauswilke.com/blog/2020/09/08/a-blogdown-post-for-the-ages/" target="_blank" rel="noopener">Claus Wilke&rsquo;s post: <em>Writing a blogdown post for the ages</em></a></p>
+</li>
+</ul>
+<p>All of this, combined with my own experiences teaching and using blogdown for over 3.5 years led me to&hellip;my giant blogdown wishlist. I had a lot of ideas to help beginners get started, but just as important, to improve the quality of life for existing users. You can see my mega-wishlist that Yihui Xie (the blogdown conceptor and author) asked me to share with him: <a href="https://github.com/rstudio/blogdown/issues/476">https://github.com/rstudio/blogdown/issues/476</a></p>
+<p>I&rsquo;m very happy to report that our team has been working very hard to address these issues, and many others raised by users, to make blogdown easier to learn and use. Just in time for the new year, we have a new and improved release of the blogdown package for you to test. I know a lot of folks are itching to introduce themselves into online communities and conversations, so I thought it would be fun to take my original blogdown post, and trace the same process of building a Hugo website with the same theme (now named 
+<a href="https://wowchemy.com/" target="_blank" rel="noopener">&ldquo;Wowchemy&rdquo;</a> instead of Hugo Academic- don&rsquo;t get me started).</p>
+<p>So if you are feeling fearless and want to live on the bleeding edge, read on to give the development version of blogdown a spin along with me.</p>
+<p><img src="https://media.giphy.com/media/42zi6wvKUbXHbzwBbD/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="tldr">tl;dr
+  <a href="#tldr"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>If you already know what you are doing, this entire post can be condensed into just a few lines of code:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">remotes<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">install_github</span>(<span style="color:#d14">&#34;rstudio/blogdown&#34;</span>)
+usethis<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">create_project</span>()
+blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">new_site</span>(theme <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;wowchemy/starter-academic&#34;</span>)
+blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">serve_site</span>()
+blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">new_post</span>(title <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;Hi Hugo&#34;</span>, 
+                     ext <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#39;.Rmarkdown&#39;</span>, 
+                     subdir <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;post&#34;</span>)
+usethis<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">use_git</span>()
+usethis<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">use_github</span>() <span style="color:#998;font-style:italic"># requires a GitHub PAT</span>
+</code></pre></div><p>The above sequence is a slightly more advanced workflow than the steps I follow below, but is fairly magical- attempt at your own risk! For everyone else, read on&hellip;</p>
+
+
+
+
+<h2 id="pre-requisites">Pre-requisites
+  <a href="#pre-requisites"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Getting any website up and running with all the moving parts (RStudio, GitHub, Hugo, Netlify) can take a few tries. In this post, I&rsquo;m passing along what works for me, and the workflow that I use when I teach Hugo website development. Everyone&rsquo;s mileage may vary, though, depending on your operating system and your approach.</p>
+<p>For this blog post, I&rsquo;m assuming you have basic familiarity with:</p>
+<ul>
+<li>R,</li>
+<li>the RStudio IDE, and</li>
+<li>GitHub.</li>
+</ul>
+<p>If that is not you, you will need to work through 
+<a href="http://happygitwithr.com" target="_blank" rel="noopener">Happy Git with R</a> by Jenny Bryan et al. first, then come back here when you are ready.</p>
+<p>Since the development version of blogdown is currently only available on GitHub, you may need to setup a 
+<a href="https://happygitwithr.com/github-pat.html" target="_blank" rel="noopener">GitHub Personal Access Token</a> to install it.</p>
+<p>In my original 2017 post, I mentioned that at that time, I was a new mom, and just in the process of writing all that up, I filled up my tea mug twice with ice cold water, and filled my water bottle with scalding hot water. This time around isn&rsquo;t too different! Fast forward to 2020: there is a global pandemic, I&rsquo;ve been under stay-at-home orders with a child under 5 years of age at home for months. So buckle up 🤠</p>
+<p><img src="https://media.giphy.com/media/Q9vJgdNPoyKSA6APDo/giphy.gif" alt=""></p>
+<div class="alert alert-note">
+  <div>
+    I&rsquo;ve included code chunks below using the <a href="https://rstudio.github.io/rstudioapi/">rstudioapi</a> package to help you navigate to the right file at the right time. Hugo sites have a dizzying and heavily nested directory structure! You&rsquo;ll need to run <code>install.packages(&quot;rstudioapi&quot;)</code> to use those code chunks, but you can also navigate on your own to the file you need too.
+  </div>
+</div>
+
+
+
+
+<h2 id="step-0-set-your-intentions">Step 0: Set your intentions
+  <a href="#step-0-set-your-intentions"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="00-blogdown-2021.gif" alt=""></p>
+<p>During workshops, I try to set aside some time at the start for folks to set their website intentions. This might feel a bit like navel-gazing, but trust me here. I know you just want to jump in and get started!</p>
+<p>Hear me out though, and don&rsquo;t skim or skip this step. The process of actually building and deploying a personal site can be complicated, and it is easy to get lost in the weeds.</p>
+<p><img src="https://media.giphy.com/media/l3vRbcJ60KOxd9bVu/giphy.gif" alt=""></p>
+<p>It is very easy to run out of steam when it is time to do the most fun and important piece: dreaming about the kind of site you want to make!</p>
+<div class="alert alert-todo">
+  <div>
+    Do this right now! Take 10 minutes to set your website intentions&mdash;grab a pen and notepad and a cup of 🍵 and read on&hellip;
+  </div>
+</div>
+
+
+
+
+<h3 id="todo-content">1. Content
+  <a href="#todo-content"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Hugo is made for blogs. But, in addition to a blog, the starter-academic theme provides a unique system of widgets. You can have one or many widgets on pages in your site. I like to think of widgets like 
+<a href="https://en.wikipedia.org/wiki/Mr._Potato_Head" target="_blank" rel="noopener">Mr. Potato Head</a> where:</p>
+<ul>
+<li>Each page is a potato head, and</li>
+<li>Each widget is a piece you could place on the potato head.</li>
+</ul>
+<p><img src="https://media.giphy.com/media/tjGVkrPMjngt2/giphy.gif" alt=""></p>
+<p>Take the homepage for example, seen on the 
+<a href="https://academic-demo.netlify.app/" target="_blank" rel="noopener">Academic demo site</a>. Each band or section you see is a widget. Widgets can be stand-alone pages, or can be combined on a single page.</p>
+<p>Examples:</p>
+<ul>
+<li>Multiple widget page: my 
+<a href="/resume/">resume</a> and 
+<a href="/about/">about</a> pages</li>
+<li>Single widget page: my 
+<a href="/projects/">projects</a></li>
+</ul>
+<div class="alert alert-todo">
+  <div>
+    Look at the <a href="https://academic-demo.netlify.app/">Academic demo site</a> and write down some widgets you see that you like, and the ones you definitely don&rsquo;t.
+  </div>
+</div>
+
+
+
+
+<h3 id="todo-menu">2. Menu
+  <a href="#todo-menu"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Now that you have a sense of the content you want, how do you want a visitor to be able to explore your content? I typically recommend limiting the top navbar to 5 links max (excluding the search icon).</p>
+<p>Use some of my favorite personal sites (that do not use our theme) as inspiration too:</p>
+<ul>
+<li><a href="https://www.jason.af/">https://www.jason.af/</a></li>
+<li><a href="https://www.nistara.net">https://www.nistara.net</a></li>
+<li><a href="https://third-bit.com/">https://third-bit.com/</a></li>
+<li><a href="https://maggieappleton.com/">https://maggieappleton.com/</a></li>
+<li><a href="https://www.drcathicks.com/">https://www.drcathicks.com/</a></li>
+<li><a href="https://amber.rbind.io/">https://amber.rbind.io/</a></li>
+<li><a href="https://dscott.netlify.app/">https://dscott.netlify.app/</a></li>
+<li><a href="https://drmowinckels.io/">https://drmowinckels.io/</a></li>
+</ul>
+<p>Think about how the menu &ldquo;prewires&rdquo; you to know what to expect as you dig deeper into their site. How do you want people to get to know you online?</p>
+<div class="alert alert-todo">
+  <div>
+    Write down up to 5 items to appear in your upper navbar.
+  </div>
+</div>
+
+
+
+
+<h3 id="todo-home">3. Homepage
+  <a href="#todo-home"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>This is the first page a visitor lands on when they find your site. Think of it like a welcome mat. Do you like a single page site where you scroll and see everything on one page? Or do you prefer a short and sweet homepage? Do you want a photo and a bio to be the first thing visitors see? What else?</p>
+<p>Here are some examples of personal websites built with the Hugo Academic theme to inspire you:</p>
+<ul>
+<li><a href="https://malco.io/">https://malco.io/</a></li>
+<li><a href="https://isabella-b.com/">https://isabella-b.com/</a></li>
+<li><a href="https://www.connorrothschild.com/">https://www.connorrothschild.com/</a></li>
+<li><a href="https://silvia.rbind.io/">https://silvia.rbind.io/</a></li>
+<li><a href="https://maya.rbind.io/">https://maya.rbind.io/</a></li>
+<li><a href="https://www.allisonhorst.com/">https://www.allisonhorst.com/</a></li>
+<li><a href="https://juliasilge.com/">https://juliasilge.com/</a></li>
+<li><a href="https://desiree.rbind.io/">https://desiree.rbind.io/</a></li>
+</ul>
+<div class="alert alert-todo">
+  <div>
+    Write down the widgets you want to see on your homepage. It can be one, or many.
+  </div>
+</div>
+<p>OK, keep these notes handy! We are ready to <em>make something.</em></p>
+<p><img src="https://media.giphy.com/media/mXqtfNsJlKtAoyLHd4/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="step-1-create-repo">Step 1: Create repo
+  <a href="#step-1-create-repo"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="01-blogdown-2021.png" alt=""></p>
+<ol>
+<li>
+<p>Go online to your 
+<a href="https://github.com" target="_blank" rel="noopener">GitHub</a> account, and create a new repository (check to initialize with a <code>README</code> but don&rsquo;t add <code>.gitignore</code>- this will be taken care of later). For naming your repo, consider your future deployment plan:</p>
+<p><img src="github-new-repo.png" alt="Screenshot above: Creating a new repository in GitHub"></p>
+<ul>
+<li>
+<p>
+<a href="https://www.netlify.com" target="_blank" rel="noopener"><strong>Netlify</strong></a>. I recommend using Netlify to <em>both</em> build and host your site. In this case, you can name the repository anything you want!</p>
+</li>
+<li>
+<p>
+<a href="https://pages.github.com" target="_blank" rel="noopener"><strong>GitHub Pages</strong></a>. I recommend Netlify over GitHub Pages for blogdown/Hugo sites. But, if you want to host your site with GitHub Pages, you should name your repository <code>yourgithubusername.github.io</code> (so mine would have been <code>apreshill.github.io</code>). This post won&rsquo;t be able to help you with publishing.</p>
+</li>
+</ul>
+</li>
+</ol>
+<div class="alert alert-note">
+  <div>
+    You can see some of the repo names used by members of the <code>rbind</code> organization <a href="https://github.com/rbind/repositories">here</a>.
+  </div>
+</div>
+<ol start="2">
+<li>
+<p>Go to the main page of your new repository, and under the repository name, click the green <strong>Clone or download</strong> button.</p>
+</li>
+<li>
+<p>Choose either SSH or HTTPS (if you don&rsquo;t know which, choose HTTPS). Choose by clicking on the clipboard icon to copy the remote URL for your new repository. You&rsquo;ll paste this text into RStudio in the next section.</p>
+</li>
+</ol>
+
+
+
+
+<h2 id="step-2-create-project">Step 2: Create project
+  <a href="#step-2-create-project"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="02-blogdown-2021.png" alt=""></p>
+<p>We just created the remote repository on GitHub. To make a local copy on our computer that we can actually work in, we&rsquo;ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com) and your local desktop.</p>
+<p>Open up RStudio to create a new project where your website&rsquo;s files will live.</p>
+<ol>
+<li>
+<p>Click <code>File &gt; New Project &gt; Version Control &gt; Git</code>.</p>
+</li>
+<li>
+<p>Paste the copied URL from the previous step.</p>
+</li>
+<li>
+<p>Be intentional about where you tell RStudio to create this new Project on your workstation.</p>
+</li>
+<li>
+<p>Click <strong>Create Project</strong>.</p>
+</li>
+</ol>
+
+
+
+
+<h2 id="step-3-create-site">Step 3: Create site
+  <a href="#step-3-create-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="03-blogdown-2021.png" alt=""></p>
+<ol>
+<li>
+<p>The latest version of blogdown will not be available on CRAN until January 2021, but you can install the development version from GitHub with:</p>
+<pre><code>&gt; if (!requireNamespace(&quot;remotes&quot;)) install.packages(&quot;remotes&quot;)
+&gt; remotes::install_github(&quot;rstudio/blogdown&quot;)
+Using github PAT from envvar GITHUB_PAT
+Downloading GitHub repo rstudio/blogdown@master
+</code></pre></li>
+<li>
+<p>Let&rsquo;s use our first blogdown function to create a website with the Hugo Wowchemy &ldquo;starter-academic&rdquo; project:</p>
+<pre><code>&gt; library(blogdown)
+&gt; new_site(theme = &quot;wowchemy/starter-academic&quot;)
+</code></pre></li>
+<li>
+<p>You should now see something like this. Take a moment to read through these messages - importantly, it tells you how to start and stop the server so you can preview your site. Importantly, when you come back to your project, note that you can use <code>blogdown::serve_site()</code> or the &ldquo;Serve Site&rdquo; addin to preview it locally.</p>
+<p><img src="new_hugo_start.png" alt=""></p>
+<p>Let&rsquo;s select <code>y</code> to let blogdown start a server for us.</p>
+<p>Exciting, isn&rsquo;t it? Now, don&rsquo;t trap your site in the RStudio Viewer pane. Let it out! Click to &ldquo;Show in new window&rdquo; (to the right of the 🧹 icon) to preview it in a normal browser window. When you do that, you&rsquo;ll be re-directed to the site&rsquo;s main homepage. Let&rsquo;s find our way back to the R Markdown post. Click on <code>Posts &gt; Hello R Markdown</code> to read it:</p>
+<p><img src="sample_post.png" alt=""></p>
+<p>This is what blogdown gives you- everything else in the site is given to you by Hugo and your Wowchemy Hugo theme. But this post, and your ability to see output and plots rendered with <i class="fab fa-r-project"></i> is what blogdown adds!</p>
+</li>
+</ol>
+
+
+
+
+<h2 id="step-4-create-content">Step 4: Create content
+  <a href="#step-4-create-content"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="04-blogdown-2021.png" alt=""></p>
+<p>Let&rsquo;s use more R Markdown 🎉</p>
+<p>Blogdown allows you to create new two kinds of R Markdown posts that are knittable:</p>
+<ul>
+<li>
+<p><code>.Rmd</code> 🧶 to <code>.html</code> or</p>
+</li>
+<li>
+<p><code>.Rmarkdown</code> 🧶 to <code>.markdown</code></p>
+</li>
+</ul>
+<p>Once knitted, both are then previewable in your Hugo site.</p>
+<div class="alert alert-note">
+  <div>
+    I used to agonize over which file extension to use. But now I am squarely in <code>.Rmarkdown</code> camp with <a href="https://masalmon.eu/2020/02/29/hugo-maintenance/">Maëlle</a>- I like knitting to <code>.markdown</code> and wish this was easier in blogdown; see: <a href="https://github.com/rstudio/blogdown/issues/530">https://github.com/rstudio/blogdown/issues/530</a>
+  </div>
+</div>
+<p>Use the console to author a new <code>.Rmarkdown</code> post; I&rsquo;ll name my post &ldquo;Hi Hugo&rdquo;:</p>
+<pre><code>&gt; blogdown::new_post(title = &quot;Hi Hugo&quot;, 
+                     ext = '.Rmarkdown', 
+                     subdir = &quot;post&quot;)
+</code></pre><p>This takes the path to where you want your post to live, relative to the <code>content/</code> folder (so that piece of the path is assumed, rightly so!). In the Academic theme, the example site organizes blog posts into the <code>content/post/</code> folder, but the name of this folder varies across Hugo themes.</p>
+<div class="alert alert-note">
+  <div>
+    A rule that is true 90% of the time: folders in <code>content/</code> are singular, not plural&mdash; ✔️ <code>post</code>; ❌ <code>posts</code>
+  </div>
+</div>
+<p>You can add an option to your <code>.Rprofile</code> to save these settings so you don&rsquo;t have to remember them:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># if exists, opens; if not, creates new</span>
+blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">config_Rprofile</span>() 
+</code></pre></div><p>Then add the blogdown options to that file, save, and <strong>RESTART YOUR R SESSION</strong> for changes to take effect:</p>
+<pre><code>options(
+  # to automatically serve the site on RStudio startup, set this option to TRUE
+  blogdown.serve_site.startup = FALSE,
+  # to disable knitting Rmd files on save, set this option to FALSE
+  blogdown.knit.on_save = FALSE     &lt;- change
+  blogdown.author = &quot;Alison Hill&quot;,  &lt;- add
+  blogdown.ext = &quot;.Rmarkdown&quot;,      &lt;- add
+  blogdown.subdir = &quot;post&quot;          &lt;- add
+)
+</code></pre><div class="alert alert-warning">
+  <div>
+    Always restart your R session after editing your <code>.Rprofile</code> for changes to take effect. Don&rsquo;t forget to run <code>serve_site()</code> after a restart.
+  </div>
+</div>
+<p>If you look in your <strong>Files</strong> pane, you can see that this creates a folder with the date and the 
+<a href="https://en.wikipedia.org/wiki/Clean_URL#Slug" target="_blank" rel="noopener">&ldquo;slug&rdquo;</a> name of my post (<code>&quot;hi-hugo&quot;</code>). The actual R Markdown file is named <code>index.Rmarkdown</code>.</p>
+<p><img src="new_post.png" alt=""></p>
+<p>This is a Hugo 
+<a href="/post/2019-02-21-hugo-page-bundles/">page bundle</a>. Each post gets its own bundle, or folder. Inside the post bundle is where all your static images, static data files like <code>.csv</code> files should go.</p>
+<pre><code>content/
+├── posts
+│   ├── 2021-01-01-hi-hugo
+│   │   ├── bakers.csv
+│   │   ├── image1.jpg
+│   │   ├── image2.png
+│   │   └── index.Rmarkdown
+</code></pre><p>In the post itself, use the relative file path like:</p>
+<pre><code>![my-first-image](image1.jpg)
+</code></pre><p>Let&rsquo;s look at the <code>index.Rmarkdown</code>. We&rsquo;ll knit this <code>.Rmarkdown</code> to a <code>.markdown</code> file. You may 🧶 knit 🧶 freely now in blogdown!</p>
+<p><img src="https://media.giphy.com/media/iBjylURwS9N9FCl8Dl/giphy.gif" alt=""></p>
+<p>To knit an <code>.Rmarkdown</code> post, you can either:</p>
+<ol>
+<li>
+<p>Use the Knit button to knit to the correct output format, or</p>
+</li>
+<li>
+<p>Use the keyboard shortcut <code>Cmd+Shift+K</code> (Mac) or <code>Ctrl+Shift+K</code> (Windows/Linux).</p>
+</li>
+</ol>
+<p>After knitting, you should now see:</p>
+<pre><code>content/
+├── posts
+│   ├── hi-hugo
+│   │   ├── bakers.csv
+│   │   ├── image1.jpg
+│   │   ├── image2.png
+│   │   ├── index.Rmarkdown
+│   │   └── index.markdown   &lt;- 🆕
+</code></pre><p>Go ahead and add an R code chunk like:</p>
+<pre><code>```{r}
+summary(Orange)
+```
+</code></pre><p>After you edit your <code>.Rmarkdown</code> post, knit. Note that knitting automatically saves the file for you. You also can just save the file without knitting- this is good for when your code still needs work and won&rsquo;t run as is.</p>
+<div class="alert alert-note">
+  <div>
+    The most important thing here is to realize that the act of knitting creates an <code>index.markdown</code> file in the same post bundle as <code>index.Rmarkdown</code>. Because Hugo doesn&rsquo;t know R or R Markdown, The <code>index.markdown</code> version is what then feeds into the Hugo static site generator.
+  </div>
+</div>
+<p>Try it again! Add another R code chunk like:</p>
+<pre><code>```{r echo=FALSE}
+library(ggplot2)
+oplot &lt;- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = FALSE) +
+  theme_bw()
+oplot
+```
+</code></pre><p>Knit, and you should see something like:</p>
+<p><img src="post-plot.png" alt=""></p>
+<div class="alert alert-warning">
+  <div>
+    Many R Markdown output options for HTML documents are not going to be possible here, like tabbed sections, floating table of contents, the <code>code_download</code> button, etc. Also, HTML widgets are a little dicey currently.
+  </div>
+</div>
+<p>This is a single page. It is made with R Markdown, and happens to be a blog post, although you can use R Markdown to create content for any other content section too.</p>
+<p>If you want a featured image to accompany your post and show up on your listing page (the clickable list of all your posts), you&rsquo;ll want to add an image with the word <code>featured</code> in the filename:</p>
+<pre><code>content/
+├── posts
+│   ├── hi-hugo
+│   │   ├── bakers.csv
+│   │   ├── image1.jpg
+│   │   ├── image2.png
+│   │   ├── index.Rmarkdown
+│   │   ├── index.markdown   
+│   │   └── featured-bakers.jpg   &lt;- ➕
+</code></pre>
+
+
+
+<h3 id="workflow">Workflow
+  <a href="#workflow"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>My workflow in RStudio at this point (again, just viewing locally because we haven&rsquo;t deployed yet) works best like this:</p>
+<ol>
+<li>
+<p>Open the RStudio project for the site.</p>
+</li>
+<li>
+<p>Start the Hugo server using <code>blogdown::serve_site()</code> (only once due to the magic of <em>LiveReload</em>).</p>
+</li>
+<li>
+<p>View site in the RStudio viewer pane, and open in a new browser window while I work.</p>
+</li>
+<li>
+<p>Select existing files to edit using the file pane in RStudio.</p>
+</li>
+<li>
+<p>After making changes, save if a plain <code>.md</code> file, or if working with an <code>.Rmd</code> or an <code>.Rmarkdown</code> document, <code>knit</code> to preview! You can now use the Knit button to knit to the correct output format. You can also use the keyboard shortcut <code>Cmd+Shift+K</code> (Mac) or <code>Ctrl+Shift+K</code> (Windows/Linux).</p>
+</li>
+<li>
+<p>The console will detect the change (it will print <code>Change detected, rebuilding site.</code>), the viewer pane will update, and (in a few seconds) your local view in your browser will also refresh. Try to avoid hitting the refresh button in your browser.</p>
+</li>
+<li>
+<p>When happy with changes, add/commit/push changes to GitHub.</p>
+</li>
+</ol>
+<p>Having <code>blogdown::serve_site</code> running locally with <em>LiveReload</em> is especially useful as you can immediately see if you have totally screwed up. For example, in editing my <code>about.md</code> file, this error popped up in my console after making a change and I was able to fix the error right away:</p>
+<pre><code>Started building sites ...
+ERROR 2017/06/08 16:22:34 failed to parse page metadata for home/about.md: (18, 6): missing comma
+Error: Error building site: Errors reading pages: Error: failed to parse page metadata for home/about.md: (18, 6): missing comma for about.md
+</code></pre>
+
+
+
+<h3 id="using-github">Using GitHub
+  <a href="#using-github"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Let&rsquo;s go ahead and push our changes to GitHub. First, let&rsquo;s make a <code>.gitignore</code> file:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">file.edit</span>(<span style="color:#d14">&#34;.gitignore&#34;</span>)
+</code></pre></div><p>Add this content:</p>
+<pre><code>.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Thumbs.db
+</code></pre>
+
+
+
+<h3 id="check-yourself-before-you-wreck-yourself">Check yourself before you wreck yourself
+  <a href="#check-yourself-before-you-wreck-yourself"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Let&rsquo;s use blogdown to check this file before we do our first commit:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">check_gitignore</span>()
+</code></pre></div><p>You should see something like:</p>
+<pre><code>&gt; check_gitignore()
+― Checking .gitignore
+| Checking for items to remove...
+○ Nothing to see here - found no items to remove.
+| Checking for items you can safely ignore...
+○ Found! You have safely ignored: .DS_Store, Thumbs.db
+| Checking for items to ignore if you build the site on Netlify...
+● [TODO] When Netlify builds your site, you can safely add to .gitignore: public, resources
+― Check complete: .gitignore
+</code></pre><p>You have a <code>[TODO]</code> item- go ahead and add <code>public</code> and <code>resources</code> on their own lines in your <code>.gitignore</code> file. We&rsquo;ll be configuring Netlify to build our site shortly, so go right ahead while the file is open.</p>
+<p>While we are at it, let&rsquo;s check out our content too:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">check_content</span>()
+</code></pre></div><p>You may notice a few pieces of content are flagged as <code>draft</code>. This is good to know! Read up on drafts in Hugo 
+<a href="https://bookdown.org/yihui/blogdown/content.html#yaml-metadata" target="_blank" rel="noopener">here</a>.</p>
+<p>Our checks are pretty clean, so you can freely add/commit your project files to GitHub. You now should have the basic mechanics of your site working.</p>
+
+
+
+
+<h2 id="step-5-publish-site">Step 5: Publish site
+  <a href="#step-5-publish-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="05-blogdown-2021.png" alt=""></p>
+<p>Thus far, we&rsquo;ve only been previewing our site locally, then pushing the source files (but not the built site) to GitHub. This workflow works, but I assume you want to ride this bike. Let&rsquo;s skip the training wheels — we are going one step more advanced by using GitHub with Netlify now.</p>
+<div class="alert alert-note">
+  <div>
+    Note that you could use <code>blogdown::build_site()</code>, then publish the <code>public/</code> folder using Netlify <a href="https://app.netlify.com/drop">drag &amp; drop</a>. Watch this <a href="../talk/2020-sharing-short-notice/">webinar</a> called &ldquo;Sharing on Short Notice&rdquo; to learn more - but this is a less advanced workflow.
+  </div>
+</div>
+<p>To get started using Netlify for real (which has a free plan that should largely cover recreational blogging use!):</p>
+<ol>
+<li>
+<p>Go online to 
+<a href="https://www.netlify.com" target="_blank" rel="noopener">Netlify</a>.</p>
+</li>
+<li>
+<p>Click on the <strong>Sign Up</strong> button and sign up using your existing GitHub account (no need to create another account).</p>
+</li>
+<li>
+<p>Log in, and select: <code>New site from Git &gt; Continuous Deployment: GitHub</code>.</p>
+</li>
+<li>
+<p>From there, Netlify will allow you to select from your existing GitHub repositories. You&rsquo;ll pick the repo you&rsquo;ve been working from with <code>blogdown</code>. Leave all settings as they are and select <strong>Deploy Site</strong>.</p>
+</li>
+</ol>
+<p>You should see something like this:</p>
+<p><img src="new_netlify.png" alt=""></p>
+<p>When it is done, you can click on the link to your new site! And the most magical thing of all, every time you push any changes to your site to GitHub, Netlify will detect the push, re-build, then update your published site. It&rsquo;s a good thing. It&rsquo;s called continuous deployment, and it is the main reason to use Netlify for a blogdown site.</p>
+<p>With a new site, Netlify will deploy your site and assign you a random subdomain name of the form <code>random-word-12345.netlify.app</code>. Mine was particularly unfortunate, with the random word <code>garbage-collector-janice</code>. You should know that you can change this; I changed mine to <code>apreshill.netlify.app</code>. Do this by navigating to your site on Netlify, then click on <strong>Settings</strong>. Under <strong>Site information</strong>, click on the <em>Change site name</em> button.</p>
+<p><img src="netlify-site-name.png" alt=""></p>
+<p>Whether you change your Netlify site name or use the random one, go back to your configuration file and cchange the baseurl there to match where Netlify is publishing your site:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">rstudioapi<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">navigateToFile</span>(<span style="color:#d14">&#34;config.yaml&#34;</span>, line <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">3</span>)
+</code></pre></div><p>You actually have most of the necessary wiring laid out for you already in your repo, which is why this worked. Our site has a <code>netlify.toml</code> file, which sets us the necessary settings for letting Netlify build our site for us and then publish it. You can read more about this file 
+<a href="/post/2019-02-19-hugo-netlify-toml/">here</a>, and check it out using:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#998;font-style:italic"># if exists, opens; if not, creates new</span>
+blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">config_netlify</span>()
+</code></pre></div><p>Now, back in your local blogdown project, let&rsquo;s check this file with blogdown:</p>
+<pre><code>&gt; blogdown::check_netlify()
+― Checking netlify.toml...
+○ Found HUGO_VERSION = 0.79.1 in [build] context of netlify.toml.
+| Checking that Netlify &amp; local Hugo versions match...
+| Mismatch found:
+  blogdown is using Hugo version (0.79.0) to build site locally.
+  Netlify is using Hugo version (0.79.1) to build site.
+● [TODO] Option 1: Change HUGO_VERSION = &quot;0.79.0&quot; in netlify.toml to match local version.
+● [TODO] Option 2: Use blogdown::install_hugo(&quot;0.79.1&quot;) to match Netlify version, and set options(blogdown.hugo.version = &quot;0.79.1&quot;) in .Rprofile to pin this Hugo version.
+| Checking that Netlify &amp; local Hugo publish directories match...
+○ Good to go - blogdown and Netlify are using the same publish directory: public
+― Check complete: netlify.toml
+</code></pre><p>I recommend going with <code>Option 1</code> here, so follow that <code>[TODO]</code> and then run the function again to get a clean check.</p>
+<p>When you are ready to deploy, commit your changes and push to GitHub! Watch as your site rebuilds 🎉</p>
+<div class="alert alert-note">
+  <div>
+    <p>To get an <code>*.rbind.io</code> URL, follow <a href="/post/2017-06-12-up-and-running-with-blogdown/#rbindio-domain-names">these instructions</a>.</p>
+<p>Anytime you change your subdomain name, you need to update the <code>baseurl</code> in your <code>config.toml</code> file (so I changed mine to baseurl = &ldquo;<a href="https://apreshill.netlify.com/%22)">https://apreshill.netlify.com/&quot;)</a>.</p>
+  </div>
+</div>
+
+
+
+
+<h2 id="step-6-sculpt-site">Step 6: Sculpt site
+  <a href="#step-6-sculpt-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><img src="06-blogdown-2021.png" alt=""></p>
+<p>Now, we&rsquo;ll leave blogdown and R Markdown behind. We&rsquo;ll just be using Hugo and Wowchemy (I think it is said like alchemy? Why??) to build your personal website.</p>
+<p>Let&rsquo;s start by running another blogdown check to <code>check_hugo()</code>:</p>
+<pre><code>&gt; blogdown::check_hugo()
+― Checking Hugo
+| Checking Hugo version...
+○ Found 4 versions of Hugo. You are using Hugo 0.79.0.
+| Checking .Rprofile for Hugo version used by blogdown...
+○ blogdown is using Hugo 0.79.0 to build site locally.
+● [TODO] Also run blogdown::check_netlify() to check for possible problems with Hugo and Netlify.
+― Check complete: Hugo
+</code></pre><p>All set! We&rsquo;ve already checked out our Netlify set-up ✔️ If you wish to clean up your local Hugo installations, check out:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">remove_hugo</span>()
+</code></pre></div>
+
+
+
+<h3 id="configure-your-site">Configure your site
+  <a href="#configure-your-site"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Let&rsquo;s start with the last thing you typically do to your home- decorate.</p>
+<p>Open up the file <code>config/_default/params.toml</code>. Play with any of these configurations, but especially fonts/themes.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">rstudioapi<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">navigateToFile</span>(<span style="color:#d14">&#34;config/_default/params.toml&#34;</span>)
+</code></pre></div><div class="alert alert-note">
+  <div>
+    If you want deeper customization of the styling, you can create a new CSS file <code>assets/scss/custom.scss</code> and use it to override any existing styles. You can see mine <a href="https://github.com/rbind/apreshill/blob/master/assets/scss/custom.scss">here</a>; heavily borrowing from my former intern <a href="https://desiree.rbind.io/">Desirée De Leon</a>!
+  </div>
+</div>
+<p>While you are at it, edit the other configuration files:</p>
+<ul>
+<li>You can also view 
+<a href="https://github.com/rbind/apreshill/blob/master/config.toml" target="_blank" rel="noopener">my <code>config.toml</code> file</a></li>
+</ul>
+<p>Remember our 
+<a href="#todo-menu">menu intentions</a>? Go ahead and edit those too:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">rstudioapi<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">navigateToFile</span>(<span style="color:#d14">&#34;config/_default/menus.toml&#34;</span>)
+</code></pre></div><p>Let&rsquo;s run a blogdown check on the configuration file before we leave:</p>
+<pre><code>&gt; blogdown::check_config()
+― Checking config.yaml
+| Checking &quot;baseURL&quot; setting for Hugo...
+○ Found baseURL = &quot;https://silly-dubinsky-de5482.netlify.app&quot;; nothing to do here!
+| Checking &quot;ignoreFiles&quot; setting for Hugo...
+● [TODO] Add these items to the &quot;ignoreFiles&quot; setting: &quot;\\.Rmd$&quot;, &quot;\\.Rmarkdown$&quot;, &quot;\\.knit\\.md$&quot;, &quot;\\.utf8\\.md$&quot;
+| Checking setting for Hugo's Markdown renderer...
+○ All set! Found the &quot;unsafe&quot; setting for goldmark.
+― Check complete: config.yaml
+</code></pre><p>Looks like we have a few <code>[TODO]</code> items to add to our <code>config.yaml</code> file:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">rstudioapi<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">navigateToFile</span>(<span style="color:#d14">&#34;config.yaml&#34;</span>, line <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">15</span>)
+</code></pre></div>
+
+
+
+<h3 id="goodbye-nelson-b">Goodbye Nelson B.
+  <a href="#goodbye-nelson-b"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Let&rsquo;s say goodbye to 
+<a href="https://themes.gohugo.io/theme/academic/#about" target="_blank" rel="noopener">Nelson Bighetti</a>. Everything in this single markdown file populates what is called the <code>about</code> widget; a customized one looks like this:</p>
+<p><img src="about.png" alt=""></p>
+<p>Find and open the file <code>content/authors/admin/_index.md</code>:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">rstudioapi<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">navigateToFile</span>(<span style="color:#d14">&#34;content/authors/admin/_index.md&#34;</span>)
+</code></pre></div><p>Edit the YAML metadata to change:</p>
+<ul>
+<li>
+<p>The 
+<a href="https://wowchemy.com/docs/page-builder/#icons" target="_blank" rel="noopener">icons</a> and where they link to</p>
+</li>
+<li>
+<p>Your current role and organization</p>
+</li>
+<li>
+<p>Your interests</p>
+</li>
+<li>
+<p>Your education</p>
+</li>
+</ul>
+<p>The text under the YAML is your bio; you can use markdown here. Add an <code>avatar.jpg</code> file too (it <em>must</em> be named this) to the same folder.</p>
+
+
+
+
+<h3 id="prune-widgets">Prune widgets
+  <a href="#prune-widgets"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>Remember how we started with thinking about your 
+<a href="#todo-content">content</a>? We are ready to prune out some of our unwanted widgets.</p>
+<p>Recall that on the 
+<a href="https://academic-demo.netlify.app/" target="_blank" rel="noopener">Academic demo site</a>, the entire home page is filled with widgets! The default example site is the exact same as the demo. It sets almost every available widget to <strong>active</strong> to show you the range of what you could do.</p>
+<p>Deactivating the widgets you don&rsquo;t need and only activating the ones you want will help you avoid having your home page feel like the 💀 &ldquo;scroll of death,&rdquo; as my friend 
+<a href="https://twitter.com/jackiewirz" target="_blank" rel="noopener">Jackie Wirz</a> called it.</p>
+<p>Remember my 
+<a href="https://en.wikipedia.org/wiki/Mr._Potato_Head" target="_blank" rel="noopener">Mr. Potato Head</a> analogy? The home page is your most prominent potato, and the widgets are all the pieces you could use.</p>
+<p><img src="https://media.giphy.com/media/305jKnp2ErJK0/giphy.gif" alt=""></p>
+<p>Each widget you see is a <code>*.md</code> file in the <code>content/home/</code> folder. The metadata at the top helps you configure each widget; namely whether it is <code>active</code> (true or false) and the widgets <code>weight</code> (ordering, actual numbers doesn&rsquo;t matter- only relative to the other weights).</p>
+<p>For example, to turn off the hero widget, use this code in your console and set <code>active = false</code>:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">rstudioapi<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">navigateToFile</span>(<span style="color:#d14">&#34;content/home/hero.md&#34;</span>, line <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">5</span>, column <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">10</span>)
+</code></pre></div><p>Take about 10 minutes about try out turning widgets off and on, and changing their order to see what you like!</p>
+<div class="alert alert-note">
+  <div>
+    You can also delete a widget file. You can always recover <code>*.md</code> widget files by going into your <code>themes/hugo-academic/exampleSite/content/home/</code> folder.
+  </div>
+</div>
+<p>For my own site, I use 4 main home page widgets:</p>
+<ol>
+<li>
+<a href="/#about"><em>about</em></a> (photo / icons / bio / interests / education)</li>
+<li>
+<a href="/#slider"><em>slider</em></a> (used to showcase some feedback from my workshops)</li>
+<li>
+<a href="/#posts"><em>posts</em></a> (set to show only the most recent)</li>
+<li>
+<a href="/#talks"><em>talks</em></a> (set to show only the most recent)</li>
+</ol>
+
+
+
+
+<h3 id="transplant-widgets">Transplant widgets
+  <a href="#transplant-widgets"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>If you opted for a more streamlined home page with fewer widgets, you may experience <em>widget pruning regret</em>. Many are very useful, and you may wish to use widgets on <em>other</em> pages that are not the home page. In this theme, this is possible! Even if you turn off a widget on the home page, you can create what is called a widget page and add or even combine widgets there. I make heavy use of widget pages in my own site. Here are the steps (following the 
+<a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-widget-page" target="_blank" rel="noopener">docs</a>):</p>
+<ol>
+<li>
+<p>Create a new folder in <code>content/</code>; let&rsquo;s call it <code>resume</code></p>
+</li>
+<li>
+<p>Inside <code>content/resume/</code>, add a file named <code>index.md</code></p>
+</li>
+<li>
+<p>Populate <code>content/resume/index.md</code> with a YAML, like this:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">summary</span>:<span style="color:#bbb"> </span>More about my work experience<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">title</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Resume&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">type</span>:<span style="color:#bbb"> </span>widget_page<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div></li>
+</ol>
+<div class="alert alert-note">
+  <div>
+    The very critical line here is the <code>type: widget_page</code>&mdash;this sets you up to now copy over widgets from <code>content/home/</code> in this new folder.
+  </div>
+</div>
+<ol start="4">
+<li>
+<p>Copy the widget <code>*.md</code> files you&rsquo;d like to use into this <code>content/resume/</code> folder. Edit their metadata (weights, other info), and be sure to set <code>active = true</code>. For my own resume, I copied the <em>experience</em> and <em>accomplishments</em> widgets over.</p>
+</li>
+<li>
+<p>If you want to access this new widget page from your top navbar, open up your <code>config/_default/menus.toml</code> and add it there, like:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[[main]]
+  name = <span style="color:#d14">&#34;Resume&#34;</span>
+  url = <span style="color:#d14">&#34;/resume&#34;</span>
+  weight = <span style="color:#099">50</span>
+</code></pre></div></li>
+</ol>
+<div class="alert alert-note">
+  <div>
+    You can link to any specific widget by taking your baseurl and appending <code>/#{name-of-widget}</code>, so <code>/#slider</code> links to <a href="/#slider"><em>my homepage slider</em></a>. And <code>/resume/#accomplishments</code> links to <a href="/resume/#accomplishments"><em>my honors &amp; awards</em></a>
+  </div>
+</div>
+<p>Let&rsquo;s run one final check, which wraps all 5 checking functions we&rsquo;ve used so far into a single final checklist:</p>
+<pre><code>&gt; blogdown::check_site()
+</code></pre><p>This is immensely comforting to me; read more about these new checking functions 
+<a href="/post/2020-12-27-blogdown-checks/">here</a>.</p>
+<p><img src="https://media.giphy.com/media/j1zW1Ng86MV78tRLOo/giphy.gif" alt=""></p>
+
+
+
+
+<h2 id="we-made-it">We made it!
+  <a href="#we-made-it"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>At this point, you should be up and running with <code>blogdown</code>, GitHub, and Netlify. You now have the scaffold up and ready for your ideas, your style, and your voice. If you made it this far, please share your site- I&rsquo;d love to see it!</p>
+<p><img src="https://media.giphy.com/media/1xNDlJsL1ntZZqm7pn/giphy.gif" alt=""></p>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2020-12-blogdown-checks/">&larr; Unbreak your blogdown site</a>
+  
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="rbind/apreshill"
+          issue-term="title"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<aside class="page-sidebar" role="complementary">
+                         
+ 
+
+
+                       
+ 
+
+
+
+
+
+
+
+
+
+
+
+  <img src="/blog/sidebar.jpg" class="db ma0">
+
+
+<div class="blog-info ph4 pt4 pb4 pb0-l">
+  
+
+  <h1 class="f3">Blog</h1>
+  <p class="f6 lh-copy measure">This blog is my <a href="https://nesslabs.com/digital-garden-set-up">digital garden</a>, somewhere between a notepad and a blog.</p>
+  <p class="f7 measure lh-copy i mh0-l">Written by Alison Hill</p>
+
+
+  <small class="db f7"><a href="/blog/" class="dib fw7 ttu bt bw1 b--black-10 pt3">View recent posts</a></small>
+</div>
+
+
+
+
+  
+  <details open class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">December 31, 2020</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">22 minute read, 4566 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="https://alison.rbind.io/categories/hugo">hugo</a>  <a href="https://alison.rbind.io/categories/blogdown">blogdown</a>  <a href="https://alison.rbind.io/categories/netlify">netlify</a>  <a href="https://alison.rbind.io/categories/rmarkdown">rmarkdown</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://alison.rbind.io/tags/hugo">hugo</a>  <a href="https://alison.rbind.io/tags/blogdown">blogdown</a>  <a href="https://alison.rbind.io/tags/netlify">netlify</a>  <a href="https://alison.rbind.io/tags/rmarkdown">rmarkdown</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-iyo-tunis/">Introduce yourself online with blogdown &amp; Hugo Apéro</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/project/hugo-apero/">Hugo Apéro</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-ares-kind-tools/">Crafting Kind Tools</a></dd>
+    
+  </dl>
+</details>
+
+                         
+<div class="sticky pa4">
+  <p class="f6 measure-narrow lh-copy mv0 pt4"><span class="b ttu db">On this page</span><span><nav id="TableOfContents">
+  <ul>
+    <li><a href="#welcome">Welcome</a></li>
+    <li><a href="#tldr">tl;dr</a></li>
+    <li><a href="#pre-requisites">Pre-requisites</a></li>
+    <li><a href="#step-0-set-your-intentions">Step 0: Set your intentions</a></li>
+    <li><a href="#step-1-create-repo">Step 1: Create repo</a></li>
+    <li><a href="#step-2-create-project">Step 2: Create project</a></li>
+    <li><a href="#step-3-create-site">Step 3: Create site</a></li>
+    <li><a href="#step-4-create-content">Step 4: Create content</a></li>
+    <li><a href="#step-5-publish-site">Step 5: Publish site</a></li>
+    <li><a href="#step-6-sculpt-site">Step 6: Sculpt site</a></li>
+    <li><a href="#we-made-it">We made it!</a></li>
+  </ul>
+</nav></span></p>
+</div>
+
+
+</aside>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

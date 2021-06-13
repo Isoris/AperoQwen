@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>course on Quentin Andres</title>
+    <link>https://alison.rbind.io/tags/course/</link>
+    <description>Recent content in course on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/course/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
+      <link>https://alison.rbind.io/project/ohsu-biostats/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-biostats/</guid>
+      <description>A 12-week introductory course that teaches students how to gain and communicate insights from biomedical data</description>
+    </item>
+    
+    <item>
+      <title>Principles &amp; Practice of Data Visualization</title>
+      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
+    </item>
+    
+    <item>
+      <title>Probability &amp; Statistics for Scientists and Engineers</title>
+      <link>https://alison.rbind.io/project/ohsu-cs-stats/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-cs-stats/</guid>
+      <description>A 12-week introduction to fundamental concepts underlying statistical data display, analysis, inference, and statistical decision making</description>
+    </item>
+    
+  </channel>
+</rss>

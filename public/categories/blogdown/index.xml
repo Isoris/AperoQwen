@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogdown on Quentin Andres</title>
+    <link>https://alison.rbind.io/categories/blogdown/</link>
+    <description>Recent content in blogdown on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Up &amp; running with blogdown in 2021</title>
+      <link>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</guid>
+      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
+    </item>
+    
+    <item>
+      <title>How much Hugo do I need to know?</title>
+      <link>https://alison.rbind.io/blog/2020-12-how-much-hugo/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-how-much-hugo/</guid>
+      <description>When and why you need to learn Hugo as an R blogdown user.</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 04</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</link>
+      <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</guid>
+      <description>Putting the finishing touches on your blogdown site</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 03</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</link>
+      <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</guid>
+      <description>Keeping up with your content</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 02</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</guid>
+      <description>Personalizing your blogdown site</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 01</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</link>
+      <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</guid>
+      <description>Create and deploy our first blogdown site &amp;ldquo;out-of-the-box&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting Your Build</title>
+      <link>https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/</guid>
+      <description>A few troubleshooting strategies to save your sanity</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/</guid>
+      <description>A guide to getting up and running with blogdown, GitHub, and Netlify</description>
+    </item>
+    
+  </channel>
+</rss>

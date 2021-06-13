@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>M-F-E-O: postcards &#43; distill | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="M-F-E-O: postcards &#43; distill | Quentin Andres">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2020-12-postcards-distill/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/2020-12-postcards-distill/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/2020-12-postcards-distill/featured.jpg" >
+    
+    
+  <meta itemprop="name" content="M-F-E-O: postcards &#43; distill">
+<meta itemprop="description" content="The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown."><meta itemprop="datePublished" content="2020-12-22T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-22T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1203"><meta itemprop="image" content="https://alison.rbind.io/blog/2020-12-postcards-distill/featured.jpg">
+<meta itemprop="keywords" content="rmarkdown,distill,postcards," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">M-F-E-O: postcards &#43; distill</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill</p>
+        <p class="f7 db mv0 ttu">December 22, 2020</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>This is a very brief &ldquo;postcard to myself&rdquo; about how to use the new 
+<a href="https://github.com/seankross/postcards" target="_blank" rel="noopener">postcards package</a> by Sean Kross. What problem does postcards solve?</p>
+<blockquote>
+<p>&ldquo;Create simple, beautiful personal websites and landing pages using only R Markdown.&rdquo;</p>
+<p>&mdash; postcards 
+<a href="https://github.com/seankross/postcards#postcards" target="_blank" rel="noopener">README.md</a></p>
+</blockquote>
+<p>Postcards includes four templates:</p>
+<ul>
+<li>
+<a href="https://seankross.com/postcards-templates/jolla/" target="_blank" rel="noopener">Jolla</a>,</li>
+<li>
+<a href="https://seankross.com/postcards-templates/jolla-blue/" target="_blank" rel="noopener">Jolla Blue</a>,</li>
+<li>
+<a href="https://seankross.com/postcards-templates/trestles/" target="_blank" rel="noopener">Trestles</a>, and</li>
+<li>
+<a href="https://seankross.com/postcards-templates/onofre/" target="_blank" rel="noopener">Onofre</a>.</li>
+</ul>
+<p>You can see <code>postcards::trestles</code> in action here: <a href="http://jtleek.com/">http://jtleek.com/</a></p>
+<p>And here (this is where we are headed!):</p>
+<p><img src="final-trestles.png" alt=""></p>
+<p>
+<a href="https://rstudio.github.io/distill/" target="_blank" rel="noopener">Distill</a> is a package that <em>also</em> helps you make simple, beautiful websites and blogs using only R Markdown. They are M-F-E-O (&lsquo;made for each other&rsquo;: this is a &ldquo;Sleepless in Seattle&rdquo; reference with sadly, a complete lack of video to support). But if you&rsquo;ve seen the movie this scene may sound familiar:</p>
+<blockquote>
+<p>Becky: So I mailed your letter.</p>
+<p>Annie: &ldquo;Dear Annie, thanks for your letter. It was great. You sound neat. We&rsquo;re very excited about meeting you in New York on Valentine&rsquo;s Day and seeing if we are M-F-E-O. See you soon. Sleepless in Seattle.&rdquo;</p>
+<p>Becky: M-F-E-O?</p>
+<p>Annie: &ldquo;Made for each other.&rdquo;</p>
+<p>Becky: It&rsquo;s cute. It&rsquo;s like a little clue. So he can&rsquo;t write. Big deal. Verbal ability is a highly over-rated thing in a guy and our pathetic need for it is what gets us into so much trouble.</p>
+<p>&mdash; <em>Sleepless in Seattle</em>, script from <a href="https://plantyourstory.com/mfeo-its-like-a-little-clue/">https://plantyourstory.com/mfeo-its-like-a-little-clue/</a></p>
+</blockquote>
+<p>Consider this post like a little clue (I&rsquo;m using it as a sandbox before updating our distill documentation for this new feature). Here is our existing signpost in the 
+<a href="https://rstudio.github.io/distill/website.html#alternate-formats" target="_blank" rel="noopener">distill docs</a>. With the CRAN versions of all three packages now, you can embed a postcards page within your distill site. This means the page will come with all your distill goodies like site navigation, theme, and google-analytics support.</p>
+<div class="alert alert-note">
+  <div>
+    You can see the demo site I made alongside this post here: <a href="https://apreshill.github.io/mfeo/">https://apreshill.github.io/mfeo/</a> (source: <a href="https://github.com/apreshill/mfeo">https://github.com/apreshill/mfeo</a>).
+  </div>
+</div>
+
+
+
+
+<h2 id="pre-requisites">Pre-requisites
+  <a href="#pre-requisites"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>You&rsquo;ll need the CRAN versions of three packages:</p>
+<ul>
+<li>distill (v &gt;= 1.2) (see: <a href="https://pkgs.rstudio.com/distill/news/index.html#distill-v1-2-cran-">https://pkgs.rstudio.com/distill/news/index.html#distill-v1-2-cran-</a>)</li>
+<li>rmarkdown (v &gt;= 2.7)</li>
+<li>postcards (v &gt;= 0.2.0)</li>
+</ul>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">install.packages</span>(<span style="color:#900;font-weight:bold">c</span>(<span style="color:#d14">&#34;distill&#34;</span>, <span style="color:#d14">&#34;rmarkdown&#34;</span>, <span style="color:#d14">&#34;postcards&#34;</span>))
+</code></pre></div><p>You can check these package versions as follows:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">packageVersion</span>(<span style="color:#d14">&#34;distill&#34;</span>)
+<span style="color:#900;font-weight:bold">packageVersion</span>(<span style="color:#d14">&#34;rmarkdown&#34;</span>)
+<span style="color:#900;font-weight:bold">packageVersion</span>(<span style="color:#d14">&#34;postcards&#34;</span>)
+</code></pre></div>
+
+
+
+<h2 id="make-a-website">Make a website
+  <a href="#make-a-website"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>In RStudio, create a new project using <em>File &gt; New Project &gt; New Directory &gt; New Project</em>. Then, inside your new empty project, use your R console to do the following:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">library</span>(distill)
+<span style="color:#900;font-weight:bold">create_website</span>(dir <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;.&#34;</span>, title <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;mfeo&#34;</span>, gh_pages <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">TRUE</span>)
+</code></pre></div><p>At this point, I recommend closing RStudio completely and opening up your project again. This way you should see the &ldquo;Build&rdquo; tab.</p>
+<p><img src="https://rstudio-education.github.io/sharing-short-notice/images/screenshots/build-site.png" alt=""></p>
+<p>Now build your site! You should see the &ldquo;boilerplate&rdquo; website template at this point.</p>
+
+
+
+
+<h2 id="add-a-postcard">Add a postcard
+  <a href="#add-a-postcard"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>In your R console, use the postcards package to create a new postcard:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">create_postcard</span>(file <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;tobi.Rmd&#34;</span>) <span style="color:#998;font-style:italic"># future name of .Rmd file</span>
+</code></pre></div><p>Alternatively, you could use <code>distill::create_article()</code> to make a new page. To make a postcard, specify the <code>template</code> (one of: <code>jolla</code>, <code>jolla-blue</code>, <code>onofre</code>, <code>trestles</code>) and <code>package = 'postcards'</code>:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">create_article</span>(file <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;tobi&#34;</span>,         <span style="color:#998;font-style:italic"># future name of .Rmd file</span>
+               template <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;jolla&#34;</span>,    <span style="color:#998;font-style:italic"># name of template</span>
+               package <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;postcards&#34;</span>) <span style="color:#998;font-style:italic"># package that includes the template</span>
+</code></pre></div><p>Let&rsquo;s add a link to our new file in the top navbar. Open up your <code>_site.yml</code> file and add:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#000080">name</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;.&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">title</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;mfeo&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">description</span>:<span style="color:#bbb"> </span>|<span style="color:#d14">
+</span><span style="color:#d14">  </span><span style="color:#bbb">  </span>mfeo<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">output_dir</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;docs&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">navbar</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">  </span><span style="color:#000080">right</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">    </span>- <span style="color:#000080">text</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Home&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">      </span><span style="color:#000080">href</span>:<span style="color:#bbb"> </span>index.html<span style="color:#bbb">
+</span><span style="color:#bbb">    </span>- <span style="color:#000080">text</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;About&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">      </span><span style="color:#000080">href</span>:<span style="color:#bbb"> </span>about.html<span style="color:#bbb">
+</span><span style="color:#bbb">    </span>- <span style="color:#000080">text</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Tobi&#34;</span><span style="color:#bbb">              </span><span style="color:#998;font-style:italic"># add</span><span style="color:#bbb">
+</span><span style="color:#bbb">      </span><span style="color:#000080">href</span>:<span style="color:#bbb"> </span>tobi.html          <span style="color:#bbb"> </span><span style="color:#998;font-style:italic"># add</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">output</span>:<span style="color:#bbb"> </span>distill::distill_article<span style="color:#bbb">
+</span></code></pre></div><p>Since my file is named <code>tobi.Rmd</code>, that means the rendered file will be <code>tobi.html</code>, so that is my <code>href</code> key in the <code>_site.yml</code>. If you save that file, you should see your website refresh, and look something like this!</p>
+<p><img src="tobi.png" alt="Jolla postcard page in distill website" title="Jolla postcard page in distill website"></p>
+
+
+
+
+<h2 id="add-a-theme">Add a theme
+  <a href="#add-a-theme"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>For fun, let&rsquo;s go ahead and add a custom distill theme while we&rsquo;re at it.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">create_theme</span>(<span style="color:#d14">&#34;postcards&#34;</span>)
+</code></pre></div><div class="alert alert-note">
+  <div>
+    You can see copy my theme file from here: <a href="https://github.com/apreshill/mfeo/blob/master/postcards.css">https://github.com/apreshill/mfeo/blob/master/postcards.css</a>.
+  </div>
+</div>
+<p>This should print to your R console:</p>
+<pre><code>v Created CSS file at postcards.css 
+o TODO: Customize it to suit your needs
+o TODO: Add 'theme: postcards.css' to your site or article YAML
+
+See docs at &lt;https://rstudio.github.io/distill/website.html#theming&gt;
+</code></pre>
+<p>I want a full-site theme, so I added <code>theme: postcards.css</code> to my <code>_site.yml</code> file. I followed the distill docs on theming 
+<a href="https://rstudio.github.io/distill/website.html#theming" target="_blank" rel="noopener">here</a>. Re-build my website, and now I see:</p>
+<p><img src="tobi-theme.png" alt="Jolla postcard page in themed distill website" title="Jolla postcard page in themed distill website"></p>
+
+
+
+
+<h2 id="switch-the-homepage">Switch the homepage
+  <a href="#switch-the-homepage"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Now you may be wishing that your postcards page was your homepage- the place where visitors first land when they visit your website. The homepage in a distill website is named <code>index.Rmd</code>, so we need to remove the current <code>index.Rmd</code> file and replace it with <code>tobi.Rmd</code>. But we cannot just rename the files&hellip;</p>
+<p>If you open up <code>index.Rmd</code>, you should see this yaml:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">title</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;mfeo&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">description</span>:<span style="color:#bbb"> </span>|<span style="color:#d14">
+</span><span style="color:#d14">  </span><span style="color:#bbb">  </span>Welcome to the website. I hope you enjoy it!<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">site</span>:<span style="color:#bbb"> </span>distill::distill_website<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div><p>That <code>site</code> key is very important to keep in the <code>index.Rmd</code> file. Steps:</p>
+<ol>
+<li>Let&rsquo;s start by adding <code>site: distill::distill_website</code> to the yaml of your postcards page, mine is named <code>tobi.Rmd</code>.</li>
+<li>After doing that, you can delete <code>index.Rmd</code>.</li>
+<li>Next, rename <code>tobi.Rmd</code> -&gt; <code>index.Rmd</code>.</li>
+<li>Finally, clean up your <code>_site.yml</code> - you can remove the link we added above to <code>tobi.html</code>.</li>
+</ol>
+<p>Re-build your site and Tobi&rsquo;s shining face should greet you from the homepage!</p>
+
+
+
+
+<h2 id="fill-in-your-postcard">Fill-in your postcard
+  <a href="#fill-in-your-postcard"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Of course, you can add your own image file to the project root at this point, and then personalize your <code>index.Rmd</code> using the postcards template:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">title</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Alison Hill&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">image</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;alison.jpg&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">links</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">  </span>- <span style="color:#000080">label</span>:<span style="color:#bbb"> </span>LinkedIn<span style="color:#bbb">
+</span><span style="color:#bbb">    </span><span style="color:#000080">url</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;https://www.linkedin.com/in/alisonpresmaneshill/&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">  </span>- <span style="color:#000080">label</span>:<span style="color:#bbb"> </span>Twitter<span style="color:#bbb">
+</span><span style="color:#bbb">    </span><span style="color:#000080">url</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;https://twitter.com/apreshill&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">  </span>- <span style="color:#000080">label</span>:<span style="color:#bbb"> </span>GitHub<span style="color:#bbb">
+</span><span style="color:#bbb">    </span><span style="color:#000080">url</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;https://github.com/apreshill&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">  </span>- <span style="color:#000080">label</span>:<span style="color:#bbb"> </span>ORCID iD<span style="color:#bbb">
+</span><span style="color:#bbb">    </span><span style="color:#000080">url</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;https://orcid.org/0000-0002-8082-1890&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">site</span>:<span style="color:#bbb"> </span>distill::distill_website<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">output</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">  </span>postcards::jolla<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div><p>Here is my &ldquo;after&rdquo;:</p>
+<p><img src="alison-home.png" alt="Jolla as themed homepage" title="Jolla as themed homepage"></p>
+
+
+
+
+<h2 id="add-a-blog">Add a blog
+  <a href="#add-a-blog"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Back in your console, we can add a blog, using distill:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">create_post</span>(<span style="color:#d14">&#34;welcome&#34;</span>)
+</code></pre></div><p>If you do this with a blog already, it just adds a single post. But if you do this without posts set up, it does some nice things for you:</p>
+<ol>
+<li>
+<p>Creates a directory called <code>_posts/</code> to hold all your future blog posts.</p>
+</li>
+<li>
+<p>Creates a new post with a &ldquo;slug&rdquo; including the date and the name of the post (here, mine was <code>&quot;welcome&quot;</code>).</p>
+</li>
+</ol>
+<p>Your new post should open up - go ahead and knit this post. Posts in distill need to be knit intentionally, so they will never be automatically built when you rebuild your website.</p>
+<p>We also probably want to add a listing page to list all our blog posts. Do this by adding a blank <code>.Rmd</code> file to your project root, I&rsquo;ll call mine <code>blog.Rmd</code> but there is no magic to this file name:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#900;font-weight:bold">file.edit</span>(<span style="color:#d14">&#34;blog.Rmd&#34;</span>)
+</code></pre></div><p>Then open up your new <code>blog.Rmd</code> and add a YAML (no content below the YAML):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">title</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Blog&#34;</span><span style="color:#bbb">  </span><span style="color:#998;font-style:italic"># any name you want here</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">listing</span>:<span style="color:#bbb"> </span>posts<span style="color:#bbb"> </span><span style="color:#998;font-style:italic"># do this exactly</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div><p>Finally, add a link to your blog in your upper navbar so people can actually find it! Do this by editing <code>_site.yml</code> one last time (remember, since my listing <code>.Rmd</code> is named <code>blog.Rmd</code>, then the href I want to link to is <code>blog.html</code>):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#000080">navbar</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">  </span><span style="color:#000080">right</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">    </span>- <span style="color:#000080">text</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Home&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">      </span><span style="color:#000080">href</span>:<span style="color:#bbb"> </span>index.html<span style="color:#bbb">
+</span><span style="color:#bbb">    </span>- <span style="color:#000080">text</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;About&#34;</span><span style="color:#bbb">
+</span><span style="color:#bbb">      </span><span style="color:#000080">href</span>:<span style="color:#bbb"> </span>about.html<span style="color:#bbb">
+</span><span style="color:#bbb">    </span>- <span style="color:#000080">text</span>:<span style="color:#bbb"> </span><span style="color:#d14">&#34;Blog&#34;</span><span style="color:#bbb">      </span><span style="color:#998;font-style:italic"># add</span><span style="color:#bbb">
+</span><span style="color:#bbb">      </span><span style="color:#000080">href</span>:<span style="color:#bbb"> </span>blog.html  <span style="color:#bbb"> </span><span style="color:#998;font-style:italic"># add</span><span style="color:#bbb">
+</span></code></pre></div><p>Now, admire your final polished product!</p>
+<video width="800" height="400" controls>
+<source src="final-site.mov" type="video/mp4">
+</video>
+
+
+
+
+<h2 id="switch-your-postcard">Switch your postcard
+  <a href="#switch-your-postcard"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Let&rsquo;s say you decide you want to switch it up and use the <code>trestles</code> theme, instead of <code>jolla</code>. Easy. Open up your <code>index.Rmd</code> and find these lines in the YAML:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">output</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">  </span>postcards::jolla<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div><p>And change to:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#555">---</span><span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#000080">output</span>:<span style="color:#bbb">
+</span><span style="color:#bbb">  </span>postcards::trestles<span style="color:#bbb">
+</span><span style="color:#bbb"></span><span style="color:#555">---</span><span style="color:#bbb">
+</span></code></pre></div><p>Re-build your site!</p>
+<p><img src="final-trestles.png" alt=""></p>
+
+
+
+
+<h2 id="publishing">Publishing
+  <a href="#publishing"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I won&rsquo;t be able to cover all the publishing options here, but you can read up on the options for 
+<a href="https://rstudio.github.io/distill/publish_website.html" target="_blank" rel="noopener">publishing distill websites here</a>. If you want to take a site like mine that you built, I recommend GitHub Pages. You can use the <code>usethis</code> package to run:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">usethis<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">use_git</span>()
+usethis<span style="color:#000;font-weight:bold">::</span><span style="color:#900;font-weight:bold">use_github</span>()
+</code></pre></div><div class="alert alert-note">
+  <div>
+    I also just learned about the new <a href="https://usethis.r-lib.org/reference/use_github_pages.html"><code>usethis::use_github_pages()</code></a> to turn on and/or (re)configure GitHub Pages!
+  </div>
+</div>
+<p>Then in the GitHub project, navigate over to &ldquo;Settings&rdquo; and <em>scroooooooll down</em> to choose:</p>
+<p><img src="gh-pages.png" alt="GitHub Pages settings for distill websites" title="GitHub Pages settings for distill websites"></p>
+<p>For this to work, make sure your site is building to <code>docs/</code> locally, and that you are committing and pushing the <code>docs/</code> directory to GitHub.</p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">December 22, 2020</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">6 minute read, 1203 words</dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://alison.rbind.io/tags/rmarkdown">rmarkdown</a>  <a href="https://alison.rbind.io/tags/distill">distill</a>  <a href="https://alison.rbind.io/tags/postcards">postcards</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-iyo-tunis/">Introduce yourself online with blogdown &amp; Hugo Apéro</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-ares-kind-tools/">Crafting Kind Tools</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-rmd-params/">Making R Markdown work better for you</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2020-12-self-assessments/">&larr; Teaching students to talk about data science</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2020-12-blogdown-checks/">Unbreak your blogdown site &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="rbind/apreshill"
+          issue-term="title"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quentin Andres</title>
+    <link>https://alison.rbind.io/</link>
+    <description>Recent content on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Education</title>
+      <link>https://alison.rbind.io/resume/education/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The netlify.toml File</title>
+      <link>https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/</link>
+      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/</guid>
+      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
+  me, only somewhat kidding  You can read the previous post about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series here. In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated).
+This is my second post in this series, and it is a relatively quick one.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Page Bundles</title>
+      <link>https://alison.rbind.io/blog/2019-02-spoonful-bundles/</link>
+      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-02-spoonful-bundles/</guid>
+      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
+  me, only somewhat kidding  In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series about Hugo archetypes and Hugo versions.
+This is my third post in this series and it is breaking news.</description>
+    </item>
+    
+    <item>
+      <title>TRAININGS &amp; SELF-LEARNING MOOCs</title>
+      <link>https://alison.rbind.io/resume/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://alison.rbind.io/resume/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/about/</guid>
+      <description>Download my resumé.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alison.rbind.io/about/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/about/about-me/</guid>
+      <description>I am originally from Atlanta, Georgia, and am a proud ramblin&#39; wreck from Georgia Tech. I received my PhD in psychology and quantitative methods from Vanderbilt University in 2008. Prior to joining RStudio, I was an Assistant Professor at Arizona State University, and an Associate Professor at Oregon Health &amp;amp; Science University (OHSU). At OHSU, I was an NIH-funded Principal Investigator and an Assistant Center Director.
+My research focused on health-related applications of Natural Language Processing-based methods, and was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks.</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>https://alison.rbind.io/resume/other/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/other/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conferences &amp; Workshops</title>
+      <link>https://alison.rbind.io/resume/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honors &amp; Awards</title>
+      <link>https://alison.rbind.io/resume/other/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/other/accomplishments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduce yourself online with blogdown &amp; Hugo Apéro</title>
+      <link>https://alison.rbind.io/talk/2021-iyo-tunis/</link>
+      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-iyo-tunis/</guid>
+      <description>A workshop for building a personal website from the comfort of RStudio using the blogdown R package, using a Hugo theme I developed.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Apéro</title>
+      <link>https://alison.rbind.io/project/hugo-apero/</link>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/hugo-apero/</guid>
+      <description>A Hugo theme for personal websites. A place where you and your site’s visitors enjoy spending time, and one that helps folks get to know you better.</description>
+    </item>
+    
+    <item>
+      <title>Crafting Kind Tools</title>
+      <link>https://alison.rbind.io/talk/2021-ares-kind-tools/</link>
+      <pubDate>Mon, 12 Apr 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-ares-kind-tools/</guid>
+      <description>Whenever you use software, you are also using a tool that was crafted by someone else. Is it kind? Does it matter? What makes a tool kind?</description>
+    </item>
+    
+    <item>
+      <title>Making R Markdown work better for you</title>
+      <link>https://alison.rbind.io/talk/2021-rmd-params/</link>
+      <pubDate>Wed, 24 Mar 2021 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rmd-params/</guid>
+      <description>Made with YAML, strings, and glue.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2021-rladies-jozi/</link>
+      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rladies-jozi/</guid>
+      <description>Alison Hill (I think her unofficial nickname is RMarkdown Whisperer) is going to talk to us on another of her strengths. Making things beautiful, and informative. She&amp;rsquo;s going to do her &amp;ldquo;Take a Sad Plot &amp;amp; Make it Better&amp;rdquo; talk, for us. In this talk, Alison will discuss one plot’s life cycle, from a sad Powerpoint slide to the finished product made with the ggplot2 package in R, and what she learnt from it.</description>
+    </item>
+    
+    <item>
+      <title>Introduce yourself online</title>
+      <link>https://alison.rbind.io/talk/2021-rstudio-global/</link>
+      <pubDate>Mon, 25 Jan 2021 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2021-rstudio-global/</guid>
+      <description>A special workshop for rstudio::global() diversity scholars</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; running with blogdown in 2021</title>
+      <link>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</guid>
+      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
+    </item>
+    
+    <item>
+      <title>Unbreak your blogdown site</title>
+      <link>https://alison.rbind.io/blog/2020-12-blogdown-checks/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-blogdown-checks/</guid>
+      <description>The latest release of the blogdown package (not yet on CRAN) includes new checking functions to help users make less breakable Hugo sites.</description>
+    </item>
+    
+    <item>
+      <title>M-F-E-O: postcards &#43; distill</title>
+      <link>https://alison.rbind.io/blog/2020-12-postcards-distill/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-postcards-distill/</guid>
+      <description>The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Teaching students to talk about data science</title>
+      <link>https://alison.rbind.io/blog/2020-12-self-assessments/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-self-assessments/</guid>
+      <description>How I used self-reflection to boost student learning and engagement.</description>
+    </item>
+    
+    <item>
+      <title>How much Hugo do I need to know?</title>
+      <link>https://alison.rbind.io/blog/2020-12-how-much-hugo/</link>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-how-much-hugo/</guid>
+      <description>When and why you need to learn Hugo as an R blogdown user.</description>
+    </item>
+    
+    <item>
+      <title>The download</title>
+      <link>https://alison.rbind.io/talk/2020-larug/</link>
+      <pubDate>Tue, 08 Dec 2020 20:30:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-larug/</guid>
+      <description>Recent updates in the R Markdown family</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://alison.rbind.io/blog/2020-12-hello-r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-12-hello-r-markdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title>InspiRing InstRuction: A panel on teaching #rstats for all audiences</title>
+      <link>https://alison.rbind.io/talk/2020-rladies-chicago-panel/</link>
+      <pubDate>Thu, 12 Nov 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rladies-chicago-panel/</guid>
+      <description>Come hear from 3 R-Ladies on how to make R pedagogy work for different groups of people!</description>
+    </item>
+    
+    <item>
+      <title>distill</title>
+      <link>https://alison.rbind.io/project/distill/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/distill/</guid>
+      <description>Distill for R Markdown is a web publishing format optimized for scientific and technical communication.</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://alison.rbind.io/gallery2/</link>
+      <pubDate>Wed, 21 Oct 2020 18:45:32 +0200</pubDate>
+      
+      <guid>https://alison.rbind.io/gallery2/</guid>
+      <description>Some of my photos:
+     .jg-entry img { transition: transform .25s ease-in-out !important; } .jg-entry img:hover { transform: scale(1.1); }            5.43mm f/1.89 1/4326sec ISO 100&#34;     5.43mm f/1.89 1/101sec ISO 100&#34;     5.43mm f/1.89 1/100sec ISO 152&#34;     5.43mm f/1.89 1/335sec ISO 100&#34;     5.</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://alison.rbind.io/gallery/</link>
+      <pubDate>Wed, 21 Oct 2020 18:45:32 +0200</pubDate>
+      
+      <guid>https://alison.rbind.io/gallery/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Pharma</title>
+      <link>https://alison.rbind.io/talk/2020-rmd4pharma/</link>
+      <pubDate>Wed, 07 Oct 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmd4pharma/</guid>
+      <description>A four-hour workshop for R / Pharma 2020 that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Learning without a net</title>
+      <link>https://alison.rbind.io/talk/2020-latinr-learn/</link>
+      <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-latinr-learn/</guid>
+      <description>Aprendiendo sin una red</description>
+    </item>
+    
+    <item>
+      <title>Teaching in Production</title>
+      <link>https://alison.rbind.io/talk/2020-rstudio-tip/</link>
+      <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rstudio-tip/</guid>
+      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>RStudio Teaching in Production</title>
+      <link>https://alison.rbind.io/project/rstudio-tip/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/rstudio-tip/</guid>
+      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</link>
+      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmedicine-tidyml/</guid>
+      <description>R / Medicine 2020: A 4-hour workshop to introduce the basics of machine learning in R using tidymodels.</description>
+    </item>
+    
+    <item>
+      <title>palmerpenguins</title>
+      <link>https://alison.rbind.io/project/palmerpenguins/</link>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/palmerpenguins/</guid>
+      <description>An R data package with data about 3 penguin species from the Palmer Station in Antarctica</description>
+    </item>
+    
+    <item>
+      <title>How I Taught Tidymodels, Virtually</title>
+      <link>https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/</guid>
+      <description>Some reflections on my third time teaching tidymodels for machine learning, and doing it virtually.</description>
+    </item>
+    
+    <item>
+      <title>How I Teach R Markdown</title>
+      <link>https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/</guid>
+      <description>A handful of guiding principles for introducing beginners to the R Markdown family of packages.</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to R Markdown for the CDC</title>
+      <link>https://alison.rbind.io/talk/2020-rmd4cdc/</link>
+      <pubDate>Wed, 13 May 2020 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rmd4cdc/</guid>
+      <description>A one-hour introduction to R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>stat545.com</title>
+      <link>https://alison.rbind.io/project/stat545.com/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/stat545.com/</guid>
+      <description>A comprehensive course in data wrangling, exploration, and analysis with R</description>
+    </item>
+    
+    <item>
+      <title>tidymodels.org</title>
+      <link>https://alison.rbind.io/project/tidymodels.org/</link>
+      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/tidymodels.org/</guid>
+      <description>The central location for learning and using the tidymodels R packages</description>
+    </item>
+    
+    <item>
+      <title>Sharing on Short Notice</title>
+      <link>https://alison.rbind.io/talk/2020-sharing-short-notice/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-sharing-short-notice/</guid>
+      <description>How to get your materials online on short notice.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Script &amp; Make it Better: Tidymodels Edition</title>
+      <link>https://alison.rbind.io/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</guid>
+      <description>Taking a sad script and making it better for model cross-validation.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2020-rsc-tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2020-rsc-tidyml/</guid>
+      <description>rstudio::conf(2020) two-day workshop to introduce the basics of machine learning and tidymodels.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Machine Learning with the Tidyverse</title>
+      <link>https://alison.rbind.io/project/tidyml/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/tidyml/</guid>
+      <description>Introducing the basics of machine learning in R using tidymodels</description>
+    </item>
+    
+    <item>
+      <title>Learning to Teach Machines to Learn</title>
+      <link>https://alison.rbind.io/blog/2019-12-teaching-ml/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-12-teaching-ml/</guid>
+      <description>I&amp;rsquo;m excited to be teaching a new workshop at the upcoming rstudio::conf in January called &amp;ldquo;Introduction to Machine Learning with the Tidyverse&amp;rdquo;, with my colleague Garrett Grolemund. Our workshop just sold out over the weekend! 🎉
+It is always hard to develop an entirely new workshop, especially if you are doing it at the same time as learning how to use a new API. It is even harder when that API is under active development like the tidymodels ecosystem!</description>
+    </item>
+    
+    <item>
+      <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
+      <link>https://alison.rbind.io/talk/2019-rladies-sydney/</link>
+      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rladies-sydney/</guid>
+      <description>Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the ggplot2 package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the tidyr package.
+You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using ggplot2.</description>
+    </item>
+    
+    <item>
+      <title>The Art of Literate Projecting</title>
+      <link>https://alison.rbind.io/talk/2019-ysc-keynote/</link>
+      <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-ysc-keynote/</guid>
+      <description>“Literate programming” is an approach to writing software programs that weaves together the source code and documentation at the time of creation. The idea is to create programs that are easier for users to understand. But they are also easier for programmers to work on and maintain. In this talk, I will describe how data scientists can be inspired by this programming approach and start what I refer to as “literate projecting.</description>
+    </item>
+    
+    <item>
+      <title>Communicating with R Markdown Workshop</title>
+      <link>https://alison.rbind.io/talk/2019-ysc-workshop/</link>
+      <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-ysc-workshop/</guid>
+      <description>A workshop for R Markdown users who want to get more out of R Markdown (and friends).</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2019-rladies-melbourne/</link>
+      <pubDate>Thu, 26 Sep 2019 18:15:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rladies-melbourne/</guid>
+      <description>In this talk, Alison will talk about one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. Along the way, she will discuss why each version of the plot fails in different ways and how each iteration improved on the last one.
+Latest event    This talk was most recently given at the University of South Wales on 2019/10/04.</description>
+    </item>
+    
+    <item>
+      <title>education.rstudio.com</title>
+      <link>https://alison.rbind.io/project/education.rstudio.com/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/education.rstudio.com/</guid>
+      <description>All about learning and teaching data science</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine Workshop</title>
+      <link>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rmed-rmd4medicine/</guid>
+      <description>Using R Markdown in an end-to-end workflow to go from data to manuscript</description>
+    </item>
+    
+    <item>
+      <title>R Markdown for Medicine</title>
+      <link>https://alison.rbind.io/project/rmd4medicine/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/rmd4medicine/</guid>
+      <description>A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
+    </item>
+    
+    <item>
+      <title>Teaching Students to Talk about Data Science</title>
+      <link>https://alison.rbind.io/talk/2019-jsm-talk-ds/</link>
+      <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-jsm-talk-ds/</guid>
+      <description>Data science educators have a unique opportunity to teach students the skills they need in their future careers. We know that practical skills matter, like being able to wrangle, explore, analyze, and visualize data (preferably using code), but what is easy to overlook is teaching students how to communicate about data science with other people. Being able to communicate about data, code, and insights gained are important skills we can strengthen in the classroom to make a real impact on students.</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 04</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</link>
+      <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-04/</guid>
+      <description>Putting the finishing touches on your blogdown site</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 03</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</link>
+      <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-03/</guid>
+      <description>Keeping up with your content</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 02</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</link>
+      <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-02/</guid>
+      <description>Personalizing your blogdown site</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown: Day 01</title>
+      <link>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</link>
+      <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-summer-of-blogdown-01/</guid>
+      <description>Create and deploy our first blogdown site &amp;ldquo;out-of-the-box&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Using blogdown to Connect Beyond the Classroom</title>
+      <link>https://alison.rbind.io/talk/2019-sdss-blogdown/</link>
+      <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-sdss-blogdown/</guid>
+      <description>Why and how to teach students to create their own website</description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting Your Build</title>
+      <link>https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/</guid>
+      <description>A few troubleshooting strategies to save your sanity</description>
+    </item>
+    
+    <item>
+      <title>Hi there</title>
+      <link>https://alison.rbind.io/contact/</link>
+      <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
+      
+      <guid>https://alison.rbind.io/contact/</guid>
+      <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder
+Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Archetypes</title>
+      <link>https://alison.rbind.io/blog/2019-02-spoonful-archetypes/</link>
+      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2019-02-spoonful-archetypes/</guid>
+      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
+ me, only somewhat kidding   As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. Here be dragons for folks who aren&amp;rsquo;t web developers.
+I&amp;rsquo;m here to tell you that there are small spoonfuls of Hugo that can help you get your site UP (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏.</description>
+    </item>
+    
+    <item>
+      <title>Meet blogdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-blogdown/</link>
+      <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-blogdown/</guid>
+      <description>Making websites in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet bookdown</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-bookdown/</link>
+      <pubDate>Tue, 15 Jan 2019 14:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-bookdown/</guid>
+      <description>Making books in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet flexdashboard</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</link>
+      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-flexdashboard/</guid>
+      <description>Making dashboards in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Meet xaringan</title>
+      <link>https://alison.rbind.io/talk/2019-rsc-xaringan/</link>
+      <pubDate>Tue, 15 Jan 2019 09:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2019-rsc-xaringan/</guid>
+      <description>Making slides in R Markdown</description>
+    </item>
+    
+    <item>
+      <title>Hugo Graphite</title>
+      <link>https://alison.rbind.io/project/hugo-graphite/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/hugo-graphite/</guid>
+      <description>A Hugo theme for RStudio teams (Education, Tidyverse, Tidymodels)</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization in the Tidyverse</title>
+      <link>https://alison.rbind.io/talk/2018-uo-plotoff/</link>
+      <pubDate>Mon, 29 Oct 2018 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-uo-plotoff/</guid>
+      <description>Using one dataset from The Great British Bake Off, I show eleven ways to visualize one dataset using eleven different versions of &amp;ldquo;tidy data.&amp;rdquo; Take-away messages:
+ Tidy data is the start of your data wrangling journey, not the end There is not a single &amp;ldquo;tidy&amp;rdquo; version of a dataset Tidy data does make you more nimble!  </description>
+    </item>
+    
+    <item>
+      <title>Read Data with Multiple Header Rows into R</title>
+      <link>https://alison.rbind.io/blog/2018-07-multiple-headers/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2018-07-multiple-headers/</guid>
+      <description>Using the readr package to sidestep a common problem</description>
+    </item>
+    
+    <item>
+      <title>LICENSE: CC-BY-SA</title>
+      <link>https://alison.rbind.io/license/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://alison.rbind.io/license/</guid>
+      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
+   </description>
+    </item>
+    
+    <item>
+      <title>Big Magic with R: Creative Learning Beyond Fear</title>
+      <link>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</link>
+      <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</guid>
+      <description>Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners.</description>
+    </item>
+    
+    <item>
+      <title>Take a Sad Plot &amp; Make It Better</title>
+      <link>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</link>
+      <pubDate>Fri, 06 Apr 2018 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2018-ohsu-sad-plot-better/</guid>
+      <description>Join us on April 6 for a walk-through of how to take a sad plot and make it better by Alison Hill, who co-teaches the CS631 Data Visualization course. Alison will take us through one plot’s life cycle, from a sad Powerpoint slide to an Excel chart and finally to the finished product made with the ggplot2 package in R. We will discuss why each version of the plot fails in different ways, how each iteration improved on the last one, and which data visualization principles are at work in the final plot to communicate a clear scientific story.</description>
+    </item>
+    
+    <item>
+      <title>Subtyping cognitive profiles in Autism Spectrum Disorder using a random forest algorithm</title>
+      <link>https://alison.rbind.io/publication/2017-subtyping/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2017-subtyping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Presentation Ninja</title>
+      <link>https://alison.rbind.io/blog/2017-12-rladies-xaringan/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2017-12-rladies-xaringan/</guid>
+      <description>A guide to using the R-Ladies xaringan slide theme</description>
+    </item>
+    
+    <item>
+      <title>blogdown: Creating Websites with R Markdown</title>
+      <link>https://alison.rbind.io/publication/2017-blogdown/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2017-blogdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Labhub Workshop</title>
+      <link>https://alison.rbind.io/talk/2017-ohsu-labhub/</link>
+      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2017-ohsu-labhub/</guid>
+      <description>The landscape of scientific communication is changing dramatically. Diverse stakeholders, including major funders and universities are demonstrating a growing interest and investment in open scientific principles and practices. Researchers, students, and the institutions that support them are needing to navigate new expectations, workflows, and policies against a backdrop of relatively unchanged means and measures of scientific success.
+Sound complicated? Join us on December 8th from 3:00 to 4:00 PM for a panel discussion with OHSU leaders and early career researchers on the evolving landscape of scientific communication.</description>
+    </item>
+    
+    <item>
+      <title>Labhub</title>
+      <link>https://alison.rbind.io/project/labhub/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/labhub/</guid>
+      <description>An OHSU Open Science Workshop on tools and methods for building transparency within a lab</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/project/up-running-blogdown/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/up-running-blogdown/</guid>
+      <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/talk/2017-pdxr-blogdown/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2017-pdxr-blogdown/</guid>
+      <description>See project links for more details.</description>
+    </item>
+    
+    <item>
+      <title>Up &amp; Running with blogdown</title>
+      <link>https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/</link>
+      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/</guid>
+      <description>A guide to getting up and running with blogdown, GitHub, and Netlify</description>
+    </item>
+    
+    <item>
+      <title>Quantitative Analysis of Disfluency in Children with Autism Spectrum Disorder or Language Impairment</title>
+      <link>https://alison.rbind.io/publication/2017-mazes-asd-sli/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2017-mazes-asd-sli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/project/code-your-graph/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/code-your-graph/</guid>
+      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
+    </item>
+    
+    <item>
+      <title>Code Your Graph Workshop</title>
+      <link>https://alison.rbind.io/talk/2016-ohsu-dataviz/</link>
+      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/talk/2016-ohsu-dataviz/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Advanced R Markdown</title>
+      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
+    </item>
+    
+    <item>
+      <title>Bakeoff</title>
+      <link>https://alison.rbind.io/project/bakeoff/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/bakeoff/</guid>
+      <description>An R data package with data from “The Great British Bake Off”</description>
+    </item>
+    
+    <item>
+      <title>blogdown: Creating Websites with R Markdown</title>
+      <link>https://alison.rbind.io/project/blogdown-book/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/blogdown-book/</guid>
+      <description>A practical guide for creating websites using the blogdown package in R</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
+      <link>https://alison.rbind.io/project/ohsu-biostats/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-biostats/</guid>
+      <description>A 12-week introductory course that teaches students how to gain and communicate insights from biomedical data</description>
+    </item>
+    
+    <item>
+      <title>Principles &amp; Practice of Data Visualization</title>
+      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
+    </item>
+    
+    <item>
+      <title>Probability &amp; Statistics for Scientists and Engineers</title>
+      <link>https://alison.rbind.io/project/ohsu-cs-stats/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/ohsu-cs-stats/</guid>
+      <description>A 12-week introduction to fundamental concepts underlying statistical data display, analysis, inference, and statistical decision making</description>
+    </item>
+    
+    <item>
+      <title>RLadies xaringan theme</title>
+      <link>https://alison.rbind.io/project/rladies-xaringan/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/rladies-xaringan/</guid>
+      <description>An RLadies theme for slides made with the xaringan R package</description>
+    </item>
+    
+    <item>
+      <title>Summer of blogdown</title>
+      <link>https://alison.rbind.io/project/summer-of-blogdown/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/project/summer-of-blogdown/</guid>
+      <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
+    </item>
+    
+    <item>
+      <title>Epidemiology of autism spectrum disorders</title>
+      <link>https://alison.rbind.io/publication/2016-primer-on-asd/</link>
+      <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2016-primer-on-asd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uh and Um in Children With Autism Spectrum Disorders or Language Impairment</title>
+      <link>https://alison.rbind.io/publication/2016-uh-and-um-asd-sli/</link>
+      <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2016-uh-and-um-asd-sli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obesity and Autism</title>
+      <link>https://alison.rbind.io/publication/2015-obesity-in-asd-multisite/</link>
+      <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2015-obesity-in-asd-multisite/</guid>
+      <description>METHODS: Participants were 5053 children with confirmed diagnosis of ASD in the Autism Speaks Autism Treatment Network. Measured values for weight and height were used to calculate BMI percentiles; Centers for Disease Control and Prevention criteria for BMI for gender and age were used to define overweight and obesity (85th and 95th percentiles, respectively).
+RESULTS: In children age 2 to 17 years, 33.6% were overweight and 18% were obese. Compared with a general US population sample, rates of unhealthy weight were significantly higher among children with ASDs ages 2 to 5 years and among those of non-Hispanic white origin.</description>
+    </item>
+    
+    <item>
+      <title>Memory in language-impaired children with and without autism</title>
+      <link>https://alison.rbind.io/publication/2015-memory-in-li-asd/</link>
+      <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2015-memory-in-li-asd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epidemiology of autism spectrum disorders</title>
+      <link>https://alison.rbind.io/publication/2015-translational/</link>
+      <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2015-translational/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aggressive Behavior Problems in Children with Autism Spectrum Disorders: Prevalence and Correlates in a Large Clinical Sample</title>
+      <link>https://alison.rbind.io/publication/2014-aggression-in-asd/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2014-aggression-in-asd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epidemiology of autism spectrum disorders</title>
+      <link>https://alison.rbind.io/publication/2014-handbook/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2014-handbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Overweight and Obesity: Prevalence and Correlates in a Large Clinical Sample of Children with Autism Spectrum Disorder</title>
+      <link>https://alison.rbind.io/publication/2014-obesity-in-asd-oregon/</link>
+      <pubDate>Sun, 02 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2014-obesity-in-asd-oregon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epidemiology of Autism Spectrum Disorder</title>
+      <link>https://alison.rbind.io/publication/2014-asd-epidemiology-in-practice/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2014-asd-epidemiology-in-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantifying Repetitive Speech in Autism Spectrum Disorders and Language Impairment</title>
+      <link>https://alison.rbind.io/publication/2013-repetitive-speech-in-asd-sli/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2013-repetitive-speech-in-asd-sli/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>‘It’s Not That We Hate You’: Understanding Children’s Gender Attitudes and Expectancies About Peer Relationships</title>
+      <link>https://alison.rbind.io/publication/2011-gender-attitudes/</link>
+      <pubDate>Tue, 08 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2011-gender-attitudes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Different Attentional Cues on Responding to Joint Attention in Younger Siblings of Children with Autism Spectrum Disorders</title>
+      <link>https://alison.rbind.io/publication/2007-rja-in-sibs/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2007-rja-in-sibs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Item-specific Processing Reduces False Memories</title>
+      <link>https://alison.rbind.io/publication/2004-false-memories/</link>
+      <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/publication/2004-false-memories/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://alison.rbind.io/resume/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alison.rbind.io/resume/sidebar/</guid>
+      <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
+    </item>
+    
+  </channel>
+</rss>

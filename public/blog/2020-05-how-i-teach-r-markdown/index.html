@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.83.1" />
+<title>How I Teach R Markdown | Quentin Andres</title>
+
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Quentin Andres">
+<meta property="og:title" content="How I Teach R Markdown | Quentin Andres">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/featured.jpg" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/featured.jpg" >
+    
+    
+  <meta itemprop="name" content="How I Teach R Markdown">
+<meta itemprop="description" content="A handful of guiding principles for introducing beginners to the R Markdown family of packages."><meta itemprop="datePublished" content="2020-05-28T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-05-28T20:45:57-07:00" />
+<meta itemprop="wordCount" content="1425"><meta itemprop="image" content="https://alison.rbind.io/blog/2020-05-how-i-teach-r-markdown/featured.jpg">
+<meta itemprop="keywords" content="rmarkdown," />
+  
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.f6e923f7e1b11ea4f67afc689c1d2b7a006c24171b6488e82ae68d97110527dd.css" integrity="sha256-9ukj9&#43;GxHqT2evxonB0regBsJBcbZIjoKuaNlxEFJ90=" media="screen">
+  
+  
+  <script src="/panelset.min.d74e921a1b9af2d938fdff19e433ba539cdb202961eddae2356a54199f0653ec.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.38a0323c5b0bbb611c4874ba2d8fdaba57d20cc2b0d704b30250c235ba8b6d49.js" type="text/javascript"></script>
+  
+  <script data-goatcounter="https://alison.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="https://alison.rbind.io" title="Home">
+      <img src="/img/sanke.PNG" class="dib db-l h2 w-auto" alt="Quentin Andres">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About me">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/resume/" title="Resumé">My Resumé</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">How I Teach R Markdown</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Alison Hill</p>
+        <p class="f7 db mv0 ttu">May 28, 2020</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        <p>Ah, 
+<a href="https://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R Markdown</a>. I love teaching R Markdown. But this was not a love at first sight story. When I first started teaching with R at Oregon Health &amp; Science University many moons ago, my students used R Markdown for their homework assignments and in-class labs. This is a great way to start for beginners, to be honest- just use it! I found that most people are not very disoriented by a file that mixes text and code; a concern I had at first and one that I&rsquo;ve heard voiced by other educators. It seems natural to use if it is your first exposure to <em>all the data science things</em>, especially if you&rsquo;ve never used an R script.</p>
+<p>I did notice, though, that over the course of even just a few weeks, many of my students would reach unbearable levels of R Markdown curiosity. I would see signs of growing pains in their assignments, like how can I turn off these messages and warnings when I load packages? This is so long- how can I make it easier to find things? How can I make it look <em>better</em>?</p>
+<p>For all learners, there comes an uncomfortable point where you simply cannot just continue to use this awesome tool without learning how to use it. And I realized when I was teaching that ultimately it was unfair of me to assume that they would just learn an entire ecosystem while I stood idly by, clutching the secrets of being an 
+<a href="https://twitter.com/sharlagelfand/status/1114264529477799937?s=20" target="_blank" rel="noopener">&ldquo;R Markdown Whisperer&rdquo;</a> close to my chest.</p>
+<p>Like, <strong>why can&rsquo;t you just find the piñata, kid</strong>? But more importantly, what happens when you can&rsquo;t? I think the risk is that learners either won&rsquo;t like or won&rsquo;t appreciate a tool that I genuinely 
+<a href="https://community.rstudio.com/t/convince-me-to-start-using-r-markdown/1636/7" target="_blank" rel="noopener">think would make their working lives better</a>. If I believed it was worth their time to use it, it was worth my time to teach it.</p>
+<p><img src="https://media.giphy.com/media/xFcFJAryrhO6s/giphy.gif" alt=""></p>
+<p>So like any good educator, I evolved. I decided that the next year, I would teach R Markdown. And I did. I went from:</p>
+<blockquote>
+<p>&ldquo;Just use it&rdquo;</p>
+</blockquote>
+<p><img src="https://media.giphy.com/media/pHiWkDofYnRv2/giphy.gif" alt=""></p>
+<p>To:</p>
+<blockquote>
+<p>&ldquo;Just tell them how to use it already&rdquo;</p>
+</blockquote>
+<p><img src="https://media.giphy.com/media/3o7TKvFKwclJQDY30A/giphy.gif" alt=""></p>
+<p>I waited until a few weeks into a quarter, and I spent a full lab period walking students through &ldquo;Hey- this bit where you put the title of each assignment and your name? That&rsquo;s called YAML! Here is what it does&hellip;&rdquo; I showed them how to use 
+<a href="https://bookdown.org/yihui/rmarkdown/html-document.html#appearance-and-style" target="_blank" rel="noopener">bootswatch themes</a>, make a 
+<a href="https://bookdown.org/yihui/rmarkdown/html-document.html#table-of-contents" target="_blank" rel="noopener">floating table of contents</a>, control their output using the power of 
+<a href="https://bookdown.org/yihui/rmarkdown/r-code.html" target="_blank" rel="noopener">knitr</a> code chunks and chunk options.</p>
+<p>Guess what happened? The next batch of assignment my TA team and I received were&hellip;stunning. Creative. Beautiful. Thoughtful and thought-provoking. Students had taken care with their markdown headers, they played with flatly/yeti/united, they cared about not printing the giant output of a code chunk. It was a thing of beauty. I remember one of my beloved TAs, 
+<a href="https://grace.rbind.io/" target="_blank" rel="noopener">Grace Lawley</a>, commenting that one star student&rsquo;s homework &ldquo;brought tears to her eyes&rdquo; (and yes, I trained Grace too as she was also my research assistant, so she was already baptized into the R Markdown family).</p>
+<p>But I have to admit, the first time I taught it, I had a hard time teaching it! I realized that I lacked vocabulary around things I used everyday, but had never really talked about out loud with anyone <em>in words</em>.</p>
+<p>Now, in my role at RStudio, I&rsquo;ve devoted a lot of time and energy trying to figure out how we can make R Markdown easier- easier to discover, easier to debug, easier to use, and easier to talk about.</p>
+<p>So without further ado, here are some of my guiding principles when introducing R Markdown to beginners, for those who are ready to go beyond casual knitter:</p>
+
+
+
+
+<h2 id="1-make-it-make-it-again">#1. Make it. Make it again.
+  <a href="#1-make-it-make-it-again"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Knit early. Knit often. That means starting with a pre-filled Rmd document usually that you know <em>will</em> knit. How do you motivate repeated knitting and make it satisfying? Teach the basics of output formats and options by editing mainly the YAML. Your goal is to show how small effort &ndash;&gt; high polish. For single docs, I love 
+<a href="https://bookdown.org/yihui/rmarkdown/html-document.html" target="_blank" rel="noopener"><code>html_document()</code></a> with a floating table of contents and a theme (like 
+<a href="https://rstudio-education.github.io/sharing-short-notice/#24" target="_blank" rel="noopener">this</a>), switching quickly to 
+<a href="https://bookdown.org/yihui/rmarkdown/bookdown-output.html#a-single-document" target="_blank" rel="noopener"><code>bookdown::html_document2()</code></a> and <code>distill::distill_article()</code>. The latter two also enable automated figure numbering, which for scientific audiences is quite nice!</p>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">You can do something like this with <a href="https://twitter.com/hashtag/rmarkdown?src=hash&amp;ref_src=twsrc%5Etfw">#rmarkdown</a>. Ask students to knit to HTML, then use the bootswatch themes <a href="https://t.co/J9ucdRWnIl">https://t.co/J9ucdRWnIl</a><br><br>Bonus: you get the prettiest <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> homeworks after this! 💐🖍️<br>---<br>title: &quot;Habits&quot; <br>output:   <br>    html_document:     <br>         theme: flatly<br>--- <a href="https://t.co/wMQ3Uqhc7s">https://t.co/wMQ3Uqhc7s</a></p>&mdash; Alison Presmanes Hill (@apreshill) <a href="https://twitter.com/apreshill/status/1101866080996212736?ref_src=twsrc%5Etfw">March 2, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Bonus when using a <code>theme</code> with <code>html_document()</code>: show off the <code>code_download</code> output option!</p>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">TIL you can embed a &quot;code download&quot; button in an HTML <a href="https://twitter.com/hashtag/rmarkdown?src=hash&amp;ref_src=twsrc%5Etfw">#rmarkdown</a> doc so that users can click to download your source .Rmd from the rendered HTML version...without GitHub 🤩 <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a><br><br>YAML:<br><br>---<br>output:<br>  html_document:<br>    code_download: true<br>---<br><br>Test: <a href="https://t.co/bp7w7XKF8b">https://t.co/bp7w7XKF8b</a> <a href="https://t.co/uMQK0mvYcF">pic.twitter.com/uMQK0mvYcF</a></p>&mdash; Alison Presmanes Hill (@apreshill) <a href="https://twitter.com/apreshill/status/1108925218850893832?ref_src=twsrc%5Etfw">March 22, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+<h2 id="2-make-it-pretty">#2. Make it pretty.
+  <a href="#2-make-it-pretty"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>The starting Rmd should have a nice 
+<a href="https://ggplot2.tidyverse.org/" target="_blank" rel="noopener">ggplot2</a> graphic in there, and maybe a pretty 
+<a href="https://gt.rstudio.com/" target="_blank" rel="noopener">gt</a> table too. This is a motivational, aspirational document! I also try to use local data sets, so they can see how that actually works, as opposed to using a data package.</p>
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">Never underestimate the power of being able to make pretty <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> things. ⬆️ polish/effort ratio ➡️ happier users 🦚 <a href="https://t.co/LMbFRUiuLa">https://t.co/LMbFRUiuLa</a></p>&mdash; Alison Presmanes Hill (@apreshill) <a href="https://twitter.com/apreshill/status/1101978567842291712?ref_src=twsrc%5Etfw">March 2, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+
+<h2 id="3-make-it-snappy">#3. Make it snappy.
+  <a href="#3-make-it-snappy"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I aim to get to a shareable link in the first 20 minutes (at most!). I like to use 
+<a href="https://app.netlify.com/drop" target="_blank" rel="noopener">Netlify Drop</a> for this. No account sign-up needed, and everyone knows how to drag-and-drop (see video below). It is very satisfying to get a link they can share with their mom/best friend/arch nemesis (kidding). I like to have everyone drop their links in a chat too, like a Slack, Google Doc, or a Gitter channel if doing a workshop. My favorite motto: <em>&ldquo;if it knits, it ships&rdquo;</em> 🚢</p>
+<iframe src="https://rstudio-education.github.io/sharing-short-notice/images/single-doc-dnd.mp4" width="672" height="400px"></iframe>
+
+
+
+
+<h2 id="4-make-it-real">#4. Make it real.
+  <a href="#4-make-it-real"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Teach folks what they need to know to actually use the tool productively in real life. If you are an avid R Markdown user, this means that you <em>know</em> without a doubt that file paths will eventually be painful, for example. At the end of an intro, I go back and highlight things I just used to make sure they notice them like R Projects and the here package for data importing. I also love a good 
+<a href="https://rmd4medicine.netlify.app/slides/01-rmd-anatomy.html#77" target="_blank" rel="noopener">&ldquo;Your Turn&rdquo;</a> exercise where you get a fresh data dump and all they have to do is re-knit. As in, &ldquo;Surprise! Now instead of 3 sites, you have data from all 6 sites- what do you do?&rdquo;</p>
+
+
+
+
+<h2 id="5-make-it-easy">#5. Make it easy.
+  <a href="#5-make-it-easy"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>People will only keep using R Markdown if they see it making their life easier. So show them how. For example, the RStudio IDE has some very nice built-in features that make it much easier to be an R Markdown user. I point out things having a 
+<a href="https://apreshill.github.io/rmd4cdc/#112" target="_blank" rel="noopener">global setup chunk</a>, and IDE features like:</p>
+<p><img src="https://rmd4medicine.netlify.app/slides/images/rmd-nav.png" alt=""></p>
+
+
+
+
+<h2 id="what-do-i-save-until-later">What do I save until later?
+  <a href="#what-do-i-save-until-later"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<ol>
+<li>
+<p>Rendering with <code>render()</code>. I think knitting in the RStudio IDE can get you very far- this I consider an intermediate to advanced concept that is confusing if introduced too early. I&rsquo;ve never heard someone say <em>&ldquo;Well there is this simple button, but how can I do the same thing from the command line?&quot;</em></p>
+</li>
+<li>
+<p>
+<a href="https://bookdown.org/yihui/rmarkdown/parameterized-reports.html" target="_blank" rel="noopener">Parameterized reports</a>. I actually <em>do</em> use parameters though! I&rsquo;ll have at least one or two often in one of my Rmds, and mention them briefly in my wrap-up. I teach parameters explicitly with actual exercises when I have &gt; 1 hour.</p>
+</li>
+<li>
+<p>Multiple Rmd output formats. I tend to start with single output formats first. If I have &gt; 1.5 hours and it matches my learning objectives, then I happily oblige- I love teaching 
+<a href="https://bookdown.org/yihui/rmarkdown/books.html" target="_blank" rel="noopener">bookdown</a>, 
+<a href="https://bookdown.org/yihui/rmarkdown/websites.html" target="_blank" rel="noopener">blogdown</a>, and 
+<a href="https://rstudio.github.io/distill/website.html" target="_blank" rel="noopener">distill websites</a>. But to start, I stay single.</p>
+</li>
+<li>
+<p>Markdown. I skim markdown, and always provide a link to an interactive tutorial. This 
+<a href="https://commonmark.org/help/tutorial/" target="_blank" rel="noopener">one</a> is my favorite. Teaching markdown can be&hellip;dry. I show some bits on the slides because I cannot count on everyone doing the interactive tutorial ahead of time, but I do not linger much.</p>
+</li>
+</ol>
+<p><img src="https://media.giphy.com/media/U7Uxq9Lyz02oStvUIE/giphy.gif" alt=""></p>
+<p>If you are curious to see some of the materials I&rsquo;ve used to teach R Markdown, click on the <code>rmarkdown</code> button just below this post! 🚀</p>
+<p>But remember: there is no one way to learn R Markdown, and no one way to teach it either. I love seeing the creativity of the community when introducing the R Markdown family- so keep them coming!</p>
+<p><img src="https://media.giphy.com/media/Q86zzvI3UUCADQCF0h/giphy.gif" alt=""></p>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">May 28, 2020</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">7 minute read, 1425 words</dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="https://alison.rbind.io/tags/rmarkdown">rmarkdown</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-iyo-tunis/">Introduce yourself online with blogdown &amp; Hugo Apéro</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-ares-kind-tools/">Crafting Kind Tools</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/talk/2021-rmd-params/">Making R Markdown work better for you</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="https://alison.rbind.io/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/">&larr; Take a Sad Script &amp; Make it Better: Tidymodels Edition</a>
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="https://alison.rbind.io/blog/2020-06-how-i-taught-tidymodels-virtually/">How I Taught Tidymodels, Virtually &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="rbind/apreshill"
+          issue-term="title"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2021 Quentin Andres
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/Isoris9" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/isoris" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.youtube.com/channel/UC_t2m2GgVjcPdkClekxY5yQ" title="youtube" target="_blank" rel="noopener">
+      <i class="fab fa-youtube fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.linkedin.com/in/quentinandres/" title="linkedin-in" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin-in fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="discord" >
+      <i class="fab fa-discord fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="facebook" >
+      <i class="fab fa-facebook fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="/" title="instagram" >
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contact/" title="Contact form">Contact</a>
+      
+      <a class="dib pv1 ph2 link" href="/blog/index.xml" title="RSS">RSS</a>
+      
+    </div>
+  </nav>
+</footer>
+
+      </div>
+    </body>
+</html>
