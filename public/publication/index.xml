@@ -2,153 +2,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Quentin Andres</title>
-    <link>https://alison.rbind.io/publication/</link>
+    <link>https://qwentee.netlify.app/publication/</link>
     <description>Recent content in Publications on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/publication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Subtyping cognitive profiles in Autism Spectrum Disorder using a random forest algorithm</title>
-      <link>https://alison.rbind.io/publication/2017-subtyping/</link>
+      <link>https://qwentee.netlify.app/publication/2017-subtyping/</link>
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2017-subtyping/</guid>
+      <guid>https://qwentee.netlify.app/publication/2017-subtyping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://alison.rbind.io/publication/2017-blogdown/</link>
+      <link>https://qwentee.netlify.app/publication/2017-blogdown/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2017-blogdown/</guid>
+      <guid>https://qwentee.netlify.app/publication/2017-blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantitative Analysis of Disfluency in Children with Autism Spectrum Disorder or Language Impairment</title>
-      <link>https://alison.rbind.io/publication/2017-mazes-asd-sli/</link>
+      <link>https://qwentee.netlify.app/publication/2017-mazes-asd-sli/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2017-mazes-asd-sli/</guid>
+      <guid>https://qwentee.netlify.app/publication/2017-mazes-asd-sli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of autism spectrum disorders</title>
-      <link>https://alison.rbind.io/publication/2016-primer-on-asd/</link>
+      <link>https://qwentee.netlify.app/publication/2016-primer-on-asd/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2016-primer-on-asd/</guid>
+      <guid>https://qwentee.netlify.app/publication/2016-primer-on-asd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Uh and Um in Children With Autism Spectrum Disorders or Language Impairment</title>
-      <link>https://alison.rbind.io/publication/2016-uh-and-um-asd-sli/</link>
+      <link>https://qwentee.netlify.app/publication/2016-uh-and-um-asd-sli/</link>
       <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2016-uh-and-um-asd-sli/</guid>
+      <guid>https://qwentee.netlify.app/publication/2016-uh-and-um-asd-sli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obesity and Autism</title>
-      <link>https://alison.rbind.io/publication/2015-obesity-in-asd-multisite/</link>
+      <link>https://qwentee.netlify.app/publication/2015-obesity-in-asd-multisite/</link>
       <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2015-obesity-in-asd-multisite/</guid>
+      <guid>https://qwentee.netlify.app/publication/2015-obesity-in-asd-multisite/</guid>
       <description>METHODS: Participants were 5053 children with confirmed diagnosis of ASD in the Autism Speaks Autism Treatment Network. Measured values for weight and height were used to calculate BMI percentiles; Centers for Disease Control and Prevention criteria for BMI for gender and age were used to define overweight and obesity (85th and 95th percentiles, respectively).
 RESULTS: In children age 2 to 17 years, 33.6% were overweight and 18% were obese. Compared with a general US population sample, rates of unhealthy weight were significantly higher among children with ASDs ages 2 to 5 years and among those of non-Hispanic white origin.</description>
     </item>
     
     <item>
       <title>Memory in language-impaired children with and without autism</title>
-      <link>https://alison.rbind.io/publication/2015-memory-in-li-asd/</link>
+      <link>https://qwentee.netlify.app/publication/2015-memory-in-li-asd/</link>
       <pubDate>Sun, 14 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2015-memory-in-li-asd/</guid>
+      <guid>https://qwentee.netlify.app/publication/2015-memory-in-li-asd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of autism spectrum disorders</title>
-      <link>https://alison.rbind.io/publication/2015-translational/</link>
+      <link>https://qwentee.netlify.app/publication/2015-translational/</link>
       <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2015-translational/</guid>
+      <guid>https://qwentee.netlify.app/publication/2015-translational/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aggressive Behavior Problems in Children with Autism Spectrum Disorders: Prevalence and Correlates in a Large Clinical Sample</title>
-      <link>https://alison.rbind.io/publication/2014-aggression-in-asd/</link>
+      <link>https://qwentee.netlify.app/publication/2014-aggression-in-asd/</link>
       <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2014-aggression-in-asd/</guid>
+      <guid>https://qwentee.netlify.app/publication/2014-aggression-in-asd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of autism spectrum disorders</title>
-      <link>https://alison.rbind.io/publication/2014-handbook/</link>
+      <link>https://qwentee.netlify.app/publication/2014-handbook/</link>
       <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2014-handbook/</guid>
+      <guid>https://qwentee.netlify.app/publication/2014-handbook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Overweight and Obesity: Prevalence and Correlates in a Large Clinical Sample of Children with Autism Spectrum Disorder</title>
-      <link>https://alison.rbind.io/publication/2014-obesity-in-asd-oregon/</link>
+      <link>https://qwentee.netlify.app/publication/2014-obesity-in-asd-oregon/</link>
       <pubDate>Sun, 02 Feb 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2014-obesity-in-asd-oregon/</guid>
+      <guid>https://qwentee.netlify.app/publication/2014-obesity-in-asd-oregon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Epidemiology of Autism Spectrum Disorder</title>
-      <link>https://alison.rbind.io/publication/2014-asd-epidemiology-in-practice/</link>
+      <link>https://qwentee.netlify.app/publication/2014-asd-epidemiology-in-practice/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2014-asd-epidemiology-in-practice/</guid>
+      <guid>https://qwentee.netlify.app/publication/2014-asd-epidemiology-in-practice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantifying Repetitive Speech in Autism Spectrum Disorders and Language Impairment</title>
-      <link>https://alison.rbind.io/publication/2013-repetitive-speech-in-asd-sli/</link>
+      <link>https://qwentee.netlify.app/publication/2013-repetitive-speech-in-asd-sli/</link>
       <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2013-repetitive-speech-in-asd-sli/</guid>
+      <guid>https://qwentee.netlify.app/publication/2013-repetitive-speech-in-asd-sli/</guid>
       <description></description>
     </item>
     
     <item>
       <title>‘It’s Not That We Hate You’: Understanding Children’s Gender Attitudes and Expectancies About Peer Relationships</title>
-      <link>https://alison.rbind.io/publication/2011-gender-attitudes/</link>
+      <link>https://qwentee.netlify.app/publication/2011-gender-attitudes/</link>
       <pubDate>Tue, 08 Feb 2011 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2011-gender-attitudes/</guid>
+      <guid>https://qwentee.netlify.app/publication/2011-gender-attitudes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of Different Attentional Cues on Responding to Joint Attention in Younger Siblings of Children with Autism Spectrum Disorders</title>
-      <link>https://alison.rbind.io/publication/2007-rja-in-sibs/</link>
+      <link>https://qwentee.netlify.app/publication/2007-rja-in-sibs/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2007-rja-in-sibs/</guid>
+      <guid>https://qwentee.netlify.app/publication/2007-rja-in-sibs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Item-specific Processing Reduces False Memories</title>
-      <link>https://alison.rbind.io/publication/2004-false-memories/</link>
+      <link>https://qwentee.netlify.app/publication/2004-false-memories/</link>
       <pubDate>Wed, 01 Dec 2004 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/publication/2004-false-memories/</guid>
+      <guid>https://qwentee.netlify.app/publication/2004-false-memories/</guid>
       <description></description>
     </item>
     

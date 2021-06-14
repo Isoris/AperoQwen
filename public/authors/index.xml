@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Quentin Andres</title>
-    <link>https://alison.rbind.io/authors/</link>
+    <link>https://qwentee.netlify.app/authors/</link>
     <description>Recent content in Authors on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://alison.rbind.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://qwentee.netlify.app/authors/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

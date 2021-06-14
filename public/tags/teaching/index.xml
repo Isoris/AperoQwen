@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>teaching on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/teaching/</link>
+    <link>https://qwentee.netlify.app/tags/teaching/</link>
     <description>Recent content in teaching on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Teaching students to talk about data science</title>
-      <link>https://alison.rbind.io/blog/2020-12-self-assessments/</link>
+      <link>https://qwentee.netlify.app/blog/2020-12-self-assessments/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2020-12-self-assessments/</guid>
+      <guid>https://qwentee.netlify.app/blog/2020-12-self-assessments/</guid>
       <description>How I used self-reflection to boost student learning and engagement.</description>
     </item>
     
     <item>
       <title>InspiRing InstRuction: A panel on teaching #rstats for all audiences</title>
-      <link>https://alison.rbind.io/talk/2020-rladies-chicago-panel/</link>
+      <link>https://qwentee.netlify.app/talk/2020-rladies-chicago-panel/</link>
       <pubDate>Thu, 12 Nov 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2020-rladies-chicago-panel/</guid>
+      <guid>https://qwentee.netlify.app/talk/2020-rladies-chicago-panel/</guid>
       <description>Come hear from 3 R-Ladies on how to make R pedagogy work for different groups of people!</description>
     </item>
     
     <item>
       <title>Learning without a net</title>
-      <link>https://alison.rbind.io/talk/2020-latinr-learn/</link>
+      <link>https://qwentee.netlify.app/talk/2020-latinr-learn/</link>
       <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2020-latinr-learn/</guid>
+      <guid>https://qwentee.netlify.app/talk/2020-latinr-learn/</guid>
       <description>Aprendiendo sin una red</description>
     </item>
     
     <item>
       <title>Teaching in Production</title>
-      <link>https://alison.rbind.io/talk/2020-rstudio-tip/</link>
+      <link>https://qwentee.netlify.app/talk/2020-rstudio-tip/</link>
       <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2020-rstudio-tip/</guid>
+      <guid>https://qwentee.netlify.app/talk/2020-rstudio-tip/</guid>
       <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
     </item>
     

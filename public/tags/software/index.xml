@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>software on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/software/</link>
+    <link>https://qwentee.netlify.app/tags/software/</link>
     <description>Recent content in software on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Apéro</title>
-      <link>https://alison.rbind.io/project/hugo-apero/</link>
+      <link>https://qwentee.netlify.app/project/hugo-apero/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/hugo-apero/</guid>
+      <guid>https://qwentee.netlify.app/project/hugo-apero/</guid>
       <description>A Hugo theme for personal websites. A place where you and your site’s visitors enjoy spending time, and one that helps folks get to know you better.</description>
     </item>
     
     <item>
       <title>distill</title>
-      <link>https://alison.rbind.io/project/distill/</link>
+      <link>https://qwentee.netlify.app/project/distill/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/distill/</guid>
+      <guid>https://qwentee.netlify.app/project/distill/</guid>
       <description>Distill for R Markdown is a web publishing format optimized for scientific and technical communication.</description>
     </item>
     
     <item>
       <title>palmerpenguins</title>
-      <link>https://alison.rbind.io/project/palmerpenguins/</link>
+      <link>https://qwentee.netlify.app/project/palmerpenguins/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/palmerpenguins/</guid>
+      <guid>https://qwentee.netlify.app/project/palmerpenguins/</guid>
       <description>An R data package with data about 3 penguin species from the Palmer Station in Antarctica</description>
     </item>
     
     <item>
       <title>Hugo Graphite</title>
-      <link>https://alison.rbind.io/project/hugo-graphite/</link>
+      <link>https://qwentee.netlify.app/project/hugo-graphite/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/hugo-graphite/</guid>
+      <guid>https://qwentee.netlify.app/project/hugo-graphite/</guid>
       <description>A Hugo theme for RStudio teams (Education, Tidyverse, Tidymodels)</description>
     </item>
     
     <item>
       <title>Bakeoff</title>
-      <link>https://alison.rbind.io/project/bakeoff/</link>
+      <link>https://qwentee.netlify.app/project/bakeoff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/bakeoff/</guid>
+      <guid>https://qwentee.netlify.app/project/bakeoff/</guid>
       <description>An R data package with data from “The Great British Bake Off”</description>
     </item>
     

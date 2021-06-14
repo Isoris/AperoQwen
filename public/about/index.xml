@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About me on Quentin Andres</title>
-    <link>https://alison.rbind.io/about/</link>
+    <link>https://qwentee.netlify.app/about/</link>
     <description>Recent content in About me on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://alison.rbind.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://qwentee.netlify.app/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://alison.rbind.io/about/about-me/</link>
+      <link>https://qwentee.netlify.app/about/about-me/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/about/about-me/</guid>
+      <guid>https://qwentee.netlify.app/about/about-me/</guid>
       <description>I am originally from Atlanta, Georgia, and am a proud ramblin&#39; wreck from Georgia Tech. I received my PhD in psychology and quantitative methods from Vanderbilt University in 2008. Prior to joining RStudio, I was an Assistant Professor at Arizona State University, and an Associate Professor at Oregon Health &amp;amp; Science University (OHSU). At OHSU, I was an NIH-funded Principal Investigator and an Assistant Center Director.
 My research focused on health-related applications of Natural Language Processing-based methods, and was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks.</description>
     </item>

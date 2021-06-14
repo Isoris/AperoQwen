@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>keynote on Quentin Andres</title>
-    <link>https://alison.rbind.io/categories/keynote/</link>
+    <link>https://qwentee.netlify.app/categories/keynote/</link>
     <description>Recent content in keynote on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Oct 2019 09:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/keynote/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2019 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/categories/keynote/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Art of Literate Projecting</title>
-      <link>https://alison.rbind.io/talk/2019-ysc-keynote/</link>
+      <link>https://qwentee.netlify.app/talk/2019-ysc-keynote/</link>
       <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2019-ysc-keynote/</guid>
+      <guid>https://qwentee.netlify.app/talk/2019-ysc-keynote/</guid>
       <description>“Literate programming” is an approach to writing software programs that weaves together the source code and documentation at the time of creation. The idea is to create programs that are easier for users to understand. But they are also easier for programmers to work on and maintain. In this talk, I will describe how data scientists can be inspired by this programming approach and start what I refer to as “literate projecting.</description>
     </item>
     
     <item>
       <title>Big Magic with R: Creative Learning Beyond Fear</title>
-      <link>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</link>
+      <link>https://qwentee.netlify.app/talk/2018-cascadia-bigmagic/</link>
       <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</guid>
+      <guid>https://qwentee.netlify.app/talk/2018-cascadia-bigmagic/</guid>
       <description>Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners.</description>
     </item>
     

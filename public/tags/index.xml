@@ -2,323 +2,323 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/</link>
+    <link>https://qwentee.netlify.app/tags/</link>
     <description>Recent content in Tags on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blogdown</title>
-      <link>https://alison.rbind.io/tags/blogdown/</link>
+      <link>https://qwentee.netlify.app/tags/blogdown/</link>
       <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/blogdown/</guid>
+      <guid>https://qwentee.netlify.app/tags/blogdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rmarkdown</title>
-      <link>https://alison.rbind.io/tags/rmarkdown/</link>
+      <link>https://qwentee.netlify.app/tags/rmarkdown/</link>
       <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/rmarkdown/</guid>
+      <guid>https://qwentee.netlify.app/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>https://alison.rbind.io/tags/hugo/</link>
+      <link>https://qwentee.netlify.app/tags/hugo/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/hugo/</guid>
+      <guid>https://qwentee.netlify.app/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://alison.rbind.io/tags/software/</link>
+      <link>https://qwentee.netlify.app/tags/software/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/software/</guid>
+      <guid>https://qwentee.netlify.app/tags/software/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data visualization</title>
-      <link>https://alison.rbind.io/tags/data-visualization/</link>
+      <link>https://qwentee.netlify.app/tags/data-visualization/</link>
       <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/data-visualization/</guid>
+      <guid>https://qwentee.netlify.app/tags/data-visualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ggplot2</title>
-      <link>https://alison.rbind.io/tags/ggplot2/</link>
+      <link>https://qwentee.netlify.app/tags/ggplot2/</link>
       <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/ggplot2/</guid>
+      <guid>https://qwentee.netlify.app/tags/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>oz2019</title>
-      <link>https://alison.rbind.io/tags/oz2019/</link>
+      <link>https://qwentee.netlify.app/tags/oz2019/</link>
       <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/oz2019/</guid>
+      <guid>https://qwentee.netlify.app/tags/oz2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>xaringan</title>
-      <link>https://alison.rbind.io/tags/xaringan/</link>
+      <link>https://qwentee.netlify.app/tags/xaringan/</link>
       <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/xaringan/</guid>
+      <guid>https://qwentee.netlify.app/tags/xaringan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>netlify</title>
-      <link>https://alison.rbind.io/tags/netlify/</link>
+      <link>https://qwentee.netlify.app/tags/netlify/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/netlify/</guid>
+      <guid>https://qwentee.netlify.app/tags/netlify/</guid>
       <description></description>
     </item>
     
     <item>
       <title>distill</title>
-      <link>https://alison.rbind.io/tags/distill/</link>
+      <link>https://qwentee.netlify.app/tags/distill/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/distill/</guid>
+      <guid>https://qwentee.netlify.app/tags/distill/</guid>
       <description></description>
     </item>
     
     <item>
       <title>postcards</title>
-      <link>https://alison.rbind.io/tags/postcards/</link>
+      <link>https://qwentee.netlify.app/tags/postcards/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/postcards/</guid>
+      <guid>https://qwentee.netlify.app/tags/postcards/</guid>
       <description></description>
     </item>
     
     <item>
       <title>teaching</title>
-      <link>https://alison.rbind.io/tags/teaching/</link>
+      <link>https://qwentee.netlify.app/tags/teaching/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/teaching/</guid>
+      <guid>https://qwentee.netlify.app/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>plot</title>
-      <link>https://alison.rbind.io/tags/plot/</link>
+      <link>https://qwentee.netlify.app/tags/plot/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://alison.rbind.io/tags/plot/</guid>
+      <guid>https://qwentee.netlify.app/tags/plot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R Markdown</title>
-      <link>https://alison.rbind.io/tags/r-markdown/</link>
+      <link>https://qwentee.netlify.app/tags/r-markdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://alison.rbind.io/tags/r-markdown/</guid>
+      <guid>https://qwentee.netlify.app/tags/r-markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>regression</title>
-      <link>https://alison.rbind.io/tags/regression/</link>
+      <link>https://qwentee.netlify.app/tags/regression/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>https://alison.rbind.io/tags/regression/</guid>
+      <guid>https://qwentee.netlify.app/tags/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://alison.rbind.io/tags/r/</link>
+      <link>https://qwentee.netlify.app/tags/r/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/r/</guid>
+      <guid>https://qwentee.netlify.app/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning</title>
-      <link>https://alison.rbind.io/tags/learning/</link>
+      <link>https://qwentee.netlify.app/tags/learning/</link>
       <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/learning/</guid>
+      <guid>https://qwentee.netlify.app/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>workshop</title>
-      <link>https://alison.rbind.io/tags/workshop/</link>
+      <link>https://qwentee.netlify.app/tags/workshop/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/workshop/</guid>
+      <guid>https://qwentee.netlify.app/tags/workshop/</guid>
       <description></description>
     </item>
     
     <item>
       <title>machine learning</title>
-      <link>https://alison.rbind.io/tags/machine-learning/</link>
+      <link>https://qwentee.netlify.app/tags/machine-learning/</link>
       <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/machine-learning/</guid>
+      <guid>https://qwentee.netlify.app/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidymodels</title>
-      <link>https://alison.rbind.io/tags/tidymodels/</link>
+      <link>https://qwentee.netlify.app/tags/tidymodels/</link>
       <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/tidymodels/</guid>
+      <guid>https://qwentee.netlify.app/tags/tidymodels/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bookdown</title>
-      <link>https://alison.rbind.io/tags/bookdown/</link>
+      <link>https://qwentee.netlify.app/tags/bookdown/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/bookdown/</guid>
+      <guid>https://qwentee.netlify.app/tags/bookdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>website</title>
-      <link>https://alison.rbind.io/tags/website/</link>
+      <link>https://qwentee.netlify.app/tags/website/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/website/</guid>
+      <guid>https://qwentee.netlify.app/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidy data</title>
-      <link>https://alison.rbind.io/tags/tidy-data/</link>
+      <link>https://qwentee.netlify.app/tags/tidy-data/</link>
       <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/tidy-data/</guid>
+      <guid>https://qwentee.netlify.app/tags/tidy-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>education</title>
-      <link>https://alison.rbind.io/tags/education/</link>
+      <link>https://qwentee.netlify.app/tags/education/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/education/</guid>
+      <guid>https://qwentee.netlify.app/tags/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>talk</title>
-      <link>https://alison.rbind.io/tags/talk/</link>
+      <link>https://qwentee.netlify.app/tags/talk/</link>
       <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
       
-      <guid>https://alison.rbind.io/tags/talk/</guid>
+      <guid>https://qwentee.netlify.app/tags/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>flexdashboard</title>
-      <link>https://alison.rbind.io/tags/flexdashboard/</link>
+      <link>https://qwentee.netlify.app/tags/flexdashboard/</link>
       <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/flexdashboard/</guid>
+      <guid>https://qwentee.netlify.app/tags/flexdashboard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>research</title>
-      <link>https://alison.rbind.io/tags/research/</link>
+      <link>https://qwentee.netlify.app/tags/research/</link>
       <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/research/</guid>
+      <guid>https://qwentee.netlify.app/tags/research/</guid>
       <description></description>
     </item>
     
     <item>
       <title>science</title>
-      <link>https://alison.rbind.io/tags/science/</link>
+      <link>https://qwentee.netlify.app/tags/science/</link>
       <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/science/</guid>
+      <guid>https://qwentee.netlify.app/tags/science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>github</title>
-      <link>https://alison.rbind.io/tags/github/</link>
+      <link>https://qwentee.netlify.app/tags/github/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/github/</guid>
+      <guid>https://qwentee.netlify.app/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reproducibility</title>
-      <link>https://alison.rbind.io/tags/reproducibility/</link>
+      <link>https://qwentee.netlify.app/tags/reproducibility/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/reproducibility/</guid>
+      <guid>https://qwentee.netlify.app/tags/reproducibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dataviz</title>
-      <link>https://alison.rbind.io/tags/dataviz/</link>
+      <link>https://qwentee.netlify.app/tags/dataviz/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/dataviz/</guid>
+      <guid>https://qwentee.netlify.app/tags/dataviz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>book</title>
-      <link>https://alison.rbind.io/tags/book/</link>
+      <link>https://qwentee.netlify.app/tags/book/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/book/</guid>
+      <guid>https://qwentee.netlify.app/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>course</title>
-      <link>https://alison.rbind.io/tags/course/</link>
+      <link>https://qwentee.netlify.app/tags/course/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/course/</guid>
+      <guid>https://qwentee.netlify.app/tags/course/</guid>
       <description></description>
     </item>
     
     <item>
       <title>statistics</title>
-      <link>https://alison.rbind.io/tags/statistics/</link>
+      <link>https://qwentee.netlify.app/tags/statistics/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/statistics/</guid>
+      <guid>https://qwentee.netlify.app/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyverse</title>
-      <link>https://alison.rbind.io/tags/tidyverse/</link>
+      <link>https://qwentee.netlify.app/tags/tidyverse/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/tags/tidyverse/</guid>
+      <guid>https://qwentee.netlify.app/tags/tidyverse/</guid>
       <description></description>
     </item>
     

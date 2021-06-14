@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resumé on Quentin Andres</title>
-    <link>https://alison.rbind.io/resume/</link>
+    <link>https://qwentee.netlify.app/resume/</link>
     <description>Recent content in Resumé on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/resume/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/resume/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
-      <link>https://alison.rbind.io/resume/education/</link>
+      <link>https://qwentee.netlify.app/resume/education/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/education/</guid>
+      <guid>https://qwentee.netlify.app/resume/education/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TRAININGS &amp; SELF-LEARNING MOOCs</title>
-      <link>https://alison.rbind.io/resume/accomplishments/</link>
+      <link>https://qwentee.netlify.app/resume/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/accomplishments/</guid>
+      <guid>https://qwentee.netlify.app/resume/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>https://alison.rbind.io/resume/about/</link>
+      <link>https://qwentee.netlify.app/resume/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/about/</guid>
+      <guid>https://qwentee.netlify.app/resume/about/</guid>
       <description>Download my resumé.</description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>https://alison.rbind.io/resume/other/experience/</link>
+      <link>https://qwentee.netlify.app/resume/other/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/other/experience/</guid>
+      <guid>https://qwentee.netlify.app/resume/other/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conferences &amp; Workshops</title>
-      <link>https://alison.rbind.io/resume/experience/</link>
+      <link>https://qwentee.netlify.app/resume/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/experience/</guid>
+      <guid>https://qwentee.netlify.app/resume/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Honors &amp; Awards</title>
-      <link>https://alison.rbind.io/resume/other/accomplishments/</link>
+      <link>https://qwentee.netlify.app/resume/other/accomplishments/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/other/accomplishments/</guid>
+      <guid>https://qwentee.netlify.app/resume/other/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://alison.rbind.io/resume/sidebar/</link>
+      <link>https://qwentee.netlify.app/resume/sidebar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/resume/sidebar/</guid>
+      <guid>https://qwentee.netlify.app/resume/sidebar/</guid>
       <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
     </item>
     

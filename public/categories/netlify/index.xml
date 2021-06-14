@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>netlify on Quentin Andres</title>
-    <link>https://alison.rbind.io/categories/netlify/</link>
+    <link>https://qwentee.netlify.app/categories/netlify/</link>
     <description>Recent content in netlify on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/netlify/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/categories/netlify/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Up &amp; running with blogdown in 2021</title>
-      <link>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</link>
+      <link>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2020-12-new-year-new-blogdown/</guid>
+      <guid>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</guid>
       <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
     </item>
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/</link>
+      <link>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</link>
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2017-06-up-running-with-blogdown/</guid>
+      <guid>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</guid>
       <description>A guide to getting up and running with blogdown, GitHub, and Netlify</description>
     </item>
     

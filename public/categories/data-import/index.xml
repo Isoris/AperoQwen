@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>data import on Quentin Andres</title>
-    <link>https://alison.rbind.io/categories/data-import/</link>
+    <link>https://qwentee.netlify.app/categories/data-import/</link>
     <description>Recent content in data import on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/data-import/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/categories/data-import/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Read Data with Multiple Header Rows into R</title>
-      <link>https://alison.rbind.io/blog/2018-07-multiple-headers/</link>
+      <link>https://qwentee.netlify.app/blog/2018-07-multiple-headers/</link>
       <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2018-07-multiple-headers/</guid>
+      <guid>https://qwentee.netlify.app/blog/2018-07-multiple-headers/</guid>
       <description>Using the readr package to sidestep a common problem</description>
     </item>
     

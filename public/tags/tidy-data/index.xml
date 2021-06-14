@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidy data on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/tidy-data/</link>
+    <link>https://qwentee.netlify.app/tags/tidy-data/</link>
     <description>Recent content in tidy data on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Oct 2019 18:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/tidy-data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2019 18:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/tidy-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Plot Twist: 10 Bake Offs, Visualized 11 Ways</title>
-      <link>https://alison.rbind.io/talk/2019-rladies-sydney/</link>
+      <link>https://qwentee.netlify.app/talk/2019-rladies-sydney/</link>
       <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2019-rladies-sydney/</guid>
+      <guid>https://qwentee.netlify.app/talk/2019-rladies-sydney/</guid>
       <description>Using data from 10 series of The Great British Bake Off, we will walk through eleven ways to visualize the same data using the ggplot2 package. We&amp;rsquo;ll talk a lot about geoms and variable mappings, but also about what it means to &amp;ldquo;tidy your data&amp;rdquo;, plus the new pivot functions in the tidyr package.
 You won&amp;rsquo;t need your laptops but you will get the most out of this talk if you know some basics about using ggplot2.</description>
     </item>

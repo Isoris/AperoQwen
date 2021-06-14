@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidymodels on Quentin Andres</title>
-    <link>https://alison.rbind.io/categories/tidymodels/</link>
+    <link>https://qwentee.netlify.app/categories/tidymodels/</link>
     <description>Recent content in tidymodels on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/categories/tidymodels/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/categories/tidymodels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Take a Sad Script &amp; Make it Better: Tidymodels Edition</title>
-      <link>https://alison.rbind.io/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</link>
+      <link>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</guid>
+      <guid>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</guid>
       <description>Taking a sad script and making it better for model cross-validation.</description>
     </item>
     

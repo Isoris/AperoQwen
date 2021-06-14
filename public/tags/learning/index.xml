@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>learning on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/learning/</link>
+    <link>https://qwentee.netlify.app/tags/learning/</link>
     <description>Recent content in learning on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2020 09:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Oct 2020 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning without a net</title>
-      <link>https://alison.rbind.io/talk/2020-latinr-learn/</link>
+      <link>https://qwentee.netlify.app/talk/2020-latinr-learn/</link>
       <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2020-latinr-learn/</guid>
+      <guid>https://qwentee.netlify.app/talk/2020-latinr-learn/</guid>
       <description>Aprendiendo sin una red</description>
     </item>
     
     <item>
       <title>Teaching in Production</title>
-      <link>https://alison.rbind.io/talk/2020-rstudio-tip/</link>
+      <link>https://qwentee.netlify.app/talk/2020-rstudio-tip/</link>
       <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2020-rstudio-tip/</guid>
+      <guid>https://qwentee.netlify.app/talk/2020-rstudio-tip/</guid>
       <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
     </item>
     

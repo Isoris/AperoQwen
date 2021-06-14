@@ -2,179 +2,179 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/r/</link>
+    <link>https://qwentee.netlify.app/tags/r/</link>
     <description>Recent content in R on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>distill</title>
-      <link>https://alison.rbind.io/project/distill/</link>
+      <link>https://qwentee.netlify.app/project/distill/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/distill/</guid>
+      <guid>https://qwentee.netlify.app/project/distill/</guid>
       <description>Distill for R Markdown is a web publishing format optimized for scientific and technical communication.</description>
     </item>
     
     <item>
       <title>RStudio Teaching in Production</title>
-      <link>https://alison.rbind.io/project/rstudio-tip/</link>
+      <link>https://qwentee.netlify.app/project/rstudio-tip/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/rstudio-tip/</guid>
+      <guid>https://qwentee.netlify.app/project/rstudio-tip/</guid>
       <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
     </item>
     
     <item>
       <title>palmerpenguins</title>
-      <link>https://alison.rbind.io/project/palmerpenguins/</link>
+      <link>https://qwentee.netlify.app/project/palmerpenguins/</link>
       <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/palmerpenguins/</guid>
+      <guid>https://qwentee.netlify.app/project/palmerpenguins/</guid>
       <description>An R data package with data about 3 penguin species from the Palmer Station in Antarctica</description>
     </item>
     
     <item>
       <title>stat545.com</title>
-      <link>https://alison.rbind.io/project/stat545.com/</link>
+      <link>https://qwentee.netlify.app/project/stat545.com/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/stat545.com/</guid>
+      <guid>https://qwentee.netlify.app/project/stat545.com/</guid>
       <description>A comprehensive course in data wrangling, exploration, and analysis with R</description>
     </item>
     
     <item>
       <title>tidymodels.org</title>
-      <link>https://alison.rbind.io/project/tidymodels.org/</link>
+      <link>https://qwentee.netlify.app/project/tidymodels.org/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/tidymodels.org/</guid>
+      <guid>https://qwentee.netlify.app/project/tidymodels.org/</guid>
       <description>The central location for learning and using the tidymodels R packages</description>
     </item>
     
     <item>
       <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://alison.rbind.io/project/tidyml/</link>
+      <link>https://qwentee.netlify.app/project/tidyml/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/tidyml/</guid>
+      <guid>https://qwentee.netlify.app/project/tidyml/</guid>
       <description>Introducing the basics of machine learning in R using tidymodels</description>
     </item>
     
     <item>
       <title>education.rstudio.com</title>
-      <link>https://alison.rbind.io/project/education.rstudio.com/</link>
+      <link>https://qwentee.netlify.app/project/education.rstudio.com/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/education.rstudio.com/</guid>
+      <guid>https://qwentee.netlify.app/project/education.rstudio.com/</guid>
       <description>All about learning and teaching data science</description>
     </item>
     
     <item>
       <title>R Markdown for Medicine</title>
-      <link>https://alison.rbind.io/project/rmd4medicine/</link>
+      <link>https://qwentee.netlify.app/project/rmd4medicine/</link>
       <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/rmd4medicine/</guid>
+      <guid>https://qwentee.netlify.app/project/rmd4medicine/</guid>
       <description>A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
     </item>
     
     <item>
       <title>Big Magic with R: Creative Learning Beyond Fear</title>
-      <link>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</link>
+      <link>https://qwentee.netlify.app/talk/2018-cascadia-bigmagic/</link>
       <pubDate>Sat, 02 Jun 2018 08:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/talk/2018-cascadia-bigmagic/</guid>
+      <guid>https://qwentee.netlify.app/talk/2018-cascadia-bigmagic/</guid>
       <description>Inspired by the book “Big Magic: Creative Living Beyond Fear” by Elizabeth Gilbert, Alison will talk about the five essential ingredients needed to creatively learn R and why these elements are also essential for advanced users to take their R skills to the next level. You will hear practical advice for when, where, and how to start a project in R, and how your learning can add value- both to your own knowledge and to contribute to the larger community of R learners.</description>
     </item>
     
     <item>
       <title>Up &amp; Running with blogdown</title>
-      <link>https://alison.rbind.io/project/up-running-blogdown/</link>
+      <link>https://qwentee.netlify.app/project/up-running-blogdown/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/up-running-blogdown/</guid>
+      <guid>https://qwentee.netlify.app/project/up-running-blogdown/</guid>
       <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
     </item>
     
     <item>
       <title>Code Your Graph Workshop</title>
-      <link>https://alison.rbind.io/project/code-your-graph/</link>
+      <link>https://qwentee.netlify.app/project/code-your-graph/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/code-your-graph/</guid>
+      <guid>https://qwentee.netlify.app/project/code-your-graph/</guid>
       <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
     </item>
     
     <item>
       <title>Advanced R Markdown</title>
-      <link>https://alison.rbind.io/project/advanced-r-markdown/</link>
+      <link>https://qwentee.netlify.app/project/advanced-r-markdown/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/advanced-r-markdown/</guid>
+      <guid>https://qwentee.netlify.app/project/advanced-r-markdown/</guid>
       <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
     </item>
     
     <item>
       <title>Bakeoff</title>
-      <link>https://alison.rbind.io/project/bakeoff/</link>
+      <link>https://qwentee.netlify.app/project/bakeoff/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/bakeoff/</guid>
+      <guid>https://qwentee.netlify.app/project/bakeoff/</guid>
       <description>An R data package with data from “The Great British Bake Off”</description>
     </item>
     
     <item>
       <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://alison.rbind.io/project/blogdown-book/</link>
+      <link>https://qwentee.netlify.app/project/blogdown-book/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/blogdown-book/</guid>
+      <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
       <description>A practical guide for creating websites using the blogdown package in R</description>
     </item>
     
     <item>
       <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
-      <link>https://alison.rbind.io/project/ohsu-biostats/</link>
+      <link>https://qwentee.netlify.app/project/ohsu-biostats/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/ohsu-biostats/</guid>
+      <guid>https://qwentee.netlify.app/project/ohsu-biostats/</guid>
       <description>A 12-week introductory course that teaches students how to gain and communicate insights from biomedical data</description>
     </item>
     
     <item>
       <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://alison.rbind.io/project/ohsu-dataviz/</link>
+      <link>https://qwentee.netlify.app/project/ohsu-dataviz/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/ohsu-dataviz/</guid>
+      <guid>https://qwentee.netlify.app/project/ohsu-dataviz/</guid>
       <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
     </item>
     
     <item>
       <title>Probability &amp; Statistics for Scientists and Engineers</title>
-      <link>https://alison.rbind.io/project/ohsu-cs-stats/</link>
+      <link>https://qwentee.netlify.app/project/ohsu-cs-stats/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/ohsu-cs-stats/</guid>
+      <guid>https://qwentee.netlify.app/project/ohsu-cs-stats/</guid>
       <description>A 12-week introduction to fundamental concepts underlying statistical data display, analysis, inference, and statistical decision making</description>
     </item>
     
     <item>
       <title>RLadies xaringan theme</title>
-      <link>https://alison.rbind.io/project/rladies-xaringan/</link>
+      <link>https://qwentee.netlify.app/project/rladies-xaringan/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/rladies-xaringan/</guid>
+      <guid>https://qwentee.netlify.app/project/rladies-xaringan/</guid>
       <description>An RLadies theme for slides made with the xaringan R package</description>
     </item>
     
     <item>
       <title>Summer of blogdown</title>
-      <link>https://alison.rbind.io/project/summer-of-blogdown/</link>
+      <link>https://qwentee.netlify.app/project/summer-of-blogdown/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/summer-of-blogdown/</guid>
+      <guid>https://qwentee.netlify.app/project/summer-of-blogdown/</guid>
       <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
     </item>
     

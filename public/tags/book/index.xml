@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>book on Quentin Andres</title>
-    <link>https://alison.rbind.io/tags/book/</link>
+    <link>https://qwentee.netlify.app/tags/book/</link>
     <description>Recent content in book on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://alison.rbind.io/project/blogdown-book/</link>
+      <link>https://qwentee.netlify.app/project/blogdown-book/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/project/blogdown-book/</guid>
+      <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
       <description>A practical guide for creating websites using the blogdown package in R</description>
     </item>
     

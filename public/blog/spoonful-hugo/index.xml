@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Spoonful of Hugo on Quentin Andres</title>
-    <link>https://alison.rbind.io/blog/spoonful-hugo/</link>
+    <link>https://qwentee.netlify.app/blog/spoonful-hugo/</link>
     <description>Recent content in A Spoonful of Hugo on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alison.rbind.io/blog/spoonful-hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/blog/spoonful-hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The netlify.toml File</title>
-      <link>https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/</link>
+      <link>https://qwentee.netlify.app/blog/2019-02-spoonful-netlify-toml/</link>
       <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2019-02-spoonful-netlify-toml/</guid>
+      <guid>https://qwentee.netlify.app/blog/2019-02-spoonful-netlify-toml/</guid>
       <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
   me, only somewhat kidding  You can read the previous post about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series here. In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated).
 This is my second post in this series, and it is a relatively quick one.</description>
@@ -20,10 +20,10 @@ This is my second post in this series, and it is a relatively quick one.</descri
     
     <item>
       <title>Hugo Page Bundles</title>
-      <link>https://alison.rbind.io/blog/2019-02-spoonful-bundles/</link>
+      <link>https://qwentee.netlify.app/blog/2019-02-spoonful-bundles/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2019-02-spoonful-bundles/</guid>
+      <guid>https://qwentee.netlify.app/blog/2019-02-spoonful-bundles/</guid>
       <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
   me, only somewhat kidding  In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series about Hugo archetypes and Hugo versions.
 This is my third post in this series and it is breaking news.</description>
@@ -31,28 +31,28 @@ This is my third post in this series and it is breaking news.</description>
     
     <item>
       <title>How much Hugo do I need to know?</title>
-      <link>https://alison.rbind.io/blog/2020-12-how-much-hugo/</link>
+      <link>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</link>
       <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2020-12-how-much-hugo/</guid>
+      <guid>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</guid>
       <description>When and why you need to learn Hugo as an R blogdown user.</description>
     </item>
     
     <item>
       <title>Troubleshooting Your Build</title>
-      <link>https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/</link>
+      <link>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2019-03-spoonful-troubleshooting/</guid>
+      <guid>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</guid>
       <description>A few troubleshooting strategies to save your sanity</description>
     </item>
     
     <item>
       <title>Hugo Archetypes</title>
-      <link>https://alison.rbind.io/blog/2019-02-spoonful-archetypes/</link>
+      <link>https://qwentee.netlify.app/blog/2019-02-spoonful-archetypes/</link>
       <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://alison.rbind.io/blog/2019-02-spoonful-archetypes/</guid>
+      <guid>https://qwentee.netlify.app/blog/2019-02-spoonful-archetypes/</guid>
       <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
  me, only somewhat kidding   As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. Here be dragons for folks who aren&amp;rsquo;t web developers.
 I&amp;rsquo;m here to tell you that there are small spoonfuls of Hugo that can help you get your site UP (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏.</description>

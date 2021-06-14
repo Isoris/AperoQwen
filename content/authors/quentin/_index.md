@@ -61,8 +61,8 @@ title: Quentin Andres
 
 I am looking for a PhD position in the field of aquaculture. I would like to make my own research contribution towards aquaculture genomics. I am currently in Thailand working on my master thesis. My research project's objective is to develop a *Proof of Concept of an in vitro transcribed mRNA vaccine against Carp Edema Virus Disease using a low-cost experimental design* (June 2021 - May 2022)
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumÃ©{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Resume_Quentin_ANDRES.pdf" "newtab" >}}resumÃ©{{< /staticref >}}.
 
-I am a PhD data scientist and professional educator at RStudio. I am an international keynote [speaker](/talks), [award-winning educator](/resume/#accomplishments), and co-author of the book [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/). I love creating [unique platforms](/projects) for sharing knowledge and data-driven insights, from websites to presentations and everything in between. I am known for being a compassionate leader and enthusiastic collaborator, and for making user-facing experiences that engage and delight.
+# I am a PhD data scientist and professional educator at RStudio. I am an international keynote [speaker](/talks), [award-winning educator](/resume/#accomplishments), and co-author of the book [*blogdown: Creating Websites with R Markdown*](https://bookdown.org/yihui/blogdown/). I love creating [unique platforms](/projects) for sharing knowledge and data-driven insights, from websites to presentations and everything in between. I am known for being a compassionate leader and enthusiastic collaborator, and for making user-facing experiences that engage and delight.
 
 
