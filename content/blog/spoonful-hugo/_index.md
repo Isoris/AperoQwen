@@ -1,12 +1,13 @@
 ---
-author: Alison Hill
+author: Quentin Andres
 cascade:
-  author: Alison Hill
+  author: Quentin Andres
   categories:
-  - Theme Features
+  - Aquaculture
   - R
+  - Fish stats
   layout: single-series
-  series: A Spoonful of Hugo
+  series: R for aquaculture
   show_author_byline: true
   show_post_date: true
   sidebar:
@@ -18,20 +19,20 @@ cascade:
   tags:
   - hugo
 description: |
-  Small spoonfuls of Hugo I collect that may help you get your site up and running even better: more efficient, more streamlined, more automated.
+  Every month we will discover together a new R package for aquaculture.
 layout: list-sidebar
 show_author_byline: true
 show_post_date: true
 show_post_thumbnail: false
 sidebar:
-  author: Alison Hill
+  author: Quentin Andres
   description: |
-    Small spoonfuls of Hugo I collect that may help you get your site up and running even better: more efficient, more streamlined, more automated.
+    Every month we will discover together a new R package for aquaculture.
   show_sidebar_adunit: false
   text_link_label: ""
   text_link_url: ""
-  title: A Spoonful of Hugo
-title: A Spoonful of Hugo
+  title: One R package for aquaculture a month
+title: R for aquaculture
 ---
 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**

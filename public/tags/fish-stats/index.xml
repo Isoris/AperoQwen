@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fish stats on Quentin Andres</title>
+    <link>https://qwentee.netlify.app/tags/fish-stats/</link>
+    <description>Recent content in Fish stats on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/fish-stats/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Month 1:</title>
+      <link>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</guid>
+      <description>Together each month we discuss a new R package for aquaculture.</description>
+    </item>
+    
+    <item>
+      <title>One R package for aquaculture a month</title>
+      <link>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</guid>
+      <description>Every month we will discover together a new R package for aquaculture.</description>
+    </item>
+    
+  </channel>
+</rss>

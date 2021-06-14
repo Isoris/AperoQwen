@@ -40,9 +40,10 @@
         <meta name="twitter:image" content="https://qwentee.netlify.app/img/papillons.jpg" >
     
   <meta itemprop="name" content="Gallery">
-<meta itemprop="description" content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."><meta itemprop="datePublished" content="2020-10-21T18:45:32&#43;02:00" />
+<meta itemprop="description" content="My gallery:
+     .jg-entry img { transition: transform .25s ease-in-out !important; } .jg-entry img:hover { transform: scale(1.1); }      mm f/ sec ISO &#34;                 4.3mm f/1.9 1/50sec ISO 125&#34;        5.43mm f/1.89 1/725sec ISO 100&#34;     5.43mm f/1."><meta itemprop="datePublished" content="2020-10-21T18:45:32&#43;02:00" />
 <meta itemprop="dateModified" content="2020-10-21T18:45:32&#43;02:00" />
-<meta itemprop="wordCount" content="814">
+<meta itemprop="wordCount" content="114">
 <meta itemprop="keywords" content="" />
   
   <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -88,12 +89,7 @@
         
         
         
-      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
-      
-        
-        
-        
-      <a class="link f6 f5-l dib pv1 ph2 " href="/gallery2/" title="Gallery">Gallery</a>
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/gallery/" title="Gallery">Gallery</a>
       
         
         
@@ -118,8 +114,7 @@
 
       </header>
       <section class="post-body pt5 pb4">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-<p>Here is an example gallery:</p>
+        <p>My gallery:</p>
 
 
 
@@ -182,52 +177,6 @@
 	
 
 	
-		 
-		/* Changes made here sadly only apply after restarting hugo server */
-/* make 5px space between the button(filter options) in the filter bar */
-.justified-gallery-filterbar {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  gap: 5px; }
-  .justified-gallery-filterbar button {
-    padding: 6px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    background-color: transparent;
-    font-weight: bold;
-    color: #fff;
-    line-height: 1em; }
-    .justified-gallery-filterbar button:hover {
-      text-decoration: underline; }
-    .justified-gallery-filterbar button.selected {
-      text-decoration: underline;
-      background-color: #fff3; }
-    .justified-gallery-filterbar button svg {
-      width: 1em;
-      height: 1em;
-      transform: rotate(90deg);
-      transition: transform .2s linear; }
-    .justified-gallery-filterbar button:hover svg {
-      transform: rotate(90deg) scale(1.3); }
-
-.fulltab {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-  min-height: 100%;
-  background-color: #222; }
-  .fulltab.justified-gallery-filterbar {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 101;
-    background-color: #222;
-    padding: 5px;
-    margin: 0px; }
-
-	
 </style>
 
 
@@ -248,104 +197,24 @@
 
 			
 			
-				
-			
 
 
 			<div>
-				<a href="/gallery/images/SAVE_20210405_164242.jpg" 
+				<a href="/gallery/images/Z7.png" 
 					class="galleryImg"
 					
 					>
 					<img			
-						width="800" height="600"
+						width="800" height="474"
 
 						
 							
 							style="filter: blur(25px);"
 							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO5ur61061NxcybIwQOmSSegA7k1nL4tsLmFzZPuljbDxyoVZfwPJ/Co7p7TU4Y4pGLrvLKBkcrnJz7c8&#43;1UYdN0&#43;7vn&#43;xTF54lAfLlgFJHGf&#43;Ag4/xrN3tdGkVFO0jQn8W6XI1xa2km67S2eZNyEISB0yccg9ayNAn1XxPPJYTtC8W0n7SYR8p9MK2M9xz2rUsNC0zSbm7FrAgFyhVVfL7M9Rz2qz4Z09PC2niFHUyyMXkbqCxHb2HShwbJUopMBqCzSsgIKD5RxjFUrTT5rTW3lt2RLSRWeRcZbcccZ7D/AOvUVn/rT9a116v/ALv9au1yU2jKN7IviH7JKpB5ZSOhX61aNw15teBg6o3JDcD2rOu/&#43;Rvi/wCuBqbw7/yD5/8Arsf5CmmOS2P/2Q=="
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABMAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AK2mQXGjRzzreXlypT5VlfAX3A55rf0yXUr4GS6mFttOVQvl5Vx0weB9T&#43;VaFvJoGiASvEHnX7pkPmP9Rnp&#43;grmdd1UzXInskWOLcSYien0Pam27WE4o6X7Naxlpr&#43;Iltu1VZ94I914qjFaeHYL2FLbS9NW5lOT9oTau3occEZ9qg0y9ttUsQkg3svEiOc5x3PqKh12z09kLeYEmxyg5GPcdqm2haZguzHkkknqTTMkjmnN0FNHSkDEgmkglDxOUYd1OKo6zcTbxH5jbSMkepq2v3qz9a/16f7lMD//Z"
 							
 							class="lazy"
-							data-src="/gallery/images/SAVE_20210405_164242_hu90e10d3cc28b0a34a3534a6352d820df_6513571_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/line_200206266848730.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AL9wgsLOW4nePy40LsySBwAPYc/pS3k9jbaVFqFxJ5Vrc7dkhQ/hxj3qr46urrTrBbONJYRJlWcyZDLjoDgda5ombXtES1ubonyceVngLjg/XilKjK3M&#43;5UZxsdA9odMvZLiRWBt2KtxjDbc4578j86zdU8TLqWoBQjIsLKBuHU4Y8Vh&#43;K/EM10LGE3jSNHuZwBjDdMk9zx&#43;FV7e4mubZ5Zb6EOzAlJTjZgYyMc9sUnST1Gpmv4sv5dae&#43;vA7McElfTB4/IY/SuemsbyHS7e4jmOJNoUIxzk5/xrWk/49b76f1prf8gGx/66pWiuyDnZbdBZ2zEymVpQWJAwAf8A64rSj0y2vri4iguGEcJUhioOSRz6elVrn/jyh/3k/wDQjV/w99&#43;9/wB5f60IGf/Z"
-							
-							class="lazy"
-							data-src="/gallery/images/line_200206266848730_hu3fdf3a8aa47c773aa04b116b59e92925_324225_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/line_200171478142545.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ALluy39pDJJJpk7PFlhOCjgnrhgBj86e8FzDAVt49QhT5QBaXiyJ&#43;GeR&#43;NVxO9vpiWtq1tOYgqMotQS3fgnAPQ8E9qNQv9PihRbjTPJuHVWEUkRi4wQM7HO3oe1Ywi2tjSW42S3nZlM1tfyrgc3GpRqufcday7yOOBVVLKzgYsCTJfeaT9cMR/jV67ktbcsTYaW4jj3GTzpWAGAcjOAcZx1rm57uG3hNwsNgyhh8qIeeeoycmtoJbsyk2jXfTdVgnd1uRdFhhHb5SAP4SAQPxxVaS11152eU7isHlxtvHy4PH14/nXTVG/WnzMqxy13a6rIssTuZI33rhuBhgB1Ge4HNX7LTrSHThbz2jLNxufzww6cjAA&#43;vWr833GqI0nqrAf/Z"
-							
-							class="lazy"
-							data-src="/gallery/images/line_200171478142545_hu2c5b4b2d4ab00a439820d8f48e44ec8b_425900_800x800_fit_q88_lanczos.jpg"
+							data-src="/gallery/images/Z7_hu8f69f1e9582702c8369ee28407e48ab0_2657270_800x800_fit_q88_lanczos_2.png"
 						
 
 						
@@ -372,36 +241,181 @@
 
 
 			<div>
-				<a href="/gallery/images/IMG_20201121_105559.jpg" 
+				<a href="/gallery/images/Z6.jpeg" 
 					class="galleryImg"
 					
 						
 
 						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/4326sec ISO 100"
+							data-description=" + <br/>mm f/ sec ISO "
 						
 
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
 						
 					
 					>
 					<img			
-						width="800" height="360"
+						width="800" height="524"
 
 						
 							
 							style="filter: blur(25px);"
 							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOmj1PVgBugs/wAJm/8Aial/tfUwebW1xj/nuf8A4muTbX0QhTHIT26VYj1TzY94DD60XGb8mrXx62lt9PtB/wDiaxdT8U3dk22TTNuej&#43;blfzAqubuRmxn9KRrmTn5qTfmFj//Z"
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AK62za7ZG7upVaCXIVI0&#43;aMj3I6ipovBNiQrqbgMcYIfGP0rQW5EloIUgSGQzSOyhyQck4P1IwT7mt43UJtwMSZ527geDWELLY6qs5PR3MOz8N23h2KaeN3YyKpYs2cYOB2960dMX7ZNPJ0KKEXOOW&#43;9twcc4FSxTi4gMVy5LNGyggkYOeOetJZ3AitZAGYNPlhxIPmXpn0HHTjPvTlJ3MVZKx5jp8kikSNNKwA3bdw54z1xXQtfJ5pjMLkB9n&#43;t/wBvbnp&#43;Nc5Z/wCpP&#43;4f/QK1m/4&#43;z/13H/o4UNIcpN7lmLWUgUSpanOzdgy/7Bb09sVZfxGwBj&#43;zfxYz5n&#43;2q&#43;n&#43;1&#43;lYR/49v&#43;2P/tF6fJ/rT/10/wDasdKyJP/Z"
 							
 							class="lazy"
-							data-src="/gallery/images/IMG_20201121_105559_hu58efc992e46f6186b171373b879eba37_3502562_800x800_fit_q88_lanczos.jpg"
+							data-src="/gallery/images/Z6_hu721f13113eafb94b33859f1b5c5bed26_1382297_800x800_fit_q88_lanczos.jpeg"
 						
 
 						
 							
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/gallery/images/Z5.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="524"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AL04sk020062t1idp1bCgfw/Mzk/hj8aL25lhk8mIYO3O41RtjOLhbmVk81&#43;ABkhF9B/j3PtgVupDBebTNHl4zwRUyTa0BEEE80lgXIG7dgNjtVWNJluVLPvXOMHrWiJCVaJVCpnAXFOjiXyywTB6ZrFXlLctpJGHalvOZS2SG4Pet6zRdgGOpx9PesG1/4&#43;n/3q6C06L/viuoknjgj3OWXJOR&#43;PrT9iooAHA7Usf3m/3jSv0qLJBc//2Q=="
+							
+							class="lazy"
+							data-src="/gallery/images/Z5_hu93082b5b97da22a74941043599f2a3ed_1382437_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/gallery/images/Z4.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="800" height="477"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABMAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO1vLqOzyXx&#43;NQtfsQwyowM4BGap&#43;IXP2eQrj7h7fjUdjHEIhIiBWdckgdc4pqMeTmZLnL2nKiX&#43;1dxI89Vx6nmtKzlMkZJO7nrWJaQP9okDKTnBywx2x/Sti2YRgp&#43;NKqorSIUXN6yHtbQzLmSMN9fpSiGKMAJGoxwOKkT7lDdKwudFis5weAv/AHyKbuJ706TrTKBn/9k="
+							
+							class="lazy"
+							data-src="/gallery/images/Z4_hu834ac378a2884e6f0d39d7779d5fe1f5_1153829_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/gallery/images/Z333.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="539" height="800"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANq68T6bFps0llBbi4iG5UkX5ODzwO&#43;M1nW/xJkvoUiuoI44lP3IgVH15zRc6HpF1D5kc23JHzBhg5x61xOo2lzb3otHjMQt8gOp&#43;&#43;Dgiii4yfLa5NZSiuZO1j1OxvLLVlMlvdxjAyVlO0/4frVv7Gn/AD92v/f4V5BaXlxCWQSMpHdTjIqz/aN3/wA95P8Avquh4aN9znWJl1RqLqhgl/fq8RPVmGM/jxnuep6ipJbm31GSK2cKF5ZipIxx6YHc471PL4fni3fYrzcp/wCWco6/0P5VUWyks59z2aQOQQzovB/LgV5zTjqtz0V72jFl8KpFMWknZ4W/1fl8H8ab/wAI5Zf37j/vr/61acd2Jf3e/JHNSb/er&#43;sTerZH1eC0SP/Z"
+							
+							class="lazy"
+							data-src="/gallery/images/Z333_hu4e028031af70441ea0179dc98a3ea3c1_1608551_800x800_fit_q88_lanczos_2.png"
+						
+
+						
+					>
+				</a>
+			</div>
+		
+	
+		
+			
+
+			
+			
+			
+				
+			
+
+			
+			
+
+
+			<div>
+				<a href="/gallery/images/Z3.png" 
+					class="galleryImg"
+					
+					>
+					<img			
+						width="645" height="800"
+
+						
+							
+							style="filter: blur(25px);"
+							
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGgMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APK0hTYvLByccrxj1zTDDgZz8vO0&#43;tTwqryBZHZOx&#43;XpUpAKeWxII&#43;6B3NZuVmczqNMzyn4GmVaA2vgAE1CY&#43;TmrTN4zuWIW4O0L36nBxTnlkdPnYkKccnpVWOQqwIODTt/epcdTJ09bkzlAVwcDHJByarmUFicDrTWfPSmVSiaxhbc//9k="
+							
+							class="lazy"
+							data-src="/gallery/images/Z3_huf824b05759f905737b85dec65e785d17_2782670_800x800_fit_q88_lanczos_2.png"
+						
+
 						
 					>
 				</a>
@@ -426,32 +440,29 @@
 
 
 			<div>
-				<a href="/gallery/images/IMG_20201121_090356.jpg" 
+				<a href="/gallery/images/Z2.jpeg" 
 					class="galleryImg"
 					
 						
 
 						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/101sec ISO 100"
+							data-description="SM-G925F + <br/>4.3mm f/1.9 1/50sec ISO 125"
 						
 
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
 						
 					
 					>
 					<img			
-						width="800" height="360"
+						width="524" height="800"
 
 						
 							
 							style="filter: blur(25px);"
 							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AJrDxSsUSR6hqkkkrkBZBJvDAY5Y9j0qjqvijTFd4JkluGErNuikCxjcc/LkE&#43;tZE3hi/tbkjfakJ1wzDP6VAfDGoysSs0AJ5&#43;&#43;3A/L3rPlvG0tTRzfNzR0Ok0rUNK1Iqq3bW04GQtywwfoQMHp3pZtKskARL63BUnrK3fryK52bwvqdsI901sA7BU2sxwcf7taVta3EiRtKIQR8p2k9jj09v1qpN2FHc//Z"
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAFQMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANrS7S&#43;toV82QKy8BU5&#43;Xt1q8He4QOsjMOQDwCeee1ZWkyXxhWOa5D2&#43;fmZMBnXuASOK15LLF7LLpt2SkhDCBzgbu&#43;3Kn&#43;Y5oWxcnqEVtHcKWAyAcZI60/8As&#43;P&#43;6P8AvkUtpKZ7dXWMRY&#43;UqDwCO1T7W9f1ouyDlI7ggAK/JJ3Aj7pz2P8An8a07WeTzA0L7SCOWGcH2rnYo5ndjHtZSxK8881q2wmgVQx54zuHf1pDNiDykTEDt1&#43;bnv3qTc399vzqvZQMqM0hBZjn5RwferPlD3/KhiP/2Q=="
 							
 							class="lazy"
-							data-src="/gallery/images/IMG_20201121_090356_hu2617a29a490b81795b3b8f306f1daf35_5580067_800x800_fit_q88_lanczos.jpg"
+							data-src="/gallery/images/Z2_hu1c0a09d04663a4893a9dd74a2201b600_612796_800x800_fit_q88_lanczos.jpeg"
 						
 
 						
@@ -473,151 +484,26 @@
 
 			
 			
-				
-					
-				
-			
 
 
 			<div>
-				<a href="/gallery/images/IMG_20201121_084823.jpg" 
+				<a href="/gallery/images/Z1.png" 
 					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/100sec ISO 152"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
 					
 					>
 					<img			
-						width="800" height="360"
+						width="800" height="426"
 
 						
 							
 							style="filter: blur(25px);"
 							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AHXUUFvEsUCqjIvEi4Tb9PQVTubkBPlK7QMNIxyW4PBHp&#43;P/ANae7YQRZm&#43;csMMQOq4&#43;vX/61U7Od5p5WljjcsrOmf4NuW/9lpyk5amcEo&#43;6TWTzPevFGGwi7i&#43;47gMjB549sfh2qWe8WXSS9rCecBWXOAQf4jjkEDP4VCnli4hILRvNHgOoH3skcjjIOP171DJc3YDK1wcwSeS&#43;AAGJ5Jx&#43;OPpioehsf//Z"
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABEAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APQrdyCskZUY9qqX168EzKuCTzn3qj/ayR7ED5HGcDrVLXNctNOWO5eN5GmbG0uFH&#43;elQ3oa0qbqTUI6tmfcyxw&#43;J7e&#43;fJmO1dxJJAJwa6xZtyZrz648WxXk4mg0QFoh98kuQf0ptx45uU0ae6kVIZUJREA6t261XtFJJdjSrhKlFNyNp/vrUOvf6iD/AHH/AJCpn&#43;&#43;tQ69/qIP9x/5CspbE4T&#43;Kvn&#43;Rg2H/AB4H8K57xd/q7f6muhsP&#43;PA/hXPeLv8AV2/1NOnudeM6n//Z"
 							
 							class="lazy"
-							data-src="/gallery/images/IMG_20201121_084823_hu1519856f8f88e25f75fb6be854269832_6793884_800x800_fit_q88_lanczos.jpg"
+							data-src="/gallery/images/Z1_hud1aa3bcd44a3b3006ce4ca21430d9dd4_3436221_800x800_fit_q88_lanczos_2.png"
 						
 
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG_20201121_083121.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/335sec ISO 100"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="360"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AMjxLBa61rLRQCRYoH8tGZwkQY9cfjx&#43;FXLTQdXsdPZbmC0REH7lg21i&#43;VwQx5J46daXT9EuNG0cGX7OsrDe0sbu&#43;4nuQSBVbV9RvpvDztPePcbXADkGM8EHHBOBx61nJI1jc1U0S8sJYh/bcQkkGQsdtvG7GQBwcD3OK57X9CutP1uCzM00m6EXA2Ljax7YAIyAB34rVsrC51SA38N5LazQkNgSs4x0IwxNaE93IEk1aRjLNaP5Y3DhwV7&#43;nOay5lfY15Wj/9k="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG_20201121_083121_hud26330f398fe128975bdd3c64d546a5b_5175150_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG_20201121_083121-COLLAGE.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>5.429999828338623mm f/ sec ISO "
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="800"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AHSTa8bzUE&#43;z3irDLI8bpOzM3zjHGcY4/wAip7WDxRDcW7z31oiTMDtlmZtv&#43;zndgn6VH4p1fVJ7K8VoTGY7g7DEgcYDjB/3uKqwDXNSkhu7UysIHQ&#43;XcwAcDvnqcVi7I3SbRafxBNdKwt53Vw5JVXZyOcY7YqrYvq03iO1vG1K6UrKg&#43;zyF9jjIHTPHHrVzXNJm0O8kYkhCwOYkPfJH3ccdQRnvSaLbXtzrNr/ZVq1xl1kmnfciRjcM9eScDGOeK54YeNN&#43;5&#43;p1KrGUOZjr6O&#43;tdbuG86QWc285EpAb5jkFc9Rn6Vk6xaXoWHUrTeIoJlWURyEMckdR3FdjDBeC4urmKykaRZGRFdcL94gg5HTnOazJ7C70&#43;3uZxY4jbKqnlFi7EYChV6d&#43;e2T9K7d9Dy/ZLnVS79L6fcYOs6EIroudTcTtIQEdS4b0BP8AUZqGwM1vq&#43;l&#43;VDdxt50YPzDbgtzx3H1/pXUrY31zNI1xb3OBJ0kQ8jkjoD6Z4pIvDs1hd20kEUgYXMZk6kqc84JHIx/Pn1Exeup0TmowtFavr2/r&#43;mf/2Q=="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG_20201121_083121-COLLAGE_hu37e42e8122da4261fde989ff80931d16_1081721_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
 						
 					>
 				</a>
@@ -651,9 +537,6 @@
 							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/725sec ISO 100"
 						
 
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
 						
 					
 					>
@@ -696,60 +579,6 @@
 
 
 			<div>
-				<a href="/gallery/images/IMG_20201102_110217.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/331sec ISO 100"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="599"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOPjGhpsT7WZTj5sQn09TV21sdHuEEn9oQ2yZIxLG&#43;ep54rMSS3DbIbC3jAIyZV3N&#43;tSyo0gwnlKPRYVH8hS5V3EnI0E0SO91eazsdQidUcrgyEcAD1xnrj8K6HTvAl00TPFcs2yLzMRr9eAfw/WuMvJZ472QrtBdi2PLUEA8&#43;mamtNQ1C1ljkWd4kB5aIlTj8KGkNNnssml6Jf/APHxa28hHB3IKhfwX4fkAI0&#43;EDttGKWL7z/WtmH/AI91&#43;lKceVXTJehgDwPoCtu/s9GPuc1di8OaNZJmGwhQj0WtSmXH3DWN2K5//9k="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG_20201102_110217_huf78637c1232cceb608036aef3b040e60_18837009_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
 				<a href="/gallery/images/IMG_20201102_105856.jpg" 
 					class="galleryImg"
 					
@@ -759,9 +588,6 @@
 							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/30sec ISO 257"
 						
 
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
 						
 					
 					>
@@ -780,324 +606,6 @@
 
 						
 							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG_20201031_171903.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/60sec ISO 142"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="360"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOOTxD4jt5QY764IySCJCK62P4nasbYia3gU4AXLHI9c&#43;ua5BbeBZSbieYRjoIlGT&#43;ZrSn1e0fiCz8tdqq24Kd2BwenWsedvdiNd/iFqkhBNlZuB15OT9OaG8fXKxkHTYy56YckfpWQNZkQoFt4gqDGMcn8aq3Wom6m3NEqA8YUnH5Zo5l3Gm2f/2Q=="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG_20201031_171903_hub01c96e134d934a55891b794564ba505_4308828_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG_20201031_171857.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>5.43mm f/1.89 1/50sec ISO 147"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="360"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA4AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AIR8S7hihl0gMo&#43;9tkOfwyKvR/EnTvJzPaXSOeijBH55Fcg0&#43;nQSKqWIIUck9T/Sq1zeQyzZhg8lQOg/&#43;tWTlbqFzvB8RtNzhba8x6hFJ/LNMPxCtGv1iIlFrsyXKHcG7DHpiuEN1K&#43;W3flxTSxALEDJ70va9ha3P//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/IMG_20201031_171857_hu5d5335180f63649efdd25706d7cc9bac_4519015_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG_20201015_160158.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description="Redmi Note 9 Pro + <br/>3.74mm f/2.25 1/25sec ISO 699"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AIk&#43;Ft40jF7y2C5&#43;X7xyO3alufAc&#43;mKpeTzFY4BiB4&#43;tdnowuViVri4adzycEYH0q5fXL&#43;VjyTEG4Mj4Y/4VnUpLl03NKdR3OAi0S5gH7uSZfqCf60&#43;TTr1Vyzscf3ox/U1uX11LBI0UUbuezMegx1AHWueN9eTGFZQzhmZWJBU8c5xn6D8a8/2dTq0drcbbHb6dHcxQqJFjUjj726rd5KkdnK8oBVULOp7gCki&#43;4v1NVtX/AOQZe/8AXu//AKCa9eT0PLW5xsl758LyL8m7kBT0qnaiONt6qo3cnA60kH/HmP8AdpIf9Uv0rz49TtZ//9k="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG_20201015_160158_hueb30ddfd1989824bd79c3dfef124fc3b_7854253_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20210319-WA0066%281%29.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APOY5GaUs6E4zgFamM7lMojRp/fwefoK1leBImjWyUuku5QFcg9R689a2T/pVhAUlfIZHkhlhZFjI9GLYP6frU&#43;yXcFWfY5u2s7wjfDCUDdZJu/9f5VONPz&#43;8unaUZwuQVT8Mdau6Xos2p3eqPf3ktsbNGkh2KG8zrxn6AV0egaRpWqeHhY3UxDFsh943QjIOVJzt7fWmoJal89zFHiqytRIqQebIxO0xRhMfief51Fdaxqd1Bv2WsCbTh5pTKx/PIB/AVy3/Lf/AIEf51sXH/IIj/3q&#43;lo4SiqVOXLdu2/mccm02kdl4FkWW3knv8XDMxAbAOMHsCO/SrHhTw1DZ39vLJGd7wyIEBGOHbbn324rP8Ef8gof77fzrsNJ/wCP22/4F/Wvm8WrYiolpqdtOKcVc//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20210319-WA0066%281%29_hu4009937fe72efd3276a91e28df2b9cea_154005_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20210319-WA0047.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANb/AIRbRZbVTBcMhYDhmz/7KP51z2p/DyKdmMF7CRjq4CfyJJ/KrfifU7VdOso7ZxFfRxbCHXlmHPTuMYrF0/xIsXh&#43;18yJJZ0kKzMIgMxjoM&#43;vSo5kWoN6IwL7wRqMEgWFVuCf4Yjkj8wKy7nQNTtM&#43;baSYXrgbsflW1qviG8lup2tPMjUZREBK7QMfNwepzU2m6tHLCHvJJWIA4M2Oe5ORyP/AK9FybGde6lqsssdzMIyzAlWCglcj9OKYY9Re2TbJtXksAowo6ZOKmuf&#43;PKH6f0FXIv&#43;PC4/64n/ANDFCSE20Y1yscaD7SfMRuBLH8v/AOurtlYWbWTy2zSXEwwVVW2n3Hp/npVC&#43;/5BUf8AvVoeFvuD/fpg9Uf/2Q=="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20210319-WA0047_hu9a212cb5ec03a48cdbc5ad90339e4b9c_141208_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20210129-WA0007.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="369"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA8AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOK8MwQalq0X24B1Zhu4xn8q7vWPBVqjC80yERyIQxj7HHce9eZ6Xdm0uFkXsa9e8P8Aii21W2SOTKyjCkEH5j/kVjJyVmjkST0Z51JZLBkoWEgPPHOar&#43;ZL5L20gBVyCpKj5W9elei&#43;KNOsZYWuF/c3A5zt4evPrm2m6BOR23CtI1EzNxcWf//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20210129-WA0007_hu9a3899076f58d9eaee21686522fa3465_54345_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20210129-WA0004.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="369"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIAA8AIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANJry4a4Z5JGeZxyTzipYXct8zFi3r1rnTd7ZWY5Zyc5J/OpX1R448L97pnFeXPmbsNM1NTngjO6ML5u3aG7gVz76jco5bzmI6cnkUy4vPkDNzk81VmdipKEeozWtKDRnJ3P/9k="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20210129-WA0004_hudece7c8f7994d36d937e4e285b7b07fb_56614_800x800_fit_q88_lanczos.jpg"
-						
-
 						
 					>
 				</a>
@@ -1194,91 +702,13 @@
 			
 			
 				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20201122-WA0036.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APM4vIc5YFc&#43;hrpPDulwXF5G5nYpEd7KBnJHIH51NqHhmPSNIjuGli80qF2gqVckc9/c1m6DBFNOkau0Uok2sf4WHoT1HeslUU4uW1jdwlTa13PabjxTZWdrG1w6wzSxq/kSMFK5HQk/0rgPF3i3WLiyjuIruD7DLK0SxwbtrYHUsQM9/bio47CwlluI9TdyWUqgWPfj3yeR2pVt9JuNDTT/ACm8uNydrnBDHJJFWqyWpCpNrf8A4YwNSt7hLt4DZvbiMj5XJyQehOahtbK5t33hNwL7vpXS&#43;LP&#43;Q5d/9c4P5VST/VrUObp6RLqL29/aO42K68u9QahJNDE8Z2NGgY8H3/p&#43;VKXjvDtOoSrHC48uYqd2OeMf0qLWetl/1zb&#43;Zqvbf8ez/wC8P61lPWFwwsVTqci2P//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20201122-WA0036_hu19533cb4f1555b6c475b0829a04f7fe9_225930_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20201122-WA0028.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AK99eRahbLBbW5jkXqXbkfUk&#43;1OXVbjSLa1t7OQpcxsm5mBcKRy34EnnHrWerRQLHEty0ofncGILtjOOM4yaZLN9pEdySyq6N8xbJPO3HXnoPfjrUyipKz1MoU1F8y0flY6DUNfl8QaebG5MSZYlkhcKGbHGSecdawLaG70m733W65SU/wCuZj8jHBySMkA461DbC6mDCNZQHX5nAbcQOc89ARxWnpt3I2l/Z7uPz2klKvGZMMOOG5wcZ/lRH3I8iWhTp832mZtxp2qRP5q2N3H827CxgqMfpnk//WqB9P1C4ihWOzuEcE9Fx3616Rff8eZ&#43;lZtn1j&#43;lMuUXa1zmrSLUooVsbqCdraTIJRBvU54OeuPYVJc2Gpy5C6W8sZjzIkkbIrtxjbjBzwO4zXSn/XR/U1uN/qB9KTWg0n3P/9k="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20201122-WA0028_huc77a1a33e87bc78323947950c5bd0dc9_331464_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
 					
 				
 			
 
 
 			<div>
-				<a href="/gallery/images/IMG-20201122-WA0025-COLLAGE.jpg" 
+				<a href="/gallery/images/7.jpg" 
 					class="galleryImg"
 					
 						
@@ -1288,431 +718,23 @@
 						
 
 						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
 					
 					>
 					<img			
-						width="800" height="800"
+						width="800" height="456"
 
 						
 							
 							style="filter: blur(25px);"
 							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOw1TxVffZrpoYTbpFKYvNbGM54OSf6GvO9Q8TaxJqgaXUZWCyIvlpIdvX269vzFWNS0bxBcXt6VsLidZLmRsHhdobjvWIfD2vx3kcjaZdDbKGyF3EcjqRxWUYQi731NHzNbGvcR3EWstJea9eGOGYoVhmb94xPCgbuRk9enFWLqeI&#43;I7F4/Ed0CZo1MIMn7xgwH0AP&#43;NV/sFy2siae0kiSEyOG2H5nw2zp/tEH8KTTrO4OsW8RjadVnj2lkyVwwJxnpzn/OadpJ3khtK1kZU0oXxXeJdm5CC6ctskPTecZ9M8V6BJ40vrya2tbO3mRZJFjkuUAwp43YBzgdfX61xep6Trknii7vl0&#43;6OLiTBER5G7jt0xWlBHqnnDzbO7jKyqyxeTJg57jHA79abk1sS2ubld7dyxqXhzT0mlFpd3d1MWz5cJ5U&#43;/HSqFp4SvrTWLEx63LHiZHaG6wW4YfLlSeorpZrHWobq7k08zIJAzvGVPzkHoCRj1NU7KW9N7ZvLpl2LiWdRLKYG2EZHUdj&#43;nXrVNtrng7r8vVCacfdZ//Z"
+								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ALMC34zv8rn26VennuprC1jLgPEGX65OaybvT7m7mMi34jUH5F8v7o79&#43;ajbQpnwDqHyg8jyyc&#43;nelYOZ9EaDy3Z1P7Sz/L9nEIwOwJ5/WrFsPtV1HC5KqpDA4yBjnNY8OiSQOD9v3DbjHl//X&#43;lWLaye2vBOt0SMYZdvX9ahx1GpMsp0p9MTpUlWA00w080w0Af/9k="
 							
 							class="lazy"
-							data-src="/gallery/images/IMG-20201122-WA0025-COLLAGE_hu655142abc398aa534574f8a3c2c740fb_993353_800x800_fit_q88_lanczos.jpg"
+							data-src="/gallery/images/7_hu34a4023b1d845c7bbb95dc67ca42849c_490255_800x800_fit_q88_lanczos.jpg"
 						
 
 						
 							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20201122-WA0016.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="600" height="800"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAGAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOMs5dS1m8iiWOSVwS03BBC8ckmrS6DNbzs29MBtoMmUA9M56dKx4r6&#43;uL2K3iZGlmcIpbjJJxya6SwvL2PZbyQ3TtBlXFvjawz/ALRJwPatIq7uiuePwvc2/CentfX9vbTRQwRxqx8yLJaQn&#43;EnNdx/widv6y/9/DXL&#43;F/Edu&#43;uW7Sxu3myCEeeVRkIwM4AGeo9a9P&#43;12v9&#43;P8AMVlK7k&#43;gKSa0PDV8HWNvBbyRXTPPJCGkdRgDPpnp1HvxWvD4dvLWBbi0vQzBcqCnU9uQc81l6T4g075M3DQMXAO9cgKM9/xzXUNqEL6Jc31u7lolZ1fcCAQpA5z/ADrXmnFWtp6IhU3Fe9ucVY5kvQGHzGRs7uisWPpW79lk/vp/30f8axtKhL2sROd2OfWtD7IfVq5a8kqsl5m0b2R//9k="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20201122-WA0016_hu2c281f33c0da86e47de636ab0ff113e4_266982_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20201122-WA0012.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO91fxTa2gS0vHgSWRSJEMgHGM4B9xiuV8N&#43;NrHS/CtzbzeTsjc/Zo1YgkMSdvTPBOc89a5yKy07xNZNf6bcyQiOQJJDfDgswJADj6HsTx2rJ1XSNT07LXds4h6CRAHTOe2P5Gs0tdS5S00VjrG8WaVf6ZPaiwWG6xmGeTDMSWHG7A7c117aAlpao9rbZVYRGrJKGWUY4J6epPXvXiAcvgREqOuBjI/oP/rV2/hzW9Z0SwjWO/BhblIZPmwOcDJ6fSi8YKwlecrsh8e2sSfZtJs7i1W1tyWVbU5y5Jzv44/D3zSWRvtL8MR3supMLhFZmgkyRsHTBHIJGPY5&#43;tUdd/5C8/8A11/xrQ1r/kW5P&#43;vFf6Vrj17HljDute9zPAt105T7N27WMYaloN3LDFd2&#43;JEAJZG8svkDjPIxn1Hatk2VpcoGsdQyP&#43;eVxlH/AAbO0/iR16ennM3/AB&#43;J/up/IV29j/qYvwqJQTRSk0z/2Q=="
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20201122-WA0012_hu7d48e5e77cfe5df7c7dcc21bbd64d9ef_246710_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/IMG-20201122-WA0012-COLLAGE.jpg" 
-					class="galleryImg"
-					
-						
-
-						
-							data-description=" + <br/>mm f/ sec ISO "
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:null,&#34;Rating&#34;:null,&#34;Tags&#34;:null}"
-						
-					
-					>
-					<img			
-						width="800" height="800"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIACAAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AJNQ1jULHUL&#43;SC&#43;nEjXDKimRiI8MegPH6dqZceIL3W57USapPbSrIFXyWKLJyDyM89utZmqW&#43;pnVb4R2FyT577P3LYI3nB6ehqXTtOuN0AbTLhJonDkmN23EHII44/8Ar1NteZbk2jsFxr&#43;rxF5nvbuG3aRgjZ3BuSflGRwMVbVtTOoWjpr804WWIsFJCyLuHue2frV67Rjotpa3GnRXC27KVSFWHB6sc9T1z&#43;WKkeG7jubW4ttORfLuYxJ3Ai3YyAD1x/WuW3LZo6o3fuMwr&#43;PUX1Ce6ihAge7ki3AhQuHPJJJx97rjsfSn2Fvfv5Re8lH77aFEhbgFRyRweT16DBrc1yGWHU5r2OzmST502wwMRIDkHIA6kHk1zwl1WW8jih0i7tLfIDYhY5569MD8K1vLmL5KXLdmtP8AEWe31W&#43;ukts&#43;dD5IQngsrHDfgCfr&#43;tP8NeL7PUdbtYNUiSBwPLjaNCQzkjG7BznqM89aoSWeq6mdTn1XSlmSORnjb7O6SMMn5VZRngAdeuah8OaKq6zbSxRXkTRyJ8s9q&#43;ByM/Nj&#43;n1NaWs2uqOW7aT6M//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/IMG-20201122-WA0012-COLLAGE_hue4a69c87a866adabfa488a47eb410e4c_1141703_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/23112020_201123_7.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/APTYtR0/YX&#43;3W&#43;0DJPmrgD86dJrukWzMkuoW6MrhCC44YjIH5V5gniO7m05lbUE8uUMrJ9nX5lxg9uawdXt/7Wvp7yTzi8zKQ/lf6x1RgMcc/wANTGvGTsKMT2OXxTpH9mi&#43;W8hMZQOA8gUkbc8Z784&#43;vFcLqHxNmdjHa20Me5sI7Pu4z1rlNX8iDQ7OzSdJV4YgctG2MsPxYmsW/if7JHPy6MOqnpjipdW7smdMsPy01N9SzoWnz6oEMszx2yZBP8WfQV6AtzGTFGBujhGAfeuS8I/8g0/75roLbo31rjk7yZpCKjBW6kXiyytdR0BHdBuhlDAjg4JwR&#43;JxXLPZWdvE1pHeyO8S4IIChSPTnn&#43;ddbrP/Ivv/vj/ANCFcVcf8hS6/wB56undoU7XP//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/23112020_201123_7_huf4ecac750a9a6cf33702e1e5ce096e45_493462_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/23112020_201123_3.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AO6/tfSrfCy39tG3HDSAHngU1/FWgwkCTUUzuZcBSTlTg9ume9eR&#43;J9IW0vjBaxyBY4RIW3ZXaTjP51nWN9PpGomPDO5dlQum7K/Tt0rVVubUl0kj2xPGfh7Lqt2XKuiH92VHzHg5OOB3rhPiP4tg1HbptqQbdG3GYEguRkcDpjmuO1a4uNUvXBjUOXBO1CnABJ4PtW3rNoupQQojgR2oMZeRWwOB6A9x6VE5Aqa6DrrUru9uXlliRSUEBVRkdd2M9zn0qhN4fRxJdXwuI84Kbo8lyfX0q1H/rU/6/W/pXQeIP8AkEp/vJXHzWsl1Onlvds4&#43;zsILWZi7yIWjdP9lQy4ye/Qk/lXUWc9u1vcTIDsllZgG96wbr75/wBxf/QRWhYf8gcf7zUVfhuVS&#43;Kx/9k="
-							
-							class="lazy"
-							data-src="/gallery/images/23112020_201123_3_huf0bb51b5a826236b38fb65c75c33da97_362407_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/23112020_201123_11.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AOZXUrkHa1xFH7E4xUsd9KYzCtwxRjkpGcgn1wKtwWQjvmRFuVDSFmkZdq9cg578cfjToWljupHc&#43;VGhVYiZCxbHTPufr3qVJWu9C/ZTTtFXLemW8epzWtncCR2ZtowCjAZwMkg5/LpUlzowTXRp2nlGaQbSd/HQEgnv/wDrpjXEMGlzTeQFdZV2MoA2sSTu/SszwvcGK6nijjV5JGbYdwBUgj14yaLuWiHKlJRUi9BZwz2MMf2mW1uizeahkB47YB6cY/WpLwra/KqefMwUERhgeBgE9arn/kMt9RVs/wDIVk/65iuBztBtHr4hNat3VrmZZ3zzabepKSJAA&#43;D/AHeePyWjSLVA8UsgYyJPJnY2Qef5dKqWn3b3/r2/o9amkdP&#43;2kv8xXfCb27HjTV9X1P/2Q=="
-							
-							class="lazy"
-							data-src="/gallery/images/23112020_201123_11_hu6fcf4dc74283545b942ecc60f01ffd4a_407005_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/23112020_201123_10.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AORtNSuEkHlose48knFXmvrqxmM0erRCWRCj&#43;S5B2nqDkCnixW40u2uYY3lcblH2eHd82B1b1xmrvkXtvPFGYmRF5eXzCAvy9OOvvxwamMk9S3SkuhDpJM1u9vOGkhkYBflO7JyOD0x65rc17wnZ6Po9rqFuHMr7TteQs&#43;COucDGPpVjRpY7nVYhJCsu&#43;MK0y8EoAcf5965XSpbVNZkt40byLkplHflDg4GfTGBTbutCvYyavbXT8TWsVhWeYXbPBH5REUsT7QJO3A7Y9&#43;1WjFDZ2avJci7ILNGSCXO4AEAj2GKz7r/kH/8AAh/6DUx/49bP61xyfLc9S7qU1O/V6eibKdhrc8fiSO3lVreNv3ax7QCC2O/XPTr0rK02M3FxcC4VkckS7lOMMDg4/I1Pf/8AI8W//XzF/IU6x/4&#43;5v8Arm3/AKG1dVKb5Fb1PJqe87s//9k="
-							
-							class="lazy"
-							data-src="/gallery/images/23112020_201123_10_hu94e3ad764744de92c1cecd19063f524e_360695_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/23112020_201123_0.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AKUco1bxRfXl3HLaQSu0qYIDEE8Alcg/r1p0t1e3aeTLql1sTKKPLzuUVLqrXb2iWilmTy/nKrgEDgfz/SsGR2kltYFWV94KMFfbkqM9cH6fnUtS2uax5LXZZn0C0eAO9/M1xIw2KY1Ve&#43;ep56df0qn9nFlNIlvr9tAEJAX5g5H4D9at&#43;OJvtem6VsjK&#43;SrK6AYy3GOeM9M/jXFSiVdsj7hu6Fu4HeiMXa7Jk430PWbyYNERIyIMcsW6f5zWbYz2djYoj26z3ETsscoPQEkkj8/yqXVf9Sf9w/0rKH&#43;qT6msk9LDtqR&#43;IZjcQLNBE0jRNlsAZUY/P0rIa1t7iBopUUSMuEc5BHPGMjOK2G/497n/AHR/SsqT/j5i/wB1f5Vak1Gwra3P/9k="
-							
-							class="lazy"
-							data-src="/gallery/images/23112020_201123_0_hue2d2fc55d7464fd99f03558769707462_292187_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/1617167374367%281%29.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="600"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABgAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AMrS9aEdxBaXYCYt1KOrcBe2efb0roftb5VrYCdif4GzxnrwK5PUPCeuWclr9ptVLylLeMJIrbgOAPbqKuWmqrZW0Zine2up5Y4/lTCiIuM4/EH8DTW1yHHXY1Ft0OTJZiEndjMezv7gVXkTR8MHhtyyjLFhz19jWrf69pj6fOl1I3mk4hlXcwTLYJP4/pWDq&#43;m6C2medpN0vny7A4aXLA9WBBxjpU&#43;ZpKDWiZ3OqvLdX9lNCuFhyWDpnncpHQ&#43;x57VVsNFtII4vMV8w7duUB5VnYH83b9K0D98fSpO1Za2sa21KeoaZY6hG0bIQJCWYrEQfXtWHFpUFndTSPKXDk8PA2c/l0rq4e/0rJv8A/j4P4URbvYUkf//Z"
-							
-							class="lazy"
-							data-src="/gallery/images/1617167374367%281%29_hu181c0e60b4903a57bc08d39ff970016a_139733_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-			
-
-			
-			
-				
-			
-
-
-			<div>
-				<a href="/gallery/images/1605240410665.jpg" 
-					class="galleryImg"
-					
-					>
-					<img			
-						width="800" height="450"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABIAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ALMC34zv8rn26VennuprC1QuA8QZfrk5rJu9PububzFvhGoPyL5ecevfmo20KZ8A6h8oPP7snPp3pWDmfRGg0t2dSa5d/lMCxDA7Dv8AqatWf&#43;kXsSOSojIcHHAxyKxYdEkgbP2/cu3bjy//AK9WbWze1u/OF0SpGGXb1/WpcdRqTLCdKeKYnSniqAQ0w9KeaYelAH//2Q=="
-							
-							class="lazy"
-							data-src="/gallery/images/1605240410665_hud370b86fe5923bd21d33e8fbf1616188_1133269_800x800_fit_q88_lanczos.jpg"
-						
-
 						
 					>
 				</a>
@@ -1752,183 +774,6 @@
 							data-src="/gallery/images/1604975734538_huf04826bd2dd6ab025f3125a11f81208b_1861639_800x800_fit_q88_lanczos.jpg"
 						
 
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/2020-07-26-_MG_3439.jpg" 
-					class="galleryImg"
-					
-						
-							title="Water lily"
-						
-
-						
-							data-description="Canon EOS 80D + EF100-400mm f/4.5-5.6L IS II USM<br/>400mm f/10 1/400sec ISO 500"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Water lily&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;macro&#34;,&#34;published|matze.rocks&#34;,&#34;plant|flower|water lily&#34;]}"
-						
-					
-					>
-					<img			
-						width="800" height="534"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AMEQukoJ5U9QalFuUOCODyDUtvJ5yBT83oSOatTFVi2H&#43;I7FYDlW9D&#43;HSvo0o01ZI6IK2hWWJBbs4IyoyD&#43;Gaka2Vrdih&#43;bgZ&#43;taMemW5hCyAsWH14rL1CL7JKbaKY7JE&#43;YHjGeg&#43;tcOHzOjXqulF6o65UJRjzMq6bJuuUhIHJwCO1WLoPb6gyeYzpdINysehzgEfT&#43;tVNM/5CUX&#43;8auan/yErb/AHB/6Ea6/iikzniRSalfW120KXB2INoyB/nNZtzcyyXKxSMXDHBJ69c/1qzef8hGb61Rm/4/4v8AerKFKnGmpRik3bobTlJ6XP/Z"
-							
-							class="lazy"
-							data-src="/gallery/2020-07-26-_MG_3439_hua6089c7cd81f1998907d45e772da758b_127602_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-								alt="Water lily"
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/2020-06-18-_MG_9066.jpg" 
-					class="galleryImg"
-					
-						
-							title="Pool frog"
-						
-
-						
-							data-description="Canon EOS 80D + EF100-400mm f/4.5-5.6L IS II USM<br/>300mm f/5.6 1/320sec ISO 250"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Pool frog&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;macro&#34;,&#34;published|matze.rocks&#34;,&#34;animal|amphibian|frog|pool frog&#34;]}"
-						
-					
-					>
-					<img			
-						width="800" height="534"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/ANGIOLURBioHrTHaVEIVgeKdAs5IDowHHccetKisB86MRnGTXzslzO6RdzPVriQEBcnjrTYWnguJFlQFimBkZxnuPerIuNt2saxg7gTkHNU7m4CyEICCfU1so8jv1AnFxJK6tIQf90AU9sRQ4RQNx3N7k96rxfw1Ym/1a1xzbsIgMzK59ulUpzul/wCBYqy/32&#43;tVZv9d/wMVrT3A//Z"
-							
-							class="lazy"
-							data-src="/gallery/2020-06-18-_MG_9066_hucbac138cb1cdddf47123e4f822bb801c_105597_800x800_fit_q88_lanczos.jpg"
-						
-
-						
-							
-								alt="Pool frog"
-							
-						
-					>
-				</a>
-			</div>
-		
-	
-		
-			
-
-			
-			
-			
-				
-				
-			
-
-			
-			
-				
-					
-				
-			
-
-
-			<div>
-				<a href="/gallery/2020-06-11-_MG_8793-8794_Stacked%28B,Radius8,Smoothing4%29_01.jpg" 
-					class="galleryImg"
-					
-						
-							title="Water drops"
-						
-
-						
-							data-description="Overridden camera model + EF-S24mm f/2.8 STM<br/>24mm f/8 1/250sec ISO 500"
-						
-
-						
-							
-							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Water drops&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;macro&#34;,&#34;published|matze.rocks&#34;,&#34;bracket|focus|stacked&#34;,&#34;waterdrops&#34;,&#34;plant|flower|water lily&#34;]}"
-						
-					
-					>
-					<img			
-						width="800" height="534"
-
-						
-							
-							style="filter: blur(25px);"
-							
-								src="data:image/jpeg;base64,/9j/2wCEAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4&#43;JS5ESUM8SDc9PjsBCgsLDg0OHBAQHDsoIig7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O//AABEIABUAIAMBIgACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5&#43;gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4&#43;Tl5ufo6ery8/T19vf4&#43;fr/2gAMAwEAAhEDEQA/AMmPU7dpN0NzDNLjhUwSfwFai29zdqTKscRfsD5uP&#43;&#43;sCorfT7QxBEjRVByNq45&#43;tXLdryAgO6uucEg9u1fNxlGzOl2YYaNQGtjuwAznaNw/DinxW9qgBhYJuGSrgD9ce9WBOH68HHeqs6xD5m4XI3gcA/lVxqdEHKipFKSFYD7/AD7ipUkbBOarQf6uH6f4VOn3T9K5rFsdPctFkYziq8UwuJHaVAyREfITw3en3v3m&#43;pqvZ/dufqP5Gtou1NtFRSuf/9k="
-							
-							class="lazy"
-							data-src="/gallery/_hu449396949d678262e0c573a3d66d42f7_115836_3ec94bda9dd6f6d1e9e2474f73969860.jpg"
-						
-
-						
-							
-								alt="Water drops"
-							
 						
 					>
 				</a>
@@ -1979,150 +824,6 @@
 
 		
 		
-
-			
-			
-			function createMetadataFilter(filterFunction) {
-				return (entry, index, array) => {
-					
-					let meta = $(entry).find("a").attr("data-meta");
-					meta = meta ? JSON.parse(meta) : {};
-					
-					let include = filterFunction(meta);
-
-					
-					
-					if(include) {
-						$(entry).find("a").addClass("galleryImg");
-					} else {
-						$(entry).find("a").removeClass("galleryImg");
-					}
-
-					return include;
-				}
-			}
-
-			
-			
-			function createTagFilter(tagsRegexString) {
-				const tagsRegex = RegExp(tagsRegexString);
-				return createMetadataFilter(meta => {
-					let tags = meta.Tags;
-					tags = tags ? tags : [];
-					return tags.some(tag => tagsRegex.test(tag));
-				});
-			};
-
-			
-			
-			function createImageDescriptionFilter(descriptionRegexString) {
-				const descriptionRegex = RegExp(descriptionRegexString);
-				return createMetadataFilter(meta => {
-					let imageDescription = meta.ImageDescription;
-					return imageDescription !== null && descriptionRegex.test(imageDescription);
-				});
-			};
-
-			
-			
-			function createRatingFilter(min, max) {
-				return createMetadataFilter(meta => {
-					let rating = meta.Rating;
-					if(rating === null){
-						rating = -1;
-					}
-					return rating >= min && rating <= max;
-				});
-			};
-
-			
-			
-			function createColorLabelFilter(color) {
-				color = color.charAt(0).toLowerCase()
-				return createMetadataFilter(meta => {
-					let colors = meta.ColorLabels;
-					return colors && colors.includes(color);
-				});
-			};
-
-			const filterOptions = [{label: 'All', tags: '.*'}, {label: 'Amphibian', tags: 'animal|amphibian'}];
-			
-			
-			const filterbar = $("<div class='justified-gallery-filterbar'/>");
-			gallery.before(filterbar);
-
-			var wrapper = document.getElementById("gallery-0-wrapper");
-
-			
-			const expandIcon = '\u003csvg aria-hidden=\u0022true\u0022 focusable=\u0022false\u0022 data-prefix=\u0022fas\u0022 data-icon=\u0022expand-alt\u0022 role=\u0022img\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 448 512\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M212.686 315.314L120 408l32.922 31.029c15.12 15.12 4.412 40.971-16.97 40.971h-112C10.697 480 0 469.255 0 456V344c0-21.382 25.803-32.09 40.922-16.971L72 360l92.686-92.686c6.248-6.248 16.379-6.248 22.627 0l25.373 25.373c6.249 6.248 6.249 16.378 0 22.627zm22.628-118.628L328 104l-32.922-31.029C279.958 57.851 290.666 32 312.048 32h112C437.303 32 448 42.745 448 56v112c0 21.382-25.803 32.09-40.922 16.971L376 152l-92.686 92.686c-6.248 6.248-16.379 6.248-22.627 0l-25.373-25.373c-6.249-6.248-6.249-16.378 0-22.627z\u0022\u003e\u003c\/path\u003e\u003c\/svg\u003e';
-			const compressIcon = '\u003csvg aria-hidden=\u0022true\u0022 focusable=\u0022false\u0022 data-prefix=\u0022fas\u0022 data-icon=\u0022compress-alt\u0022 role=\u0022img\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 448 512\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M4.686 427.314L104 328l-32.922-31.029C55.958 281.851 66.666 256 88.048 256h112C213.303 256 224 266.745 224 280v112c0 21.382-25.803 32.09-40.922 16.971L152 376l-99.314 99.314c-6.248 6.248-16.379 6.248-22.627 0L4.686 449.941c-6.248-6.248-6.248-16.379 0-22.627zM443.314 84.686L344 184l32.922 31.029c15.12 15.12 4.412 40.971-16.97 40.971h-112C234.697 256 224 245.255 224 232V120c0-21.382 25.803-32.09 40.922-16.971L296 136l99.314-99.314c6.248-6.248 16.379-6.248 22.627 0l25.373 25.373c6.248 6.248 6.248 16.379 0 22.627z\u0022\u003e\u003c\/path\u003e\u003c\/svg\u003e';
-
-			function setFulltab(activate) {
-				if(activate == wrapper.classList.contains("fulltab")){
-					return;
-				}
-
-				wrapper.classList.toggle("fulltab");
-				gallery.justifiedGallery({
-					rowHeight :  200  * (activate ? 1.5 : 1.0),
-					lastRow: (activate ? "nojustify": "justify"),
-					
-					refreshTime: 0,
-				});
-				
-				gallery.data('jg.controller').startImgAnalyzer();
-				fullTabButton.html(wrapper.classList.contains("fulltab") ? compressIcon : expandIcon)
-			};
-
-			const fullTabButton = $("<button/>");
-			fullTabButton.html(expandIcon);
-			fullTabButton.click(() => setFulltab(!wrapper.classList.contains("fulltab")));
-			filterbar.append(fullTabButton);
-			$(document).keyup(e => {
-				
-				if (e.keyCode === 27){
-					setFulltab(false);
-				}
-			});
-	
-			let first = true;
-			
-			filterOptions.forEach(filterConfig => {
-				let filter; 
-				if(filterConfig.tags) {
-					filter = createTagFilter(filterConfig.tags);
-				} else if(filterConfig.rating){
-					if(filterConfig.rating.includes("-")){
-						minMax = filterConfig.rating.split("-");  
-					} else {
-						minMax = [filterConfig.rating, filterConfig.rating];  
-					}
-					filter = createRatingFilter(parseInt(minMax[0]), parseInt(minMax[1]));
-				} else if(filterConfig.color_label){
-					filter = createColorLabelFilter(filterConfig.color_label);
-				} else if(filterConfig.description){
-					filter = createImageDescriptionFilter(filterConfig.description);
-				} else {
-					
-					filter = createMetadataFilter(meta => true);
-				}
-
-				const filterButton = $("<button/>");
-				filterButton.text(filterConfig.label);
-				filterButton.click(() => {
-					gallery.justifiedGallery({filter : filter});
-					
-					filterbar.find('.selected').removeClass('selected');
-					filterButton.addClass("selected");
-				});
-				filterbar.append(filterButton);
-
-				if(first) {
-					filterButton.trigger("click");
-					first = false;
-				}
-			});
-		
 	});
 </script>
 
@@ -2135,7 +836,7 @@
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">4 minute read, 814 words</dd>
+    <dd class="fw5 ml0">1 minute read, 114 words</dd>
   </dl>
   
   
@@ -2153,9 +854,6 @@
     <a class="prev dtc pr2 tl v-top fw6"
     href="https://qwentee.netlify.app/license/">&larr; LICENSE: CC-BY-SA</a>
   
-  
-    <a class="next dtc pl2 tr v-top fw6"
-    href="https://qwentee.netlify.app/gallery2/">Gallery &rarr;</a>
   
 </div>
 

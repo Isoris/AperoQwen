@@ -4,12 +4,6 @@
   <url>
     <loc>https://qwentee.netlify.app/resume/education/</loc>
   </url><url>
-    <loc>https://qwentee.netlify.app/blog/2019-02-spoonful-netlify-toml/</loc>
-    <lastmod>2019-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2019-02-spoonful-bundles/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://qwentee.netlify.app/resume/accomplishments/</loc>
   </url><url>
     <loc>https://qwentee.netlify.app/resume/about/</loc>
@@ -22,19 +16,55 @@
   </url><url>
     <loc>https://qwentee.netlify.app/resume/other/accomplishments/</loc>
   </url><url>
+    <loc>https://qwentee.netlify.app/categories/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/tags/literature-review/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/categories/literature-review/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/talk/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/talk/literature-review/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/tags/</loc>
+    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://qwentee.netlify.app/project/cevmasterthesis/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/tags/aquaculture/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://qwentee.netlify.app/categories/aquaculture/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://qwentee.netlify.app/tags/biology/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/blog/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/tags/carp-vaccine/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/categories/</loc>
+    <loc>https://qwentee.netlify.app/tags/data-science/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/categories/data-science/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/tags/fish-stats/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/categories/project/</loc>
@@ -43,137 +73,35 @@
     <loc>https://qwentee.netlify.app/project/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/</loc>
+    <loc>https://qwentee.netlify.app/tags/r/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/hugo/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/project/hugo-apero/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/software/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/blogdown/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/blogdown/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/hugo/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/netlify/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/netlify/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/rmarkdown/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/rmarkdown/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</loc>
-    <lastmod>2020-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</loc>
-    <lastmod>2020-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/distill/</loc>
-    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-12-postcards-distill/</loc>
-    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/postcards/</loc>
-    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/teaching/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-12-self-assessments/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/series/a-spoonful-of-hugo/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/spoonful-hugo/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/series/</loc>
-    <lastmod>2020-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-12-hello-r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/plot/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/categories/r/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/tags/r-markdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://qwentee.netlify.app/series/r-for-aquaculture/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/tags/regression/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://qwentee.netlify.app/blog/spoonful-hugo/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/gallery2/</loc>
-    <lastmod>2020-10-21T18:45:32+02:00</lastmod>
+    <loc>https://qwentee.netlify.app/series/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/tags/ggplot2/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/project/my-ggplot-theme/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/tags/visual/</loc>
+    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/gallery/</loc>
     <lastmod>2020-10-21T18:45:32+02:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/project/palmerpenguins/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/r/</loc>
-    <lastmod>2020-06-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-06-how-i-taught-tidymodels-virtually/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-05-how-i-teach-r-markdown/</loc>
-    <lastmod>2020-05-28T20:45:57-07:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/talk/2020-sharing-short-notice/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/talk/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/talk/</loc>
-    <lastmod>2020-03-31T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/machine-learning/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/tidymodels/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/tidymodels/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2019-12-teaching-ml/</loc>
-    <lastmod>2019-12-23T08:51:41-08:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</loc>
-    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
@@ -181,29 +109,8 @@
     <loc>https://qwentee.netlify.app/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/categories/theme-features/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2019-02-spoonful-archetypes/</loc>
-    <lastmod>2019-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/project/hugo-graphite/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://qwentee.netlify.app/resume/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/data-import/</loc>
-    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/blog/2018-07-multiple-headers/</loc>
-    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/readr/</loc>
-    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/readxl/</loc>
-    <lastmod>2018-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/license/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
@@ -214,35 +121,11 @@
     <loc>https://qwentee.netlify.app/publication/2017-subtyping/</loc>
     <lastmod>2017-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/blog/2017-12-rladies-xaringan/</loc>
-    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/rladies/</loc>
-    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/xaringan/</loc>
-    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/xaringan/</loc>
-    <lastmod>2017-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://qwentee.netlify.app/publication/2017-blogdown/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</loc>
-    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://qwentee.netlify.app/publication/2017-mazes-asd-sli/</loc>
     <lastmod>2017-03-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/project/bakeoff/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/project/blogdown-book/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/book/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/publication/2016-primer-on-asd/</loc>
     <lastmod>2016-02-19T00:00:00+00:00</lastmod>
@@ -288,6 +171,10 @@
     <loc>https://qwentee.netlify.app/about/</loc>
   </url><url>
     <loc>https://qwentee.netlify.app/authors/</loc>
+  </url><url>
+    <loc>https://qwentee.netlify.app/categories/fish-stats/</loc>
+  </url><url>
+    <loc>https://qwentee.netlify.app/tags/hugo/</loc>
   </url><url>
     <loc>https://qwentee.netlify.app/authors/quentin/</loc>
   </url>

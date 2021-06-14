@@ -6,34 +6,7 @@
     <description>Recent content in blogdown on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Up &amp; running with blogdown in 2021</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</guid>
-      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
-    </item>
-    
-    <item>
-      <title>Unbreak your blogdown site</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</guid>
-      <description>The latest release of the blogdown package (not yet on CRAN) includes new checking functions to help users make less breakable Hugo sites.</description>
-    </item>
-    
-    <item>
-      <title>How much Hugo do I need to know?</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</link>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</guid>
-      <description>When and why you need to learn Hugo as an R blogdown user.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Troubleshooting Your Build</title>
       <link>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</link>
@@ -41,24 +14,6 @@
       
       <guid>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</guid>
       <description>A few troubleshooting strategies to save your sanity</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</guid>
-      <description>A guide to getting up and running with blogdown, GitHub, and Netlify</description>
-    </item>
-    
-    <item>
-      <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://qwentee.netlify.app/project/blogdown-book/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
-      <description>A practical guide for creating websites using the blogdown package in R</description>
     </item>
     
   </channel>

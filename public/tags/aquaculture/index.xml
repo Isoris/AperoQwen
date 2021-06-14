@@ -16,5 +16,23 @@
       <description>Here we try to develop a vaccine against the Carp Edema Virus</description>
     </item>
     
+    <item>
+      <title>Month 1:</title>
+      <link>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</guid>
+      <description>Together each month we discuss a new R package for aquaculture.</description>
+    </item>
+    
+    <item>
+      <title>One R package for aquaculture a month</title>
+      <link>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</guid>
+      <description>Every month we will discover together a new R package for aquaculture.</description>
+    </item>
+    
   </channel>
 </rss>

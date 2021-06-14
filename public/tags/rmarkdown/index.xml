@@ -6,52 +6,7 @@
     <description>Recent content in rmarkdown on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Up &amp; running with blogdown in 2021</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</guid>
-      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
-    </item>
-    
-    <item>
-      <title>Unbreak your blogdown site</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</guid>
-      <description>The latest release of the blogdown package (not yet on CRAN) includes new checking functions to help users make less breakable Hugo sites.</description>
-    </item>
-    
-    <item>
-      <title>M-F-E-O: postcards &#43; distill</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-postcards-distill/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-postcards-distill/</guid>
-      <description>The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown.</description>
-    </item>
-    
-    <item>
-      <title>How I Taught Tidymodels, Virtually</title>
-      <link>https://qwentee.netlify.app/blog/2020-06-how-i-taught-tidymodels-virtually/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-06-how-i-taught-tidymodels-virtually/</guid>
-      <description>Some reflections on my third time teaching tidymodels for machine learning, and doing it virtually.</description>
-    </item>
-    
-    <item>
-      <title>How I Teach R Markdown</title>
-      <link>https://qwentee.netlify.app/blog/2020-05-how-i-teach-r-markdown/</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-05-how-i-teach-r-markdown/</guid>
-      <description>A handful of guiding principles for introducing beginners to the R Markdown family of packages.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 31 Mar 2020 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sharing on Short Notice</title>
       <link>https://qwentee.netlify.app/talk/2020-sharing-short-notice/</link>

@@ -6,7 +6,7 @@
     <description>Recent content on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
       <link>https://qwentee.netlify.app/resume/education/</link>
@@ -14,28 +14,6 @@
       
       <guid>https://qwentee.netlify.app/resume/education/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>The netlify.toml File</title>
-      <link>https://qwentee.netlify.app/blog/2019-02-spoonful-netlify-toml/</link>
-      <pubDate>Wed, 20 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2019-02-spoonful-netlify-toml/</guid>
-      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
-  me, only somewhat kidding  You can read the previous post about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series here. In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated).
-This is my second post in this series, and it is a relatively quick one.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Page Bundles</title>
-      <link>https://qwentee.netlify.app/blog/2019-02-spoonful-bundles/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2019-02-spoonful-bundles/</guid>
-      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
-  me, only somewhat kidding  In this series, I&amp;rsquo;m sharing small spoonfuls of Hugo that I have learned that hopefully can help you get your site UP (and even better- more efficient, more streamlined, more automated). You can read the previous posts about my &amp;ldquo;Spoonful of Hugo&amp;rdquo; series about Hugo archetypes and Hugo versions.
-This is my third post in this series and it is breaking news.</description>
     </item>
     
     <item>
@@ -94,6 +72,15 @@ My research focused on health-related applications of Natural Language Processin
     </item>
     
     <item>
+      <title>Literature review</title>
+      <link>https://qwentee.netlify.app/talk/literature-review/</link>
+      <pubDate>Mon, 14 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/talk/literature-review/</guid>
+      <description>Writing about science and up to date literature</description>
+    </item>
+    
+    <item>
       <title>A vaccine for carps?</title>
       <link>https://qwentee.netlify.app/project/cevmasterthesis/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
@@ -103,78 +90,31 @@ My research focused on health-related applications of Natural Language Processin
     </item>
     
     <item>
-      <title>Hugo Apéro</title>
-      <link>https://qwentee.netlify.app/project/hugo-apero/</link>
-      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      <title>Month 1:</title>
+      <link>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/project/hugo-apero/</guid>
-      <description>A Hugo theme for personal websites. A place where you and your site’s visitors enjoy spending time, and one that helps folks get to know you better.</description>
+      <guid>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</guid>
+      <description>Together each month we discuss a new R package for aquaculture.</description>
     </item>
     
     <item>
-      <title>Up &amp; running with blogdown in 2021</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Introducing theme_qwen()
+ The ggplot2 theme function that you can use</title>
+      <link>https://qwentee.netlify.app/project/my-ggplot-theme/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</guid>
-      <description>New year, new blogdown! A guide to getting up and running with blogdown, the Hugo Wowchemy starter-academic theme, GitHub, and Netlify. Not brief.</description>
+      <guid>https://qwentee.netlify.app/project/my-ggplot-theme/</guid>
+      <description>A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red.</description>
     </item>
     
     <item>
-      <title>Unbreak your blogdown site</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</link>
-      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      <title>One R package for aquaculture a month</title>
+      <link>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/blog/2020-12-blogdown-checks/</guid>
-      <description>The latest release of the blogdown package (not yet on CRAN) includes new checking functions to help users make less breakable Hugo sites.</description>
-    </item>
-    
-    <item>
-      <title>M-F-E-O: postcards &#43; distill</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-postcards-distill/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-postcards-distill/</guid>
-      <description>The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown.</description>
-    </item>
-    
-    <item>
-      <title>Teaching students to talk about data science</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-self-assessments/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-self-assessments/</guid>
-      <description>How I used self-reflection to boost student learning and engagement.</description>
-    </item>
-    
-    <item>
-      <title>How much Hugo do I need to know?</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</link>
-      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-how-much-hugo/</guid>
-      <description>When and why you need to learn Hugo as an R blogdown user.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>https://qwentee.netlify.app/blog/2020-12-hello-r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-12-hello-r-markdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
-    </item>
-    
-    <item>
-      <title>Gallery</title>
-      <link>https://qwentee.netlify.app/gallery2/</link>
-      <pubDate>Wed, 21 Oct 2020 18:45:32 +0200</pubDate>
-      
-      <guid>https://qwentee.netlify.app/gallery2/</guid>
-      <description>Some of my photos:
-     .jg-entry img { transition: transform .25s ease-in-out !important; } .jg-entry img:hover { transform: scale(1.1); }   400mm f/10 1/400sec ISO 500&#34;     300mm f/5.6 1/320sec ISO 250&#34;     24mm f/8 1/250sec ISO 500&#34;       if (!jQuery) { alert(&#34;jquery is not loaded&#34;); } $( document ).ready(() = { const gallery = $(&#34;</description>
+      <guid>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</guid>
+      <description>Every month we will discover together a new R package for aquaculture.</description>
     </item>
     
     <item>
@@ -183,71 +123,8 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <pubDate>Wed, 21 Oct 2020 18:45:32 +0200</pubDate>
       
       <guid>https://qwentee.netlify.app/gallery/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    
-    <item>
-      <title>palmerpenguins</title>
-      <link>https://qwentee.netlify.app/project/palmerpenguins/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/palmerpenguins/</guid>
-      <description>An R data package with data about 3 penguin species from the Palmer Station in Antarctica</description>
-    </item>
-    
-    <item>
-      <title>How I Taught Tidymodels, Virtually</title>
-      <link>https://qwentee.netlify.app/blog/2020-06-how-i-taught-tidymodels-virtually/</link>
-      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-06-how-i-taught-tidymodels-virtually/</guid>
-      <description>Some reflections on my third time teaching tidymodels for machine learning, and doing it virtually.</description>
-    </item>
-    
-    <item>
-      <title>How I Teach R Markdown</title>
-      <link>https://qwentee.netlify.app/blog/2020-05-how-i-teach-r-markdown/</link>
-      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-05-how-i-teach-r-markdown/</guid>
-      <description>A handful of guiding principles for introducing beginners to the R Markdown family of packages.</description>
-    </item>
-    
-    <item>
-      <title>Sharing on Short Notice</title>
-      <link>https://qwentee.netlify.app/talk/2020-sharing-short-notice/</link>
-      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-sharing-short-notice/</guid>
-      <description>How to get your materials online on short notice.</description>
-    </item>
-    
-    <item>
-      <title>Take a Sad Script &amp; Make it Better: Tidymodels Edition</title>
-      <link>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</guid>
-      <description>Taking a sad script and making it better for model cross-validation.</description>
-    </item>
-    
-    <item>
-      <title>Learning to Teach Machines to Learn</title>
-      <link>https://qwentee.netlify.app/blog/2019-12-teaching-ml/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2019-12-teaching-ml/</guid>
-      <description>I&amp;rsquo;m excited to be teaching a new workshop at the upcoming rstudio::conf in January called &amp;ldquo;Introduction to Machine Learning with the Tidyverse&amp;rdquo;, with my colleague Garrett Grolemund. Our workshop just sold out over the weekend! 🎉
-It is always hard to develop an entirely new workshop, especially if you are doing it at the same time as learning how to use a new API. It is even harder when that API is under active development like the tidymodels ecosystem!</description>
-    </item>
-    
-    <item>
-      <title>Troubleshooting Your Build</title>
-      <link>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</link>
-      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</guid>
-      <description>A few troubleshooting strategies to save your sanity</description>
+      <description>My gallery:
+     .jg-entry img { transition: transform .25s ease-in-out !important; } .jg-entry img:hover { transform: scale(1.1); }      mm f/ sec ISO &#34;                 4.3mm f/1.9 1/50sec ISO 125&#34;        5.43mm f/1.89 1/725sec ISO 100&#34;     5.43mm f/1.</description>
     </item>
     
     <item>
@@ -258,35 +135,6 @@ It is always hard to develop an entirely new workshop, especially if you are doi
       <guid>https://qwentee.netlify.app/contact/</guid>
       <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder
 Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Archetypes</title>
-      <link>https://qwentee.netlify.app/blog/2019-02-spoonful-archetypes/</link>
-      <pubDate>Tue, 19 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2019-02-spoonful-archetypes/</guid>
-      <description>&amp;ldquo;Just a spoonful of Hugo helps the blog go down.&amp;rdquo;
- me, only somewhat kidding   As a happy blogdown user, a common story I hear from other #rstats users is that you try to change one little thing in Hugo, and the whole site breaks. Here be dragons for folks who aren&amp;rsquo;t web developers.
-I&amp;rsquo;m here to tell you that there are small spoonfuls of Hugo that can help you get your site UP (and even better- more efficient, more streamlined, more automated), even if you are not in the least bit interested in transitioning into a career in web development 😏.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Graphite</title>
-      <link>https://qwentee.netlify.app/project/hugo-graphite/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/hugo-graphite/</guid>
-      <description>A Hugo theme for RStudio teams (Education, Tidyverse, Tidymodels)</description>
-    </item>
-    
-    <item>
-      <title>Read Data with Multiple Header Rows into R</title>
-      <link>https://qwentee.netlify.app/blog/2018-07-multiple-headers/</link>
-      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2018-07-multiple-headers/</guid>
-      <description>Using the readr package to sidestep a common problem</description>
     </item>
     
     <item>
@@ -309,15 +157,6 @@ I&amp;rsquo;m here to tell you that there are small spoonfuls of Hugo that can h
     </item>
     
     <item>
-      <title>R-Ladies Presentation Ninja</title>
-      <link>https://qwentee.netlify.app/blog/2017-12-rladies-xaringan/</link>
-      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2017-12-rladies-xaringan/</guid>
-      <description>A guide to using the R-Ladies xaringan slide theme</description>
-    </item>
-    
-    <item>
       <title>blogdown: Creating Websites with R Markdown</title>
       <link>https://qwentee.netlify.app/publication/2017-blogdown/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
@@ -327,39 +166,12 @@ I&amp;rsquo;m here to tell you that there are small spoonfuls of Hugo that can h
     </item>
     
     <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</link>
-      <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/blog/2017-06-up-running-with-blogdown/</guid>
-      <description>A guide to getting up and running with blogdown, GitHub, and Netlify</description>
-    </item>
-    
-    <item>
       <title>Quantitative Analysis of Disfluency in Children with Autism Spectrum Disorder or Language Impairment</title>
       <link>https://qwentee.netlify.app/publication/2017-mazes-asd-sli/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/publication/2017-mazes-asd-sli/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Bakeoff</title>
-      <link>https://qwentee.netlify.app/project/bakeoff/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/bakeoff/</guid>
-      <description>An R data package with data from “The Great British Bake Off”</description>
-    </item>
-    
-    <item>
-      <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://qwentee.netlify.app/project/blogdown-book/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
-      <description>A practical guide for creating websites using the blogdown package in R</description>
     </item>
     
     <item>

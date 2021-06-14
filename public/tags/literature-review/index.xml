@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Literature review on Quentin Andres</title>
+    <link>https://qwentee.netlify.app/tags/literature-review/</link>
+    <description>Recent content in Literature review on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/literature-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literature review</title>
+      <link>https://qwentee.netlify.app/talk/literature-review/</link>
+      <pubDate>Mon, 14 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/talk/literature-review/</guid>
+      <description>Writing about science and up to date literature</description>
+    </item>
+    
+  </channel>
+</rss>

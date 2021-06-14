@@ -17,48 +17,22 @@
     </item>
     
     <item>
-      <title>Hugo Apéro</title>
-      <link>https://qwentee.netlify.app/project/hugo-apero/</link>
-      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      <title>Introducing theme_qwen()
+ The ggplot2 theme function that you can use</title>
+      <link>https://qwentee.netlify.app/project/my-ggplot-theme/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/project/hugo-apero/</guid>
-      <description>A Hugo theme for personal websites. A place where you and your site’s visitors enjoy spending time, and one that helps folks get to know you better.</description>
+      <guid>https://qwentee.netlify.app/project/my-ggplot-theme/</guid>
+      <description>A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red.</description>
     </item>
     
     <item>
-      <title>palmerpenguins</title>
-      <link>https://qwentee.netlify.app/project/palmerpenguins/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <title>One R package for aquaculture a month</title>
+      <link>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/project/palmerpenguins/</guid>
-      <description>An R data package with data about 3 penguin species from the Palmer Station in Antarctica</description>
-    </item>
-    
-    <item>
-      <title>Hugo Graphite</title>
-      <link>https://qwentee.netlify.app/project/hugo-graphite/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/hugo-graphite/</guid>
-      <description>A Hugo theme for RStudio teams (Education, Tidyverse, Tidymodels)</description>
-    </item>
-    
-    <item>
-      <title>Bakeoff</title>
-      <link>https://qwentee.netlify.app/project/bakeoff/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/bakeoff/</guid>
-      <description>An R data package with data from “The Great British Bake Off”</description>
-    </item>
-    
-    <item>
-      <title>blogdown: Creating Websites with R Markdown</title>
-      <link>https://qwentee.netlify.app/project/blogdown-book/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
-      <description>A practical guide for creating websites using the blogdown package in R</description>
+      <guid>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</guid>
+      <description>Every month we will discover together a new R package for aquaculture.</description>
     </item>
     
   </channel>

@@ -6,7 +6,16 @@
     <description>Recent content in Tags on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literature review</title>
+      <link>https://qwentee.netlify.app/tags/literature-review/</link>
+      <pubDate>Mon, 14 Jun 2021 09:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/tags/literature-review/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Aquaculture</title>
       <link>https://qwentee.netlify.app/tags/aquaculture/</link>
@@ -35,137 +44,56 @@
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://qwentee.netlify.app/tags/hugo/</link>
-      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      <title>Data science</title>
+      <link>https://qwentee.netlify.app/tags/data-science/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/hugo/</guid>
+      <guid>https://qwentee.netlify.app/tags/data-science/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>software</title>
-      <link>https://qwentee.netlify.app/tags/software/</link>
-      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+      <title>Fish stats</title>
+      <link>https://qwentee.netlify.app/tags/fish-stats/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogdown</title>
-      <link>https://qwentee.netlify.app/tags/blogdown/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/blogdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>netlify</title>
-      <link>https://qwentee.netlify.app/tags/netlify/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/netlify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rmarkdown</title>
-      <link>https://qwentee.netlify.app/tags/rmarkdown/</link>
-      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/rmarkdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>distill</title>
-      <link>https://qwentee.netlify.app/tags/distill/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/distill/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>postcards</title>
-      <link>https://qwentee.netlify.app/tags/postcards/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/postcards/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>teaching</title>
-      <link>https://qwentee.netlify.app/tags/teaching/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/teaching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plot</title>
-      <link>https://qwentee.netlify.app/tags/plot/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://qwentee.netlify.app/tags/r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://qwentee.netlify.app/tags/regression/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/regression/</guid>
+      <guid>https://qwentee.netlify.app/tags/fish-stats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
       <link>https://qwentee.netlify.app/tags/r/</link>
-      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tidymodels</title>
-      <link>https://qwentee.netlify.app/tags/tidymodels/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <title>ggplot2</title>
+      <link>https://qwentee.netlify.app/tags/ggplot2/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/tidymodels/</guid>
+      <guid>https://qwentee.netlify.app/tags/ggplot2/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>xaringan</title>
-      <link>https://qwentee.netlify.app/tags/xaringan/</link>
-      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
+      <title>visual</title>
+      <link>https://qwentee.netlify.app/tags/visual/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/xaringan/</guid>
+      <guid>https://qwentee.netlify.app/tags/visual/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>book</title>
-      <link>https://qwentee.netlify.app/tags/book/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>hugo</title>
+      <link>https://qwentee.netlify.app/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/book/</guid>
+      <guid>https://qwentee.netlify.app/tags/hugo/</guid>
       <description></description>
     </item>
     
