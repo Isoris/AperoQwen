@@ -24,10 +24,12 @@ title: A vaccine for carps?
 
 This online book is about my master thesis project, my goal here is to explain and discuss different approaches to develop of a vaccine for CEV :
 
++ Learn about carp edema virus disease
+
 + Learn about vaccine design and development
 
 + Learn about the carp biology.
 
 + Discover innovative procedures 
 
-I lead the effort, to port some of my work and progress into this bookdown website and share it with you.
+I made the effort to port some of my work and progress into this bookdown website and share it with you.
