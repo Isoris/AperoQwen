@@ -1,7 +1,7 @@
 ---
-author: Alison Hill
+author: Quentin Andres
 cascade:
-  author: Alison Hill
+  author: Quentin Andres
   show_author_byline: true
   show_comments: true
   show_post_date: true
@@ -10,19 +10,18 @@ cascade:
     text_link_label: View recent posts
     text_link_url: /blog/
 description: |
-  A blog about data science. I mainly blog about #rstats and
-  teaching. I have more websites than blog posts.
+  A blog about data science and bio mol. I like to try new tools.
 layout: list-sidebar
 show_author_byline: true
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
-  author: Alison Hill
-  description: "This blog is my [digital garden](https://nesslabs.com/digital-garden-set-up),
-    somewhere between a notepad and a blog. \n"
+  author: Quentin Andres
+  description: "This blog is my somewhere between a notepad and a blog. \n
+  All about molecular biology"
   show_sidebar_adunit: true
-  text_link_label: Subscribe via RSS
-  text_link_url: /index.xml
+  text_link_label: "My latest work" 
+  text_link_url: /project/cevmasterthesis/
   title: Blog
 thumbnail_left: false
 title: Blog
