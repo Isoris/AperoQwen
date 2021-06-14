@@ -19,7 +19,7 @@ cascade:
   tags:
   - hugo
 description: |
-  Every month we will discover together a new R package for aquaculture.
+  Every month we will discover together one new R package for aquaculture.
 layout: list-sidebar
 show_author_byline: true
 show_post_date: true
