@@ -6,7 +6,16 @@
     <description>Recent content in Projects on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A vaccine for carps?</title>
+      <link>https://qwentee.netlify.app/project/cevmasterthesis/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/project/cevmasterthesis/</guid>
+      <description>Here we try to develop a vaccine against the Carp Edema Virus</description>
+    </item>
+    
     <item>
       <title>Hugo Apéro</title>
       <link>https://qwentee.netlify.app/project/hugo-apero/</link>
@@ -14,24 +23,6 @@
       
       <guid>https://qwentee.netlify.app/project/hugo-apero/</guid>
       <description>A Hugo theme for personal websites. A place where you and your site’s visitors enjoy spending time, and one that helps folks get to know you better.</description>
-    </item>
-    
-    <item>
-      <title>distill</title>
-      <link>https://qwentee.netlify.app/project/distill/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/distill/</guid>
-      <description>Distill for R Markdown is a web publishing format optimized for scientific and technical communication.</description>
-    </item>
-    
-    <item>
-      <title>RStudio Teaching in Production</title>
-      <link>https://qwentee.netlify.app/project/rstudio-tip/</link>
-      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/rstudio-tip/</guid>
-      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
     </item>
     
     <item>
@@ -44,93 +35,12 @@
     </item>
     
     <item>
-      <title>stat545.com</title>
-      <link>https://qwentee.netlify.app/project/stat545.com/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/stat545.com/</guid>
-      <description>A comprehensive course in data wrangling, exploration, and analysis with R</description>
-    </item>
-    
-    <item>
-      <title>tidymodels.org</title>
-      <link>https://qwentee.netlify.app/project/tidymodels.org/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidymodels.org/</guid>
-      <description>The central location for learning and using the tidymodels R packages</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://qwentee.netlify.app/project/tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidyml/</guid>
-      <description>Introducing the basics of machine learning in R using tidymodels</description>
-    </item>
-    
-    <item>
-      <title>education.rstudio.com</title>
-      <link>https://qwentee.netlify.app/project/education.rstudio.com/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/education.rstudio.com/</guid>
-      <description>All about learning and teaching data science</description>
-    </item>
-    
-    <item>
-      <title>R Markdown for Medicine</title>
-      <link>https://qwentee.netlify.app/project/rmd4medicine/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/rmd4medicine/</guid>
-      <description>A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
-    </item>
-    
-    <item>
       <title>Hugo Graphite</title>
       <link>https://qwentee.netlify.app/project/hugo-graphite/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/project/hugo-graphite/</guid>
       <description>A Hugo theme for RStudio teams (Education, Tidyverse, Tidymodels)</description>
-    </item>
-    
-    <item>
-      <title>Labhub</title>
-      <link>https://qwentee.netlify.app/project/labhub/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/labhub/</guid>
-      <description>An OHSU Open Science Workshop on tools and methods for building transparency within a lab</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://qwentee.netlify.app/project/up-running-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/up-running-blogdown/</guid>
-      <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
-    </item>
-    
-    <item>
-      <title>Code Your Graph Workshop</title>
-      <link>https://qwentee.netlify.app/project/code-your-graph/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/code-your-graph/</guid>
-      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
-    </item>
-    
-    <item>
-      <title>Advanced R Markdown</title>
-      <link>https://qwentee.netlify.app/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/advanced-r-markdown/</guid>
-      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
     </item>
     
     <item>
@@ -149,51 +59,6 @@
       
       <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
       <description>A practical guide for creating websites using the blogdown package in R</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Data Wrangling, Analysis, &amp; Communication</title>
-      <link>https://qwentee.netlify.app/project/ohsu-biostats/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/ohsu-biostats/</guid>
-      <description>A 12-week introductory course that teaches students how to gain and communicate insights from biomedical data</description>
-    </item>
-    
-    <item>
-      <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://qwentee.netlify.app/project/ohsu-dataviz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/ohsu-dataviz/</guid>
-      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
-    </item>
-    
-    <item>
-      <title>Probability &amp; Statistics for Scientists and Engineers</title>
-      <link>https://qwentee.netlify.app/project/ohsu-cs-stats/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/ohsu-cs-stats/</guid>
-      <description>A 12-week introduction to fundamental concepts underlying statistical data display, analysis, inference, and statistical decision making</description>
-    </item>
-    
-    <item>
-      <title>RLadies xaringan theme</title>
-      <link>https://qwentee.netlify.app/project/rladies-xaringan/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/rladies-xaringan/</guid>
-      <description>An RLadies theme for slides made with the xaringan R package</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown</title>
-      <link>https://qwentee.netlify.app/project/summer-of-blogdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/summer-of-blogdown/</guid>
-      <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
     </item>
     
   </channel>

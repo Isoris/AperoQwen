@@ -1,7 +1,7 @@
 ---
-author: Alison Hill
+author: Quentin Andres
 cascade:
-  author: Alison Hill
+  author: Quentin Andres
   show_author_byline: false
   show_comments: false
   show_post_date: true

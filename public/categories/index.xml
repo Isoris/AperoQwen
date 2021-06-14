@@ -6,22 +6,13 @@
     <description>Recent content in Categories on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>workshop</title>
-      <link>https://qwentee.netlify.app/categories/workshop/</link>
-      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      <title>Project</title>
+      <link>https://qwentee.netlify.app/categories/project/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/categories/workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>talk</title>
-      <link>https://qwentee.netlify.app/categories/talk/</link>
-      <pubDate>Mon, 12 Apr 2021 18:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/categories/talk/</guid>
+      <guid>https://qwentee.netlify.app/categories/project/</guid>
       <description></description>
     </item>
     
@@ -71,11 +62,11 @@
     </item>
     
     <item>
-      <title>website</title>
-      <link>https://qwentee.netlify.app/categories/website/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <title>talk</title>
+      <link>https://qwentee.netlify.app/categories/talk/</link>
+      <pubDate>Tue, 31 Mar 2020 09:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/categories/website/</guid>
+      <guid>https://qwentee.netlify.app/categories/talk/</guid>
       <description></description>
     </item>
     
@@ -94,15 +85,6 @@
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/categories/tidymodels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>keynote</title>
-      <link>https://qwentee.netlify.app/categories/keynote/</link>
-      <pubDate>Wed, 02 Oct 2019 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/categories/keynote/</guid>
       <description></description>
     </item>
     
@@ -157,15 +139,6 @@
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/categories/xaringan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>course</title>
-      <link>https://qwentee.netlify.app/categories/course/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/categories/course/</guid>
       <description></description>
     </item>
     

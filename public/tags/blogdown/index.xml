@@ -6,25 +6,7 @@
     <description>Recent content in blogdown on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduce yourself online with blogdown &amp; Hugo Apéro</title>
-      <link>https://qwentee.netlify.app/talk/2021-iyo-tunis/</link>
-      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2021-iyo-tunis/</guid>
-      <description>A workshop for building a personal website from the comfort of RStudio using the blogdown R package, using a Hugo theme I developed.</description>
-    </item>
-    
-    <item>
-      <title>Introduce yourself online</title>
-      <link>https://qwentee.netlify.app/talk/2021-rstudio-global/</link>
-      <pubDate>Mon, 25 Jan 2021 13:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2021-rstudio-global/</guid>
-      <description>A special workshop for rstudio::global() diversity scholars</description>
-    </item>
-    
+    <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Up &amp; running with blogdown in 2021</title>
       <link>https://qwentee.netlify.app/blog/2020-12-new-year-new-blogdown/</link>
@@ -53,111 +35,12 @@
     </item>
     
     <item>
-      <title>tidymodels.org</title>
-      <link>https://qwentee.netlify.app/project/tidymodels.org/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidymodels.org/</guid>
-      <description>The central location for learning and using the tidymodels R packages</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://qwentee.netlify.app/project/tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidyml/</guid>
-      <description>Introducing the basics of machine learning in R using tidymodels</description>
-    </item>
-    
-    <item>
-      <title>education.rstudio.com</title>
-      <link>https://qwentee.netlify.app/project/education.rstudio.com/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/education.rstudio.com/</guid>
-      <description>All about learning and teaching data science</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 04</title>
-      <link>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-04/</link>
-      <pubDate>Thu, 13 Jun 2019 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-04/</guid>
-      <description>Putting the finishing touches on your blogdown site</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 03</title>
-      <link>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-03/</link>
-      <pubDate>Wed, 12 Jun 2019 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-03/</guid>
-      <description>Keeping up with your content</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 02</title>
-      <link>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-02/</link>
-      <pubDate>Tue, 11 Jun 2019 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-02/</guid>
-      <description>Personalizing your blogdown site</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown: Day 01</title>
-      <link>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-01/</link>
-      <pubDate>Mon, 10 Jun 2019 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2019-summer-of-blogdown-01/</guid>
-      <description>Create and deploy our first blogdown site &amp;ldquo;out-of-the-box&amp;rdquo;</description>
-    </item>
-    
-    <item>
-      <title>Using blogdown to Connect Beyond the Classroom</title>
-      <link>https://qwentee.netlify.app/talk/2019-sdss-blogdown/</link>
-      <pubDate>Thu, 30 May 2019 08:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2019-sdss-blogdown/</guid>
-      <description>Why and how to teach students to create their own website</description>
-    </item>
-    
-    <item>
       <title>Troubleshooting Your Build</title>
       <link>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</link>
       <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/blog/2019-03-spoonful-troubleshooting/</guid>
       <description>A few troubleshooting strategies to save your sanity</description>
-    </item>
-    
-    <item>
-      <title>Meet blogdown</title>
-      <link>https://qwentee.netlify.app/talk/2019-rsc-blogdown/</link>
-      <pubDate>Tue, 15 Jan 2019 16:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2019-rsc-blogdown/</guid>
-      <description>Making websites in R Markdown</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://qwentee.netlify.app/project/up-running-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/up-running-blogdown/</guid>
-      <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://qwentee.netlify.app/talk/2017-pdxr-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2017-pdxr-blogdown/</guid>
-      <description>See project links for more details.</description>
     </item>
     
     <item>
@@ -170,39 +53,12 @@
     </item>
     
     <item>
-      <title>Advanced R Markdown</title>
-      <link>https://qwentee.netlify.app/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/advanced-r-markdown/</guid>
-      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
-    </item>
-    
-    <item>
       <title>blogdown: Creating Websites with R Markdown</title>
       <link>https://qwentee.netlify.app/project/blogdown-book/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/project/blogdown-book/</guid>
       <description>A practical guide for creating websites using the blogdown package in R</description>
-    </item>
-    
-    <item>
-      <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://qwentee.netlify.app/project/ohsu-dataviz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/ohsu-dataviz/</guid>
-      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown</title>
-      <link>https://qwentee.netlify.app/project/summer-of-blogdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/summer-of-blogdown/</guid>
-      <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
     </item>
     
   </channel>

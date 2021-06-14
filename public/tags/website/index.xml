@@ -8,15 +8,6 @@
     <language>en</language>
     <lastBuildDate>Tue, 21 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>stat545.com</title>
-      <link>https://qwentee.netlify.app/project/stat545.com/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/stat545.com/</guid>
-      <description>A comprehensive course in data wrangling, exploration, and analysis with R</description>
-    </item>
-    
-    <item>
       <title>tidymodels.org</title>
       <link>https://qwentee.netlify.app/project/tidymodels.org/</link>
       <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>

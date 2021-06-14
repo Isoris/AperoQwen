@@ -9,15 +9,6 @@
     <lastBuildDate>Fri, 24 Jun 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Your Graph Workshop</title>
-      <link>https://qwentee.netlify.app/project/code-your-graph/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/code-your-graph/</guid>
-      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
-    </item>
-    
-    <item>
-      <title>Code Your Graph Workshop</title>
       <link>https://qwentee.netlify.app/talk/2016-ohsu-dataviz/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
       

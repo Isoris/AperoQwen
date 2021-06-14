@@ -1,6 +1,7 @@
 ---
 date: "2019-01-01T00:00:00Z"
 external_link: https://hugo-graphite.netlify.app
+author: Alison Hill
 image:
   caption: ""
   focal_point: Smart

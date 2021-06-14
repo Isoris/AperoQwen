@@ -16,14 +16,5 @@
       <description>The new postcards package and distill are M-F-E-O (made for each other). Here is a brief walk-through to add a postcards personal profile page to your distill website or blog, using only R Markdown.</description>
     </item>
     
-    <item>
-      <title>Teaching in Production</title>
-      <link>https://qwentee.netlify.app/talk/2020-rstudio-tip/</link>
-      <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-rstudio-tip/</guid>
-      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
-    </item>
-    
   </channel>
 </rss>

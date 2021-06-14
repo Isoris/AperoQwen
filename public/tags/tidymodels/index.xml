@@ -6,25 +6,7 @@
     <description>Recent content in tidymodels on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2020 13:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/tidymodels/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://qwentee.netlify.app/talk/2020-rmedicine-tidyml/</link>
-      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-rmedicine-tidyml/</guid>
-      <description>R / Medicine 2020: A 4-hour workshop to introduce the basics of machine learning in R using tidymodels.</description>
-    </item>
-    
-    <item>
-      <title>tidymodels.org</title>
-      <link>https://qwentee.netlify.app/project/tidymodels.org/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidymodels.org/</guid>
-      <description>The central location for learning and using the tidymodels R packages</description>
-    </item>
-    
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/tidymodels/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Take a Sad Script &amp; Make it Better: Tidymodels Edition</title>
       <link>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</link>
@@ -32,24 +14,6 @@
       
       <guid>https://qwentee.netlify.app/blog/2020-02-take-a-sad-script-make-it-better-tidymodels-edition/</guid>
       <description>Taking a sad script and making it better for model cross-validation.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://qwentee.netlify.app/talk/2020-rsc-tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-rsc-tidyml/</guid>
-      <description>rstudio::conf(2020) two-day workshop to introduce the basics of machine learning and tidymodels.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://qwentee.netlify.app/project/tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidyml/</guid>
-      <description>Introducing the basics of machine learning in R using tidymodels</description>
     </item>
     
   </channel>

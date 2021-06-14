@@ -62,75 +62,12 @@
     </item>
     
     <item>
-      <title>Introduction to Machine Learning with the Tidyverse</title>
-      <link>https://qwentee.netlify.app/project/tidyml/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/tidyml/</guid>
-      <description>Introducing the basics of machine learning in R using tidymodels</description>
-    </item>
-    
-    <item>
       <title>Communicating with R Markdown Workshop</title>
       <link>https://qwentee.netlify.app/talk/2019-ysc-workshop/</link>
       <pubDate>Mon, 30 Sep 2019 09:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/talk/2019-ysc-workshop/</guid>
       <description>A workshop for R Markdown users who want to get more out of R Markdown (and friends).</description>
-    </item>
-    
-    <item>
-      <title>R Markdown for Medicine</title>
-      <link>https://qwentee.netlify.app/project/rmd4medicine/</link>
-      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/rmd4medicine/</guid>
-      <description>A four-hour workshop that will take you on a tour of how to get from data to manuscript using R Markdown.</description>
-    </item>
-    
-    <item>
-      <title>Labhub</title>
-      <link>https://qwentee.netlify.app/project/labhub/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/labhub/</guid>
-      <description>An OHSU Open Science Workshop on tools and methods for building transparency within a lab</description>
-    </item>
-    
-    <item>
-      <title>Up &amp; Running with blogdown</title>
-      <link>https://qwentee.netlify.app/project/up-running-blogdown/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/up-running-blogdown/</guid>
-      <description>A workshop to get up and running with blogdown, GitHub, and Netlify</description>
-    </item>
-    
-    <item>
-      <title>Code Your Graph Workshop</title>
-      <link>https://qwentee.netlify.app/project/code-your-graph/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/code-your-graph/</guid>
-      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
-    </item>
-    
-    <item>
-      <title>Advanced R Markdown</title>
-      <link>https://qwentee.netlify.app/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/advanced-r-markdown/</guid>
-      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
-    </item>
-    
-    <item>
-      <title>Summer of blogdown</title>
-      <link>https://qwentee.netlify.app/project/summer-of-blogdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/summer-of-blogdown/</guid>
-      <description>A week of the blogdown R package for RStudio&amp;rsquo;s summer 2019 interns</description>
     </item>
     
   </channel>

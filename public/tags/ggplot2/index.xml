@@ -57,29 +57,11 @@ Latest event    This talk was most recently given at the University of South Wal
     
     <item>
       <title>Code Your Graph Workshop</title>
-      <link>https://qwentee.netlify.app/project/code-your-graph/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/code-your-graph/</guid>
-      <description>A workshop on visualizing your data with ggplot2 and matplotlib</description>
-    </item>
-    
-    <item>
-      <title>Code Your Graph Workshop</title>
       <link>https://qwentee.netlify.app/talk/2016-ohsu-dataviz/</link>
       <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/talk/2016-ohsu-dataviz/</guid>
       <description>   </description>
-    </item>
-    
-    <item>
-      <title>Principles &amp; Practice of Data Visualization</title>
-      <link>https://qwentee.netlify.app/project/ohsu-dataviz/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/ohsu-dataviz/</guid>
-      <description>A 12-week introduction to data visualization with hands-on labs using R and ggplot2</description>
     </item>
     
   </channel>

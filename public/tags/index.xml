@@ -6,22 +6,31 @@
     <description>Recent content in Tags on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 May 2021 11:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blogdown</title>
-      <link>https://qwentee.netlify.app/tags/blogdown/</link>
-      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      <title>Aquaculture</title>
+      <link>https://qwentee.netlify.app/tags/aquaculture/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/blogdown/</guid>
+      <guid>https://qwentee.netlify.app/tags/aquaculture/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rmarkdown</title>
-      <link>https://qwentee.netlify.app/tags/rmarkdown/</link>
-      <pubDate>Wed, 26 May 2021 11:00:00 +0000</pubDate>
+      <title>Biology</title>
+      <link>https://qwentee.netlify.app/tags/biology/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/rmarkdown/</guid>
+      <guid>https://qwentee.netlify.app/tags/biology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carp vaccine</title>
+      <link>https://qwentee.netlify.app/tags/carp-vaccine/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/tags/carp-vaccine/</guid>
       <description></description>
     </item>
     
@@ -44,38 +53,11 @@
     </item>
     
     <item>
-      <title>data visualization</title>
-      <link>https://qwentee.netlify.app/tags/data-visualization/</link>
-      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
+      <title>blogdown</title>
+      <link>https://qwentee.netlify.app/tags/blogdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/data-visualization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ggplot2</title>
-      <link>https://qwentee.netlify.app/tags/ggplot2/</link>
-      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oz2019</title>
-      <link>https://qwentee.netlify.app/tags/oz2019/</link>
-      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/oz2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xaringan</title>
-      <link>https://qwentee.netlify.app/tags/xaringan/</link>
-      <pubDate>Thu, 25 Feb 2021 12:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/xaringan/</guid>
+      <guid>https://qwentee.netlify.app/tags/blogdown/</guid>
       <description></description>
     </item>
     
@@ -85,6 +67,15 @@
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/tags/netlify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rmarkdown</title>
+      <link>https://qwentee.netlify.app/tags/rmarkdown/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/tags/rmarkdown/</guid>
       <description></description>
     </item>
     
@@ -145,144 +136,27 @@
     <item>
       <title>R</title>
       <link>https://qwentee.netlify.app/tags/r/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>learning</title>
-      <link>https://qwentee.netlify.app/tags/learning/</link>
-      <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workshop</title>
-      <link>https://qwentee.netlify.app/tags/workshop/</link>
-      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>https://qwentee.netlify.app/tags/machine-learning/</link>
-      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tidymodels</title>
       <link>https://qwentee.netlify.app/tags/tidymodels/</link>
-      <pubDate>Thu, 27 Aug 2020 13:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/tags/tidymodels/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>bookdown</title>
-      <link>https://qwentee.netlify.app/tags/bookdown/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
+      <title>xaringan</title>
+      <link>https://qwentee.netlify.app/tags/xaringan/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://qwentee.netlify.app/tags/bookdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>website</title>
-      <link>https://qwentee.netlify.app/tags/website/</link>
-      <pubDate>Tue, 21 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/website/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tidy data</title>
-      <link>https://qwentee.netlify.app/tags/tidy-data/</link>
-      <pubDate>Fri, 04 Oct 2019 18:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/tidy-data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>education</title>
-      <link>https://qwentee.netlify.app/tags/education/</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/education/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>talk</title>
-      <link>https://qwentee.netlify.app/tags/talk/</link>
-      <pubDate>Mon, 29 Jul 2019 14:00:01 -0700</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>flexdashboard</title>
-      <link>https://qwentee.netlify.app/tags/flexdashboard/</link>
-      <pubDate>Tue, 15 Jan 2019 11:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/flexdashboard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>https://qwentee.netlify.app/tags/research/</link>
-      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>science</title>
-      <link>https://qwentee.netlify.app/tags/science/</link>
-      <pubDate>Fri, 08 Dec 2017 16:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://qwentee.netlify.app/tags/github/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reproducibility</title>
-      <link>https://qwentee.netlify.app/tags/reproducibility/</link>
-      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/reproducibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dataviz</title>
-      <link>https://qwentee.netlify.app/tags/dataviz/</link>
-      <pubDate>Fri, 24 Jun 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/dataviz/</guid>
+      <guid>https://qwentee.netlify.app/tags/xaringan/</guid>
       <description></description>
     </item>
     
@@ -292,33 +166,6 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/tags/book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>course</title>
-      <link>https://qwentee.netlify.app/tags/course/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/course/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistics</title>
-      <link>https://qwentee.netlify.app/tags/statistics/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/statistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tidyverse</title>
-      <link>https://qwentee.netlify.app/tags/tidyverse/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/tags/tidyverse/</guid>
       <description></description>
     </item>
     

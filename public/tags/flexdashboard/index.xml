@@ -16,14 +16,5 @@
       <description>Making dashboards in R Markdown</description>
     </item>
     
-    <item>
-      <title>Advanced R Markdown</title>
-      <link>https://qwentee.netlify.app/project/advanced-r-markdown/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/project/advanced-r-markdown/</guid>
-      <description>A two-day workshop for those who want to take their R Markdown skills to the next level</description>
-    </item>
-    
   </channel>
 </rss>

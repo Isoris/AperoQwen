@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Carp vaccine on Quentin Andres</title>
+    <link>https://qwentee.netlify.app/tags/carp-vaccine/</link>
+    <description>Recent content in Carp vaccine on Quentin Andres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/carp-vaccine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A vaccine for carps?</title>
+      <link>https://qwentee.netlify.app/project/cevmasterthesis/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/project/cevmasterthesis/</guid>
+      <description>Here we try to develop a vaccine against the Carp Edema Virus</description>
+    </item>
+    
+  </channel>
+</rss>

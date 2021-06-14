@@ -1,10 +1,10 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Quentin Andres"
-role: "Biologist in Aquaculture"
+role: "Molecular biology & Aquaculture"
 avatar_shape: rounded # circle, square, rounded
 show_social_links: true # specify social accounts in site config
-audio_link_label: "How to pronounce my name"
+audio_link_label: "How to pronounce my name (In french)"
 link_list_label: "My institute:" # bookmarks, elsewhere, etc.
 link_list:
 - name: "AIT Aquaculture"

@@ -16,32 +16,5 @@
       <description>How I used self-reflection to boost student learning and engagement.</description>
     </item>
     
-    <item>
-      <title>InspiRing InstRuction: A panel on teaching #rstats for all audiences</title>
-      <link>https://qwentee.netlify.app/talk/2020-rladies-chicago-panel/</link>
-      <pubDate>Thu, 12 Nov 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-rladies-chicago-panel/</guid>
-      <description>Come hear from 3 R-Ladies on how to make R pedagogy work for different groups of people!</description>
-    </item>
-    
-    <item>
-      <title>Learning without a net</title>
-      <link>https://qwentee.netlify.app/talk/2020-latinr-learn/</link>
-      <pubDate>Wed, 07 Oct 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-latinr-learn/</guid>
-      <description>Aprendiendo sin una red</description>
-    </item>
-    
-    <item>
-      <title>Teaching in Production</title>
-      <link>https://qwentee.netlify.app/talk/2020-rstudio-tip/</link>
-      <pubDate>Wed, 23 Sep 2020 09:00:00 +0000</pubDate>
-      
-      <guid>https://qwentee.netlify.app/talk/2020-rstudio-tip/</guid>
-      <description>A 2-hour workshop for RStudio certified trainers on how to make shareable slides and websites with R Markdown.</description>
-    </item>
-    
   </channel>
 </rss>
