@@ -128,6 +128,10 @@ menu:
       title: Gallery
       url: /Gallery/
       weight: 5
+    - name: Academic page
+      title: My Academic page
+      url: https://qwenteen.netlify.app/
+      weight: 7
     - name: My Resumé
       title: Resumé
       url: /resume/
