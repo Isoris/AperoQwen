@@ -3,7 +3,7 @@ action_label: Enter &rarr;
 action_link: /about
 action_type: text
 enableEmoji: true
-description: " I am a molecular biology amateur 👨‍🔬 🧬 and a fish lover 🐟  \n
+description: " I am an amateur of molecular biology  👨‍🔬 🧬 and fish lover  🐟  \n
   In the future, I wish to work on solutions for improving aquatic animal health 🐙    \n 
   My nationality is `French` 🇫🇷.
   I live in Pathum Thani, Thailand 🇹🇭"
