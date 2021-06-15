@@ -6,7 +6,7 @@
     <description>Recent content on Quentin Andres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Jun 2021 09:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Education</title>
       <link>https://qwentee.netlify.app/resume/education/</link>
@@ -71,12 +71,12 @@
     </item>
     
     <item>
-      <title>Literature review</title>
-      <link>https://qwentee.netlify.app/talk/literature-review/</link>
-      <pubDate>Mon, 14 Jun 2021 09:00:00 +0000</pubDate>
+      <title>Gallery</title>
+      <link>https://qwentee.netlify.app/gallery/</link>
+      <pubDate>Mon, 14 Jun 2021 18:45:32 +0200</pubDate>
       
-      <guid>https://qwentee.netlify.app/talk/literature-review/</guid>
-      <description>Writing about science and up to date literature</description>
+      <guid>https://qwentee.netlify.app/gallery/</guid>
+      <description>.jg-entry img { transition: transform .25s ease-in-out !important; } .jg-entry img:hover { transform: scale(1.1); }      mm f/ sec ISO &#34;                 4.3mm f/1.9 1/50sec ISO 125&#34;        5.43mm f/1.89 1/725sec ISO 100&#34;     5.43mm f/1.89 1/30sec ISO 257&#34;</description>
     </item>
     
     <item>
@@ -89,12 +89,21 @@
     </item>
     
     <item>
-      <title>Month 1:</title>
+      <title>June 2021: RAC (R package for AquaCulture) </title>
       <link>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</guid>
       <description>Together each month we discuss a new R package for aquaculture.</description>
+    </item>
+    
+    <item>
+      <title>Literature review</title>
+      <link>https://qwentee.netlify.app/talk/literature-review/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://qwentee.netlify.app/talk/literature-review/</guid>
+      <description>Writing about science and discussing the recent literature</description>
     </item>
     
     <item>
@@ -104,7 +113,7 @@
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/project/my-ggplot-theme/</guid>
-      <description>A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red.</description>
+      <description>A ggplot2 minimalist theme for your graphs.</description>
     </item>
     
     <item>
@@ -114,16 +123,6 @@
       
       <guid>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</guid>
       <description>Every month we will discover together a new R package for aquaculture.</description>
-    </item>
-    
-    <item>
-      <title>Gallery</title>
-      <link>https://qwentee.netlify.app/gallery/</link>
-      <pubDate>Wed, 21 Oct 2020 18:45:32 +0200</pubDate>
-      
-      <guid>https://qwentee.netlify.app/gallery/</guid>
-      <description>My gallery:
-     .jg-entry img { transition: transform .25s ease-in-out !important; } .jg-entry img:hover { transform: scale(1.1); }      mm f/ sec ISO &#34;                 4.3mm f/1.9 1/50sec ISO 125&#34;        5.43mm f/1.89 1/725sec ISO 100&#34;     5.43mm f/1.</description>
     </item>
     
     <item>

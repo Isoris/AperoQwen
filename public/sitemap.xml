@@ -16,26 +16,8 @@
   </url><url>
     <loc>https://qwentee.netlify.app/resume/other/accomplishments/</loc>
   </url><url>
-    <loc>https://qwentee.netlify.app/categories/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/literature-review/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/categories/literature-review/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/talk/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/talk/literature-review/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/tags/</loc>
-    <lastmod>2021-06-14T09:00:00+00:00</lastmod>
+    <loc>https://qwentee.netlify.app/gallery/</loc>
+    <lastmod>2021-06-14T18:45:32+02:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/project/cevmasterthesis/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
@@ -55,6 +37,9 @@
     <loc>https://qwentee.netlify.app/tags/carp-vaccine/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://qwentee.netlify.app/categories/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://qwentee.netlify.app/tags/data-science/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
@@ -67,10 +52,22 @@
     <loc>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://qwentee.netlify.app/categories/project/</loc>
+    <loc>https://qwentee.netlify.app/tags/literature-review/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/categories/literature-review/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/talk/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/talk/literature-review/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/project/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://qwentee.netlify.app/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/tags/r/</loc>
@@ -88,6 +85,9 @@
     <loc>https://qwentee.netlify.app/series/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://qwentee.netlify.app/tags/</loc>
+    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://qwentee.netlify.app/tags/ggplot2/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,9 +99,6 @@
   </url><url>
     <loc>https://qwentee.netlify.app/tags/visual/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/gallery/</loc>
-    <lastmod>2020-10-21T18:45:32+02:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>

@@ -8,7 +8,7 @@
     <language>en</language>
     <lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://qwentee.netlify.app/tags/r/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Month 1:</title>
+      <title>June 2021: RAC (R package for AquaCulture) </title>
       <link>https://qwentee.netlify.app/blog/2021-06-r-for-aquaculture/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -23,7 +23,7 @@
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/project/my-ggplot-theme/</guid>
-      <description>A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red.</description>
+      <description>A ggplot2 minimalist theme for your graphs.</description>
     </item>
     
     <item>

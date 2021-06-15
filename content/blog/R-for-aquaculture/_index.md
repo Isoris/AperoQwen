@@ -28,8 +28,8 @@ show_post_thumbnail: true
 sidebar:
   author: 
   description: "
-    Every month we will discover together one new R package for aquaculture. <br>
-  Artwork by [Allison Horst](https://www.allisonhorst.com/)"
+    Every month we will discover together one new R package for aquaculture. <br><br>
+  *Artwork by [Allison Horst](https://www.allisonhorst.com/)*"
   show_sidebar_adunit: false
   text_link_label: ""
   text_link_url: ""
