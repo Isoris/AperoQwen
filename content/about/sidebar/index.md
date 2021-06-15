@@ -10,7 +10,7 @@ link_list:
 - name: "AIT Aquaculture (My institute)"
   url: https://www.aitaquaculture.org/
 - name: "My academic page"
-  url: https://www.qwenteen.netlify.app/
+  url: https://qwenteen.netlify.app/
 ---
 
 ** index doesn't contain a body, just front matter above.
