@@ -10,8 +10,12 @@ links:
 #   url: https://github.com/hugo-apero
   - icon: book-open
     icon_pack: fas
-    name: R code
+    name: R code (Theme)
     url: "/project/my-ggplot-theme/Qwentheme_Rcode.R/"
+  - icon: book-open
+    icon_pack: fas
+    name: Code for the Graphs
+    url: "/project/my-ggplot-theme/Qwentheme_RcodeGraphs.R/"
 
 summary: A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red.
 tags:
