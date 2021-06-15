@@ -27,6 +27,6 @@ author: Quentin Andres
 ---
 {{< figure src="/img/fishstats.png/" title="Artwork by [Allison Horst](https://www.allisonhorst.com/)" width=500 heigth=500 >}}
 
-## What R packages are available for aquaculture ?
+## Which R packages are available for aquaculture ?
 
 

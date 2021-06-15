@@ -1,13 +1,12 @@
 ---
-action_label: About me &rarr;
+action_label: Homepage &rarr;
 action_link: /about
 action_type: text
 enableEmoji: true
-description: 👨‍🔬 I am a molecular biologist 🧬 , fish lover 🐠  ,  and nerd 👾 .
-  I work on solutions for improving aquatic animal health 🐙 🐟.   My hobbies are `fitness`, `Rstudio` 🖥️ , and `watching award winning movies` 🎞️ . 
-  
-  My nationality is 🇫🇷 `French` 🇫🇷.
-  I live in Pathum Thani, Thailand 🇹🇭
+description: " I am a molecular biologist 👨‍🔬 🧬 and a fish lover 🐟  \n
+  I work on solutions for improving aquatic animal health 🐙    \n 
+  My nationality is `French` 🇫🇷.
+  I live in Pathum Thani, Thailand 🇹🇭"
 image_left: false
 images:
 - img/home.jpeg
