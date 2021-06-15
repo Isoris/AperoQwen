@@ -1,10 +1,10 @@
 ---
-action_label: Homepage &rarr;
+action_label: Enter &rarr;
 action_link: /about
 action_type: text
 enableEmoji: true
-description: " I am a molecular biologist 👨‍🔬 🧬 and a fish lover 🐟  \n
-  I work on solutions for improving aquatic animal health 🐙    \n 
+description: " I am a molecular biology amateur 👨‍🔬 🧬 and a fish lover 🐟  \n
+  In the future, I wish to work on solutions for improving aquatic animal health 🐙    \n 
   My nationality is `French` 🇫🇷.
   I live in Pathum Thani, Thailand 🇹🇭"
 image_left: false

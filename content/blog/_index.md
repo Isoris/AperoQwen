@@ -1,7 +1,7 @@
 ---
-author: Quentin Andres
+author: 
 cascade:
-  author: Quentin Andres
+  author: 
   show_author_byline: true
   show_comments: true
   show_post_date: true
@@ -16,12 +16,12 @@ show_author_byline: true
 show_post_date: true
 show_post_thumbnail: true
 sidebar:
-  author: Quentin Andres
+  author: 
   description: "This blog is my somewhere between a notepad and a blog. \n
   All about molecular biology"
   show_sidebar_adunit: true
-  text_link_label: "My latest work" 
-  text_link_url: /project/cevmasterthesis/
+# text_link_label: "My latest work" 
+# text_link_url: /project/cevmasterthesis/
   title: Blog
 thumbnail_left: false
 title: Blog

@@ -5,10 +5,10 @@ authors:
 - Quentin Andres
 categories:
 - Literature review
-date: "2021-06-14T09:00:00Z"
+date: "2021-06-14"
 draft: false
 featured: true
-summary: Writing about science and up to date literature 
+summary: Writing about science and discussing the recent literature 
 tags:
 - Literature review
 title: Literature review 

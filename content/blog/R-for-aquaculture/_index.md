@@ -1,7 +1,7 @@
 ---
-author: Quentin Andres
+author:
 cascade:
-  author: Quentin Andres
+  author: 
   categories:
   - Aquaculture
   - R
@@ -24,9 +24,9 @@ description: |
 layout: list-sidebar
 show_author_byline: true
 show_post_date: true
-show_post_thumbnail: false
+show_post_thumbnail: true
 sidebar:
-  author: Quentin Andres
+  author: 
   description: "
     Every month we will discover together one new R package for aquaculture. <br>
   Artwork by [Allison Horst](https://www.allisonhorst.com/)"

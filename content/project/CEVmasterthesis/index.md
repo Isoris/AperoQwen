@@ -2,8 +2,6 @@
 abstract: ""
 aliases:
 - CEV Vaccine
-categories:
-- Project
 date: "2021-06-14T00:00:00Z"
 image:
   caption: Fighting the Carp Edema Virus
@@ -12,14 +10,15 @@ links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://stat545.com
+  url: 
 summary: Here we try to develop a vaccine against the Carp Edema Virus
-author: Quentin Andres
+author: 
 tags:
 - Aquaculture
 - Biology
 - Carp vaccine
 title: A vaccine for carps?
+details: false
 ---
 
 This online book is about my master thesis project, my goal here is to explain and discuss different approaches to develop of a vaccine for CEV :

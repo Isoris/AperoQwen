@@ -7,7 +7,6 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I am happy to have you on my site, On the [blog](url= "https://qwentee.netlify.app/blog/") section you can find about my posts and blog series. Under the [Project](url= "https://qwentee.netlify.app/project/") section you can follow me in my works and hobbies. 
+I am happy to have you on my site, On the [blog](url= "https://qwentee.netlify.app/blog/") section you can find about my posts and blog series. Under the [Project](url= "https://qwentee.netlify.app/project/") section you can follow my works and hobbies. 
 
-I love sharing knowledge. I've just created this for this purpose. 
-I hope you have a good time exploring the site and it's contents.
+I love sharing knowledge. I've just created the website for the purpose of sharing and entertainment. <br>  Have a good time discovering the site.

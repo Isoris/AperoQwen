@@ -1,7 +1,7 @@
 ---
 aliases:
 - /post/2021-06-14-R-for-aquaculture-month-1/
-author: Quentin Andres
+author: 
 authors:
 - alison
 categories:
@@ -16,6 +16,6 @@ tags:
 - R
 - Fish stats
 - Data science
-title: "Month 1:" 
+title: "June 2021: RAC (R package for AquaCulture) " 
 ---
 

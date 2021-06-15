@@ -17,13 +17,13 @@ links:
     name: Code for the Graphs
     url: "/project/my-ggplot-theme/Qwentheme_RcodeGraphs.R/"
 
-summary: A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red.
+summary: A ggplot2 minimalist theme for your graphs. 
 tags:
 - R
 - ggplot2 
 - visual
 title: "Introducing theme_qwen()\n The ggplot2 theme function that you can use"
-author: Quentin Andres
+author: 
 ---
 
 ## Hello everyone, 

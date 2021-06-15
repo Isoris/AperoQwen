@@ -1,12 +1,9 @@
 ---
 title: "Gallery"
-date: 2020-10-21T18:45:32+02:00
+date: 2021-06-14T18:45:32+02:00
 draft: false
 type: widget_page
 ---
-
-My gallery:
-
 {{< gallery
     dir=".*"
     showExif="true"

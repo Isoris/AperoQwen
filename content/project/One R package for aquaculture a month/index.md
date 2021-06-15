@@ -23,10 +23,13 @@ tags:
 - R
 - Fish stats
 title: One R package for aquaculture a month
-author: Quentin Andres
+author: 
 ---
 {{< figure src="/img/fishstats.png/" title="Artwork by [Allison Horst](https://www.allisonhorst.com/)" width=500 heigth=500 >}}
 
 ## Which R packages are available for aquaculture ?
 
+ - June 2021: 
+
+#### RAC (R package for AquaCulture) 
 

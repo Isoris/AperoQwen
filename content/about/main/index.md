@@ -6,7 +6,7 @@ use_featured: false # if false, use most recent by date
 number_categories: 5 # set to zero to exclude
 show_intro: true
 intro: |
-  I'm exploring the data science universe while doing my project of mRNA vaccine for carps. 
+  I'm interested about the data science while doing my project of mRNA vaccine for carps. 
 show_outro: true
 outro: |
   <i class="far fa-heart pr2"></i>Thank you for visiting!
