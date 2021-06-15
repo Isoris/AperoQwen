@@ -19,15 +19,17 @@ cascade:
   tags:
   - hugo
 description: |
-  Every month we will discover together one new R package for aquaculture.
+  "Every month we will discover together one new R package for aquaculture. |
+  Artwork by [Allison Horst](https://www.allisonhorst.com/)"
 layout: list-sidebar
 show_author_byline: true
 show_post_date: true
 show_post_thumbnail: false
 sidebar:
   author: Quentin Andres
-  description: |
-    Every month we will discover together a new R package for aquaculture.
+  description: "
+    Every month we will discover together one new R package for aquaculture. <br>
+  Artwork by [Allison Horst](https://www.allisonhorst.com/)"
   show_sidebar_adunit: false
   text_link_label: ""
   text_link_url: ""

@@ -46,7 +46,7 @@
  The ggplot2 theme function that you can use">
 <meta itemprop="description" content="A ggplot2 theme for your graphs. The colors are similar to those of the french flag with Blue, White and Red."><meta itemprop="datePublished" content="2021-06-13T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-06-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="105"><meta itemprop="image" content="https://qwentee.netlify.app/project/my-ggplot-theme/featured.png">
+<meta itemprop="wordCount" content="342"><meta itemprop="image" content="https://qwentee.netlify.app/project/my-ggplot-theme/featured.png">
 <meta itemprop="keywords" content="R,ggplot2,visual," />
   
   <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -128,33 +128,7 @@
     
       
       
-  <a class="btn-links mr2 ba dib" href="https://github.com/hugo-apero" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>GitHub Org</a>
-
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-      
-  <a class="btn-links mr2 ba dib" href="https://hugo-apero-docs.netlify.app" target="_blank" rel="noopener"><i class="fas fa-book-open fa-lg fa-fw mr2"></i>Docs</a>
-
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-      
-  <a class="btn-links mr2 ba dib" href="https://hugo-apero.netlify.app" target="_blank" rel="noopener"><i class="fas fa-flask fa-lg fa-fw mr2"></i>Example Site</a>
+  <a class="btn-links mr2 ba dib" href="/project/my-ggplot-theme/Qwentheme_Rcode.R/" ><i class="fas fa-book-open fa-lg fa-fw mr2"></i>R code</a>
 
 
       </div>
@@ -162,19 +136,114 @@
 
       </header>
       <section class="post-body pt5 pb4">
-        <p>Apéro (a-pay-ROH) is a Hugo theme for personal websites. It is more than a blog, with flexible custom layouts that help you introduce yourself online.</p>
+        
 
 
 
-
-<h2 id="why-apéro">Why apéro?
-  <a href="#why-ap%c3%a9ro"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<h2 id="hello-everyone">Hello everyone,
+  <a href="#hello-everyone"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0h24v24H0z" fill="currentColor"></path>
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
     </svg></a>
 </h2>
-<p>Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you&rsquo;d happily spend a few hours just hanging out.</p>
-<p>I hope this theme helps you create your own virtual apéro. A place where you and your site&rsquo;s visitors enjoy spending time, and one that helps folks get to know you better.</p>
+<p>In this post I wish to share with you a <strong>function</strong> that introduces a theme for a more appealing design of all the <strong>objects</strong> and graphs made with the <strong>package ggplot2</strong> on R. 
+The package ggplot2 is very useful for displaying the data contained in .csv files or data tables into a beautiful graphic/plot that is easier to understand for us human, than raw numbers.</p>
+<p>Displaying the data correctly is essential, and appropriate graph for the correct data types will benefit the readers and anyone who look at our graph.</p>
+<p>In this post, I will not talk about the ways to visualize data, but rather explain how can we make our ggplot2 graphs/plots more beautiful.</p>
+
+
+
+
+<h3 id="1-installing-ggplot2">1. Installing ggplot2
+  <a href="#1-installing-ggplot2"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>On the R studio interface, in the console (bottom left panel), you can type the following lines:</p>
+<pre><code>install.packages(&quot;ggplot2&quot;)   #install the package
+library(ggplot2)              #start the package on the session
+</code></pre><br>
+
+
+
+
+<h3 id="2-loading-the-theme-function-in-the-r-environment">2. Loading the theme function() in the R environment
+  <a href="#2-loading-the-theme-function-in-the-r-environment"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>In order to access to use the function, you can load it into the environment using the following code:</p>
+<p>
+<a href="%22https://qwentee.netlify.app/project/my-ggplot-theme/Qwentheme_Rcode.R%22">The R code</a></p>
+<p><em>(I might create a package for the theme in a near future)</em></p>
+<br>
+
+
+
+
+<h3 id="3-using-the-theme-on-your-graphs">3. using the theme on your graphs
+  <a href="#3-using-the-theme-on-your-graphs"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>To use it on any ggplot, once the function is loaded, you can add the following argument to your ggplot</p>
+<blockquote>
+<p>ggplot() + theme_qwen()</p>
+</blockquote>
+<p>If you wish to edit the look of the theme, I advise that for you add for each graph your customs theme arguments <strong>After</strong> +theme_qwen()</p>
+<p>For instance if you want to change the size from 26 to 22 for the plot title:</p>
+<blockquote>
+<p>ggplot() + theme_qwen() + theme(plot.title = element_text(size=22))</p>
+</blockquote>
+<br>
+
+
+
+
+<h3 id="4-adding-colors">4. Adding colors
+  <a href="#4-adding-colors"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h3>
+<p>If you add a <strong>color=X</strong> or <strong>fill=Y</strong> in the aesthetics aes of a plot, you can control the colors of those two using:</p>
+<blockquote>
+<ul>
+<li>+Scale_fill_manual(values = <em>color_palette_name</em> )</li>
+<li>+scale_color_manual(values = <em>color_palette_name</em> )</li>
+</ul>
+</blockquote>
+<p>For qwen_theme, I like those tricolor palettes: <br></p>
+<ul>
+<li><strong>Yellow Green Blue</strong></li>
+</ul>
+<pre><code>colorsYGB &lt;- c(&quot;#FFC300&quot;, &quot;#006837&quot;, &quot;#1D91C0&quot; )
+</code></pre><img src="2021-06-15-Figure-B-Car-Fuel-hp-cyl.png" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+<p>Full showcase:</p>
+<img src="2021-06-15-Figure-wrap-Car-Fuel-hp-cyl.png" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+<ul>
+<li><strong>Blue Yellow Red (+light alternative)</strong></li>
+</ul>
+<pre><code>colors_fr &lt;- c(&quot;#0c2461&quot;, &quot;#e58e26&quot;, &quot;#b71540&quot;)
+</code></pre><img src="2021-06-15-Figure-B-Car-Fuel-hp-cyl-fr.PNG" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+<ul>
+<li><strong>Blue Yellow Red (light)</strong></li>
+</ul>
+<pre><code>colors_fr_light &lt;- c(&quot;#205072&quot;, &quot;#E9765B&quot;, &quot;#b71540&quot;)
+</code></pre><img src="2021-06-15-Figure-B-Car-Fuel-hp-cyl-fr-light.PNG" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+
+
+
+
+<h2 id="enjoy">Enjoy!
+  <a href="#enjoy"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
 
         
         <details closed class="f6 fw7 input-reset">
@@ -184,7 +253,7 @@
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">1 minute read, 105 words</dd>
+    <dd class="fw5 ml0">2 minute read, 342 words</dd>
   </dl>
   
   

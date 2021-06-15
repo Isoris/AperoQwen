@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": true
+            "ascending": false
         }
     ],
-    "path": "~/My R projects/AperoQwen/content/project/One R package for aquaculture a month"
+    "path": "~/My R projects/AperoQwen"
 }
