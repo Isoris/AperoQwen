@@ -7,6 +7,7 @@ headline: |
 ---
 
 <!-- this is a subheadline -->
-I'm a former autism researcher, Associate Professor, and National Institutes of Health-funded Principal Investigator, who transitioned from academic research into data science and now product management. 
+I am happy to have you on my site, On the [blog]([Project](url= "http://qwentee.netlify.app/blog/")) section you can find about my posts and blog series. Under the [Project](url= "http://qwentee.netlify.app/project/") section you can follow me in my works and hobbies. 
 
-I love teaching, and am an award-winning educator with over 13 years of experience. I've developed and led advanced workshops on literate programming and machine learning at conferences like `rstudio::conf`, R / Medicine, and R in Pharma.
+I love sharing knowledge. I've just created this for this purpose. 
+I hope you have a good time exploring the site and it's contents.
