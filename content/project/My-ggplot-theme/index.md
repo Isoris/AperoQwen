@@ -67,7 +67,7 @@ For instance if you want to change the size from 26 to 22 for the plot title:
 
 ### 4. Adding colors
 
-If you add a **color=X** or **fill=Y** in the aesthetics aes of a plot, you can control the colors of those two using:
+By adding **color=X** or **fill=Y** in the aesthetics aes of a plot, you can control the colors using either:
 
 > + +Scale_fill_manual(values = *color_palette_name* ) 
 > + +scale_color_manual(values = *color_palette_name* )
@@ -82,12 +82,6 @@ colorsYGB <- c("#FFC300", "#006837", "#1D91C0" )
 ```
 <img src="2021-06-15-Figure-B-Car-Fuel-hp-cyl.png" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
 
-Full showcase:
-
-<img src="2021-06-15-Figure-wrap-Car-Fuel-hp-cyl.png" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
-
-
-
 
 - **Blue Yellow Red (+light alternative)** 
 ```
@@ -101,5 +95,20 @@ colors_fr <- c("#0c2461", "#e58e26", "#b71540")
 colors_fr_light <- c("#205072", "#E9765B", "#b71540")
 ```
 <img src="2021-06-15-Figure-B-Car-Fuel-hp-cyl-fr-light.PNG" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+
+
+### Showcase
+
+<br>
+
+<img src="2021-06-15-Figure-wrap-Car-Fuel-hp-cyl.png" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+
+<br>
+
+<img src="2021-06-15-Figure-wrap-Car-Fuel-hp-cyl-fr.PNG" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
+
+<br>
+
+<img src="2021-06-15-Figure-wrap-Car-Fuel-hp-cyl-fr-light.png" class="center-block" alt="Car fuel consumption by horsepower and by cylinder" style="width:100%;">
 
 ## Enjoy!
