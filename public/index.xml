@@ -107,6 +107,16 @@
     </item>
     
     <item>
+      <title></title>
+      <link>https://qwentee.netlify.app/license/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
+      
+      <guid>https://qwentee.netlify.app/license/</guid>
+      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
+</description>
+    </item>
+    
+    <item>
       <title>Introducing theme_qwen()
  The ggplot2 theme function that you can use</title>
       <link>https://qwentee.netlify.app/project/my-ggplot-theme/</link>
@@ -133,16 +143,6 @@
       <guid>https://qwentee.netlify.app/contact/</guid>
       <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder
 Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
-    </item>
-    
-    <item>
-      <title>LICENSE: CC-BY-SA</title>
-      <link>https://qwentee.netlify.app/license/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://qwentee.netlify.app/license/</guid>
-      <description>My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
-   </description>
     </item>
     
     <item>

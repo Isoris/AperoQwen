@@ -88,6 +88,9 @@
     <loc>https://qwentee.netlify.app/tags/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://qwentee.netlify.app/license/</loc>
+    <lastmod>2021-06-14T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>https://qwentee.netlify.app/tags/ggplot2/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -108,9 +111,6 @@
   </url><url>
     <loc>https://qwentee.netlify.app/resume/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://qwentee.netlify.app/license/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://qwentee.netlify.app/publication/</loc>
     <lastmod>2017-12-20T00:00:00+00:00</lastmod>
