@@ -30,7 +30,7 @@ The vaccines are monovalent and bivalent formulations against the pathogenic bac
 
 This online book will be updated regularly during the research. 
 
-My research consists of 7 work packages: 
+My research consists of 6 work packages: 
 
 + WP1 - Project organisation
 
