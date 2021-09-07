@@ -22,7 +22,7 @@ tags:
 title: Inactivated vaccines for tilapia
 details: false
 ---
-
+{{< figure src="/img/tilapia.png/" width=500 heigth=500 >}}
 
 For my master thesis at the Asian Institute of Technology, I study the immune response of the fish tilapia (Oreochromis niloticus) to whole cell killed vaccines. 
 

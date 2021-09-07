@@ -26,12 +26,12 @@
     </item>
     
     <item>
-      <title>One R package for aquaculture a month</title>
+      <title>Statistics for aquaculture</title>
       <link>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</link>
       <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://qwentee.netlify.app/project/one-r-package-for-aquaculture-a-month/</guid>
-      <description>Every month we will discover together a new R package for aquaculture.</description>
+      <description>Every month we will discover and discuss statistical tools and models as well as R packages for aquatic science.</description>
     </item>
     
   </channel>
