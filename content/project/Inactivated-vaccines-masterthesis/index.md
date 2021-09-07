@@ -45,5 +45,3 @@ My research consists of 7 work packages:
 + WP6 - Ethics requirements
 
 I made the effort to port some of my work and progress into this bookdown website and share it with you.
-
-
