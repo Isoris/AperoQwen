@@ -22,7 +22,7 @@ tags:
 - R
 - ggplot2 
 - visual
-title: "Introducing theme_qwen()\n The ggplot2 theme function that you can use"
+title: "My ggplot2 minimalist theme for elegant data visualization"
 author: 
 ---
 

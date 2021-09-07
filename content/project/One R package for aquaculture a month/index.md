@@ -17,12 +17,12 @@ image:
 #   icon_pack: fas
 #   name: Example Site
 #   url: https://hugo-apero.netlify.app
-summary: Every month we will discover together a new R package for aquaculture.
+summary: Every month we will discover and discuss statistical tools and models as well as R packages for aquatic science.
 tags:
 - Aquaculture
 - R
 - Fish stats
-title: One R package for aquaculture a month
+title: Statistics for aquaculture
 author: 
 ---
 {{< figure src="/img/fishstats.png/" title="Artwork by [Allison Horst](https://www.allisonhorst.com/)" width=500 heigth=500 >}}
