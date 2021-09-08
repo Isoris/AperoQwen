@@ -2,8 +2,8 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": false
+            "ascending": true
         }
     ],
-    "path": "~/My R projects/AperoQwen/content/blog/R-for-aquaculture"
+    "path": "~/My R projects/AperoQwen"
 }
